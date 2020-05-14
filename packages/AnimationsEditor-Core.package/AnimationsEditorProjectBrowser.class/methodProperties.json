@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"open" : "Lukas Hueller 5/14/2020 16:38" },
+	"instance" : {
+		"buildCreateNewProjectWith:" : "Lukas Hueller 5/14/2020 18:09",
+		"buildExistingProjectsListWith:" : "Lukas Hueller 5/14/2020 17:40",
+		"buildOpenExistingProjectWith:" : "Lukas Hueller 5/14/2020 18:15",
+		"buildWith:" : "Lukas Hueller 5/14/2020 17:38",
+		"initialize" : "Lukas Hueller 5/14/2020 17:42",
+		"openExistingProject" : "Lukas Hueller 5/14/2020 18:14",
+		"openNewAnimationsEditorCreateNewProjectWindow" : "Lukas Hueller 5/14/2020 19:47" } }

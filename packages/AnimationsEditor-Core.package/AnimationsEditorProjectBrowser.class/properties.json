@@ -1,14 +1,13 @@
 {
 	"category" : "AnimationsEditor-Core",
 	"classinstvars" : [
-		"animationsName" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"taskList",
-		"animationsName" ],
-	"name" : "AnimationsEditor",
+		"existingProjectsList" ],
+	"name" : "AnimationsEditorProjectBrowser",
 	"pools" : [
 		 ],
 	"super" : "Model",

@@ -1,7 +1,10 @@
 {
 	"class" : {
-		"open" : "DM 5/13/2020 14:09" },
+		"open" : "DM 5/13/2020 14:09",
+		"openNewProject:" : "Lukas Hueller 5/14/2020 18:24" },
 	"instance" : {
+		"animationsName" : "Lukas Hueller 5/14/2020 18:22",
+		"animationsName:" : "Lukas Hueller 5/14/2020 19:37",
 		"buildSettingsBarWith:" : "DM 5/13/2020 15:02",
 		"buildSettingsButtonWith:" : "DM 5/13/2020 14:59",
 		"buildSettingsDropdownWith:" : "DM 5/14/2020 15:42",
