@@ -1,0 +1,15 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"subtopics" ],
+	"name" : "AnimationsEdtiorSetting",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
