@@ -1,0 +1,14 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"taskList" ],
+	"name" : "AnimationsEditor",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

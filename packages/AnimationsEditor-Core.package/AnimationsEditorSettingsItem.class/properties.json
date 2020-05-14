@@ -1,0 +1,14 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "AnimationsEditorSettingsItem",
+	"pools" : [
+		 ],
+	"super" : "PluggableListItemWrapper",
+	"type" : "normal" }
