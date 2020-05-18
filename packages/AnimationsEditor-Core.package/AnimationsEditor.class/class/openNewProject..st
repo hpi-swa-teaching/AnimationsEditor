@@ -1,4 +1,8 @@
 as yet unclassified
 openNewProject: aName
-	self animationsName: aName.
-	ToolBuilder open: self new. 
+	|animationsEditor|
+	animationsEditor := self new.
+	animationsEditor animationsName: aName.
+
+	ToolBuilder open: animationsEditor.
+	

@@ -1,7 +1,8 @@
 as yet unclassified
-buildExistingProjectsListWith: aBuilder
-	^ aBuilder pluggableTextSpec new
+buildNewProjectNameTextBox: aBuilder
+	^ aBuilder pluggableListSpec new
 		model: self;
+		list: existingProjectsList;
 		frame:
 			( LayoutFrame new 
 				topFraction: 0; 

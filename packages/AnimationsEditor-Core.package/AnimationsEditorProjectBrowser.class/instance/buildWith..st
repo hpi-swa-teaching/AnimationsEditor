@@ -4,5 +4,5 @@ buildWith: aBuilder
 			model: self;
 			label: 'Project Browser';
 			extent: 300@125;
-			children: {self buildExistingProjectsListWith: aBuilder . self buildCreateNewProjectWith: aBuilder . self buildOpenExistingProjectWith: aBuilder}
+			children: {self buildNewProjectNameTextBox: aBuilder . self buildCreateNewProjectWith: aBuilder . self buildOpenExistingProjectWith: aBuilder}
 			yourself).

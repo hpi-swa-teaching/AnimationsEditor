@@ -2,7 +2,7 @@ as yet unclassified
 buildWith: aBuilder
 	^ aBuilder build:  (aBuilder pluggableWindowSpec new
 			model: self;
-			label: 'Project Browser';
+			label: 'create new project';
 			extent: 300@125;
-			children: {self buildExistingProjectsListWith: aBuilder . self buildCreateNewProjectWithName: aBuilder}
+			children: {self buildNewProjectNameTextBox: aBuilder . self buildCreateNewProjectWithName: aBuilder}
 			yourself).

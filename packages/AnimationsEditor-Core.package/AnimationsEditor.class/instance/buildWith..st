@@ -3,7 +3,7 @@ buildWith: aBuilder
 
 	^ aBuilder build:  (aBuilder pluggableWindowSpec new
 			model: self;
-			label: 'Animation Editor';
+			label: #animationsName;
 			extent: 1000@700;
 			children: {self buildSettingsBarWith: aBuilder}
 			yourself).
