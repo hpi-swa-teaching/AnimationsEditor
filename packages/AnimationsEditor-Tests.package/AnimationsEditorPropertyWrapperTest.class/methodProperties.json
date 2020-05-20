@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAsString" : "DM 5/20/2020 14:35",
+		"testHasContents" : "DM 5/20/2020 14:38",
+		"testHasEmptyContents" : "DM 5/20/2020 14:38",
+		"testInstanceCreation" : "DM 5/20/2020 14:33" } }

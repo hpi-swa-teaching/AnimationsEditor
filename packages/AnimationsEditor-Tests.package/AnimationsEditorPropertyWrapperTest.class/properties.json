@@ -1,14 +1,14 @@
 {
-	"category" : "AnimationsEditor-Core",
+	"category" : "AnimationsEditor-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"propertyList" ],
-	"name" : "AnimationsEditor",
+		 ],
+	"name" : "AnimationsEditorPropertyWrapperTest",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TestCase",
 	"type" : "normal" }

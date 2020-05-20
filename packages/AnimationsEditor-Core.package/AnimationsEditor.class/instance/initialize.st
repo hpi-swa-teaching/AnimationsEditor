@@ -1,5 +1,6 @@
 initialize-release
 initialize
-	taskList := OrderedCollection new.
+	propertyList := OrderedCollection new.
 	super initialize.
+	self seedProperties.
 	

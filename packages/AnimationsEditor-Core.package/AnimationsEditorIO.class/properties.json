@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"propertyList" ],
-	"name" : "AnimationsEditor",
+		"animationsStore" ],
+	"name" : "AnimationsEditorIO",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }
