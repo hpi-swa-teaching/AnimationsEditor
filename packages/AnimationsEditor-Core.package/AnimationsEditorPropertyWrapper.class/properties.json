@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"propertyList" ],
-	"name" : "AnimationsEditor",
+		"name" ],
+	"name" : "AnimationsEditorPropertyWrapper",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "PluggableListItemWrapper",
 	"type" : "normal" }

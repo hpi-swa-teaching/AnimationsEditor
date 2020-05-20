@@ -1,11 +1,10 @@
 {
 	"class" : {
-		"open" : "DM 5/13/2020 14:09" },
+		"open" : "DM 5/20/2020 14:30" },
 	"instance" : {
-		"buildSettingsBarWith:" : "DM 5/13/2020 15:02",
-		"buildSettingsButtonWith:" : "DM 5/13/2020 14:59",
-		"buildSettingsDropdownWith:" : "DM 5/14/2020 15:42",
-		"buildWith:" : "DM 5/14/2020 15:16",
-		"dummy" : "DM 5/13/2020 14:43",
-		"initialize" : "DM 5/14/2020 14:22",
-		"taskList" : "DM 5/13/2020 15:11" } }
+		"buildPropertiesBarWith:" : "DM 5/20/2020 14:00",
+		"buildPropertiesTreeWith:" : "DM 5/20/2020 14:09",
+		"buildWith:" : "DM 5/20/2020 14:11",
+		"initialize" : "DM 5/20/2020 14:09",
+		"propertyList" : "DM 5/20/2020 14:01",
+		"seedProperties" : "DM 5/20/2020 14:09" } }
