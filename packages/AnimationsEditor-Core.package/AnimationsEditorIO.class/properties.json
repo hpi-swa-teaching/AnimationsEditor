@@ -1,0 +1,14 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"animationsStore" ],
+	"name" : "AnimationsEditorIO",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
