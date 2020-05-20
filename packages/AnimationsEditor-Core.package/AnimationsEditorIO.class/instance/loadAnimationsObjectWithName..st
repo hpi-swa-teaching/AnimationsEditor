@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 loadAnimationsObjectWithName: aString
-	^ self animationsStore at: #aString.
+	^ Compiler evaluate: (self animationsStore at: #aString).

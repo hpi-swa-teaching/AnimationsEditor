@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 saveAnimationsObject: aObject withName: aString
 	| serializedObject |
 	serializedObject := aObject storeString.

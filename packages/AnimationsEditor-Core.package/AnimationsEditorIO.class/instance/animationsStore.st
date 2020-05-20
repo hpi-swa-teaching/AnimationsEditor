@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 animationsStore
 	animationsStore 
 	ifNil: [ animationsStore := Dictionary new].
