@@ -1,3 +1,6 @@
 as yet unclassified
 open
-	self subclassResponsibility.
+	|tempInstance|
+	tempInstance := self new.
+	tempInstance windowReference: (ToolBuilder open: tempInstance).
+	^tempInstance.
