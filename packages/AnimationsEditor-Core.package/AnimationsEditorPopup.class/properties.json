@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "Lukas Hueller 5/22/2020 13:50",
 	"instvars" : [
-		"existingProjectsList" ],
-	"name" : "AnimationsEditorProjectBrowser",
+		 ],
+	"name" : "AnimationsEditorPopup",
 	"pools" : [
 		 ],
-	"super" : "AnimationsEditorPopup",
+	"super" : "Model",
 	"type" : "normal" }

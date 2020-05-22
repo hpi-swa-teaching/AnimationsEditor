@@ -1,3 +1,3 @@
 initialize-release
 dummy
-	^True.
+self flag: 'delete before Abgabe ¯\_(ツ)_/¯'.^ True 

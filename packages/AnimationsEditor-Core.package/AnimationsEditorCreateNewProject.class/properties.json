@@ -10,5 +10,5 @@
 	"name" : "AnimationsEditorCreateNewProject",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "AnimationsEditorPopup",
 	"type" : "normal" }

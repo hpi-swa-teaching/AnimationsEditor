@@ -2,10 +2,10 @@
 	"class" : {
 		"open" : "Lukas Hueller 5/14/2020 16:38" },
 	"instance" : {
-		"buildCreateNewProjectWith:" : "Lukas Hueller 5/14/2020 18:09",
-		"buildNewProjectNameTextBox:" : "Lukas Hueller 5/18/2020 14:12",
-		"buildOpenExistingProjectWith:" : "Lukas Hueller 5/14/2020 18:15",
-		"buildWith:" : "Lukas Hueller 5/18/2020 14:12",
-		"initialize" : "Lukas Hueller 5/14/2020 17:42",
+		"buildAllChildren:" : "Lukas Hueller 5/22/2020 14:56",
+		"buildButtonNewProject:" : "Lukas Hueller 5/22/2020 14:32",
+		"buildButtonOpenProject:" : "Lukas Hueller 5/22/2020 14:29",
+		"buildTextBoxProjectName:" : "Lukas Hueller 5/22/2020 14:25",
+		"label" : "Lukas Hueller 5/22/2020 14:50",
 		"openExistingProject" : "Lukas Hueller 5/14/2020 18:14",
-		"openNewAnimationsEditorCreateNewProjectWindow" : "Lukas Hueller 5/18/2020 14:58" } }
+		"openPopupCreateNewProject" : "Lukas Hueller 5/22/2020 14:34" } }

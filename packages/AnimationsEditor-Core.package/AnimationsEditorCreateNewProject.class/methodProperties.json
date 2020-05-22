@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"open" : "Lukas Hueller 5/14/2020 17:52" },
+		"open" : "Lukas Hueller 5/22/2020 13:45" },
 	"instance" : {
-		"buildCreateNewProjectWithName:" : "Lukas Hueller 5/14/2020 18:12",
-		"buildNewProjectNameTextBox:" : "Lukas Hueller 5/18/2020 14:12",
-		"buildWith:" : "Lukas Hueller 5/18/2020 14:12",
-		"openAnimationsEditor" : "Lukas Hueller 5/18/2020 14:57" } }
+		"buildAllChildren:" : "Lukas Hueller 5/22/2020 14:55",
+		"buildButtonCreateProjectName:" : "Lukas Hueller 5/22/2020 14:24",
+		"buildTextBoxProjectName:" : "Lukas Hueller 5/22/2020 14:25",
+		"label" : "Lukas Hueller 5/22/2020 14:50",
+		"openAnimationsEditor" : "Lukas Hueller 5/22/2020 14:34" } }
