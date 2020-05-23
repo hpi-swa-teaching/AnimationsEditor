@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"taskList",
-		"animationsName" ],
+		"animationsName",
+		"propertyList" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],

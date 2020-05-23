@@ -1,6 +1,6 @@
 as yet unclassified
 openNewProject: aName
-	|animationsEditor|
+	| animationsEditor |
 	animationsEditor := self new.
 	animationsEditor animationsName: aName.
 
