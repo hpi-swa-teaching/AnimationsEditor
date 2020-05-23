@@ -1,10 +1,14 @@
 {
 	"class" : {
-		"open" : "DM 5/20/2020 14:30" },
+		"open" : "Lukas Hueller 5/18/2020 14:05",
+		"openNewProject:" : "Lukas Hueller 5/14/2020 20:08" },
 	"instance" : {
+		"animationsName" : "Lukas Hueller 5/22/2020 13:18",
+		"animationsName:" : "Lukas Hueller 5/22/2020 15:05",
 		"buildPropertiesBarWith:" : "DM 5/20/2020 14:00",
 		"buildPropertiesTreeWith:" : "DM 5/20/2020 14:09",
-		"buildWith:" : "DM 5/20/2020 14:11",
+		"buildWith:" : "Lukas Hueller 5/18/2020 14:01",
+		"dummy" : "Lukas Hueller 5/22/2020 15:07",
 		"initialize" : "DM 5/20/2020 14:09",
 		"propertyList" : "DM 5/20/2020 14:01",
 		"seedProperties" : "DM 5/20/2020 14:09" } }

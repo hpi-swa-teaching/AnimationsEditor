@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"taskList",
-		"animationsName" ],
-	"name" : "AnimationsEditor",
+		"existingProjectsList" ],
+	"name" : "AnimationsEditorProjectBrowser",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "AnimationsEditorPopup",
 	"type" : "normal" }
