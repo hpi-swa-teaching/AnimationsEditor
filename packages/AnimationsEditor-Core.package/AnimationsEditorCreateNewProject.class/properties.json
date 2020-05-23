@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"animationsName",
-		"propertyList" ],
-	"name" : "AnimationsEditor",
+		 ],
+	"name" : "AnimationsEditorCreateNewProject",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "AnimationsEditorPopup",
 	"type" : "normal" }

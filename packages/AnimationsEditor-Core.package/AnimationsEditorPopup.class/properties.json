@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "Lukas Hueller 5/22/2020 13:50",
 	"instvars" : [
-		"animationsName",
-		"propertyList" ],
-	"name" : "AnimationsEditor",
+		"windowReference" ],
+	"name" : "AnimationsEditorPopup",
 	"pools" : [
 		 ],
 	"super" : "Model",
