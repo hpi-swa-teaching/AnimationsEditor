@@ -5,5 +5,5 @@ buildWith: aBuilder
 			model: self;
 			label: #animationsName;
 			extent: 1000@700;
-			children: {self buildSettingsBarWith: aBuilder}
+			children: {self buildPropertiesBarWith: aBuilder}
 			yourself).
