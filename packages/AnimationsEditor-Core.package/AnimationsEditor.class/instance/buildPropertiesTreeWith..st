@@ -6,7 +6,7 @@ buildPropertiesTreeWith: aBuilder
 			roots: #propertyList;
 			frame: (LayoutFrame new
 						topFraction: 0;
-						bottomFraction: 1;
+						bottomFraction: 0.6;
 						rightFraction: 1;
 						leftFraction: 0;
 						yourself);
