@@ -5,11 +5,14 @@
 	"instance" : {
 		"animationsName" : "Lukas Hueller 5/22/2020 13:18",
 		"animationsName:" : "Lukas Hueller 5/22/2020 15:05",
-		"buildPropertiesBarWith:" : "DM 5/20/2020 14:00",
-		"buildPropertiesTreeWith:" : "DM 5/20/2020 14:09",
-		"buildTimeline:" : "Lukas Hueller 5/22/2020 17:49",
-		"buildWith:" : "Lukas Hueller 5/23/2020 10:08",
+		"buildButtonBarWith:" : "JIZ 5/27/2020 14:04",
+		"buildDummyButtonWith:" : "JIZ 5/27/2020 14:04",
+		"buildInformationBarWith:" : "JIZ 5/27/2020 14:36",
+		"buildPropertiesTreeWith:" : "JIZ 5/27/2020 13:50",
+		"buildTimeline:" : "JIZ 5/27/2020 14:10",
+		"buildWith:" : "JIZ 5/27/2020 14:13",
 		"dummy" : "Lukas Hueller 5/22/2020 15:07",
+		"informationBarText" : "JIZ 5/27/2020 14:38",
 		"initialize" : "DM 5/20/2020 14:09",
 		"propertyList" : "DM 5/20/2020 14:01",
 		"seedProperties" : "DM 5/20/2020 14:09" } }
