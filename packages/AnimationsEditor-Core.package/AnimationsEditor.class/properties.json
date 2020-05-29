@@ -7,7 +7,12 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"animationsName",
-		"propertyList" ],
+		"propertyList",
+		"selectedTreeNode",
+		"propertyEditorPanel",
+		"toolBuilder",
+		"treeSpec",
+		"position" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],

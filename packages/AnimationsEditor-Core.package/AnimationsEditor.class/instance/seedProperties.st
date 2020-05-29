@@ -4,7 +4,7 @@ seedProperties
 	setting := AnimationsEditorProperty new.
 	setting title: 'Morph'.
 	
-	sub := AnimationsEditorProperty new.
+	sub := AnimationsEditorPropertyPosition new.
 	sub title: 'Position'.
 	
 	setting subproperties add: sub.
