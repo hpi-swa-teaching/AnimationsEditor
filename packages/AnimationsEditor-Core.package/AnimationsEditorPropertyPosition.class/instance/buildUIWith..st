@@ -1,11 +1,11 @@
-temporary
-buildPositionUIWith: aBuilder
-| aPanel anInputX anInputY |
+initialize-release
+buildUIWith: aBuilder
+| aPanel anInputX anInputY|
 
 	anInputX := aBuilder pluggableTextSpec new
 				model: self;
-				getText: #positionX;
-				editText: #positionX:;
+				"getText: #positionX;
+				editText: #positionX:;"
 				 frame: (LayoutFrame new
 								topFraction: 0.1;
 								bottomFraction: 0.4;
@@ -16,8 +16,8 @@ buildPositionUIWith: aBuilder
 				
 	anInputY := aBuilder pluggableTextSpec new
 				model: self;
-				getText: #positionY;
-				setText: #positionY:;
+				"getText: #positionY;
+				setText: #positionY:;"
 				 frame: (LayoutFrame new
 								topFraction: 0.5;
 								bottomFraction: 0.8;
@@ -26,16 +26,17 @@ buildPositionUIWith: aBuilder
 								yourself);
 				 yourself.
 			
-aPanel := aBuilder pluggablePanelSpec new
+	aPanel := aBuilder pluggablePanelSpec new
 			model: self;
 			frame: (LayoutFrame new
-						topFraction: 0;
-						bottomFraction: 0.125;
-						rightFraction: 0.25;
-						leftFraction: 0;
+						topFraction: 0.1;
+						bottomFraction: 0.5;
+						leftFraction: 0.1;
+						rightFraction: 0.5;
 						yourself);
 			children: {anInputX.  anInputY.};
 			yourself.	
 			
+	
 
-^ aPanel.
+^ aBuilder build: aPanel.

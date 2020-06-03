@@ -1,3 +1,3 @@
 accessing
-buildUI
+buildUIWith: aBuilder
 	self subclassResponsibility.

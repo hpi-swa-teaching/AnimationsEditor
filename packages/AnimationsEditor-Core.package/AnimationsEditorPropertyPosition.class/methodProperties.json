@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildUI" : "JIZ 5/29/2020 17:34",
+		"buildUIWith:" : "JIZ 6/3/2020 16:42",
 		"initialize" : "JIZ 5/27/2020 14:54",
 		"setPositionTo:WithDuration:" : "JIZ 5/27/2020 15:04" } }
