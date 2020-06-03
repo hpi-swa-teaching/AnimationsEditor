@@ -1,3 +1,3 @@
-initialize-release
+accessing
 propertyEditorPanel: aPanel
 	propertyEditorPanel := aPanel.

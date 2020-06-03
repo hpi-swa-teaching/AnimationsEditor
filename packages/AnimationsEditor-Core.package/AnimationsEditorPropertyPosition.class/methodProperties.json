@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildUIWith:" : "JIZ 6/3/2020 16:42",
+		"buildInputXWith:" : "JIZ 6/3/2020 17:07",
+		"buildInputYWith:" : "JIZ 6/3/2020 17:07",
+		"buildPanelWith:" : "JIZ 6/3/2020 17:34",
+		"buildUIWith:" : "JIZ 6/3/2020 17:10",
 		"initialize" : "JIZ 5/27/2020 14:54",
 		"setPositionTo:WithDuration:" : "JIZ 5/27/2020 15:04" } }

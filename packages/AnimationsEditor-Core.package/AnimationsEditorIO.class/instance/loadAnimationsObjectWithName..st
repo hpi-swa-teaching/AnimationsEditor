@@ -1,3 +1,3 @@
 accessing
 loadAnimationsObjectWithName: aString
-	^ Compiler evaluate: (self animationsStore at: #aString).
+	^ Compiler evaluate: (self animationStore at: #aString).

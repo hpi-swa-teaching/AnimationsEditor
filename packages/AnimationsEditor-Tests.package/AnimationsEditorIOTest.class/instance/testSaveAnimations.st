@@ -5,4 +5,4 @@ testSaveAnimations
 	aio := AnimationsEditorIO new.
 	aio saveAnimationsObject: anim withName: 'animation'.
 	self assert:
-		(aio animationsStore size = 1).
+		(aio animationStore size = 1).

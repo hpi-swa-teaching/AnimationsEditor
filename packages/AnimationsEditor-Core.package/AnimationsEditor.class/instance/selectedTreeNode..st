@@ -3,4 +3,5 @@ selectedTreeNode: aNode
 	selectedTreeNode := aNode.
 	
 	aNode class = AnimationsEditorProperty
-		ifFalse:[ self insertMorph: (aNode buildUIWith: toolBuilder) To: propertyEditorPanel.]
+		ifFalse:[ self insertMorph: (aNode buildUIWith: toolBuilder)
+						 Into: propertyEditorPanel].

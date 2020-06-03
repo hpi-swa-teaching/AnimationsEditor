@@ -1,3 +1,3 @@
-initialize-release
+accessing
 propertyEditorPanel
 	^ propertyEditorPanel.

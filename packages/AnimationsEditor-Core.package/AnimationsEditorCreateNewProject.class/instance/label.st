@@ -1,3 +1,3 @@
 accessing
 label
-	^'Create new project'
+	^ 'Create new project'.

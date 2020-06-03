@@ -1,3 +1,3 @@
-build
+initialize-release
 buildAllChildren: aBuilder
-	^ self subclassResponsibility
+	^ self subclassResponsibility.

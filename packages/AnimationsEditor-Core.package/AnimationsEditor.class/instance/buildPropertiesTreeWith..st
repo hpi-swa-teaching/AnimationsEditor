@@ -1,6 +1,6 @@
 initialize-release
 buildPropertiesTreeWith: aBuilder
-	^  aBuilder pluggableTreeSpec new
+	^ aBuilder pluggableTreeSpec new
 			model: self;
 			nodeClass: AnimationsEditorPropertyWrapper;
 			roots: #propertyList;

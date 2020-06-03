@@ -1,5 +1,6 @@
-temporary
+accessing
 propertyEditorPanelChildren
 	propertyEditorPanelChildren == nil
-		ifTrue: [ propertyEditorPanelChildren := OrderedCollection new.].
+		ifTrue: [ self propertyEditorPanelChildren: OrderedCollection new.].
+		
 	^ propertyEditorPanelChildren.

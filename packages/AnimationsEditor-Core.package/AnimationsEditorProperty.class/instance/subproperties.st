@@ -1,5 +1,6 @@
 accessing
 subproperties
 	subproperties 
-	ifNil: [ subproperties := OrderedCollection new].
-	^ subproperties
+		ifNil: [ subproperties := OrderedCollection new].
+		
+	^ subproperties.

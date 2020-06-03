@@ -1,4 +1,4 @@
-initialize-release
+animation
 setPositionTo: aPosition WithDuration: aDuration
 	| anim |
 	anim := AnimPropertyAnimation new

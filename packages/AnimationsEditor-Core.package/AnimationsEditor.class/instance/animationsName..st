@@ -1,3 +1,3 @@
-initialize-release
+accessing
 animationsName: aName 
-	animationsName := aName
+	animationsName := aName.
