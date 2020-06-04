@@ -1,11 +1,11 @@
-initialize-release
+buildComponents
 buildPositionUIPanelWith: aBuilder
 	^ aBuilder pluggablePanelSpec new
 				model: self;
 				frame: (LayoutFrame new
-								topFraction: 0.1;
-								bottomFraction: 0.5;
-								leftFraction: 0.1;
-								rightFraction: 0.5;
+								topFraction: 0;
+								bottomFraction: 0.6;
+								leftFraction: 0;
+								rightFraction: 0.55;
 								yourself);
 				yourself.	

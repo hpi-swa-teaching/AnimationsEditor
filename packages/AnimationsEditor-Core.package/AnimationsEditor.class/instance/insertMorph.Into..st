@@ -1,4 +1,4 @@
-initialize-release
+buildComponents
 insertMorph: aMorph Into: aPluggableSpecMorph
 	aPluggableSpecMorph children removeAll.
 	aPluggableSpecMorph children add: aMorph.

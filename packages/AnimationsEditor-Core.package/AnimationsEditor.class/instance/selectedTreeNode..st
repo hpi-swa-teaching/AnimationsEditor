@@ -1,4 +1,4 @@
-initialize-release
+accessing
 selectedTreeNode: aNode
 	selectedTreeNode := aNode.
 	

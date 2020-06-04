@@ -14,7 +14,7 @@
 		"propertyEditorPanel",
 		"propertyEditorPanelChildren",
 		"mainWindow",
-    "informationBarText"],
+		"informationBarText" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],

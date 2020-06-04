@@ -1,4 +1,4 @@
-initialize-release
+buildComponents
 buildButtonBarWith: aBuilder
 ^ aBuilder pluggablePanelSpec new
 			model: self;

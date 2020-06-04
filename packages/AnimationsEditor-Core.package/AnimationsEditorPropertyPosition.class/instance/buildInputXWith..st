@@ -5,7 +5,7 @@ buildInputXWith: aBuilder
 				model: self;
 				getText: #positionX;
 				editText: #positionX:;
-				 frame: (LayoutFrame new
+			 	frame: (LayoutFrame new
 								topFraction: 0.1;
 								bottomFraction: 0.4;
 								leftFraction: 0;

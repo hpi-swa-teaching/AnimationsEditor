@@ -1,4 +1,4 @@
-initialize-release
+buildComponents
 buildDummyButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new model: self;
 		 label: 'dummy button';

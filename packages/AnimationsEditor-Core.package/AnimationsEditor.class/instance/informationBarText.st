@@ -1,6 +1,6 @@
-initialize-release
+accessing
 informationBarText
 	informationBarText
-		ifNil: [informationBarText :=  '<no messages>'.].
+		ifNil: [self informationBarText:  '<no messages>'.].
 		
 	 ^ informationBarText.
