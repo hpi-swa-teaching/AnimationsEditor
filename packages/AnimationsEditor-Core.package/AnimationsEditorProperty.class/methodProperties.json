@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"<" : "DM 6/4/2020 13:33",
+		"<=" : "DM 6/4/2020 13:32",
+		"buildUIWith:" : "JIZ 6/3/2020 16:35",
 		"hasSubproperties" : "DM 5/20/2020 14:05",
-		"subproperties" : "DM 5/20/2020 14:04",
+		"subproperties" : "JIZ 6/3/2020 17:12",
 		"subproperties:" : "DM 5/20/2020 14:04",
-		"title" : "DM 5/14/2020 14:45",
+		"title" : "JIZ 6/3/2020 17:12",
 		"title:" : "DM 5/14/2020 14:45" } }

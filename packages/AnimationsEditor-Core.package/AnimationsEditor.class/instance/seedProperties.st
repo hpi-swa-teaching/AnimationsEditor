@@ -1,11 +1,16 @@
 initialize-release
 seedProperties
-	| setting sub |
-	setting := AnimationsEditorProperty new.
-	setting title: 'Morph'.
+	| setting sub sub2 |
+	self flag: #todo.
+	setting := AnimationsEditorProperty new
+						title: 'Morph'.
 	
-	sub := AnimationsEditorProperty new.
-	sub title: 'Position'.
-	
+	sub := AnimationsEditorPropertyPosition new
+						title: 'Position'.
+						
+	sub2 := AnimationsEditorPropertyPosition new
+						title: 'Position-2'.
+						
 	setting subproperties add: sub.
-	propertyList add: setting.
+	setting subproperties add: sub2.
+	self propertyList add: setting.

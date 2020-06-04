@@ -3,7 +3,8 @@
 		 },
 	"instance" : {
 		"moveFrom:to:withDuration:" : "DM 5/20/2020 16:07",
-		"playAnimations" : "DM 5/20/2020 16:08",
-		"propertyStore" : "DM 5/20/2020 15:30",
-		"target" : "DM 5/20/2020 16:08",
-		"target:" : "DM 5/20/2020 16:07" } }
+		"playAnimations" : "JIZ 6/3/2020 17:29",
+		"propertyStore" : "JIZ 6/3/2020 17:32",
+		"propertyStore:" : "JIZ 6/3/2020 17:32",
+		"targetMorph" : "JIZ 6/3/2020 17:31",
+		"targetMorph:" : "JIZ 6/3/2020 17:31" } }

@@ -1,5 +1,6 @@
 accessing
 propertyStore
 	propertyStore
-	ifNil: [propertyStore := OrderedCollection new].
+		ifNil: [self propertyStore: OrderedCollection new].
+		
 	^ propertyStore.
