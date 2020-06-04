@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"animationsName",
-		"propertyList" ],
+		"propertyList",
+		"dummyList",
+		"tlp" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],
