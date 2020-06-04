@@ -4,9 +4,9 @@ buildTimeline: aBuilder
 			model: self;
 			"label: 'Test';"
 			frame: (LayoutFrame new
-							topFraction: 0.8;
-							bottomFraction: 1;
-							rightFraction: 0.7;
-							leftFraction: 0;
-							yourself);
+						topFraction: 0.65;
+						bottomFraction: 0.95;
+						rightFraction: 1;
+						leftFraction: 0;
+						yourself);
 			yourself.

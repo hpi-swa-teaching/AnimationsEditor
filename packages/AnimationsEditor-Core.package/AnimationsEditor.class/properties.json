@@ -13,7 +13,8 @@
 		"treeSpec",
 		"propertyEditorPanel",
 		"propertyEditorPanelChildren",
-		"mainWindow" ],
+		"mainWindow",
+    "informationBarText"],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],
