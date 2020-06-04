@@ -1,6 +1,7 @@
 initialize-release
 initialize
-	propertyList := OrderedCollection new.
+	self propertyList: OrderedCollection new.
 	super initialize.
 	self seedProperties.
+
 	

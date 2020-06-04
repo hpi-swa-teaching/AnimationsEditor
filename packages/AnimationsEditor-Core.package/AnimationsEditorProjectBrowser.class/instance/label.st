@@ -1,3 +1,3 @@
 accessing
 label
-	^'Project Browser'
+	^ 'Project Browser'.

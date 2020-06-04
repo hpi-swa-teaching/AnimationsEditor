@@ -1,6 +1,7 @@
-initialize-release
+buildComponents
 buildTimeline: aBuilder
-		^ aBuilder pluggableScrollPaneSpec new
+	self flag: #todo.
+	^ aBuilder pluggableScrollPaneSpec new
 			model: self;
 			"label: 'Test';"
 			frame: (LayoutFrame new

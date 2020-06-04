@@ -1,3 +1,3 @@
 accessing
 label
-	^self subclassResponsibility
+	^ self subclassResponsibility.

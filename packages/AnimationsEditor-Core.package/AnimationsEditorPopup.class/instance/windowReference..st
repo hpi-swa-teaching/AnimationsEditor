@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 windowReference: aTempValue
-	windowReference := aTempValue
+	windowReference := aTempValue.
