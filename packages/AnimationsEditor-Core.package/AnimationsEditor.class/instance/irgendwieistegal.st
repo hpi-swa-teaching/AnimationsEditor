@@ -1,6 +1,10 @@
 initialize-release
 irgendwieistegal
-	| aMorph bMorph cMorph |
+	| aMorph bMorph cMorph tlp |
+	self flag: #todo.
+	
+	"The first Panel is the Timeline panel"
+	tlp := (self emptyPanels at: 1).
 	tlp getChildrenSelector: #dummyList.
 	tlp children removeAll.
 	
@@ -27,6 +31,3 @@ irgendwieistegal
 	
 	bMorph y: aMorph y - aMorph height.
 	cMorph y: bMorph y - bMorph height.
-	
-	
-	Transcript show: tlp width.
