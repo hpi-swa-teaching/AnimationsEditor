@@ -8,13 +8,15 @@
 	"instvars" : [
 		"animationsName",
 		"propertyList",
+		"dummyList",
 		"selectedTreeNode",
 		"toolBuilder",
 		"treeSpec",
-		"propertyEditorPanel",
 		"propertyEditorPanelChildren",
 		"mainWindow",
-		"informationBarText" ],
+		"informationBarText",
+		"emptyPanels",
+		"propertyEditorPanel" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],

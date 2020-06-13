@@ -1,3 +1,3 @@
 accessing
 propertyEditorPanel
-	^ propertyEditorPanel.
+	^  propertyEditorPanel.

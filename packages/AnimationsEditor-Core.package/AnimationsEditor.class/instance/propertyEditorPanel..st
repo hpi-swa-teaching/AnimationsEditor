@@ -1,3 +1,3 @@
 accessing
-propertyEditorPanel: aPanel
-	propertyEditorPanel := aPanel.
+propertyEditorPanel: aMorph
+	propertyEditorPanel := aMorph.

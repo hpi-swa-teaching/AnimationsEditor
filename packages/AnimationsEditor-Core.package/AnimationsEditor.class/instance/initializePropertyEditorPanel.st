@@ -1,11 +1,6 @@
 initialize-release
 initializePropertyEditorPanel
-	"Assuming that there is just one PluggablePanelMorph with empty children"
-	mainWindow submorphs do: [:each | 
-		each class == PluggablePanelMorph
-			ifTrue: [ each submorphs size == 0
-							ifTrue: [self propertyEditorPanel: each]
-					]
-		].
-	
+	self flag:#TODO.
+	"The second found empty panel is the property panel"
+	self propertyEditorPanel: (self emptyPanels at: 2).
 	self propertyEditorPanel getChildrenSelector: #propertyEditorPanelChildren.

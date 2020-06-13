@@ -1,3 +1,8 @@
 as yet unclassified
 open
-	^ToolBuilder open: self new.
+	| var var2 |
+	var := self new.
+	var2 := ToolBuilder open: var.
+	var irgendwieistegal.
+	self flag:'Rename vars'.
+	^var2
