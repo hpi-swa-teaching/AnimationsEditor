@@ -1,9 +1,9 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'AnimationsEditor-',
+      #baseline : 'Animations',
       #directory : 'packages',
-      #load : 'Tests',
+      #load : 'Editor-Tests',
       #platforms : [ #squeak ],
       #useLatestMetacello : true
     }
