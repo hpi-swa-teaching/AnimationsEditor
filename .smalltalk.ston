@@ -1,0 +1,19 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'AnimationsEditor',
+      #directory : 'packages',
+      #load : 'Tests',
+      #platforms : [ #squeak ],
+      #useLatestMetacello : true
+    }
+  ],
+  #preLoading : [
+    'scripts/preLoading.st'
+  ],
+  #testing : {
+    #coverage : {
+      #categories : [ 'AnimationsEditor' ]
+    }
+  }
+}
