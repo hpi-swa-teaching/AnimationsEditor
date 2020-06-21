@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 startTimeAsString
 	startTime
-	ifNil: [startTime := 0].
+		ifNil: [startTime := 0].
 	^ startTime asString.

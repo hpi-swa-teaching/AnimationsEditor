@@ -6,4 +6,4 @@ buildWith: aBuilder
 	self collectPropertyTreeMorph.
 	self initializePropertyEditorPanel.
 
-	^mainWindow
+	^ mainWindow.

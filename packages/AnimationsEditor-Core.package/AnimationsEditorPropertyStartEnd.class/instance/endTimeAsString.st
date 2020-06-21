@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 endTimeAsString
 	endTime
-	ifNil: [endTime := 0].
+		ifNil: [endTime := 0].
 	^ endTime asString.

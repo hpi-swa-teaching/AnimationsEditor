@@ -1,8 +1,8 @@
-as yet unclassified
+initialize-release
 open
-	| var2 |
-	self animationsEditorInstance: (self new).
-	var2 := ToolBuilder open: self animationsEditorInstance.
-	self animationsEditorInstance irgendwieistegal.
-	self flag:'Rename vars'.
-	^var2
+	| instance |
+	instance := self new.
+	ToolBuilder open: instance.
+	instance seedDummyPropertyTraces.
+
+	^ instance.

@@ -8,5 +8,6 @@ buildButtonBarWith: aBuilder
 						rightFraction: 1;
 						leftFraction: 0;
 						yourself);
-			children: {self buildDummyButtonWith: aBuilder.};
+			children: {self buildDummyButtonWith: aBuilder.
+						  self buildPlayButtonWith: aBuilder};
 			yourself.	 		

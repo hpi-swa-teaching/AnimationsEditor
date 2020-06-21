@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 buildPanelWith: aBuilder
 	| aPluggablePanelSpec |
 	aPluggablePanelSpec := aBuilder pluggablePanelSpec new

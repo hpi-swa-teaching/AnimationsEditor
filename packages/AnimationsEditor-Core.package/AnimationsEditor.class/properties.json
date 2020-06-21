@@ -1,7 +1,7 @@
 {
 	"category" : "AnimationsEditor-Core",
 	"classinstvars" : [
-		"animationsEditorInstance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

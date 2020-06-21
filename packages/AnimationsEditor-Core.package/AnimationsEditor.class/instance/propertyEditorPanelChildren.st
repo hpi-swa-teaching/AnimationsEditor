@@ -1,6 +1,6 @@
 accessing
 propertyEditorPanelChildren
-	propertyEditorPanelChildren == nil
-		ifTrue: [ self propertyEditorPanelChildren: OrderedCollection new.].
+	propertyEditorPanelChildren
+		ifNil: [self propertyEditorPanelChildren: OrderedCollection new].
 		
 	^ propertyEditorPanelChildren.

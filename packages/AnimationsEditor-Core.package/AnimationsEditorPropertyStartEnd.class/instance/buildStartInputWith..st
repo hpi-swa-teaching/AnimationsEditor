@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 buildStartInputWith: aBuilder
 	^ aBuilder pluggableTextSpec new
 				model: self;

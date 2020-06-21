@@ -1,3 +1,3 @@
 accessing
-propertyToAnimationFor: aMorph
+createAnimationFor: aMorph
 	self subclassResponsibility.

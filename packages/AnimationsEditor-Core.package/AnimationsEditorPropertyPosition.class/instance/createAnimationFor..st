@@ -1,5 +1,5 @@
 accessing
-propertyToAnimationFor: aMorph
+createAnimationFor: aMorph
 	^ (AnimPropertyAnimation new
 									   duration: 500;
 									   property: #position;

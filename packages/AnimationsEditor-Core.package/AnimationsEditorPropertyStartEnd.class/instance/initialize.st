@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initialize
 	super initialize.
-	self title: 'Start- und Endzeit'.
+	self title: 'Start- and endtime'.

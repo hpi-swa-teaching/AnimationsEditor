@@ -1,3 +1,3 @@
-as yet unclassified
-getDeepestMorph: anMorph at: aPosition
-	^ (anMorph morphsAt: aPosition) at: 1.
+eventHandling
+getDeepestMorph: aMorph at: aPosition
+	^ (aMorph morphsAt: aPosition) at: 1.

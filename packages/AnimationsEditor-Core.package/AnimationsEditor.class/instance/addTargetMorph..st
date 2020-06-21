@@ -1,17 +1,12 @@
-as yet unclassified
+eventHandling
 addTargetMorph: aMorph
-	| newTarget positionTarget|
+	| newTarget |
 	self flag: #todo.
 	"Add custom target name"
 	newTarget := AnimationsEditorProperty new.
 	newTarget targetMorph: aMorph.
 	newTarget title: (aMorph className).
-
-	"Only for dev purpose"
-	positionTarget := (AnimationsEditorPropertyPosition new).
-	positionTarget positionX.
-	positionTarget positionX: (aMorph position) x.
-	positionTarget positionY: (aMorph position) y.
-	newTarget subproperties add: positionTarget.
+	
+	newTarget subproperties add: (self createPositionPropertyFrom: aMorph).
 	self propertyList add: newTarget.
 	self propertyTreeMorph update: self propertyTreeMorph getChildrenSelector.

@@ -1,13 +1,13 @@
 buildComponents
-buildDummyButtonWith: aBuilder
+buildPlayButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new model: self;
-		 label: 'Add morph';
+		 label: 'Play animations';
 		"color: Color veryLightGray;"
-		 action: #selectMorphByHand;
+		 action: #playAnimations;
 		 frame: (LayoutFrame new
 						topFraction: 0;
 						bottomFraction: 1;
-						rightFraction: 0.5;
-						leftFraction: 0;
+						rightFraction: 1;
+						leftFraction: 0.6;
 						yourself);
 		 yourself.
