@@ -3,7 +3,7 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'Animations',
       #directory : 'packages',
-      #load : 'Editor-Tests',
+      #load : 'tests',
       #platforms : [ #squeak ],
       #useLatestMetacello : true
     }
