@@ -10,7 +10,7 @@ buildPropertiesTreeWith: aBuilder
 			frame: (LayoutFrame new
 						topFraction: 0;
 						bottomFraction: 0.6;
-						rightFraction: 1;
-						leftFraction: 0.6;
+						rightFraction: 0.5;
+						leftFraction: 0;
 						yourself);
 			yourself.	 	

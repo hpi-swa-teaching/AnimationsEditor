@@ -1,7 +1,7 @@
 {
 	"category" : "AnimationsEditor-Core",
 	"classinstvars" : [
-		 ],
+		"animationsEditorInstance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -16,7 +16,8 @@
 		"mainWindow",
 		"informationBarText",
 		"emptyPanels",
-		"propertyEditorPanel" ],
+		"propertyEditorPanel",
+		"propertyTreeMorph" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],

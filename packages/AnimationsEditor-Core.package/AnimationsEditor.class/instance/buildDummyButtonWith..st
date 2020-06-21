@@ -3,6 +3,7 @@ buildDummyButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new model: self;
 		 label: 'dummy button';
 		"color: Color veryLightGray;"
+		 action: #selectMorphByHand;
 		 frame: (LayoutFrame new
 						topFraction: 0;
 						bottomFraction: 1;

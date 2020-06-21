@@ -1,8 +1,8 @@
 as yet unclassified
 open
-	| var var2 |
-	var := self new.
-	var2 := ToolBuilder open: var.
-	var irgendwieistegal.
+	| var2 |
+	self animationsEditorInstance: (self new).
+	var2 := ToolBuilder open: self animationsEditorInstance.
+	self animationsEditorInstance irgendwieistegal.
 	self flag:'Rename vars'.
 	^var2

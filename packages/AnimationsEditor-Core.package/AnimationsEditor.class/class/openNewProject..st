@@ -1,8 +1,6 @@
 as yet unclassified
 openNewProject: aName
-	| animationsEditor |
-	animationsEditor := self new.
-	animationsEditor animationsName: aName.
-
-	ToolBuilder open: animationsEditor.
+	self animationsEditorInstance: self new.
+	self animationsEditorInstance animationsName: aName.
+	ToolBuilder open: self animationsEditorInstance.
 	

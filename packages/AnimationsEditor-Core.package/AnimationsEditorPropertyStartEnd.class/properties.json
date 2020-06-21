@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"propertyStore",
-		"targetMorph" ],
-	"name" : "AnimationsEditorAnimation",
+		"endTime",
+		"startTime" ],
+	"name" : "AnimationsEditorPropertyStartEnd",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "AnimationsEditorProperty",
 	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildEndInputWith:" : "DM 6/18/2020 14:09",
+		"buildPanelWith:" : "DM 6/18/2020 13:49",
+		"buildStartInputWith:" : "DM 6/18/2020 13:50",
+		"buildUIWith:" : "DM 6/18/2020 14:08",
+		"endTime" : "DM 6/18/2020 13:53",
+		"endTime:" : "DM 6/18/2020 13:52",
+		"endTimeAsString" : "DM 6/18/2020 14:07",
+		"initialize" : "DM 6/18/2020 14:06",
+		"startTime" : "DM 6/18/2020 13:52",
+		"startTime:" : "DM 6/18/2020 13:51",
+		"startTimeAsString" : "DM 6/18/2020 14:07" } }

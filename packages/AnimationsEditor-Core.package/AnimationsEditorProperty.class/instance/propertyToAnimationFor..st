@@ -1,0 +1,3 @@
+accessing
+propertyToAnimationFor: aMorph
+	self subclassResponsibility.
