@@ -1,7 +1,7 @@
 buildComponents
 buildDummyButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new model: self;
-		 label: 'dummy button';
+		 label: 'Add morph';
 		"color: Color veryLightGray;"
 		 action: #selectMorphByHand;
 		 frame: (LayoutFrame new
