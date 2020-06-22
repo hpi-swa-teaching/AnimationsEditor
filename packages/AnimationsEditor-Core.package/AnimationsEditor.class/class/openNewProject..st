@@ -1,9 +1,9 @@
 initialize-release
 openNewProject: aName
-	| instance |
+	| instance window |
 	instance := self new.
 	instance animationsName: aName.
-	ToolBuilder open: instance.
+	window := ToolBuilder open: instance.
 	
-	^ instance.
+	^ window.
 	

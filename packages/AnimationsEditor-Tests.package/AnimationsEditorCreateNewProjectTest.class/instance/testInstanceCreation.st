@@ -1,9 +1,9 @@
 as yet unclassified
 testInstanceCreation
-	| CreateProjectPopupInstance |
-	CreateProjectPopupInstance := AnimationsEditorCreateNewProject open.
+	| createProjectPopupInstance |
+	createProjectPopupInstance := AnimationsEditorCreateNewProject open.
 	self assert:
-		(CreateProjectPopupInstance = nil) not.
+		(createProjectPopupInstance = nil) not.
 	
-	CreateProjectPopupInstance windowReference closeBoxHit.
+	createProjectPopupInstance windowReference closeBoxHit.
 	
