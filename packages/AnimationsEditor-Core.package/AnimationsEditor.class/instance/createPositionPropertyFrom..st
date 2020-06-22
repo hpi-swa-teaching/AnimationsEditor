@@ -5,4 +5,5 @@ createPositionPropertyFrom: aMorph
 	positionTarget positionX.
 	positionTarget positionX: (aMorph position) x.
 	positionTarget positionY: (aMorph position) y.
+	
 	^ positionTarget.

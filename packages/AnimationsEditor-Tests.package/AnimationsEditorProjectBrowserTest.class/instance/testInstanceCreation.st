@@ -1,9 +1,7 @@
 as yet unclassified
 testInstanceCreation
-	| ProjectBrowserInstance |
-	ProjectBrowserInstance := AnimationsEditorProjectBrowser open.
-	self assert:
-		(ProjectBrowserInstance = nil) not.
-	
-	ProjectBrowserInstance windowReference closeBoxHit.
+	| animationsEditorProjectBrowser |
+	animationsEditorProjectBrowser := AnimationsEditorProjectBrowser open.
+	self assert: (animationsEditorProjectBrowser = nil) not.
+	animationsEditorProjectBrowser windowReference closeBoxHit.
 	

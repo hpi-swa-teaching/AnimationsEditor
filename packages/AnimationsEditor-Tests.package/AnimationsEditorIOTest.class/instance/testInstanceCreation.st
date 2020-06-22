@@ -1,4 +1,3 @@
 as yet unclassified
 testInstanceCreation
-	self assert:
-		(AnimationsEditorIO new = nil) not.
+	self assert: (AnimationsEditorIO new = nil) not.

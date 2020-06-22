@@ -1,5 +1,8 @@
 accessing
 playAnimations
-	 self animationsForTarget collect: [ :each | 
-											    each register.
-											    each start]. 
+	| animations |
+	animations := self animationsForTarget.
+	animations collect: [ :each | 
+										    each register.
+										    each start]. 
+	^ animations.

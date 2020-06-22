@@ -1,7 +1,6 @@
 as yet unclassified
 testTitle
-	| CreateProjectPopupInstance |
-	CreateProjectPopupInstance := AnimationsEditorCreateNewProject open.
-	self assert: (CreateProjectPopupInstance windowReference label = 'Create new project').
-
-	CreateProjectPopupInstance windowReference closeBoxHit.
+	| createProjectPopupInstance |
+	createProjectPopupInstance := AnimationsEditorCreateNewProject open.
+	self assert: (createProjectPopupInstance windowReference label = 'Create new project').
+	createProjectPopupInstance windowReference closeBoxHit.

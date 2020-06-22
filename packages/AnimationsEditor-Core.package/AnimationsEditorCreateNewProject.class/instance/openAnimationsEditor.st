@@ -6,5 +6,6 @@ openAnimationsEditor
 	tempName := (dependents at: 2) text asString.
 	window := AnimationsEditor openNewProject: 'Animations Editor - ' , tempName.
 	(dependents at: 1) abandon.
+	
 	^ window.
 	

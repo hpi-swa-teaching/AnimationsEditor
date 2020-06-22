@@ -2,4 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testInstanceCreation" : "JIZ 6/22/2020 03:12" } }
+		"testDifferentAccessors" : "JIZ 6/22/2020 06:34",
+		"testGetDeepestMorph" : "JIZ 6/22/2020 06:33",
+		"testInstanceCreation" : "JIZ 6/22/2020 06:33",
+		"testInstanceSeedProperties" : "JIZ 6/22/2020 06:33",
+		"testNewProject" : "JIZ 6/22/2020 06:34",
+		"testPlayAnimations" : "JIZ 6/22/2020 07:48",
+		"testSelectMorphByHand" : "JIZ 6/22/2020 08:22",
+		"testTreeSpec" : "JIZ 6/22/2020 06:34",
+		"testTreeSpecPropertyStartEnd" : "JIZ 6/22/2020 06:34",
+		"testTreeSpecWithOneMorph" : "JIZ 6/22/2020 06:35",
+		"testTreeSpecWithOneMorphPosition" : "JIZ 6/22/2020 06:35" } }

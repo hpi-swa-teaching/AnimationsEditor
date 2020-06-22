@@ -1,6 +1,8 @@
 buttonActions
 openPopupCreateNewProject
-	":)"
-	AnimationsEditorCreateNewProject open.
+	| window |
+	self flag: 'Zugriff auf GUI-Element unsicher implementiert (direkter Indexzugriff)'.
+	window := AnimationsEditorCreateNewProject open.
 	(dependents at: 1) abandon.
-	self flag: 'Zugriff auf GUI element property schlecht implementiert (Zeile darüber)'.
+	
+	^ window.

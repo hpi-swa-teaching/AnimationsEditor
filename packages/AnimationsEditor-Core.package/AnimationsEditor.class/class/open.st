@@ -4,5 +4,6 @@ open
 	instance := self new.
 	window := ToolBuilder open: instance.
 	instance seedDummyPropertyTraces.
+	instance windowReference: window.
 
-	^ window.
+	^ instance.

@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"open" : "JIZ 6/22/2020 01:56",
+		"open" : "JIZ 6/22/2020 05:07",
 		"openNewProject:" : "JIZ 6/22/2020 03:50" },
 	"instance" : {
 		"addTargetMorph:" : "DM 6/22/2020 01:22",
 		"animationsName" : "JIZ 6/3/2020 17:05",
 		"animationsName:" : "JIZ 6/3/2020 17:05",
-		"buildButtonBarWith:" : "DM 6/22/2020 01:01",
+		"buildButtonBarWith:" : "JIZ 6/22/2020 06:42",
 		"buildDummyButtonWith:" : "DM 6/22/2020 01:01",
 		"buildInformationBarWith:" : "DM 6/4/2020 13:23",
 		"buildMainWindowWith:" : "DM 6/12/2020 20:08",
@@ -17,7 +17,7 @@
 		"buildWith:" : "DM 6/22/2020 01:24",
 		"collectAllEmptyPanels" : "DM 6/12/2020 20:40",
 		"collectPropertyTreeMorph" : "DM 6/22/2020 01:23",
-		"createPositionPropertyFrom:" : "DM 6/22/2020 01:23",
+		"createPositionPropertyFrom:" : "JIZ 6/22/2020 06:42",
 		"dummyList" : "DM 6/22/2020 01:24",
 		"dummyList:" : "DM 6/22/2020 01:24",
 		"emptyPanels" : "DM 6/22/2020 01:24",
@@ -46,4 +46,6 @@
 		"selectedTreeNode" : "JIZ 5/27/2020 15:31",
 		"selectedTreeNode:" : "DM 6/22/2020 01:28",
 		"toolBuilder" : "JIZ 6/3/2020 17:00",
-		"toolBuilder:" : "JIZ 6/3/2020 16:59" } }
+		"toolBuilder:" : "JIZ 6/3/2020 16:59",
+		"windowReference" : "JIZ 6/22/2020 05:07",
+		"windowReference:" : "JIZ 6/22/2020 05:06" } }

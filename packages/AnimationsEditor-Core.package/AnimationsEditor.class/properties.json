@@ -17,7 +17,8 @@
 		"informationBarText",
 		"emptyPanels",
 		"propertyEditorPanel",
-		"propertyTreeMorph" ],
+		"propertyTreeMorph",
+		"windowReference" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],

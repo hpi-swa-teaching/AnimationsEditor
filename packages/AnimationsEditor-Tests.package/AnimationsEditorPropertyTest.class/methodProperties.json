@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testEmptySubProperties" : "DM 5/20/2020 14:25",
-		"testHasSubProperties" : "DM 5/20/2020 14:36",
-		"testInstanceCreation" : "DM 5/20/2020 14:17",
-		"testSetTitle" : "DM 5/20/2020 14:20" } }
+		"testAnimationsForTarget" : "JIZ 6/22/2020 06:30",
+		"testComparators" : "JIZ 6/22/2020 06:30",
+		"testEmptySubProperties" : "JIZ 6/22/2020 06:31",
+		"testHasSubProperties" : "JIZ 6/22/2020 06:31",
+		"testInstanceCreation" : "JIZ 6/22/2020 06:31",
+		"testPlayAnimations" : "JIZ 6/22/2020 08:46",
+		"testSetTitle" : "JIZ 6/22/2020 06:31" } }

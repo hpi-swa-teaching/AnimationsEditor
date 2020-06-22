@@ -1,8 +1,7 @@
 as yet unclassified
 testSaveAnimations
-	| anim aio |
-	anim := AnimPropertyAnimation new.
-	aio := AnimationsEditorIO new.
-	aio saveAnimationsObject: anim withName: 'animation'.
-	self assert:
-		(aio animationStore size = 1).
+	| animation animationsEditorIO |
+	animation := AnimPropertyAnimation new.
+	animationsEditorIO := AnimationsEditorIO new.
+	animationsEditorIO saveAnimationsObject: animation withName: 'animation'.
+	self assert: (animationsEditorIO animationStore size = 1).

@@ -1,13 +1,14 @@
 as yet unclassified
 testButtonNameOpen
-	| window button |
-	window := AnimationsEditorCreateNewProject open.
-	window windowReference submorphs do: [:each | 
-															(each class == PluggableButtonMorphPlus)
-																ifTrue: [
-																	(each label = 'create project') 
-																		ifTrue: [button := each]]].
-												
+	| windowClass button animationsEditor |
+	windowClass := AnimationsEditorCreateNewProject open.
+	
+	button := (AnimationsEditorTestHelper findButtonWithLabel: 'create project' On: windowClass windowReference).
+	animationsEditor := windowClass openAnimationsEditor.
+									
 	self assert: (button = nil) not.												
 	self assert: (button actionSelector = #openAnimationsEditor).
-	window windowReference closeBoxHit.
+	self assert: (animationsEditor = nil) not.
+	
+	animationsEditor abandon.
+	windowClass windowReference closeBoxHit.

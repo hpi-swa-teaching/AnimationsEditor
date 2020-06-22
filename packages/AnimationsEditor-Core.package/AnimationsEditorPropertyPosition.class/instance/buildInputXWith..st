@@ -1,6 +1,5 @@
 initialize-release
 buildInputXWith: aBuilder
-
 	^ aBuilder pluggableTextSpec new
 				model: self;
 				getText: #positionX;

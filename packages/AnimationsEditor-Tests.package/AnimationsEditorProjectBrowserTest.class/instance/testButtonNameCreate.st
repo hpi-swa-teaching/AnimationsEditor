@@ -1,12 +1,13 @@
 as yet unclassified
 testButtonNameCreate
-	| window button |
+	| window button popup |
 	window := AnimationsEditorProjectBrowser open.
-	window windowReference submorphs do: [:each | 
-															(each class == PluggableButtonMorphPlus)
-																ifTrue: [
-																	(each label = 'create new project') 
-																		ifTrue: [button := each]]].
+	button := AnimationsEditorTestHelper findButtonWithLabel: 'create new project' On: window windowReference.
+	popup := window openPopupCreateNewProject.
+	
 	self assert: (button = nil) not.
 	self assert: (button actionSelector = #openPopupCreateNewProject).
+	self assert: (popup = nil) not.
+	
+	popup windowReference abandon.
 	window windowReference abandon.		
