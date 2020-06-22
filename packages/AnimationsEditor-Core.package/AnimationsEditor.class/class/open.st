@@ -1,8 +1,8 @@
 initialize-release
 open
-	| instance |
+	| instance window |
 	instance := self new.
-	ToolBuilder open: instance.
+	window := ToolBuilder open: instance.
 	instance seedDummyPropertyTraces.
 
-	^ instance.
+	^ window.
