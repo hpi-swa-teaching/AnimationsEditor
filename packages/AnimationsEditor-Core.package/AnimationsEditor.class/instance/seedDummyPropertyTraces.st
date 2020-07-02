@@ -1,5 +1,5 @@
 initialize-release
-irgendwieistegal
+seedDummyPropertyTraces
 	| aMorph bMorph cMorph tlp |
 	self flag: #todo.
 	

@@ -1,8 +1,8 @@
-as yet unclassified
+initialize-release
 open
-	| var var2 |
-	var := self new.
-	var2 := ToolBuilder open: var.
-	var irgendwieistegal.
-	self flag:'Rename vars'.
-	^var2
+	| instance window |
+	instance := self new.
+	window := ToolBuilder open: instance.
+	instance seedDummyPropertyTraces.
+
+	^ window.

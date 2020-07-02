@@ -2,7 +2,7 @@ as yet unclassified
 testLoadAnimations
 	| anim aio animationName |
 	animationName := 'animation'.
-	anim := AnimationsEditorAnimation new.
+	anim := AnimPropertyAnimation new.
 	aio := AnimationsEditorIO new.
 	aio saveAnimationsObject: anim withName:  animationName.
 	self assert:

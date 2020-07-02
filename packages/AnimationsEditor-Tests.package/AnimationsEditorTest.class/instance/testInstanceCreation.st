@@ -1,8 +1,8 @@
 initialize-release
 testInstanceCreation
-	| AnimationsEdtiorInstance |
-	AnimationsEdtiorInstance := AnimationsEditor open.
+	| animationsEditorInstance |
+	animationsEditorInstance := AnimationsEditor open.
 	self assert:
-		(AnimationsEdtiorInstance = nil) not.
+		(animationsEditorInstance = nil) not.
 	
-	AnimationsEdtiorInstance abandon.
+	animationsEditorInstance abandon.

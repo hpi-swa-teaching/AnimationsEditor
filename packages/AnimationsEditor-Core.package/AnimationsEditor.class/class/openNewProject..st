@@ -1,8 +1,9 @@
-as yet unclassified
+initialize-release
 openNewProject: aName
-	| animationsEditor |
-	animationsEditor := self new.
-	animationsEditor animationsName: aName.
-
-	ToolBuilder open: animationsEditor.
+	| instance window |
+	instance := self new.
+	instance animationsName: aName.
+	window := ToolBuilder open: instance.
+	
+	^ window.
 	
