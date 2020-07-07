@@ -1,4 +1,4 @@
 initialize-release
 initialize
 	super initialize.
-	self title: 'Position'.
+	self title: 'Size'.

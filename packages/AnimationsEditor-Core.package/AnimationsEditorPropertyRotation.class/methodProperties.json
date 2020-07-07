@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildInputRotationWith:" : "DM 7/7/2020 11:09",
+		"buildPanelWith:" : "DM 7/7/2020 11:07",
+		"buildUIWith:" : "JIZ 6/3/2020 17:10",
+		"createAnimationFor:" : "DM 7/7/2020 11:06",
+		"initialize" : "DM 7/7/2020 11:07",
+		"rotation" : "DM 7/7/2020 11:05",
+		"rotation:" : "DM 7/7/2020 11:06",
+		"rotationAsString" : "DM 7/7/2020 11:06" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rotation" ],
+	"name" : "AnimationsEditorPropertyRotation",
+	"pools" : [
+		 ],
+	"super" : "AnimationsEditorProperty",
+	"type" : "normal" }

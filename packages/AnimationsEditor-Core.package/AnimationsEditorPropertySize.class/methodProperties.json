@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildInputHeightWith:" : "DM 7/7/2020 10:43",
+		"buildInputWidthWith:" : "DM 7/7/2020 10:42",
+		"buildPanelWith:" : "DM 7/7/2020 10:40",
+		"buildUIWith:" : "JIZ 6/3/2020 17:10",
+		"createAnimationFor:" : "DM 7/7/2020 10:44",
+		"initialize" : "DM 7/7/2020 10:45",
+		"targetHeight" : "DM 7/7/2020 10:43",
+		"targetHeight:" : "DM 7/7/2020 10:43",
+		"targetWidth" : "DM 7/7/2020 10:43",
+		"targetWidth:" : "DM 7/7/2020 10:43" } }

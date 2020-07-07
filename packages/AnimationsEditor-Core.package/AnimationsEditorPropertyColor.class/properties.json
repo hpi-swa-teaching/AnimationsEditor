@@ -1,0 +1,14 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"color" ],
+	"name" : "AnimationsEditorPropertyColor",
+	"pools" : [
+		 ],
+	"super" : "AnimationsEditorProperty",
+	"type" : "normal" }
