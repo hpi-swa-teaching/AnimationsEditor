@@ -1,6 +1,7 @@
 buildComponents
 createColorPropertyFrom: aMorph
-	| positionTarget |
-	positionTarget := (AnimationsEditorPropertyColor new).
-	
-	^ positionTarget.
+	| colorTarget |
+	colorTarget := (AnimationsEditorPropertyColor new).
+	colorTarget targetMorph: aMorph.
+	colorTarget color: aMorph color.
+	^ colorTarget.

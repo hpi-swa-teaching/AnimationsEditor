@@ -1,6 +1,3 @@
 accessing
 colorAsString
-	color
-		ifNil: [color := Color veryLightGray].
-	
-	 ^ color asString.
+	 ^ self color asString.
