@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"animationsName",
 		"propertyList",
 		"dummyList",
 		"selectedTreeNode",
@@ -18,7 +17,8 @@
 		"emptyPanels",
 		"propertyEditorPanel",
 		"propertyTreeMorph",
-		"informationBar" ],
+		"informationBar",
+		"editorTitle" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],

@@ -13,3 +13,4 @@ addTargetMorph: aMorph
 	newTarget subproperties add: (self createSizePropertyFrom: aMorph).
 	self propertyList add: newTarget.
 	self propertyTreeMorph update: self propertyTreeMorph getChildrenSelector.
+	self addTimeline.
