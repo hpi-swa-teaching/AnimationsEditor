@@ -1,9 +1,9 @@
 buildComponents
 buildInformationBarWith: aBuilder
-
-	^ aBuilder pluggableTextSpec new
+	self informationBar: (aBuilder pluggableTextSpec new
 			model: self;
-			getText: #informationBarText; 
+			getText: #informationBarText;
+			setText: #informationBarText:; 
 			readOnly: true;
 		 	frame: (LayoutFrame new
 							topFraction: 0.95;
@@ -11,4 +11,6 @@ buildInformationBarWith: aBuilder
 							rightFraction: 1;
 							leftFraction: 0;
 							yourself);
-			 yourself.
+			 yourself).
+	
+	^ self informationBar.

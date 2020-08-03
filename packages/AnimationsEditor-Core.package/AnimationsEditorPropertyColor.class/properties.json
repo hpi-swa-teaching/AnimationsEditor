@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"subproperties",
-		"targetMorph",
-		"copyOfTargetMorph" ],
-	"name" : "AnimationsEditorProperty",
+		"color" ],
+	"name" : "AnimationsEditorPropertyColor",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "AnimationsEditorProperty",
 	"type" : "normal" }

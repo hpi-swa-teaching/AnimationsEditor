@@ -8,6 +8,8 @@ buildButtonBarWith: aBuilder
 						rightFraction: 1;
 						leftFraction: 0;
 						yourself);
-			children: {self buildDummyButtonWith: aBuilder.
-						  self buildPlayButtonWith: aBuilder};
+			children: {self buildAddMorphButtonWith: aBuilder.
+							self buildSaveButtonWith: aBuilder.
+						  	self buildPlayButtonWith: aBuilder.
+							self buildResetButtonWith: aBuilder. };
 			yourself.	 		

@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"subproperties",
-		"targetMorph",
-		"copyOfTargetMorph" ],
-	"name" : "AnimationsEditorProperty",
+		"rotation" ],
+	"name" : "AnimationsEditorPropertyRotation",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "AnimationsEditorProperty",
 	"type" : "normal" }
