@@ -19,7 +19,8 @@
 		"informationBar",
 		"editorTitle",
 		"windowReference",
-		"timelines" ],
+		"timelines",
+		"propertyStartEnd" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],
