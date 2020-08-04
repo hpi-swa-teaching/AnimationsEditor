@@ -3,5 +3,6 @@ open
 	| instance window |
 	instance := self new.
 	window := ToolBuilder open: instance.
-
-	^ window.
+	instance windowReference: window.
+	
+	^ instance.

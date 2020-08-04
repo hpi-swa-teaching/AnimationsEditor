@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testEmptySubProperties" : "DM 5/20/2020 14:25",
-		"testHasSubProperties" : "DM 5/20/2020 14:36",
-		"testInstanceCreation" : "DM 5/20/2020 14:17",
-		"testSetTitle" : "DM 5/20/2020 14:20" } }
+		"testComparators" : "DM 8/4/2020 13:46",
+		"testEmptySubProperties" : "DM 8/4/2020 13:47",
+		"testHasSubProperties" : "DM 8/4/2020 13:47",
+		"testInstanceCreation" : "DM 8/4/2020 13:47",
+		"testSetTitle" : "DM 8/4/2020 13:46" } }
