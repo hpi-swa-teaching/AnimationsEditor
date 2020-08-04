@@ -1,5 +1,5 @@
 initialize-release
-dummyList
+timelines
 	dummyList 
 		ifNil: [dummyList := OrderedCollection new].
 	
