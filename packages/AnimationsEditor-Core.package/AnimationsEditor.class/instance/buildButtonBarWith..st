@@ -4,7 +4,7 @@ buildButtonBarWith: aBuilder
 			model: self;
 			frame: (LayoutFrame new
 						topFraction: 0.6;
-						bottomFraction: 0.65;
+						bottomFraction: 0.67;
 						rightFraction: 1;
 						leftFraction: 0;
 						yourself);

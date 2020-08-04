@@ -6,7 +6,7 @@ buildSaveButtonWith: aBuilder
 		 frame: (LayoutFrame new
 						topFraction: 0;
 						bottomFraction: 1;
-						rightFraction: 0.55;
-						leftFraction: 0.3;
+						rightFraction: 0.5;
+						leftFraction: 0.25;
 						yourself);
 		 yourself.
