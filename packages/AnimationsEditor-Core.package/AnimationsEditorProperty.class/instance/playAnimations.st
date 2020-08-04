@@ -1,8 +1,6 @@
 accessing
 playAnimations
-	| animations |
-	animations := self animationsForTarget.
-	animations collect: [ :each | 
-										    each register.
-										    each start]. 
-	^ animations.
+	self copyOfTargetMorph: self targetMorph copy.
+	self animationsForTarget collect: [ :each | 
+											    each register.
+											    each start]. 

@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildInputXWith:" : "JIZ 6/22/2020 04:33",
-		"buildInputYWith:" : "JIZ 6/22/2020 06:44",
-		"buildPanelWith:" : "JIZ 6/3/2020 17:34",
+		"animationString" : "DM 7/8/2020 14:52",
+		"buildInputXWith:" : "DM 7/7/2020 10:47",
+		"buildInputYWith:" : "DM 7/7/2020 10:47",
+		"buildPanelWith:" : "DM 7/7/2020 10:47",
 		"buildUIWith:" : "JIZ 6/3/2020 17:10",
-		"createAnimationFor:" : "JIZ 6/22/2020 07:17",
-		"initialize" : "DM 6/18/2020 09:26",
-		"positionX" : "JIZ 6/3/2020 17:38",
-		"positionX:" : "JIZ 6/22/2020 07:19",
-		"positionY" : "JIZ 6/3/2020 17:39",
-		"positionY:" : "JIZ 6/22/2020 07:19",
-		"setPositionTo:WithDuration:" : "JIZ 6/22/2020 06:45" } }
+		"createAnimationFor:" : "DM 6/22/2020 01:35",
+		"initialize" : "DM 7/7/2020 10:44",
+		"positionX" : "DM 7/7/2020 10:46",
+		"positionX:" : "DM 7/7/2020 10:46",
+		"positionY" : "DM 7/7/2020 10:46",
+		"positionY:" : "DM 7/7/2020 10:47" } }

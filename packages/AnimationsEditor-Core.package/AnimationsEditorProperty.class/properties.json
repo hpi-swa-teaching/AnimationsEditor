@@ -8,7 +8,8 @@
 	"instvars" : [
 		"title",
 		"subproperties",
-		"targetMorph" ],
+		"targetMorph",
+		"copyOfTargetMorph" ],
 	"name" : "AnimationsEditorProperty",
 	"pools" : [
 		 ],

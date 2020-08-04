@@ -4,6 +4,6 @@ createAnimationFor: aMorph
 									   duration: 500;
 									   property: #position;
 									   startValue: (aMorph position);
-									   endValue: (self positionX asInteger)@(self positionY asInteger);
+									   endValue: position;
 									   target: aMorph;
 									   state: #paused).
