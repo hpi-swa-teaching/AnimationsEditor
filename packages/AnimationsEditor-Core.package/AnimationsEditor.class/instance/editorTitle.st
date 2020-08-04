@@ -1,6 +1,6 @@
 accessing
 editorTitle
-	animationsName
+	editorTitle
 		ifNil: [self editorTitle: 'Animations Editor'].
 		
-	^ animationsName.
+	^ editorTitle.

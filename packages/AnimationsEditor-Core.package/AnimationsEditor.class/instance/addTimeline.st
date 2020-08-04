@@ -1,25 +1,26 @@
 eventHandling
 addTimeline 
-	| aMorph lastMorph tlp newHeight |
+	| firstMorph lastMorph tlp newHeight |
 
 	tlp := self emptyPanels at: 1.
 	tlp getChildrenSelector: #timelines.
-	aMorph := RectangleMorph new color: Color blue;
+	firstMorph := RectangleMorph new color: Color lightGray;
 				 	yourself.
-	tlp children add: aMorph.
+	
+	tlp children add: firstMorph.
 	tlp update: tlp getChildrenSelector.
 	
-	aMorph bounds: tlp bounds.
+	firstMorph bounds: tlp bounds.
+	firstMorph height: tlp height.
+	
 	newHeight := tlp height / self timelines size.
-	Transcript show: newHeight.
-	aMorph height: newHeight.
+	
 	self timelines size > 1
 	ifTrue:[
 		lastMorph := Morph new position: tlp position; height: 0; yourself.
-		(self timelines at: self timelines size) color: Color red.
 		self timelines collect: [:each | 
-			each height: newHeight.
 			each position setX: (each position x) setY: (lastMorph position y  + lastMorph height).
+			each height: newHeight.
 			lastMorph := each]].
 	
 	
