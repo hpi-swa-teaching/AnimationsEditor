@@ -3,5 +3,4 @@ testInstanceCreation
 	| animationsEditorPropertyWrapper |
 	animationsEditorPropertyWrapper := AnimationsEditorPropertyWrapper new.
 	
-	self assert:
-		(animationsEditorPropertyWrapper = nil) not.
+	self assert: (animationsEditorPropertyWrapper = nil) not.

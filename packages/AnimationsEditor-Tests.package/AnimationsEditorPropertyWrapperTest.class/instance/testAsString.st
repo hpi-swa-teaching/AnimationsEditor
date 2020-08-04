@@ -8,5 +8,4 @@ testAsString
 	propertyItem title: assignedTitle.
 	propertyWrapper setItem: propertyItem.
 	
-	self assert:
-		(propertyWrapper asString = assignedTitle).
+	self assert: (propertyWrapper asString = assignedTitle).

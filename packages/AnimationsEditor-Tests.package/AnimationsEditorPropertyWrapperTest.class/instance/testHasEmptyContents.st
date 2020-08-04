@@ -6,5 +6,4 @@ testHasEmptyContents
 	
 	propertyWrapper setItem: propertyItem.
 	
-	self assert:
-		(propertyWrapper hasContents = false).
+	self assert: (propertyWrapper hasContents = false).

@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"propertyList",
-		"dummyList",
 		"selectedTreeNode",
 		"toolBuilder",
 		"treeSpec",
@@ -18,7 +17,8 @@
 		"propertyEditorPanel",
 		"propertyTreeMorph",
 		"informationBar",
-		"editorTitle" ],
+		"editorTitle",
+		"windowReference" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],

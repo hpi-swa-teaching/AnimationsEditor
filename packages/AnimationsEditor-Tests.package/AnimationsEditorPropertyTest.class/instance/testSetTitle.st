@@ -5,5 +5,4 @@ testSetTitle
 	propertyItem := AnimationsEditorProperty new.
 	propertyItem title: dummyTitle.
 	
-	self assert:
-		( propertyItem title = dummyTitle).
+	self assert: (propertyItem title = dummyTitle).
