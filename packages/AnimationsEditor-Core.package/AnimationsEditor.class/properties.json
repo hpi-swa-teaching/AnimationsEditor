@@ -18,7 +18,8 @@
 		"propertyTreeMorph",
 		"informationBar",
 		"editorTitle",
-		"windowReference" ],
+		"windowReference",
+		"timelines" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],

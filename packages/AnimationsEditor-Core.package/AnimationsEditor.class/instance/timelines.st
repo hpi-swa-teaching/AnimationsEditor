@@ -1,7 +1,7 @@
 initialize-release
 timelines
-	dummyList 
-		ifNil: [dummyList := OrderedCollection new].
+	timelines 
+		ifNil: [timelines := OrderedCollection new].
 	
-	^ dummyList.
+	^ timelines.
 	
