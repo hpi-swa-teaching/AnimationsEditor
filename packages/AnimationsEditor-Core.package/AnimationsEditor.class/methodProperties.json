@@ -47,7 +47,7 @@
 		"propertyTreeMorph" : "DM 6/22/2020 01:28",
 		"propertyTreeMorph:" : "DM 6/18/2020 08:59",
 		"resetTargetMorph" : "DM 7/8/2020 14:33",
-		"saveAnimations" : "DM 8/4/2020 16:13",
+		"saveAnimations" : "DM 8/4/2020 16:18",
 		"seedProperties" : "DM 6/22/2020 01:28",
 		"selectMorphByHand" : "DM 6/22/2020 00:31",
 		"selectedTreeNode" : "JIZ 5/27/2020 15:31",
@@ -55,5 +55,6 @@
 		"timelines" : "DM 8/4/2020 14:01",
 		"toolBuilder" : "JIZ 6/3/2020 17:00",
 		"toolBuilder:" : "JIZ 6/3/2020 16:59",
+		"updateInformationText:" : "DM 8/4/2020 16:18",
 		"windowReference" : "DM 8/4/2020 13:19",
 		"windowReference:" : "DM 8/4/2020 13:19" } }

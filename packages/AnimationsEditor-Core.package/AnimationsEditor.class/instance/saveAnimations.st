@@ -1,6 +1,4 @@
 buildComponents
 saveAnimations
-	self informationBarText: 'Copied animation code to clipboard!'.
-	self informationBar update: self informationBar getTextSelector.
-	
+	self updateInformationText: 'Copied animation code to clipboard!'.
 	Clipboard clipboardText: self selectedTreeNode animationString.
