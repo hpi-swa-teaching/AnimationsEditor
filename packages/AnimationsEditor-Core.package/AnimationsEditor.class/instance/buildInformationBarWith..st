@@ -6,7 +6,7 @@ buildInformationBarWith: aBuilder
 			setText: #informationBarText:; 
 			readOnly: true;
 		 	frame: (LayoutFrame new
-							topFraction: 0.95;
+							topFraction: 0.93;
 							bottomFraction: 1;
 							rightFraction: 1;
 							leftFraction: 0;

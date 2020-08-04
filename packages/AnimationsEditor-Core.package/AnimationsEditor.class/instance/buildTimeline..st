@@ -4,7 +4,7 @@ buildTimeline: aBuilder
 			model: self;
 			frame: (LayoutFrame new
 						topFraction: 0.67;
-						bottomFraction: 0.95;
+						bottomFraction: 0.93;
 						rightFraction: 1;
 						leftFraction: 0;
 						yourself);

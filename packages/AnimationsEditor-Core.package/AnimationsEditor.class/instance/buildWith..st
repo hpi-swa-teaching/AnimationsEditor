@@ -4,6 +4,7 @@ buildWith: aBuilder
 	self buildMainWindowWith: aBuilder.
 	self collectAllEmptyPanels.
 	self collectPropertyTreeMorph.
+	self collectInformationBar.
 	self initializePropertyEditorPanel.
 
 	^ mainWindow.
