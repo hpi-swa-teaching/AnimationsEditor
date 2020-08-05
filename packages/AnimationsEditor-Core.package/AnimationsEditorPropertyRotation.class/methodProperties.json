@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"animationString" : "DM 7/8/2020 14:52",
+		"animationString" : "DM 8/5/2020 21:02",
 		"buildInputRotationWith:" : "DM 7/7/2020 11:09",
 		"buildPanelWith:" : "DM 7/7/2020 11:07",
 		"buildUIWith:" : "JIZ 6/3/2020 17:10",
+		"canRenderUI" : "DM 8/5/2020 21:07",
 		"createAnimationFor:" : "DM 8/4/2020 16:36",
 		"createAnimationFor:withDuration:" : "DM 8/4/2020 16:36",
 		"initialize" : "DM 7/7/2020 11:07",

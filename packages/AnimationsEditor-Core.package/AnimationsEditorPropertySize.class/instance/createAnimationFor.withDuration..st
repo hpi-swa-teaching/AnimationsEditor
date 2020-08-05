@@ -4,6 +4,6 @@ createAnimationFor: aMorph withDuration: aNumber
 									   duration: aNumber;
 									   property: #extent;
 									   startValue: (aMorph extent);
-									   endValue: targetSize;
+									   endValue: self targetSize;
 									   target: aMorph;
 									   state: #paused).

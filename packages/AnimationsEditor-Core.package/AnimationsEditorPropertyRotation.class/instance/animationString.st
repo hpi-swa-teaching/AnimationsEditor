@@ -7,4 +7,4 @@ animationString
 									   startValue: ', self targetMorph rotationDegrees, ';
 									   endValue: ', self rotation, ';
 									   target: aMorph;
-									   state: #paused'
+									   state: #paused'.

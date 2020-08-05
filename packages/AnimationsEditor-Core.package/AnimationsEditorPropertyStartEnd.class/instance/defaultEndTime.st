@@ -1,3 +1,0 @@
-accessing
-defaultEndTime
-	^ 500.

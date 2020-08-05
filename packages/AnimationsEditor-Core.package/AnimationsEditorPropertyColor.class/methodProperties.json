@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"animationString" : "DM 7/8/2020 14:54",
+		"animationString" : "DM 8/5/2020 21:01",
 		"buildInputColorWith:" : "DM 7/7/2020 10:14",
 		"buildPanelWith:" : "DM 7/7/2020 10:13",
 		"buildUIWith:" : "JIZ 6/3/2020 17:10",
+		"canRenderUI" : "DM 8/5/2020 21:07",
 		"color" : "DM 7/7/2020 10:14",
 		"color:" : "DM 7/7/2020 10:12",
 		"colorAsString" : "DM 7/8/2020 15:10",

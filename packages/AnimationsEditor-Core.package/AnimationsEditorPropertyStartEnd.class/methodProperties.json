@@ -7,7 +7,7 @@
 		"buildPanelWith:" : "DM 6/18/2020 13:49",
 		"buildStartInputWith:" : "DM 6/18/2020 13:50",
 		"buildUIWith:" : "DM 6/18/2020 14:08",
-		"defaultEndTime" : "DM 8/5/2020 20:45",
+		"canRenderUI" : "DM 8/5/2020 21:07",
 		"duration" : "DM 8/4/2020 16:44",
 		"endTime" : "DM 8/5/2020 20:46",
 		"endTime:" : "DM 6/18/2020 13:52",
@@ -15,4 +15,4 @@
 		"initialize" : "DM 6/22/2020 01:37",
 		"startTime" : "DM 8/4/2020 16:44",
 		"startTime:" : "DM 6/18/2020 13:51",
-		"startTimeAsString" : "DM 6/22/2020 01:37" } }
+		"startTimeAsString" : "DM 8/5/2020 21:08" } }

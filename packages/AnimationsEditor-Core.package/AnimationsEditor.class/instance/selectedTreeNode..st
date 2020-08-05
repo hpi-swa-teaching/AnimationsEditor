@@ -2,6 +2,6 @@ accessing
 selectedTreeNode: aNode
 	selectedTreeNode := aNode.
 	
-	aNode class = AnimationsEditorProperty
-		ifFalse: [self insertMorph: (aNode buildUIWith: toolBuilder)
+	aNode canRenderUI
+		ifTrue: [self insertMorph: (aNode buildUIWith: self toolBuilder)
 						 Into: self propertyEditorPanel].

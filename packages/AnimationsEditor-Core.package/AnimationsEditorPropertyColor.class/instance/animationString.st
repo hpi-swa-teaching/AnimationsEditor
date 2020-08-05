@@ -15,4 +15,4 @@ animationString
 				duration: 200);
 			loopCount: 1;
 			register;
-			state: #paused.'
+			state: #paused.'.
