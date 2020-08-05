@@ -1,5 +1,5 @@
 accessing
 endTime
 	endTime
-		ifNil: [endTime := 0].
+		ifNil: [endTime := 500].
 	^ endTime asNumber.

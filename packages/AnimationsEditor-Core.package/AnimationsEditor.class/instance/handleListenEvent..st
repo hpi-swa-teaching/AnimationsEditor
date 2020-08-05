@@ -7,4 +7,5 @@ handleListenEvent: anEvent
 			anEvent type == #mouseUp
 				ifTrue: [
 				   self addTargetMorph: (self getDeepestMorph: currentTarget at: anEvent position).
-				   self currentHand removeMouseListener: self]].
+				   self currentHand removeMouseListener: self.
+				   self updateInformationText: 'Added new Morph']].

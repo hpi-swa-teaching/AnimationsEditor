@@ -4,8 +4,9 @@ addTargetMorph: aMorph
 	self flag: #todo.
 	"Add custom target name"
 	newTarget := AnimationsEditorProperty new.
+	newTarget animationsEditor: self.
 	newTarget targetMorph: aMorph.
-	newTarget title: (aMorph className).
+	newTarget title: '', (self propertyList size ), ' - ', aMorph className.
 	
 	newTarget subproperties add: (self createRotationPropertyFrom: aMorph).
 	newTarget subproperties add: (self createColorPropertyFrom: aMorph).
