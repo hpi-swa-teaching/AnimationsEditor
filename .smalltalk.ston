@@ -9,10 +9,8 @@ SmalltalkCISpec {
     },
     SCIMetacelloLoadSpec {
       #baseline : 'Animations',
-      #directory : 'packages',
-      #load : 'default',
-      #platforms : [ #squeak ],
-      #useLatestMetacello : true
+      #directory : 'repository',
+      #platforms : [ #squeak ]
     }
   ],
   #preLoading : [
