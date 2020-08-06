@@ -11,7 +11,7 @@ SmalltalkCISpec {
       #baseline : 'animations',
       #url : 'https://github.com/hpi-swa/animations',
       #directory : 'repository',
-      #packages : ['Animations-Animations','Animations-ishouldfail','Animations-Canvas','Animations-Core','Animations-Examples','Animations-Graphics','Animations-Morphic','Animations-Tests'],
+      #packages : ['Animations-Animations','Animations-Canvas','Animations-Core','Animations-Examples','Animations-Graphics','Animations-Morphic','Animations-Tests'],
       #platforms : [ #squeak ]
     }
   ],
