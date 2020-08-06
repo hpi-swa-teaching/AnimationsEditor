@@ -1,4 +1,4 @@
-initialize-release
+buildComponents
 buildInputHeightWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new

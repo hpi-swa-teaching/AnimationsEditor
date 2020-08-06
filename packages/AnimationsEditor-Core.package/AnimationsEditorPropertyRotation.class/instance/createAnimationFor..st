@@ -1,3 +1,3 @@
 accessing
 createAnimationFor: aMorph
-	^ self createAnimationFor: aMorph withDuration: 500.
+	^ self createAnimationFor: aMorph withDuration: self targetDuration.

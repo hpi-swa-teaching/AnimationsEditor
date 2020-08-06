@@ -1,4 +1,4 @@
-buildComponents
+eventHandling
 playAnimations
 	self resetTargetMorph.
 	"self propertyList collect: [:each | each playAnimations]."

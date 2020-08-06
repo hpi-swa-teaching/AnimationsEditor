@@ -1,0 +1,3 @@
+defaults
+defaultTargetRotation
+	^ 0.

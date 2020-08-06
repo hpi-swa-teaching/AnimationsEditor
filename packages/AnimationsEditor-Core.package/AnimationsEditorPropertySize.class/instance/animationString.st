@@ -1,4 +1,4 @@
-initialize-release
+accessing
 animationString
 	self flag: #todo.
 	^ 'AnimPropertyAnimation new

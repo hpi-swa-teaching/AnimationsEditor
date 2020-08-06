@@ -6,10 +6,11 @@
 		"buildInputColorWith:" : "DM 7/7/2020 10:14",
 		"buildPanelWith:" : "DM 7/7/2020 10:13",
 		"buildUIWith:" : "JIZ 6/3/2020 17:10",
+		"canCreateAnimation" : "DM 8/6/2020 10:26",
 		"canRenderUI" : "DM 8/5/2020 21:07",
-		"color" : "DM 7/7/2020 10:14",
-		"color:" : "DM 7/7/2020 10:12",
-		"colorAsString" : "DM 7/8/2020 15:10",
-		"createAnimationFor:" : "DM 8/4/2020 16:34",
-		"createAnimationFor:withDuration:" : "DM 8/6/2020 10:13",
-		"initialize" : "DM 7/7/2020 10:44" } }
+		"colorAsString" : "DM 8/6/2020 10:42",
+		"createAnimationFor:" : "DM 8/6/2020 10:20",
+		"createAnimationFor:withDuration:" : "DM 8/6/2020 10:43",
+		"initialize" : "DM 7/7/2020 10:44",
+		"targetColor" : "DM 8/6/2020 10:43",
+		"targetColor:" : "DM 8/6/2020 10:41" } }

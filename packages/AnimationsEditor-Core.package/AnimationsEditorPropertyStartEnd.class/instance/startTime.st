@@ -1,5 +1,6 @@
 accessing
 startTime
 	startTime
-		ifNil: [startTime := 0].
+		ifNil: [self startTime: self defaultStartTime].
+		
 	^ startTime asNumber.

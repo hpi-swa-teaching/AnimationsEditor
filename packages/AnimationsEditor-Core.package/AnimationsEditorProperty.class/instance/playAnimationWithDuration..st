@@ -3,8 +3,8 @@ playAnimationWithDuration: aNumber
 	| animation |
 	self copyOfTargetMorph: self targetMorph copy.
 	animation := (self createAnimationFor: self targetMorph withDuration: aNumber).
-	animation == false
-		ifFalse: [animation register;
+	self canCreateAnimation
+		ifTrue: [animation register;
 									   start]
-		ifTrue: [self copyOfTargetMorph: nil].
+		ifFalse: [self copyOfTargetMorph: nil].
 												

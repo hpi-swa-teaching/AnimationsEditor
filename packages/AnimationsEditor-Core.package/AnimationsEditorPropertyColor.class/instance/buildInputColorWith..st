@@ -1,4 +1,4 @@
-initialize-release
+buildComponents
 buildInputColorWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new

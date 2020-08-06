@@ -1,10 +1,10 @@
-initialize-release
+accessing
 animationString
 	self flag: #todo.
 	^ 'AnimPropertyAnimation new
 									   duration: ', self targetDuration,';
 									   property: #rotationDegrees;
 									   startValue: ', self targetMorph rotationDegrees, ';
-									   endValue: ', self rotation, ';
+									   endValue: ', self targetRotation, ';
 									   target: aMorph;
 									   state: #paused'.

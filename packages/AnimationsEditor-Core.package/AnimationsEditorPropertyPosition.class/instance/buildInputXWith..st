@@ -1,4 +1,4 @@
-initialize-release
+buildComponents
 buildInputXWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new

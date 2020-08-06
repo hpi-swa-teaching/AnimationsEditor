@@ -5,6 +5,6 @@ createAnimationFor: aMorph withDuration: aNumber
 									   duration: aNumber;
 									   property: #rotationDegrees;
 									   startValue: (aMorph rotationDegrees);
-									   endValue: (self rotation);
+									   endValue: (self targetRotation);
 									   target: aMorph;
 									   state: #paused).

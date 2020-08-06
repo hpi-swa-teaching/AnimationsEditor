@@ -1,3 +1,3 @@
-initialize-release
+accessing
 propertyStartEnd: aAnimationsEdtiorPropertyStartEnd
 	propertyStartEnd := aAnimationsEdtiorPropertyStartEnd.

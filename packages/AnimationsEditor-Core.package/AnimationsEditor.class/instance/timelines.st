@@ -1,7 +1,7 @@
 initialize-release
 timelines
 	timelines 
-		ifNil: [timelines := OrderedCollection new].
+		ifNil: [self timelines: OrderedCollection new].
 	
 	^ timelines.
 	

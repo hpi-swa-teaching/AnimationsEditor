@@ -7,7 +7,7 @@ createAnimationFor: aMorph withDuration: aNumber
 				startValue: 1.0;
 				endValue: 0.0;
 				duration: (aNumber//2);
-				finishBlock: [aMorph color: self color.]);
+				finishBlock: [aMorph color: self targetColor.]);
 			add: (AnimAlphaBlendAnimation new
 				morph: aMorph;
 				startValue: 0.0;

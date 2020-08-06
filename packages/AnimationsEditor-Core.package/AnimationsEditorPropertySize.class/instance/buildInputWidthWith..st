@@ -1,4 +1,4 @@
-initialize-release
+buildComponents
 buildInputWidthWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new

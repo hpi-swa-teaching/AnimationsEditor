@@ -1,6 +1,6 @@
 accessing
 targetPosition
 	targetPosition
-		ifNil: [self targetPosition: (0@0)].
+		ifNil: [self targetPosition: self defaultTargetPosition].
 	
 	^ targetPosition.

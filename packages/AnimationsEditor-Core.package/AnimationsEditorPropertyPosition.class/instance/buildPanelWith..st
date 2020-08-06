@@ -1,4 +1,4 @@
-initialize-release
+buildComponents
 buildPanelWith: aBuilder
 	| aPluggablePanelSpec |
 	aPluggablePanelSpec := aBuilder pluggablePanelSpec new

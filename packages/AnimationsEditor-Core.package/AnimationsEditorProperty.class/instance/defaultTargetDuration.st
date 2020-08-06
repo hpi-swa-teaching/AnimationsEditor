@@ -1,0 +1,3 @@
+defaults
+defaultTargetDuration
+	^ 500.
