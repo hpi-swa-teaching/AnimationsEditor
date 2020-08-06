@@ -1,4 +1,10 @@
 # AnimationsEditor
+[![GitHub license](https://img.shields.io/github/license/hpi-swa-teaching/AnimationsEditor)](https://github.com/hpi-swa-teaching/AnimationsEditor/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/hpi-swa-teaching/AnimationsEditor)](https://github.com/hpi-swa-teaching/AnimationsEditor/issues)
+[![GitHub stars](https://img.shields.io/github/stars/hpi-swa-teaching/AnimationsEditor)](https://github.com/hpi-swa-teaching/AnimationsEditor/stargazers)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/hpi-swa-teaching/AnimationsEditor/smalltalkCI/master)
+![GitHub repo size](https://img.shields.io/github/repo-size/hpi-swa-teaching/AnimationsEditor)
+
 >\#todo (Badges einfügen: small release, downloads, smalltalkCI, coverage)
 >\#todo (Bild einfügen)
 
