@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"position" ],
+		"targetPosition" ],
 	"name" : "AnimationsEditorPropertyPosition",
 	"pools" : [
 		 ],

@@ -1,3 +1,3 @@
 initialize-release
 canRenderUI
-	^ false.
+	^ true.

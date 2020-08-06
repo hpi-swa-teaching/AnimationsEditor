@@ -2,7 +2,7 @@ initialize-release
 animationString
 	self flag: #todo.
 	^ 'AnimPropertyAnimation new
-									   duration: 500;
+									   duration: ', self targetDuration,';
 									   property: #extent;
 									   startValue: ', self targetMorph extent, ';
 									   endValue: ', self targetSize, ';

@@ -1,6 +1,6 @@
 accessing
 createAnimationFor: aMorph withDuration: aNumber
-	self flag: #todo.
+	self targetDuration: aNumber.
 	^ AnimCompositeAnimation new
 			add: (AnimAlphaBlendAnimation new
 				morph: aMorph;

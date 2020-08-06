@@ -1,5 +1,6 @@
 accessing
 createAnimationFor: aMorph withDuration: aNumber
+	self targetDuration: aNumber.
 	^ (AnimPropertyAnimation new
 									   duration: aNumber;
 									   property: #rotationDegrees;

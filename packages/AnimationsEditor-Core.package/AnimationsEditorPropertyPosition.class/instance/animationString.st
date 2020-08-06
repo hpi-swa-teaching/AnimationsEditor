@@ -2,9 +2,9 @@ accessing
 animationString
 	self flag: #todo.
 	^ 'AnimPropertyAnimation new
-									   duration: 500;
+									   duration: ', self targetDuration,';
 									   property: #position;
 									   startValue: ', (self targetMorph position), ';
-									   endValue:', position asString, ';
+									   endValue:', self targetPosition asString, ';
 									   target: aMorph;
 									   state: #paused'.

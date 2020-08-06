@@ -6,13 +6,13 @@ animationString
 				morph: aMorph;
 				startValue: 1.0;
 				endValue: 0.0;
-				duration: 300;
+				duration: ', (self targetDuration//2),';
 				finishBlock: [aMorph color: ', self colorAsString, '.]);
 			add: (AnimAlphaBlendAnimation new
 				morph: aMorph;
 				startValue: 0.0;
 				endValue: 1.0;
-				duration: 200);
+				duration: ',(self targetDuration//2),'));
 			loopCount: 1;
 			register;
 			state: #paused.'.
