@@ -1,4 +1,4 @@
-initialize-release
+buildComponents
 buildEndInputWith: aBuilder
 	^ aBuilder pluggableTextSpec new
 				model: self;

@@ -15,4 +15,5 @@ createAnimationFor: aMorph withDuration: aNumber
 				duration: (aNumber//2));
 			loopCount: 1;
 			register;
-			state: #paused.
+			state: #paused;
+			yourself.

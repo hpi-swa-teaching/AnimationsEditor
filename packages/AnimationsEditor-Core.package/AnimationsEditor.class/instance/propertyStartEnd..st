@@ -1,3 +1,3 @@
 accessing
-propertyStartEnd: aAnimationsEdtiorPropertyStartEnd
-	propertyStartEnd := aAnimationsEdtiorPropertyStartEnd.
+propertyStartEnd: aAnimationsEditorProperty
+	propertyStartEnd := aAnimationsEditorProperty.

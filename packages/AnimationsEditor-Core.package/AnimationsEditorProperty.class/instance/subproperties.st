@@ -1,6 +1,6 @@
 accessing
 subproperties
 	subproperties 
-		ifNil: [self subproperties: OrderedCollection new].
+		ifNil: [self subproperties: self defaultSubproperties].
 		
 	^ subproperties.

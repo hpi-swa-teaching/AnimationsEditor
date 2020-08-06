@@ -1,3 +1,3 @@
 accessing
-<= aAnimationsProperty
-	^ self title <= aAnimationsProperty title.
+<= aAnimationsEditorProperty
+	^ self title <= aAnimationsEditorProperty title.

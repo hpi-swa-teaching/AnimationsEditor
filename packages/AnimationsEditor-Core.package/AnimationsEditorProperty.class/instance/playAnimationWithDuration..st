@@ -1,4 +1,4 @@
-accessing
+animation
 playAnimationWithDuration: aNumber
 	| animation |
 	self copyOfTargetMorph: self targetMorph copy.

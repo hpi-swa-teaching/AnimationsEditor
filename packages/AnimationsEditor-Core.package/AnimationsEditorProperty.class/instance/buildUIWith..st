@@ -1,3 +1,3 @@
-initialize-release
+build-component
 buildUIWith: aBuilder
 	self subclassResponsibility.

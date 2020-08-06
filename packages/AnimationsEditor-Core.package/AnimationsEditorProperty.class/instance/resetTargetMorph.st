@@ -1,4 +1,4 @@
-accessing
+animation
 resetTargetMorph
 	self targetMorph position: (self copyOfTargetMorph) position.
 	self targetMorph color: (self copyOfTargetMorph) color.

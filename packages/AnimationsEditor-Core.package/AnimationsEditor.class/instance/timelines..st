@@ -1,5 +1,5 @@
 initialize-release
-timelines: aOrderdCollection
-	timelines := aOrderdCollection.
+timelines: aCollection
+	timelines := aCollection.
 
 	
