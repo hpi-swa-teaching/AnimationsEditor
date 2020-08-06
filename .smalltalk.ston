@@ -9,7 +9,7 @@ SmalltalkCISpec {
     },
     SCIMonticelloLoadSpec {
       #url : 'https://github.com/hpi-swa/animations.git',
-      #packages : ['Animations-Animation', 'Animations-Canvas', 'Animations-Core', 'Animations-Examples', 'Animations-Graphics', 'Animations-Morphic'],
+      #packages : ['Animations-Animations', 'Animations-Canvas', 'Animations-Core', 'Animations-Examples', 'Animations-Graphics', 'Animations-Morphic'],
       #platforms : [ #squeak]
     }
   ],
