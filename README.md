@@ -5,7 +5,7 @@
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/hpi-swa-teaching/AnimationsEditor/smalltalkCI/master)
 ![GitHub repo size](https://img.shields.io/github/repo-size/hpi-swa-teaching/AnimationsEditor)
 ![GitHub All Releases](https://img.shields.io/github/downloads/hpi-swa-teaching/AnimationsEditor/total)
-[![Coverage Master](https://coveralls.io/repos/github/hpi-swa-teaching/AnimationsEditor/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/AnimationsEditor?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/AnimationsEditor/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/AnimationsEditor?branch=master)
 
 >\#todo (Bild einfügen)
 
