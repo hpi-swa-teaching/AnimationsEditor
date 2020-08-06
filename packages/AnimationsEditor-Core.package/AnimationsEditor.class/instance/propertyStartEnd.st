@@ -1,6 +1,6 @@
-initialize-release
+accessing
 propertyStartEnd
 	propertyStartEnd
-		ifNil: [propertyStartEnd := AnimationsEditorPropertyStartEnd new].
+		ifNil: [self propertyStartEnd: AnimationsEditorPropertyStartEnd new].
 	
 	^ propertyStartEnd.

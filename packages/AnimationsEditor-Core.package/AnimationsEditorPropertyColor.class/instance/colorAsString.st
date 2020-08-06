@@ -1,3 +1,3 @@
 accessing
 colorAsString
-	 ^ self color asString.
+	 ^ self targetColor asString.

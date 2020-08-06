@@ -1,3 +1,3 @@
-accessing
+code-generation
 animationString
 	self subclassResponsibility.

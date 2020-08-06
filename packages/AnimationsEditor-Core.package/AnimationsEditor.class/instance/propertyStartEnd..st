@@ -1,3 +1,3 @@
-initialize-release
-propertyStartEnd: aAnimationsEdtiorPropertyStartEnd
-	propertyStartEnd := aAnimationsEdtiorPropertyStartEnd.
+accessing
+propertyStartEnd: aAnimationsEditorProperty
+	propertyStartEnd := aAnimationsEditorProperty.

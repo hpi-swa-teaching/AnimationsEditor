@@ -1,4 +1,4 @@
-initialize-release
+buildComponents
 buildInputYWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new

@@ -1,6 +1,10 @@
-accessing
+animation
 playAnimationWithDuration: aNumber
+	| animation |
 	self copyOfTargetMorph: self targetMorph copy.
-	(self createAnimationFor: self targetMorph withDuration: aNumber) 
-													register;
-											    		start. 
+	animation := (self createAnimationFor: self targetMorph withDuration: aNumber).
+	self canCreateAnimation
+		ifTrue: [animation register;
+									   start]
+		ifFalse: [self copyOfTargetMorph: nil].
+												

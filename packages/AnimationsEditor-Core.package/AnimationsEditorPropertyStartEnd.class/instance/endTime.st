@@ -1,5 +1,6 @@
 accessing
 endTime
 	endTime
-		ifNil: [endTime := 0].
+		ifNil: [self endTime: self defaultEndTime].
+	
 	^ endTime asNumber.

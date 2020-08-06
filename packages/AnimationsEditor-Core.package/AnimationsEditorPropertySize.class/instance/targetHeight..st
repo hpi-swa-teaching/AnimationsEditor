@@ -1,8 +1,7 @@
 accessing
-targetHeight: anInt
+targetHeight: aNumber
 	| value |
-	value := anInt asString asInteger.
+	value := aNumber asString asInteger.
 	value
-		ifNotNil: [(self targetSize) 
-												setX: (self targetSize) x
-												setY: value].
+		ifNotNil: [(self targetSize) setX: (self targetSize) x
+												 setY: value].

@@ -1,9 +1,11 @@
 accessing
 createAnimationFor: aMorph withDuration: aNumber
-	^ (AnimPropertyAnimation new
+	self targetDuration: aNumber.
+	^ AnimPropertyAnimation new
 									   duration: aNumber;
 									   property: #extent;
 									   startValue: (aMorph extent);
-									   endValue: targetSize;
+									   endValue: self targetSize;
 									   target: aMorph;
-									   state: #paused).
+									   state: #paused;
+									   yourself.

@@ -1,5 +1,6 @@
 accessing
 targetSize
 	targetSize 
-		ifNil: [ targetSize := 0@0 ].
+		ifNil: [self targetSize: self defaultTargetSize].
+		
 	^ targetSize.

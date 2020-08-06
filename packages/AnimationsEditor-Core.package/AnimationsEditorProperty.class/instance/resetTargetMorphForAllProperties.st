@@ -1,3 +1,3 @@
-accessing
+animation
 resetTargetMorphForAllProperties
-	subproperties collect: [ :each | each resetTargetMorph ].
+	self subproperties collect: [ :each | each resetTargetMorph ].

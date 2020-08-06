@@ -1,9 +1,7 @@
 accessing
-positionY: anInt
+positionY: aNumber
 	| value |
 
-	value := anInt asString asInteger.
+	value := aNumber asString asInteger.
 	value
-		ifNotNil: [position setX: position x setY: value].
-		
-	^ position. 
+		ifNotNil: [self targetPosition setX: (self targetPosition x) setY: value].
