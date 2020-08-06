@@ -7,9 +7,9 @@ SmalltalkCISpec {
       #platforms : [ #squeak ],
       #useLatestMetacello : true
     },
-    SCIMetacelloLoadSpec {
-      #baseline : 'Animations',
-      #directory : 'repository',
+    SCIMonticelloLoadSpec {
+      #url : 'github://hpi-swa/animations:master/repository',
+      #packages : ['Animations-Animations','Animations-Canvas','Animations-Core','Animations-Examples','Animations-Graphics','Animations-Morphic','Animations-Tests'],
       #platforms : [ #squeak ]
     }
   ],
