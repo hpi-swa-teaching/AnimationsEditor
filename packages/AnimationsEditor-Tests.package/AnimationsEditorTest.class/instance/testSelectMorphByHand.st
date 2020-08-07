@@ -11,6 +11,5 @@ testSelectMorphByHand
 		
 	animationsEditorInstance windowReference abandon.
 	morph abandon.
-	
-	self flag: #todo.
-	self assert: true. "no errors = good"
+
+	self assert: true.

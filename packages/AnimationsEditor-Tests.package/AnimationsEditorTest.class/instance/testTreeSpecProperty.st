@@ -1,8 +1,8 @@
 initialize-release
-testTreeSpecPropertyStartEnd
+testTreeSpecProperty
 	| animationsEditorInstance |
-	animationsEditorInstance := AnimationsEditor open.
-	animationsEditorInstance seedProperties.
 	
-	self assert: (animationsEditorInstance propertyList size = 2). 
+	animationsEditorInstance := AnimationsEditor open.
+	self assert: (animationsEditorInstance propertyList size = 1).
+	
 	animationsEditorInstance windowReference abandon.
