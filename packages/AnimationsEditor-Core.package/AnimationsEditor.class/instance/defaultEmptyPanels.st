@@ -1,3 +1,3 @@
-buildComponents
+defaults
 defaultEmptyPanels
 	^ OrderedCollection new.

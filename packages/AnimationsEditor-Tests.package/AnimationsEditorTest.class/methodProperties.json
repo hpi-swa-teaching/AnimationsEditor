@@ -2,13 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testDifferentAccessors" : "DM 8/7/2020 17:35",
-		"testEmptyPanelsGetter" : "DM 8/7/2020 17:38",
+		"testEmptyPanelsGetter" : "DM 8/7/2020 17:52",
 		"testEmptyPanelsSetter" : "DM 8/7/2020 17:37",
 		"testGetDeepestMorph" : "DM 8/4/2020 13:26",
 		"testInstanceCreation" : "DM 8/4/2020 13:26",
 		"testPlayAnimations" : "DM 8/4/2020 13:29",
 		"testSelectMorphByHand" : "DM 8/4/2020 13:30",
+		"testToolBuilderGetter" : "DM 8/7/2020 17:53",
+		"testToolBuilderSetter" : "DM 8/7/2020 17:53",
 		"testTreeSpec" : "DM 8/4/2020 13:31",
 		"testTreeSpecPropertyStartEnd" : "DM 8/4/2020 13:31",
 		"testTreeSpecWithOneMorph" : "DM 8/4/2020 13:31",

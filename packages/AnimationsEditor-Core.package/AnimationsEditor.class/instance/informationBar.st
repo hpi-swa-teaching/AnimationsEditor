@@ -1,3 +1,3 @@
-buildComponents
+accessing
 informationBar
 	^ informationBar.

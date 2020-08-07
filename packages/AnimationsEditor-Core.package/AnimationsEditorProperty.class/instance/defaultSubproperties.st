@@ -1,3 +1,3 @@
-default
+defaults
 defaultSubproperties
 	^ (OrderedCollection new).
