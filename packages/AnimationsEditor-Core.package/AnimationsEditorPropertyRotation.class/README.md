@@ -1,0 +1,1 @@
+This is the class, which handels the rotation attribute for animations.
