@@ -1,6 +1,6 @@
 accessing
 targetColor
 	targetColor
-		ifNil: [self targetColor: Color veryLightGray].
+		ifNil: [self targetColor: self defaultTargetColor].
 	
 	 ^ targetColor.

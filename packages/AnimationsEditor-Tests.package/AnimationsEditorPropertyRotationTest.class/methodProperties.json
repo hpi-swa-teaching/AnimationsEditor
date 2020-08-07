@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCanCreateAnimation" : "DM 8/7/2020 17:14",
+		"testCanRenderUI" : "DM 8/7/2020 17:14",
+		"testInstanceCreation" : "DM 8/7/2020 17:14",
+		"testTargetRotationGetter" : "DM 8/7/2020 17:17",
+		"testTargetRotationGetterAsString" : "DM 8/7/2020 17:17",
+		"testTargetRotationSetter" : "DM 8/7/2020 17:16" } }

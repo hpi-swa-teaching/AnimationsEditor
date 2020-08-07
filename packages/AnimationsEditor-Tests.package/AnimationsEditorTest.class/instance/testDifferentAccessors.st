@@ -2,7 +2,6 @@ initialize-release
 testDifferentAccessors
 	| animationsEditorInstance |
 	
-	self flag: #todo.
 	animationsEditorInstance := AnimationsEditor open.
 	
 	animationsEditorInstance emptyPanels: 42.

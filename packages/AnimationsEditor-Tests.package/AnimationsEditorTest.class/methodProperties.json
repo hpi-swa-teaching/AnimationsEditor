@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testDifferentAccessors" : "DM 8/4/2020 13:25",
+		"testDifferentAccessors" : "DM 8/7/2020 17:35",
+		"testEmptyPanelsGetter" : "DM 8/7/2020 17:38",
+		"testEmptyPanelsSetter" : "DM 8/7/2020 17:37",
 		"testGetDeepestMorph" : "DM 8/4/2020 13:26",
 		"testInstanceCreation" : "DM 8/4/2020 13:26",
 		"testPlayAnimations" : "DM 8/4/2020 13:29",

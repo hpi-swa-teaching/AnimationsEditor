@@ -1,6 +1,6 @@
 accessing
 emptyPanels
 	emptyPanels
-		ifNil: [self emptyPanels: OrderedCollection new].
+		ifNil: [self emptyPanels: self defaultEmptyPanels].
 	
 	^ emptyPanels.

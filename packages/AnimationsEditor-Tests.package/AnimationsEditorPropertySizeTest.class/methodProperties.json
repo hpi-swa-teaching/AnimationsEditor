@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCanCreateAnimation" : "DM 8/7/2020 17:22",
+		"testCanRenderUI" : "DM 8/7/2020 17:22",
+		"testHeightGetter" : "DM 8/7/2020 17:26",
+		"testHeightSetter" : "DM 8/7/2020 17:26",
+		"testInstanceCreation" : "DM 8/7/2020 17:22",
+		"testTargetSizeGetter" : "DM 8/7/2020 17:24",
+		"testTargetSizeSetter" : "DM 8/7/2020 17:23",
+		"testWidthGetter" : "DM 8/7/2020 17:26",
+		"testWidthSetter" : "DM 8/7/2020 17:26" } }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCanCreateAnimation" : "DM 8/7/2020 17:19",
+		"testCanRenderUI" : "DM 8/7/2020 17:19",
+		"testInstanceCreation" : "DM 8/7/2020 17:19",
+		"testTargetColorGetter" : "DM 8/7/2020 17:32",
+		"testTargetColorGetterAsString" : "DM 8/7/2020 17:31",
+		"testTargetColorSetter" : "DM 8/7/2020 17:21" } }
