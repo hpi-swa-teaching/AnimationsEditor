@@ -17,7 +17,6 @@ addTimeline
 	
 	self timelines size > 1
 	ifTrue:[
-		Transcript show: self timelines size; cr.
 		lastMorph := Morph new position: tlp position; height: 0; yourself.
 		self timelines collect: [:each | 
 			each position setX: (each position x) setY: (lastMorph position y  + lastMorph height).

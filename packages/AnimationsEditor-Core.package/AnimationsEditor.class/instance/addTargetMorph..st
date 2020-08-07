@@ -1,8 +1,7 @@
 eventHandling
 addTargetMorph: aMorph
 	| newTarget |
-	self flag: #todo.
-	"Add custom target name"
+
 	newTarget := AnimationsEditorProperty new.
 	newTarget animationsEditor: self.
 	newTarget targetMorph: aMorph.

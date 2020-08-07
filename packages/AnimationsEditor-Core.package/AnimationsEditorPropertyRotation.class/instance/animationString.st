@@ -1,6 +1,5 @@
 accessing
 animationString
-	self flag: #todo.
 	^ 'AnimPropertyAnimation new
 									   duration: ', self targetDuration,';
 									   property: #rotationDegrees;
