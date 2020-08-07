@@ -28,8 +28,15 @@ Ready for AnimationsEditor? Follow our lean [setup guide](https://github.com/hpi
 ## Usage
 \#todo -> Punkte in englisch überarbeiten!
 - open AnimationsEditor with the command `AnimationsEditor open` and press `CTRL + D` (Do it)
-- click on `add morph`
-- click on the morph, you want to animate while `opt` Key pressed (in Windows also with middle mouse key). the morph should be added to the property inspector
+- left click on `add morph`
+- left click on the morph, you want to animate while `opt` Key pressed (in Windows also with middle mouse key).   
+the morph should be added to the property inspector
+- you can now expand the tree in the property inpector and select a property
+- this property can then be adjusted in the right-hand field
+- now click on `Play Animation` to play the animation live
+- to reset the morph back to the original state, click on `Reset Animation`
+- if you want to integrate the animation project into your Squeak project, click on 'Save animations`  
+the code of the animation is then placed into your clipboard
 
 (\#todo insert picture here, die die einzelenen Teile des Editors beschreibt)
 
