@@ -8,12 +8,14 @@ testPlayAnimations
 	animationsEditorInstance addTargetMorph: morph.
 	
 	self flag: #todo.
-	"positionProperty := ((animationsEditorInstance propertyList at: 2) subproperties at: 1).
+	positionProperty := ((animationsEditorInstance propertyList at: 2) subproperties at: 3).
 	positionProperty positionX: 555.
 	positionProperty positionY: 555.
-
+	
+	animationsEditorInstance selectedTreeNode: positionProperty.
 	animationsEditorInstance playAnimations.	
-	morph abandon."
 	
 	animationsEditorInstance windowReference abandon.
+	morph abandon.
+	
 	self assert: true. "no errors = good"
