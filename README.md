@@ -26,7 +26,6 @@ Watch your animations evolve whenever you want with *Play Animations*. Take adva
 Ready for AnimationsEditor? Follow our lean [setup guide](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Setup-Guide) to install AnimationsEditor.
 
 ## Usage
-\#todo -> Punkte in englisch überarbeiten!
 - open AnimationsEditor with the command `AnimationsEditor open` and press `CTRL + D` (Do it)
 - left click on `add morph`
 - left click on the morph, you want to animate while `opt` Key pressed (in Windows also with middle mouse key).   
@@ -37,9 +36,6 @@ the morph should be added to the property inspector
 - to reset the morph back to the original state, click on `Reset Animation`
 - if you want to integrate the animation project into your Squeak project, click on 'Save animations`  
 the code of the animation is then placed into your clipboard
-
-(\#todo insert picture here, die die einzelenen Teile des Editors beschreibt)
-
 
 ## Development
 ### CI Pipeline and coverage
