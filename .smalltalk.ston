@@ -6,6 +6,13 @@ SmalltalkCISpec {
       #load : 'tests',
       #platforms : [ #squeak ],
       #useLatestMetacello : true
+    },
+    SCIMonticelloLoadSpec {
+      #baseline : 'animations',
+      #url : 'https://github.com/hpi-swa/animations',
+      #directory : 'repository',
+      #packages : ['Animations-Animations','Animations-Canvas','Animations-Core','Animations-Examples','Animations-Graphics','Animations-Morphic','Animations-Tests'],
+      #platforms : [ #squeak ]
     }
   ],
   #preLoading : [
