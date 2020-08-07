@@ -12,7 +12,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #categories : [ 'AnimationsEditor' ]
+      #categories : [ 'AnimationsEditor-Core' ]
     }
   }
 }
