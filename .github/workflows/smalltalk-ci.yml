@@ -15,12 +15,12 @@ jobs:
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v2
-    - uses: hpi-swa/setup-smalltalkCI@v1.1.0
+    - uses: hpi-swa/setup-smalltalkCI@v1
       id: smalltalkci
       with:
         smalltalk-version: ${{ matrix.smalltalk }}
     - run: smalltalkci -s ${{ steps.smalltalkci.outputs.smalltalk-version }}
       shell: bash
-      timeout-minutes: 10
+      timeout-minutes: 5
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
