@@ -5,7 +5,7 @@
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/hpi-swa-teaching/AnimationsEditor/smalltalkCI/master)
 ![GitHub repo size](https://img.shields.io/github/repo-size/hpi-swa-teaching/AnimationsEditor)
 ![GitHub All Releases](https://img.shields.io/github/downloads/hpi-swa-teaching/AnimationsEditor/total)
-[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/AnimationsEditor/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/AnimationsEditor?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/AnimationsEditor/badge.svg?branch=add-tests)](https://coveralls.io/github/hpi-swa-teaching/AnimationsEditor?branch=add-tests)
 
 AnimationsEditor is a graphical tool for designing animations based on [Animations-Core](https://github.com/hpi-swa/animations). Bring your morphs to life using up to four handpicked animations. Effortlessly add generated code to your squeak project. Code less and achieve more - with AnimationsEditor.
 
