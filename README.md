@@ -9,7 +9,7 @@
 
 AnimationsEditor is a graphical tool for designing animations based on [Animations-Core](https://github.com/hpi-swa/animations). Bring your morphs to life using up to four handpicked animations. Effortlessly add generated code to your squeak project. Code less and achieve more - with AnimationsEditor.
 
-![Screenshot_Animations_Editor](https://i.imgur.com/geXYomt.png)
+![start](https://user-images.githubusercontent.com/44775014/89678706-f48ebd00-d8ef-11ea-9fc5-85e578b52a51.gif)
 
 ## Features
 *AnimationsEditor* provides you with a broad toolset to bring your morphs to life.
@@ -25,17 +25,52 @@ Watch your animations evolve whenever you want with *Play Animations*. Take adva
 
 Ready for AnimationsEditor? Follow our lean [setup guide](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Setup-Guide) to install AnimationsEditor.
 
-## Usage
-- open AnimationsEditor with the command `AnimationsEditor open` and press `CTRL + D` (Do it)
-- left click on `add morph`
-- left click on the morph, you want to animate while `opt` Key pressed (in Windows also with middle mouse key).   
-the morph should be added to the property inspector
-- you can now expand the tree in the property inpector and select a property
-- this property can then be adjusted in the right-hand field
-- now click on `Play Animation` to play the animation live
-- to reset the morph back to the original state, click on `Reset Animation`
-- if you want to integrate the animation project into your Squeak project, click on 'Save animations`  
-the code of the animation is then placed into your clipboard
+## Getting Started with AnimationsEditor
+
+Follow our step by step guide for using AnimationsEditor.
+
+### Preparations
+1. Install and open a supported Squeak image (see [setup guide](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Setup-Guide)).
+2. Open AnimationsEditor by executing `AnimationsEditor open`. Now you should see the GUI of AnimationsEditor.
+
+*Pro Tip: Use 'Button for it' on this code snippet in order to have quick access to AnimationsEditor.*
+
+![AnimationsEditor open.](https://user-images.githubusercontent.com/44775014/89674752-f5702080-d8e8-11ea-84b9-fefdee98dd1c.gif)
+
+### Select morph
+3. Create a morph in your Squeak image - this is the morph we want to bring to life. In case you are just playing around, create a dummy Morph with `Morph new openInHand`
+5. Click on *Add Morph*
+6. Click on your previous created Morph using
+    - left mouse key with 'opt', 'alt' key pressed (all OS's)
+    - middle mouse key (Windows)
+Your morph should have been added to the property inspector. The property inspector provides you four animations.
+
+![add-morph](https://user-images.githubusercontent.com/44775014/89675633-898eb780-d8ea-11ea-94bb-516f56e32fd8.gif)
+
+### Supported animations
+
+#### color 
+Enter a color into the text field and press *Play animations*. If a non-supported Color is entered, Squeak uses `Color white` as a default value.
+
+![color](https://user-images.githubusercontent.com/44775014/89675836-e7bb9a80-d8ea-11ea-9e6a-58975dbdc97a.gif)
+
+#### rotation
+
+Enter an integer value in the text field and press *Play animations*.
+
+![rotation](https://user-images.githubusercontent.com/44775014/89676840-9f04e100-d8ec-11ea-8d69-3dfc3cfdb655.gif)
+
+#### position
+Enter the desired x- and y position the morph should move to and press *Play animations*.
+
+![position](https://user-images.githubusercontent.com/44775014/89677492-d4f69500-d8ed-11ea-9b57-56cee7050f4c.gif)
+
+#### size
+Enter the desired height and width of the morph and press *Play animations*.
+
+![size](https://user-images.githubusercontent.com/44775014/89677873-767de680-d8ee-11ea-8102-f89cbbc27891.gif)
+
+
 
 ## Development
 ### CI Pipeline and coverage
@@ -57,6 +92,7 @@ For our complete documentation, visit our [wiki](https://github.com/hpi-swa-teac
 - [Lukas Hüller](https://github.com/lukashueller)
 - [Tim Kuffner](https://github.com/1T1m)
 - [David Matuschek](https://github.com/davidmatuschek)
+- [Fabio Niephaus](https://github.com/fniephaus)
 - [Patrick Rein](https://github.com/codeZeilen)
 - [Jessica Ziegler](https://github.com/jssckrm)
 - Contributors of [Animations-Core](https://github.com/hpi-swa/animations)
