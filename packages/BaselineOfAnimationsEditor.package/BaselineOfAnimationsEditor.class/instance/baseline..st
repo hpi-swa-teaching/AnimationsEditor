@@ -4,11 +4,11 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
-            spec baseline: 'Animations' with: [
-                spec repository: 'github://hpi-swa/animations:master/repository'].
+			spec baseline: 'Animations' with: [
+				spec repository: 'github://hpi-swa/animations:master/repository'].
 
 			spec
-				package: 'AnimationsEditor-Core';
+				package: 'AnimationsEditor-Core' with: [spec requires: #('Animations')];
 				package: 'AnimationsEditor-Tests' with: [spec requires: #('AnimationsEditor-Core')];
 				yourself.
 			spec
