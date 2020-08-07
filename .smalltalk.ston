@@ -4,7 +4,8 @@ SmalltalkCISpec {
       #baseline : 'AnimationsEditor',
       #directory : 'packages',
       #load : 'tests',
-      }
+      #platforms : [ #squeak ]
+    }
   ],
   #preLoading : [
     'scripts/preLoading.st'
