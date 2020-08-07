@@ -7,7 +7,7 @@ animationString
 				startValue: 1.0;
 				endValue: 0.0;
 				duration: ', (self targetDuration//2),';
-				finishBlock: [aMorph color: ', self colorAsString, '.]);
+				finishBlock: [aMorph color: ', self targetColorAsString, '.]);
 			add: (AnimAlphaBlendAnimation new
 				morph: aMorph;
 				startValue: 0.0;

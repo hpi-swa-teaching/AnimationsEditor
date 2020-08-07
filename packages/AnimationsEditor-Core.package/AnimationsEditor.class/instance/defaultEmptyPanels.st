@@ -1,0 +1,3 @@
+defaults
+defaultEmptyPanels
+	^ OrderedCollection new.

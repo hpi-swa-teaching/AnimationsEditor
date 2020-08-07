@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"animationString" : "DM 8/6/2020 10:15",
+		"animationString" : "DM 8/7/2020 17:18",
 		"buildInputColorWith:" : "DM 8/7/2020 10:49",
 		"buildPanelWith:" : "DM 7/7/2020 10:13",
 		"buildUIWith:" : "JIZ 6/3/2020 17:10",
 		"canCreateAnimation" : "DM 8/6/2020 10:26",
 		"canRenderUI" : "DM 8/5/2020 21:07",
-		"colorAsString" : "DM 8/6/2020 10:42",
 		"createAnimationFor:" : "DM 8/6/2020 10:20",
 		"createAnimationFor:withDuration:" : "DM 8/6/2020 11:03",
+		"defaultTargetColor" : "DM 8/7/2020 17:34",
 		"initialize" : "DM 7/7/2020 10:44",
-		"targetColor" : "DM 8/6/2020 10:43",
+		"targetColor" : "DM 8/7/2020 17:19",
 		"targetColor:" : "DM 8/6/2020 10:41",
 		"targetColorAsString" : "DM 8/7/2020 10:49" } }

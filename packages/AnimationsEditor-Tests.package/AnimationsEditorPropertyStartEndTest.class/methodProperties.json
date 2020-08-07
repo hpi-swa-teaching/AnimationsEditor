@@ -2,5 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testCanCreateAnimation" : "DM 8/7/2020 17:28",
+		"testCanRenderUI" : "DM 8/7/2020 17:28",
+		"testEndTimeGetter" : "DM 8/7/2020 17:29",
+		"testEndTimeGetterAsString" : "DM 8/7/2020 17:30",
+		"testEndTimeSetter" : "DM 8/7/2020 17:29",
 		"testInstanceCreation" : "DM 8/4/2020 13:45",
-		"testPositionAccessors" : "DM 8/4/2020 13:45" } }
+		"testPositionAccessors" : "DM 8/4/2020 13:45",
+		"testStartTimeGetter" : "DM 8/7/2020 17:29",
+		"testStartTimeGetterAsString" : "DM 8/7/2020 17:30",
+		"testStartTimeSetter" : "DM 8/7/2020 17:30" } }
