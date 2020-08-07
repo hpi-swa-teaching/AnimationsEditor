@@ -40,36 +40,44 @@ Follow our step by step guide for using AnimationsEditor.
 ### Select morph
 3. Create a morph in your Squeak image - this is the morph we want to bring to life. In case you are just playing around, create a dummy Morph with `Morph new openInHand`
 5. Click on *Add Morph*
-6. Click on your previous created Morph using
-    - left mouse key with 'opt', 'alt' key pressed (all OS's)
-    - middle mouse key (Windows)
+6. Click on your previous created Morph using left mouse key with 'opt'/'alt' key pressed. With Windows OS you can also use the middle mouse key.
+
 Your morph should have been added to the property inspector. The property inspector provides you four animations.
 
 ![add-morph](https://user-images.githubusercontent.com/44775014/89675633-898eb780-d8ea-11ea-94bb-516f56e32fd8.gif)
 
 ### Supported animations
 
-#### color 
+#### Morph color 
 Enter a color into the text field and press *Play animations*. If a non-supported Color is entered, Squeak uses `Color white` as a default value.
 
 ![color](https://user-images.githubusercontent.com/44775014/89675836-e7bb9a80-d8ea-11ea-9e6a-58975dbdc97a.gif)
 
-#### rotation
+#### Morph rotation
 
 Enter an integer value in the text field and press *Play animations*.
 
 ![rotation](https://user-images.githubusercontent.com/44775014/89676840-9f04e100-d8ec-11ea-8d69-3dfc3cfdb655.gif)
 
-#### position
+#### Morph position
 Enter the desired x- and y position the morph should move to and press *Play animations*.
 
 ![position](https://user-images.githubusercontent.com/44775014/89677492-d4f69500-d8ed-11ea-9b57-56cee7050f4c.gif)
 
-#### size
+#### Morph size
 Enter the desired height and width of the morph and press *Play animations*.
 
 ![size](https://user-images.githubusercontent.com/44775014/89677873-767de680-d8ee-11ea-8102-f89cbbc27891.gif)
 
+#### start- & endtime
+Adjust the duration of the animation with start- and endtime.
+
+![duration](https://user-images.githubusercontent.com/44775014/89679426-5a2f7900-d8f1-11ea-8956-82c0c713c254.gif)
+
+### Save animation
+Configure your animation with AnimationsEditor and get the bare code copied into your clipboard with *Save animations*.
+
+![clipboard](https://user-images.githubusercontent.com/44775014/89681241-d5def500-d8f4-11ea-8f92-2d9bdabecb0a.gif)
 
 
 ## Development
