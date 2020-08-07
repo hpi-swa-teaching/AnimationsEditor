@@ -40,10 +40,13 @@ The CI pipeline is implemented using GitHub actions, and push is executed on eac
 
 
 ### Documentation
-For our complete documentation, visit our [wiki](#todo), which contains the following parts: 
-1. Description of used abbreviations 
-2. Class architecture
-3. explanations regarding the usage of the features
+For our complete documentation, visit our [wiki](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki), which contains the following parts: 
+- [Architecture of AnimationsEditor](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Architecture-of-AnimationsEditor)
+- [Coding conventions](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Coding-conventions)
+- [Features](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Features)
+- [Meaning of technical terms](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Meaning-of-technical-terms)
+- [Presentation Slides](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Presentation-Slides)
+- [Setup Guide](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Setup-Guide)
 
 
 ## Contributors
