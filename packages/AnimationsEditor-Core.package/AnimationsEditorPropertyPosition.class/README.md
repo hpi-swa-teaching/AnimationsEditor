@@ -1,0 +1,1 @@
+This is the class, which handels the position attribute for animations.

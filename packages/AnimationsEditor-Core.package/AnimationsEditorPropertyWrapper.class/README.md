@@ -1,0 +1,1 @@
+This is the adapter class for the AnimationsEditorProperty class.

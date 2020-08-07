@@ -1,0 +1,1 @@
+This class builds the complete AnimationsEditor and handels all userinteraction.

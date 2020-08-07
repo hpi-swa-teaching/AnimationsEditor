@@ -1,0 +1,1 @@
+This is the class, which handels the start and end time attribute for animations.
