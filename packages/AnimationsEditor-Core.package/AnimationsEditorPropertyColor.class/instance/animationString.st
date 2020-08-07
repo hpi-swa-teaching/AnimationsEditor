@@ -1,6 +1,5 @@
 accessing
 animationString
-	self flag: #todo.
 	^ 'AnimCompositeAnimation new
 			add: (AnimAlphaBlendAnimation new
 				morph: aMorph;
@@ -12,7 +11,7 @@ animationString
 				morph: aMorph;
 				startValue: 0.0;
 				endValue: 1.0;
-				duration: ',(self targetDuration//2),'));
+				duration: ',(self targetDuration//2),');
 			loopCount: 1;
 			register;
 			state: #paused.'.
