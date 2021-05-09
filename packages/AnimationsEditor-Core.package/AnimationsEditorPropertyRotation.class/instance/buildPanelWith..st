@@ -7,9 +7,10 @@ buildPanelWith: aBuilder
 						topFraction: 0.1;
 						bottomFraction: 0.5;
 						leftFraction: 0.1;
-						rightFraction: 0.5;
+						rightFraction: 1;
 						yourself);
-			children: { self buildInputRotationWith: aBuilder. };
+			children: { self buildInputRotationWith: aBuilder. 
+						self buildInputFrameWith: aBuilder.};
 			yourself.	
 			
 	^ aBuilder build: aPluggablePanelSpec.

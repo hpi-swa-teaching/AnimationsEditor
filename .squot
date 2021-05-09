@@ -1,5 +1,5 @@
 OrderedDictionary {
-	'packages\/BaselineOfAnimationsEditor.package' : #SquotCypressCodeSerializer,
-	'packages\/AnimationsEditor-Tests.package' : #SquotCypressCodeSerializer,
-	'packages\/AnimationsEditor-Core.package' : #SquotCypressCodeSerializer
+	'packages/BaselineOfAnimationsEditor.package' : #SquotCypressCodeSerializer,
+	'packages/AnimationsEditor-Tests.package' : #SquotCypressCodeSerializer,
+	'packages/AnimationsEditor-Core.package' : #SquotCypressCodeSerializer
 }

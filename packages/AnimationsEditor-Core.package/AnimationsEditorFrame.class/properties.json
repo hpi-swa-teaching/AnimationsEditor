@@ -1,0 +1,18 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"frame",
+		"color",
+		"positon",
+		"rotation",
+		"size" ],
+	"name" : "AnimationsEditorFrame",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

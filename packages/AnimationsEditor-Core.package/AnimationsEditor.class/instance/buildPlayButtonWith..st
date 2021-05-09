@@ -7,7 +7,7 @@ buildPlayButtonWith: aBuilder
 		 frame: (LayoutFrame new
 						topFraction: 0;
 						bottomFraction: 1;
-						rightFraction: 0.75;
-						leftFraction: 0.50;
+						rightFraction: 3*(1/self numberButtons);
+						leftFraction: 2*(1/self numberButtons);
 						yourself);
 		 yourself.
