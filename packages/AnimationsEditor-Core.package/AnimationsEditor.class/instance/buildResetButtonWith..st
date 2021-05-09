@@ -6,7 +6,7 @@ buildResetButtonWith: aBuilder
 		 frame: (LayoutFrame new
 						topFraction: 0;
 						bottomFraction: 1;
-						rightFraction: 1;
-						leftFraction: 0.75;
+						rightFraction: 0.8;
+						leftFraction: 0.6;
 						yourself);
 		 yourself.
