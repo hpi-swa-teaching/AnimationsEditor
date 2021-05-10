@@ -1,0 +1,2 @@
+safeJson
+addRotationFrame: aTreeNode 
