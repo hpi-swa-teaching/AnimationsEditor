@@ -24,7 +24,7 @@ createStartInformation: aTreeNode
 				with: #value -> originMorph height . 
 			Dictionary
 				with: #name -> 'color'
-				with: #value -> originMorph color 
+				with: #value -> (originMorph color) asString
 			}.
 			
 	^ json
