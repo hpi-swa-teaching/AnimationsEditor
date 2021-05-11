@@ -10,8 +10,7 @@ buildPanelWith: aBuilder
 						rightFraction: 1;
 						yourself);
 			children: { self buildStartInputWith: aBuilder.
-						    self buildEndInputWith: aBuilder.
-							self buildInputFrameWith: aBuilder.};
+						    self buildEndInputWith: aBuilder};
 			yourself.	
 			
 	^ aBuilder build: aPluggablePanelSpec.

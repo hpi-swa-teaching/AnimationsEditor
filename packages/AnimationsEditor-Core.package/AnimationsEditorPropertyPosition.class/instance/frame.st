@@ -1,3 +1,6 @@
 accessing
 frame 
-	^ self targetPosition x asString.
+	frame 
+		ifNil: [self frame: self defaultFrame].
+	^ frame.
+	

@@ -1,0 +1,3 @@
+animation
+addKeyframe
+	self subclassResponsibility.
