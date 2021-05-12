@@ -5,11 +5,11 @@ createStartInformation: aTreeNode
 	originMorph := aTreeNode copyOfTargetMorph. 
 	
 	json := Dictionary
-		with: #type -> 'Morph'
+		with: #type -> (originMorph class) asString
             with: #properties -> {
 			Dictionary 
 				with: #name -> 'rotation'
-				with: #value -> 0 . 
+				with: #value -> self startRotationValue . 
 			Dictionary
 				with: #name -> 'positionX'
 				with: #value -> originMorph x . 
@@ -27,4 +27,4 @@ createStartInformation: aTreeNode
 				with: #value -> (originMorph color) asString
 			}.
 			
-	^ json
+	^ json.

@@ -13,6 +13,6 @@ addPositionFrame: aTreeNode
 				with: #value -> aTreeNode targetPosition y				
 		}.
 		
-	^ jsonFrame 
+	^ jsonFrame.
 
 	

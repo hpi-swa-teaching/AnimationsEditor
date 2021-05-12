@@ -1,14 +1,11 @@
 safeJson
 safeToJson: aTreeNode
-	| json frame jsonString |
+	| jsonStructure jsonString |
 	
-	json := self createStartInformation: aTreeNode. 
-	frame := ((self addFrame: aTreeNode) at: aTreeNode title asSymbol) value.
-	json add: #frames -> frame.
+	jsonStructure := self createStructureWith: self propertyStartEnd startTime and: self propertyStartEnd endTime.
+	jsonStructure := self addMorphToJsonWith: jsonStructure and: aTreeNode.
 	
-	jsonString := String streamContents: [ :stream |
-   		(STON writer on: stream)
-      		prettyPrint: true;
-      		jsonMode: true;
-      		referencePolicy: #error;
-      		nextPut: json ].
+	jsonString := self dictionaryToJson: jsonStructure.
+
+	self writeJsonToFile: jsonString with: 'testColor'.
+	

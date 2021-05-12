@@ -1,0 +1,3 @@
+safeJson
+startRotationValue
+	^ 0.
