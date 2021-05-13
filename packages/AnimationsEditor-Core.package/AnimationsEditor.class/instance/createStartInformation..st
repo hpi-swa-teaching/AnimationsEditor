@@ -1,4 +1,4 @@
-safeJson
+saveJson
 createStartInformation: aTreeNode 
 	| json originMorph |
 	
@@ -9,19 +9,19 @@ createStartInformation: aTreeNode
             with: #properties -> {
 			Dictionary 
 				with: #name -> 'rotation'
-				with: #value -> self startRotationValue . 
+				with: #value -> originMorph rotationDegrees. 
 			Dictionary
 				with: #name -> 'positionX'
-				with: #value -> originMorph x . 
+				with: #value -> originMorph x. 
 			Dictionary
 				with: #name -> 'positionY'
-				with: #value -> originMorph y . 
+				with: #value -> originMorph y. 
 			Dictionary
 				with: #name -> 'width'
-				with: #value -> originMorph width . 
+				with: #value -> originMorph width. 
 			Dictionary
 				with: #name -> 'height'
-				with: #value -> originMorph height . 
+				with: #value -> originMorph height. 
 			Dictionary
 				with: #name -> 'color'
 				with: #value -> (originMorph color) asString

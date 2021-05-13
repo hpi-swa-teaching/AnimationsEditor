@@ -1,4 +1,4 @@
-safeJson
+saveJson
 addFrame: aTreeNode
 
 	^ { #Position -> [self addPositionFrame: aTreeNode]. 

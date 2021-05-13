@@ -1,4 +1,4 @@
-safeJson
+saveJson
 addColorFrame: aTreeNode
 	| jsonFrame |
 	
@@ -7,7 +7,7 @@ addColorFrame: aTreeNode
 		with: #properties -> { 
 			Dictionary 
 				with: #name -> aTreeNode title  
-				with: #value -> (aTreeNode targetMorph color) asString. 			
+				with: #value -> aTreeNode targetColorAsString. 			
 		}.
 		
 	^ jsonFrame.

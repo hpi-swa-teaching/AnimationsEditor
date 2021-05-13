@@ -1,4 +1,4 @@
-safeJson
+saveJson
 dictionaryToJson: aDictionary
 	^ String streamContents: [ :stream |
    		(STON writer on: stream)

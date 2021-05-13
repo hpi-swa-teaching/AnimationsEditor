@@ -1,5 +1,5 @@
-safeJson
-addMorphToJsonWith: aJsonStructure and: aTreeNode
+saveJson
+addMorphToJson: aJsonStructure with: aTreeNode
 	| frame MorphJson |
 	
 	MorphJson := self createStartInformation: aTreeNode. 

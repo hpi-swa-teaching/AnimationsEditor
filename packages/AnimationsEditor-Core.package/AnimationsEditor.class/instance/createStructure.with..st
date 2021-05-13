@@ -1,5 +1,5 @@
-safeJson
-createStructureWith: aStartTime and: anEndTime
+saveJson
+createStructure: aStartTime with: anEndTime
 	| jsonStructure |
 	
 	jsonStructure := Dictionary

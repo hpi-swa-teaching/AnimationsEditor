@@ -1,4 +1,4 @@
-safeJson
+saveJson
 addSizeFrame: aTreeNode 
 	| jsonFrame |
 	

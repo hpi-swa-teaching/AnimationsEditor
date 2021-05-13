@@ -1,4 +1,4 @@
-safeJson
+saveJson
 addRotationFrame: aTreeNode 
 	| jsonFrame |
 	

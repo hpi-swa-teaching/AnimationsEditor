@@ -1,3 +1,0 @@
-safeJson
-startRotationValue
-	^ 0.
