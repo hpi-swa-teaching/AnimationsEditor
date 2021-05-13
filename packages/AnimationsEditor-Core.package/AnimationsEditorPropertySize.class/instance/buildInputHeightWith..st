@@ -9,6 +9,6 @@ buildInputHeightWith: aBuilder
 								topFraction: 0.5;
 								bottomFraction: 0.8;
 								leftFraction: 0;
-								rightFraction: 1;
+								rightFraction: 0.4;
 								yourself);
 				 yourself.

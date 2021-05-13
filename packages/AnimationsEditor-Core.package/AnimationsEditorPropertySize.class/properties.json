@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "tk 8/7/2020 17:54",
 	"instvars" : [
-		"targetSize" ],
+		"targetSize",
+		"targetSizes" ],
 	"name" : "AnimationsEditorPropertySize",
 	"pools" : [
 		 ],

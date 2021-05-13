@@ -2,17 +2,20 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addKeyframe" : "CL 5/13/2021 11:33",
 		"animationString" : "DM 8/7/2020 21:25",
-		"buildInputColorWith:" : "DM 8/7/2020 10:49",
+		"buildInputColorWith:" : "CL 5/13/2021 11:13",
 		"buildInputFrameWith:" : "CL 5/9/2021 14:22",
 		"buildPanelWith:" : "CL 5/9/2021 14:20",
 		"buildUIWith:" : "JIZ 6/3/2020 17:10",
 		"canCreateAnimation" : "DM 8/6/2020 10:26",
 		"canRenderUI" : "DM 8/5/2020 21:07",
 		"createAnimationFor:" : "DM 8/6/2020 10:20",
-		"createAnimationFor:withDuration:" : "DM 8/6/2020 11:03",
+		"createAnimationFor:withDuration:" : "CL 5/13/2021 12:01",
 		"defaultTargetColor" : "DM 8/7/2020 17:34",
 		"initialize" : "DM 7/7/2020 10:44",
 		"targetColor" : "DM 8/7/2020 17:19",
 		"targetColor:" : "DM 8/6/2020 10:41",
-		"targetColorAsString" : "DM 8/7/2020 10:49" } }
+		"targetColorAsString" : "DM 8/7/2020 10:49",
+		"targetColors" : "CL 5/13/2021 11:18",
+		"targetColors:" : "CL 5/13/2021 11:20" } }

@@ -1,4 +1,4 @@
 accessing
 frame
 
-	^ frame
+	^ self targetFrame asString.

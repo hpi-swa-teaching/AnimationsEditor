@@ -1,11 +1,23 @@
 accessing
 createAnimationFor: aMorph withDuration: aNumber
+	| orderedColl lastKey lastRotation|
+	
+	self targetRotations: (self targetRotations associations sort: #key ascending) asDictionary.
+	
+	orderedColl := OrderedCollection new.
+	lastKey := 0.
+	lastRotation := aMorph rotationDegrees.
 	self targetDuration: aNumber.
-	^ AnimPropertyAnimation new
-									   duration: aNumber;
+	self targetRotations keysAndValuesDo: [:key :value | orderedColl add:   
+		(AnimPropertyAnimation new
+									   duration: key - lastKey;
 									   property: #rotationDegrees;
-									   startValue: (aMorph rotationDegrees);
-									   endValue: (self targetRotation);
+									   startValue: lastRotation;
+									   endValue: value;
 									   target: aMorph;
 									   state: #paused;
-									   yourself.
+									   yourself).
+									lastKey := key.
+									lastRotation := value.
+									].
+	^ orderedColl.

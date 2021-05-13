@@ -1,10 +1,11 @@
 animation
 playAnimationWithDuration: aNumber
-	| animation |
+	| animations comp |
 	self copyOfTargetMorph: self targetMorph copy.
-	animation := (self createAnimationFor: self targetMorph withDuration: aNumber).
-	self canCreateAnimation
-		ifTrue: [animation register;
-									   start]
-		ifFalse: [self copyOfTargetMorph: nil].
+	animations := (self createAnimationFor: self targetMorph withDuration: aNumber).
+	
+	comp := AnimCompositeAnimation new.
+	animations do: [:each | comp add: each].
+	comp start. 
+
 												

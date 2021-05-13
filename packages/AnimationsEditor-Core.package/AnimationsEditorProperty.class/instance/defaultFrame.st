@@ -1,3 +1,3 @@
 defaults
 defaultFrame
-	^0.
+	^ 0.

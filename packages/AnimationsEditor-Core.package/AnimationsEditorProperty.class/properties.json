@@ -12,7 +12,7 @@
 		"copyOfTargetMorph",
 		"animationsEditor",
 		"targetDuration",
-		"frame" ],
+		"targetFrame" ],
 	"name" : "AnimationsEditorProperty",
 	"pools" : [
 		 ],

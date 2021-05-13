@@ -2,6 +2,6 @@ accessing
 targetPositions
 	
 	targetPositions
-		ifNil: [targetPositions := OrderedDictionary new ].
+		ifNil: [targetPositions := OrderedDictionary new].
 			
 	^ targetPositions.
