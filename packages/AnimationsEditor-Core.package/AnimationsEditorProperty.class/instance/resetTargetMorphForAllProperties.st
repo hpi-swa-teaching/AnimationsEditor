@@ -1,3 +1,3 @@
 animation
 resetTargetMorphForAllProperties
-	self subproperties collect: [ :each | each resetTargetMorph ].
+	self subproperties valuesDo: [ :each | each resetTargetMorph ].

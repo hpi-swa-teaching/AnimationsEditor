@@ -6,7 +6,7 @@
 		"testEmptyPanelsSetter" : "DM 8/7/2020 17:37",
 		"testGetDeepestMorph" : "DM 8/4/2020 13:26",
 		"testInstanceCreation" : "DM 8/4/2020 13:26",
-		"testPlayAnimations" : "DM 8/7/2020 19:05",
+		"testPlayAnimations" : "FH 5/13/2021 12:05",
 		"testSelectMorphByHand" : "DM 8/7/2020 18:59",
 		"testToolBuilderGetter" : "DM 8/7/2020 17:53",
 		"testToolBuilderSetter" : "DM 8/7/2020 17:53",
@@ -14,4 +14,4 @@
 		"testTreeSpecPropertyStartEnd" : "DM 8/7/2020 18:59",
 		"testTreeSpecWithNoMorph" : "DM 8/7/2020 18:59",
 		"testTreeSpecWithOneMorph" : "DM 8/7/2020 18:59",
-		"testTreeSpecWithOneMorphPosition" : "DM 8/4/2020 13:31" } }
+		"testTreeSpecWithOneMorphPosition" : "FH 5/13/2021 12:05" } }
