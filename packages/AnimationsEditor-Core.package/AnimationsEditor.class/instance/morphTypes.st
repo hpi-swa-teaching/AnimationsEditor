@@ -1,6 +1,6 @@
-as yet unclassified
+load-json
 morphTypes
-	^{ #RectangleMorph -> [RectangleMorph new].
-        #TextMorph -> [TextMorph new].
-         } as: IdentityDictionary.
-	
+	^ {#Morph -> [Morph new]. 
+	#CircleMorph -> [CircleMorph new]. 
+	#RectangleMorph -> [RectangleMorph new]. 
+	#TextMorph -> [TextMorph new]} as: IdentityDictionary

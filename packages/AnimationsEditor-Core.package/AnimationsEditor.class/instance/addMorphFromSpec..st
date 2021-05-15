@@ -1,10 +1,10 @@
-as yet unclassified
+load-json
 addMorphFromSpec: aDictionary 
 	| morph morphProperty |
 	morph := (self createMorphFromString: (aDictionary at: 'type')) openInWorld.
 	self loadStartProperties: (aDictionary at: 'properties') with: morph.
 	morphProperty := self addTargetMorph: morph.
-	self loadFramesFromJSON: (aDictionary at: 'frames') with: morphProperty.
+	self loadFramesFromJson: (aDictionary at: 'frames') with: morphProperty.
 	
 	
 			
