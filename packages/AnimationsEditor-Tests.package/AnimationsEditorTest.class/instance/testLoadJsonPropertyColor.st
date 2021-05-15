@@ -6,7 +6,7 @@ testLoadJsonPropertyColor
 	data := {{
 					'value' -> 'blue'.
 					'name' -> 'color'
-				} asDictionary}.
+				} as: Dictionary}.
 	morph := Morph new.
 	animationsEditorInstance loadStartProperties: data with: morph.
 	self assert: morph color = Color blue.

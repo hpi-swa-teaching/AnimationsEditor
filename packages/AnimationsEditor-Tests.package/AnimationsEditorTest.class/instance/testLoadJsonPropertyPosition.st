@@ -6,11 +6,11 @@ testLoadJsonPropertyPosition
 	data := {{
 					'value' -> 48.0.
 					'name' -> 'positionX'
-				} asDictionary.
+				} as: Dictionary.
 				{
 					'value' -> 104 .
 					'name' -> 'positionY'
-				} asDictionary}.
+				} as: Dictionary}.
 	morph := Morph new.
 	animationsEditorInstance loadStartProperties: data with: morph.
 	self assert: morph position = (48@104).

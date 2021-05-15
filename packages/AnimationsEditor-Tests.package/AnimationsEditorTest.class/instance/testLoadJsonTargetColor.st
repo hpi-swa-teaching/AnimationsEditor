@@ -6,8 +6,8 @@ testLoadJsonTargetColor
 	data := {{'properties' ->{{
 					'value' -> 'blue'.
 					'name' -> 'color'
-				} asDictionary
-				}} asDictionary} asArray.
+				} as: Dictionary
+				}} as: Dictionary} as: Array.
 	morph := Morph new openInWorld.
 	morphProperty := animationsEditorInstance addTargetMorph: morph.
 	animationsEditorInstance loadFramesFromJson: data with: morphProperty.

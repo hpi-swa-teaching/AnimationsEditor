@@ -6,11 +6,11 @@ testLoadJsonPropertySize
 	data := {{
 					'value' -> 50 .
 					'name' -> 'width'
-				} asDictionary.
+				} as: Dictionary.
 				{
 					'value' -> 40 .
 					'name' -> 'height'
-				} asDictionary}.
+				} as: Dictionary}.
 	morph := Morph new.
 	animationsEditorInstance loadStartProperties: data with: morph.
 	self assert: morph width = 50.

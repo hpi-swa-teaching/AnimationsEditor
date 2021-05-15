@@ -6,12 +6,12 @@ testLoadJsonTargetSize
 	data := {{'properties' ->{{
 					'value' -> 50 .
 					'name' -> 'width'
-				} asDictionary.
+				} as: Dictionary.
 				{
 					'value' -> 40 .
 					'name' -> 'height'
-				} asDictionary
-				}} asDictionary} asArray.
+				} as: Dictionary
+				}} as: Dictionary} as: Array.
 	morph := Morph new openInWorld.
 	morphProperty := animationsEditorInstance addTargetMorph: morph.
 	animationsEditorInstance loadFramesFromJson: data with: morphProperty.

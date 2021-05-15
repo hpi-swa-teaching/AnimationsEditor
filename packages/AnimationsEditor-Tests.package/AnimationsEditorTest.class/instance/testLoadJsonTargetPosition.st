@@ -6,11 +6,11 @@ testLoadJsonTargetPosition
 	data := {{'properties' ->{{
 					'value' -> 48.0.
 					'name' -> 'positionX'
-				} asDictionary.
+				} as: Dictionary.
 				{
 					'value' -> 104 .
 					'name' -> 'positionY'
-				} asDictionary}} asDictionary} asArray.
+				} as: Dictionary}} as: Dictionary} as: Array.
 	morph := Morph new openInWorld.
 	morphProperty := animationsEditorInstance addTargetMorph: morph.
 	animationsEditorInstance loadFramesFromJson: data with: morphProperty.

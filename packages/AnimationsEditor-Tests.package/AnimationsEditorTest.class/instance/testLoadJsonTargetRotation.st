@@ -6,7 +6,7 @@ testLoadJsonTargetRotation
 	data := {{'properties' ->{{
 					'value' -> 40 .
 					'name' -> 'rotation'
-				}asDictionary}} asDictionary} asArray.
+				}as: Dictionary}} as: Dictionary} as: Array.
 	morph := Morph new openInWorld.
 	morphProperty := animationsEditorInstance addTargetMorph: morph.
 	animationsEditorInstance loadFramesFromJson: data with: morphProperty.

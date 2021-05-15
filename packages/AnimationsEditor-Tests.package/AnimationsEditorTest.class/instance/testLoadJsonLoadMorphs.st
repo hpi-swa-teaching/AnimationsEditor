@@ -3,7 +3,7 @@ testLoadJsonLoadMorphs
 	| animationsEditorInstance morph data |
 	
 	animationsEditorInstance := AnimationsEditor open.
-	data := {{'type' -> 'Morph' . 'properties' -> {} . 'frames' -> {{'properties' -> {}} asDictionary}} asDictionary . {'type' -> 'Morph' . 'properties' -> {} . 'frames' -> {{'properties' -> {}} asDictionary}} asDictionary}.
+	data := {{'type' -> 'Morph' . 'properties' -> {} . 'frames' -> {{'properties' -> {}} as: Dictionary}} as: Dictionary . {'type' -> 'Morph' . 'properties' -> {} . 'frames' -> {{'properties' -> {}} as: Dictionary}} as: Dictionary}.
 	morph := animationsEditorInstance loadMorphs: data.
 	self assert: animationsEditorInstance propertyList size = 3.
 	animationsEditorInstance propertyList second targetMorph abandon.
