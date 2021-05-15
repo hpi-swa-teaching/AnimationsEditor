@@ -1,5 +1,5 @@
 saveJson
-addColorFrame: aTreeNode
+addColorFrame: aTreeNode 
 	| jsonFrame |
 	
 	jsonFrame := Dictionary
@@ -7,7 +7,9 @@ addColorFrame: aTreeNode
 		with: #properties -> { 
 			Dictionary 
 				with: #name -> aTreeNode title  
-				with: #value -> aTreeNode targetColorAsString. 			
+				with: #value -> aTreeNode targetColorAsString		
 		}.
 		
 	^ jsonFrame.
+
+	

@@ -1,5 +1,10 @@
 saveJson
 setUp
-	self animationsEditor: AnimationsEditor open.
-	self animationsEditor addTargetMorph: Morph new.
+	| morph |
+	
+	self animationsEditorInstance: AnimationsEditor open.
+	morph := Morph new.
+	morph openInWorld.
+	animationsEditorInstance addTargetMorph: morph.
+	
 	

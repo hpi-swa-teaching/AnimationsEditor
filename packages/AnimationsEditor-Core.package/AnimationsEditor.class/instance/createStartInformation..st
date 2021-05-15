@@ -1,30 +1,25 @@
 saveJson
-createStartInformation: aTreeNode 
-	| json originMorph |
+createStartInformation: aMorph
 	
-	originMorph := aTreeNode copyOfTargetMorph. 
-	
-	json := Dictionary
-		with: #type -> (originMorph class) asString
+	^ Dictionary
+		with: #type -> (aMorph class) asString
             with: #properties -> {
 			Dictionary 
 				with: #name -> 'rotation'
-				with: #value -> originMorph rotationDegrees. 
+				with: #value -> aMorph rotationDegrees. 
 			Dictionary
 				with: #name -> 'positionX'
-				with: #value -> originMorph x. 
+				with: #value -> aMorph x. 
 			Dictionary
 				with: #name -> 'positionY'
-				with: #value -> originMorph y. 
+				with: #value -> aMorph y. 
 			Dictionary
 				with: #name -> 'width'
-				with: #value -> originMorph width. 
+				with: #value -> aMorph width. 
 			Dictionary
 				with: #name -> 'height'
-				with: #value -> originMorph height. 
+				with: #value -> aMorph height. 
 			Dictionary
 				with: #name -> 'color'
-				with: #value -> (originMorph color) asString
+				with: #value -> (aMorph color) asString
 			}.
-			
-	^ json.

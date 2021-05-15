@@ -6,6 +6,6 @@ saveToJson: aTreeNode
 	jsonStructure := self addMorphToJson: jsonStructure with: aTreeNode.
 	
 	jsonString := self dictionaryToJson: jsonStructure.
-
-	self writeJsonToFile: jsonString.
+	
+	self writeJsonToFile: jsonString with: self outputFileDirectory. 
 	

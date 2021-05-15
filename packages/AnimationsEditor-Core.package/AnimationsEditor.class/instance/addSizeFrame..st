@@ -6,10 +6,10 @@ addSizeFrame: aTreeNode
 		with: #frame -> aTreeNode targetDuration
 		with: #properties -> { 
 			Dictionary 
-				with: #name -> 'width' 
+				with: #name -> 'Width' 
 				with: #value -> aTreeNode targetSize x.
 			Dictionary 
-				with: #name -> 'height'
+				with: #name -> 'Height'
 				with: #value -> aTreeNode targetSize y				
 		}.
 		
