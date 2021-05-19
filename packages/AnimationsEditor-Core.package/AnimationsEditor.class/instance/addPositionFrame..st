@@ -6,11 +6,11 @@ addPositionFrame: aTreeNode
 		with: #frame -> aTreeNode targetDuration
 		with: #properties -> { 
 			Dictionary 
-				with: #name -> (aTreeNode title, 'X')  
-				with: #value -> aTreeNode targetPosition x . 
+				with: #name -> (aTreeNode title, 'X') asLowercase 
+				with: #value -> aTreeNode targetPosition x. 
 			Dictionary 
-				with: #name -> (aTreeNode title, 'Y') 
-				with: #value -> aTreeNode targetPosition y				
+				with: #name -> (aTreeNode title, 'Y') asLowercase
+				with: #value -> aTreeNode targetPosition y.			
 		}.
 		
 	^ jsonFrame.

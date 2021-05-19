@@ -6,11 +6,11 @@ addSizeFrame: aTreeNode
 		with: #frame -> aTreeNode targetDuration
 		with: #properties -> { 
 			Dictionary 
-				with: #name -> 'Width' 
+				with: #name -> 'width' 
 				with: #value -> aTreeNode targetSize x.
 			Dictionary 
-				with: #name -> 'Height'
-				with: #value -> aTreeNode targetSize y				
+				with: #name -> 'height'
+				with: #value -> aTreeNode targetSize y.				
 		}.
 		
 	^ jsonFrame.

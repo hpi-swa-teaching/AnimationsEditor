@@ -6,8 +6,8 @@ addRotationFrame: aTreeNode
 		with: #frame -> aTreeNode targetDuration
 		with: #properties -> { 
 			Dictionary 
-				with: #name -> aTreeNode title  
-				with: #value -> aTreeNode targetRotation			
+				with: #name -> aTreeNode title asLowercase  
+				with: #value -> aTreeNode targetRotation.			
 		}.
 		
 	^ jsonFrame.

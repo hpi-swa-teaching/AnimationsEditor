@@ -1,17 +1,30 @@
 saveJson
 testAddSizeFrame
-	| sizeProperty jsonFrame aTreeNode |
+	| jsonFrame aTreeNode animationsEditorProperty testFrame |
 	
-	sizeProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 4). "1: Rotation, 2: Color, 3: Position, 4: Size"
-	sizeProperty targetSize: 200 @ 100. 
-
-	self animationsEditorInstance selectedTreeNode: sizeProperty.
-	self animationsEditorInstance playAnimations.	
-	aTreeNode := self animationsEditorInstance selectedTreeNode. 
+	"still need to extract instantiation of the TreeNode"
+	animationsEditorProperty := self animationsEditorInstance propertyList at: 2.
+	aTreeNode := AnimationsEditorPropertySize new.
+	aTreeNode
+		copyOfTargetMorph: animationsEditorProperty targetMorph;
+		targetMorph: aTreeNode copyOfTargetMorph copy.
+	aTreeNode targetMorph extent: 100 @ 200.
+	aTreeNode	
+		targetDuration: animationsEditorProperty defaultTargetDuration;
+		targetSize: 100 @ 200.
 	
 	jsonFrame := self animationsEditorInstance addSizeFrame: aTreeNode.
-	self assert: (jsonFrame at: #frame) equals: aTreeNode targetDuration.
-	self assert: (((jsonFrame at: #properties) at: 1) at: #name) equals: 'Width'.  
-	self assert: (((jsonFrame at: #properties) at: 1) at: #value) equals: 200.  
-	self assert: (((jsonFrame at: #properties) at: 2) at: #name) equals: 'Height'.  
-	self assert: (((jsonFrame at: #properties) at: 2) at: #value) equals: 100. 
+	
+	"also extract instantiation of testFrame"
+	testFrame := Dictionary
+		with: #frame -> 500
+		with: #properties -> { 
+			Dictionary 
+				with: #name -> 'width' 
+				with: #value -> 100.
+			Dictionary 
+				with: #name -> 'height'
+				with: #value -> 200.		
+		}.
+		
+	self assert: (jsonFrame = testFrame).

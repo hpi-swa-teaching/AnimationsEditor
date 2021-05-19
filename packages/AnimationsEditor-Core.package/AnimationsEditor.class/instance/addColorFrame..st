@@ -6,8 +6,8 @@ addColorFrame: aTreeNode
 		with: #frame -> aTreeNode targetDuration
 		with: #properties -> { 
 			Dictionary 
-				with: #name -> aTreeNode title  
-				with: #value -> aTreeNode targetColorAsString		
+				with: #name -> aTreeNode title asLowercase
+				with: #value -> aTreeNode targetColorAsString.
 		}.
 		
 	^ jsonFrame.

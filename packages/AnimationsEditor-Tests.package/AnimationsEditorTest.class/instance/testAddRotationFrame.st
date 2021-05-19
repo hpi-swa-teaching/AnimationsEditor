@@ -1,15 +1,27 @@
 saveJson
 testAddRotationFrame
-	| rotationProperty jsonFrame aTreeNode |
+	| jsonFrame aTreeNode animationsEditorProperty testFrame |
 	
-	rotationProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 1). "1: Rotation, 2: Color, 3: Position, 4: Size"
-	rotationProperty targetRotation: 45. 
-
-	self animationsEditorInstance selectedTreeNode: rotationProperty.
-	self animationsEditorInstance playAnimations.	
-	aTreeNode := self animationsEditorInstance selectedTreeNode. 
+	"still need to extract instantiation of the TreeNode"
+	animationsEditorProperty := self animationsEditorInstance propertyList at: 2.
+	aTreeNode := AnimationsEditorPropertyRotation new.
+	aTreeNode
+		copyOfTargetMorph: animationsEditorProperty targetMorph;
+		targetMorph: aTreeNode copyOfTargetMorph copy.
+	aTreeNode targetMorph rotationDegrees: 70.
+	aTreeNode	
+		targetDuration: animationsEditorProperty defaultTargetDuration;
+		targetRotation: 70.
 	
 	jsonFrame := self animationsEditorInstance addRotationFrame: aTreeNode.
-	self assert: (jsonFrame at: #frame) equals: aTreeNode targetDuration.
-	self assert: (((jsonFrame at: #properties) at: 1) at: #name) equals: 'Rotation'.  
-	self assert: (((jsonFrame at: #properties) at: 1) at: #value) equals: 45.  
+	
+	"also extract instantiation of testFrame"
+	testFrame := Dictionary
+		with: #frame -> 500
+		with: #properties -> { 
+			Dictionary 
+				with: #name -> 'Rotation'  
+				with: #value -> 70.			
+		}.
+		
+	self assert: (jsonFrame = testFrame).

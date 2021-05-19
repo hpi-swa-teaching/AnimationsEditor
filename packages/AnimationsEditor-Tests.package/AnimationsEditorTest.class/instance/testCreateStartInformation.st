@@ -1,22 +1,34 @@
 saveJson
 testCreateStartInformation 
-	| json aMorph |
+	| json aMorph testJson |
 
 	aMorph := (self animationsEditorInstance propertyList at: 2) targetMorph. 
 	json := self animationsEditorInstance createStartInformation: aMorph. 
 	
+	"also extract instantiation of testFrame"
+	testJson := Dictionary
+		with: #type -> 'Morph'
+            with: #properties -> {
+			Dictionary 
+				with: #name -> 'rotation'
+				with: #value -> 0. 
+			Dictionary
+				with: #name -> 'positionX'
+				with: #value -> 25. 
+			Dictionary
+				with: #name -> 'positionY'
+				with: #value -> 974. 
+			Dictionary
+				with: #name -> 'width'
+				with: #value -> 50. 
+			Dictionary
+				with: #name -> 'height'
+				with: #value -> 40. 
+			Dictionary
+				with: #name -> 'color'
+				with: #value -> 'Color blue'.
+			}.
+	
 	"maby it's better to compare two dicts"
-	self assert: (json at: #type) equals: (aMorph class) asString. 
-	self assert: (((json at: #properties) at: 1) at: #name) equals: 'rotation'.  
-	self assert: (((json at: #properties) at: 1) at: #value) equals: aMorph rotationDegrees.  
-	self assert: (((json at: #properties) at: 2) at: #name) equals: 'positionX'.  
-	self assert: (((json at: #properties) at: 2) at: #value) equals: aMorph x. 
-	self assert: (((json at: #properties) at: 3) at: #name) equals: 'positionY'.  
-	self assert: (((json at: #properties) at: 3) at: #value) equals: aMorph y. 
-	self assert: (((json at: #properties) at: 4) at: #name) equals: 'width'.  
-	self assert: (((json at: #properties) at: 4) at: #value) equals: aMorph width. 
-	self assert: (((json at: #properties) at: 5) at: #name) equals: 'height'.  
-	self assert: (((json at: #properties) at: 5) at: #value) equals: aMorph height. 
-	self assert: (((json at: #properties) at: 6) at: #name) equals: 'color'.  
-	self assert: (((json at: #properties) at: 6) at: #value) equals: (aMorph color) asString.
+	self assert: (json = testJson)
 	

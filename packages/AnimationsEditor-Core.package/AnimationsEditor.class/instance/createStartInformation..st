@@ -2,7 +2,7 @@ saveJson
 createStartInformation: aMorph
 	
 	^ Dictionary
-		with: #type -> (aMorph class) asString
+		with: #type -> aMorph class asString
             with: #properties -> {
 			Dictionary 
 				with: #name -> 'rotation'
@@ -21,5 +21,5 @@ createStartInformation: aMorph
 				with: #value -> aMorph height. 
 			Dictionary
 				with: #name -> 'color'
-				with: #value -> (aMorph color) asString
+				with: #value -> aMorph color asString.
 			}.
