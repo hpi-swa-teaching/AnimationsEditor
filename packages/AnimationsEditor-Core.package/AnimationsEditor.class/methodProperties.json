@@ -2,10 +2,10 @@
 	"class" : {
 		"open" : "DM 8/4/2020 13:18" },
 	"instance" : {
-		"addColorFrame:" : "NB 5/19/2021 12:43",
+		"addColorFrame:" : "MH 5/20/2021 09:25",
 		"addFrame:" : "NB 5/12/2021 09:25",
 		"addMorphToJson:with:" : "MH 5/15/2021 11:15",
-		"addPositionFrame:" : "NB 5/19/2021 12:43",
+		"addPositionFrame:" : "MH 5/20/2021 09:32",
 		"addRotationFrame:" : "NB 5/19/2021 12:43",
 		"addSelectedMorphFor:" : "DM 8/5/2020 21:11",
 		"addSizeFrame:" : "NB 5/19/2021 12:43",
@@ -29,7 +29,7 @@
 		"createPositionPropertyFrom:" : "DM 8/6/2020 10:09",
 		"createRotationPropertyFrom:" : "DM 7/8/2020 14:29",
 		"createSizePropertyFrom:" : "DM 7/8/2020 14:29",
-		"createStartInformation:" : "MH 5/20/2021 08:14",
+		"createStartInformation:" : "MH 5/20/2021 09:30",
 		"createStructure:with:" : "NB 5/13/2021 10:25",
 		"defaultEmptyPanels" : "DM 8/7/2020 17:37",
 		"defaultPropertyPanelPosition" : "DM 8/6/2020 10:38",

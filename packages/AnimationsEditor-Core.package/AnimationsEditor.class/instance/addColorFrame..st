@@ -7,7 +7,7 @@ addColorFrame: aTreeNode
 		with: #properties -> { 
 			Dictionary 
 				with: #name -> aTreeNode title asLowercase
-				with: #value -> aTreeNode targetColorAsString.
+				with: #value -> aTreeNode targetColor rgbTriplet. 
 		}.
 		
 	^ jsonFrame.

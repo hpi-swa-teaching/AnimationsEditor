@@ -12,16 +12,16 @@ testAddColorFrame
 	aTreeNode	
 		targetDuration: animationsEditorProperty defaultTargetDuration;
 		targetColor: 'red'.
-		
-	jsonFrame := self animationsEditorInstance addColorFrame: aTreeNode.
 	
+	jsonFrame := self animationsEditorInstance addColorFrame: aTreeNode.
+	self halt. 
 	"also extract instantiation of testFrame"
 	testFrame := Dictionary  
 		with: #frame->500
 		with: #properties->{
 			Dictionary
 				with: #name->'color'
-				with: #value->'Color red'.
+				with: #value-> #(1.0 0.0 0.0).
 		}. 
 	
 	self assert: jsonFrame equals: testFrame.
