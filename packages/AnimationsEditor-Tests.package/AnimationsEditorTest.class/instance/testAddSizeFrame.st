@@ -27,4 +27,4 @@ testAddSizeFrame
 				with: #value -> 200.		
 		}.
 		
-	self assert: (jsonFrame = testFrame).
+	self assert: jsonFrame equals: testFrame.

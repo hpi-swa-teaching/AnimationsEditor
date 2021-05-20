@@ -20,11 +20,11 @@ testAddPositionFrame
 		with: #frame -> 500
 		with: #properties -> { 
 			Dictionary 
-				with: #name -> 'PositionX'  
+				with: #name -> 'positionx'  
 				with: #value -> 100. 
 			Dictionary 
-				with: #name -> 'PositionY'
+				with: #name -> 'positiony'
 				with: #value -> 200.				
 		}.
 		
-	self assert: (jsonFrame = testFrame).
+	self assert: jsonFrame equals: testFrame.

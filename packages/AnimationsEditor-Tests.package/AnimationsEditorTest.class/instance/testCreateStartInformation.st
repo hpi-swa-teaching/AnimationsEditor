@@ -11,24 +11,23 @@ testCreateStartInformation
             with: #properties -> {
 			Dictionary 
 				with: #name -> 'rotation'
-				with: #value -> 0. 
+				with: #value -> aMorph rotationDegrees. 
 			Dictionary
-				with: #name -> 'positionX'
-				with: #value -> 25. 
+				with: #name -> 'positionx'
+				with: #value -> aMorph x. 
 			Dictionary
-				with: #name -> 'positionY'
-				with: #value -> 974. 
+				with: #name -> 'positiony'
+				with: #value -> aMorph y. 
 			Dictionary
 				with: #name -> 'width'
-				with: #value -> 50. 
+				with: #value -> aMorph width. 
 			Dictionary
 				with: #name -> 'height'
-				with: #value -> 40. 
+				with: #value -> aMorph height. 
 			Dictionary
 				with: #name -> 'color'
-				with: #value -> 'Color blue'.
+				with: #value -> (aMorph color) asString.
 			}.
-	
-	"maby it's better to compare two dicts"
-	self assert: (json = testJson)
+			
+	self assert: json equals: testJson. 
 	

@@ -20,8 +20,8 @@ testAddColorFrame
 		with: #frame->500
 		with: #properties->{
 			Dictionary
-				with: #name->'Color'
+				with: #name->'color'
 				with: #value->'Color red'.
 		}. 
 	
-	self assert: (jsonFrame = testFrame).
+	self assert: jsonFrame equals: testFrame.

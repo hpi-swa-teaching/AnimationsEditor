@@ -20,8 +20,8 @@ testAddRotationFrame
 		with: #frame -> 500
 		with: #properties -> { 
 			Dictionary 
-				with: #name -> 'Rotation'  
+				with: #name -> 'rotation'  
 				with: #value -> 70.			
 		}.
 		
-	self assert: (jsonFrame = testFrame).
+	self assert: jsonFrame equals: testFrame.

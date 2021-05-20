@@ -8,10 +8,10 @@ createStartInformation: aMorph
 				with: #name -> 'rotation'
 				with: #value -> aMorph rotationDegrees. 
 			Dictionary
-				with: #name -> 'positionX'
+				with: #name -> 'positionx'
 				with: #value -> aMorph x. 
 			Dictionary
-				with: #name -> 'positionY'
+				with: #name -> 'positiony'
 				with: #value -> aMorph y. 
 			Dictionary
 				with: #name -> 'width'
