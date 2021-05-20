@@ -4,7 +4,7 @@ testDictionaryToJson
 	
 	json := Dictionary
 		with: #Test ->  100. 	
-							
+										
 	jsonString :=  '{
 	"Test" : 100
 }'. 
