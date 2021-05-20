@@ -7,7 +7,4 @@ testLoadJsonStartEnd
 	animationsEditorInstance loadStartEnd: data.
 	self assert: animationsEditorInstance propertyList first startTime = 0.
 	self assert: animationsEditorInstance propertyList first endTime = 500.
-
-	"self loadMorphs: (data at: 'morphs')."
-	"animationsEditorInstance loadJSON: "
 	animationsEditorInstance windowReference abandon.

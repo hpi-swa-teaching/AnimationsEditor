@@ -3,6 +3,6 @@ testLoadJsonDefaultMorph
 	| animationsEditorInstance morph |
 	
 	animationsEditorInstance := AnimationsEditor open.
-	morph := animationsEditorInstance createMorphFromString: 'Klippschliefer'.
+	morph := animationsEditorInstance createMorphFromString: 'AnimationsEditorKlippschliefer'.
 	self assert: morph class = Morph.
 	animationsEditorInstance windowReference abandon.
