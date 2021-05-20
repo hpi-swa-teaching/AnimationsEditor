@@ -1,5 +1,5 @@
 eventHandling
-openMorphLoadingField
+handleLoadJsonButton
 	| path |
 	path := UIManager default chooseFileMatching: '*.json'.
 	path isString

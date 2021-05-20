@@ -1,8 +1,8 @@
 buildComponents
-buildLoadJSONButtonWith: aBuilder
+buildLoadJsonButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new model: self;
 		 label: 'Load JSON';
-		 action: #openMorphLoadingField;
+		 action: #handleLoadJsonButton;
 		 frame: (LayoutFrame new
 						topFraction: 0;
 						bottomFraction: 1;

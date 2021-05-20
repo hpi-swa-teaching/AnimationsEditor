@@ -12,5 +12,5 @@ buildButtonBarWith: aBuilder
 							self buildSaveButtonWith: aBuilder.
 						  	self buildPlayButtonWith: aBuilder.
 							self buildResetButtonWith: aBuilder.
-							self buildLoadJSONButtonWith: aBuilder.};
+							self buildLoadJsonButtonWith: aBuilder.};
 			yourself.	 		
