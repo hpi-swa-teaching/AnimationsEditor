@@ -1,3 +1,3 @@
 code-generation
-createAnimationFor: aMorph withDuration: aNumber
+createAnimationFor: aMorph withStartEnd: aStartEndProperty
 	self animationsEditor updateInformationText: 'Please select a valid Animation Field!'.	

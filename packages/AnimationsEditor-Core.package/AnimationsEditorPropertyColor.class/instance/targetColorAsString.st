@@ -1,3 +1,3 @@
 accessing
 targetColorAsString
-	 ^ self targetColor asString.
+	 ^ (self targetColor asString) copyReplaceAll: 'Color ' with: ''.
