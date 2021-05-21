@@ -1,10 +1,7 @@
 saveJson
 writeJsonToFile: aJsonString with: aDirectory
-	| outputStream |
 	aDirectory
 		ifNotNil: [
-			outputStream := StandardFileStream newFileNamed: aDirectory, '.json'.
-			aJsonString storeOn: outputStream
+            	FileDirectory default forceNewFileNamed: aDirectory, '.json' do: [:stream |
+            	stream nextPutAll: aJsonString].
 		]
-	
-	
