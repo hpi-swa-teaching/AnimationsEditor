@@ -1,3 +1,3 @@
-code-generation
+codeGeneration
 createAnimationFor: aMorph
 	self subclassResponsibility.

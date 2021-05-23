@@ -1,3 +1,3 @@
-build-component
+buildComponents
 buildUIWith: aBuilder
 	self subclassResponsibility.

@@ -11,5 +11,6 @@ buildButtonBarWith: aBuilder
 			children: {self buildAddMorphButtonWith: aBuilder.
 							self buildSaveButtonWith: aBuilder.
 						  	self buildPlayButtonWith: aBuilder.
-							self buildResetButtonWith: aBuilder. };
+							self buildResetButtonWith: aBuilder.
+							self buildLoadJsonButtonWith: aBuilder.};
 			yourself.	 		

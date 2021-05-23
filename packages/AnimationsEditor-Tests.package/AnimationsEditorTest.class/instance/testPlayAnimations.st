@@ -8,7 +8,7 @@ testPlayAnimations
 	animationsEditorInstance addTargetMorph: morph.
 	
 	self flag: #todo.
-	positionProperty := ((animationsEditorInstance propertyList at: 2) subproperties at: 3).
+	positionProperty := ((animationsEditorInstance propertyList at: 2) subproperties at: 'position').
 	positionProperty positionX: 555.
 	positionProperty positionY: 555.
 	

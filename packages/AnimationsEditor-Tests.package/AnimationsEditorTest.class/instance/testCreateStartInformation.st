@@ -2,7 +2,7 @@ saveJson
 testCreateStartInformation 
 	| json aMorph testJson |
 
-	aMorph := (self animationsEditorInstance propertyList at: 2) targetMorph. 
+	aMorph := (self animationsEditorInstance propertyList second) targetMorph.
 	json := self animationsEditorInstance createStartInformation: aMorph. 
 	testJson := self startInformationDictionary: aMorph. 
 			
