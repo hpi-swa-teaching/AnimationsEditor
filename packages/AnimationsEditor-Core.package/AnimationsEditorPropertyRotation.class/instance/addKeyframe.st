@@ -1,3 +1,3 @@
 accessing
 addKeyframe
-	self targetRotations at: self targetFrame put: (self targetRotation) deepCopy.
+	self targetValues at: self targetFrame put: (self targetRotation) deepCopy.

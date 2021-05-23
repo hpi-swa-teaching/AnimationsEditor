@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addKeyframe" : "CL 5/13/2021 10:33",
+		"addKeyframe" : "mjs 5/23/2021 13:58",
+		"animationPropertyFor:" : "mjs 5/23/2021 13:50",
 		"animationString" : "DM 8/7/2020 21:25",
 		"buildInputFrameWith:" : "CL 5/11/2021 10:46",
 		"buildInputXWith:" : "CL 5/9/2021 14:15",
@@ -11,7 +12,8 @@
 		"buildUIWith:" : "JIZ 6/3/2020 17:10",
 		"canCreateAnimation" : "DM 8/6/2020 10:26",
 		"canRenderUI" : "DM 8/5/2020 21:07",
-		"createAnimationFor:withStartEnd:" : "mjs 5/21/2021 11:53",
+		"createAnimationFor:withKey:withLastKey:withValue:withTargetValue:" : "mjs 5/23/2021 13:54",
+		"createAnimationFor:withStartEnd:" : "mjs 5/23/2021 13:39",
 		"defaultTargetPosition" : "DM 8/6/2020 10:44",
 		"initialize" : "DM 8/6/2020 10:08",
 		"positionX" : "DM 8/6/2020 10:07",

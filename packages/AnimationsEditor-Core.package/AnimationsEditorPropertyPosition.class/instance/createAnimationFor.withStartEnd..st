@@ -2,9 +2,6 @@ accessing
 createAnimationFor: aMorph withStartEnd: aStartEndProperty
 	| orderedColl lastKey lastPosition|
 	
-	"self targetPositions: (self targetPositions associations sort: #key ascending) asDictionary."
-	"orderedtargets := (self targetPositions associations sort: #key ascending) asDictionary."
-	
 	orderedColl := OrderedCollection new.
 	lastKey := 0.
 	lastPosition := aMorph position.

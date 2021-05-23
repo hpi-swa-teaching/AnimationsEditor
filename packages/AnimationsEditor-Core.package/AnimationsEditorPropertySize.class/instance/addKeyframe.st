@@ -1,3 +1,3 @@
 accessing
 addKeyframe
-	self targetSizes at: self targetFrame put: (self targetSize) deepCopy.
+	self targetValues at: self targetFrame put: (self targetSize) deepCopy.
