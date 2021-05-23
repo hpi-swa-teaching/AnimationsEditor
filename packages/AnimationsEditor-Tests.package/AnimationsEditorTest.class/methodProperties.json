@@ -2,12 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"animationsEditorInstance" : "CL 5/23/2021 15:02",
+		"animationsEditorInstance:" : "CL 5/23/2021 15:02",
+		"setUp" : "CL 5/23/2021 15:31",
+		"tearDown" : "CL 5/23/2021 15:33",
 		"testEmptyPanelsGetter" : "DM 8/7/2020 17:52",
 		"testEmptyPanelsSetter" : "DM 8/7/2020 17:37",
 		"testGetDeepestMorph" : "DM 8/4/2020 13:26",
 		"testInstanceCreation" : "DM 8/4/2020 13:26",
-		"testPlayAnimations" : "DM 8/7/2020 19:05",
+		"testPlayAnimations" : "CL 5/23/2021 15:35",
 		"testSelectMorphByHand" : "DM 8/7/2020 18:59",
+		"testShowMessagePlayAnimation" : "CL 5/23/2021 15:49",
 		"testToolBuilderGetter" : "DM 8/7/2020 17:53",
 		"testToolBuilderSetter" : "DM 8/7/2020 17:53",
 		"testTreeSpecProperty" : "DM 8/7/2020 18:59",
