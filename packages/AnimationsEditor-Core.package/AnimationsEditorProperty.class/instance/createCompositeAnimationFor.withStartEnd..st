@@ -10,11 +10,11 @@ createCompositeAnimationFor: aMorph withStartEnd: aStartEndProperty
 		(key <= aStartEndProperty endTime and: [key >= aStartEndProperty startTime])
 		ifTrue: [
 			orderedColl add:   
-			(self createAnimationFor: aMorph withKey: key withLastKey: lastKey withValue: value withTargetValue: lastTargetValue).
-										lastKey := key.
-										lastTargetValue := value.
-										]
+				(self createAnimationFor: aMorph withKey: key withLastKey: lastKey withValue: value withTargetValue: lastTargetValue).
+			lastKey := key.
+			lastTargetValue := value.]
 		ifFalse: [
 			aStartEndProperty animationsEditor updateInformationText: 'Keyframe time out of bounds'.].
-		].
+	].
+
 	^ orderedColl.

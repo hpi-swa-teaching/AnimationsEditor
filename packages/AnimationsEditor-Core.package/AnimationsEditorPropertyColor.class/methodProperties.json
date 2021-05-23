@@ -11,11 +11,9 @@
 		"buildUIWith:" : "JIZ 6/3/2020 17:10",
 		"canCreateAnimation" : "DM 8/6/2020 10:26",
 		"canRenderUI" : "DM 8/5/2020 21:07",
-		"createAnimationFor:withStartEnd:" : "mjs 5/21/2021 11:54",
+		"createAnimationFor:withKey:withLastKey:withValue:withTargetValue:" : "mjs 5/23/2021 14:14",
 		"defaultTargetColor" : "mjs 5/21/2021 11:39",
 		"initialize" : "DM 7/7/2020 10:44",
 		"targetColor" : "DM 8/7/2020 17:19",
 		"targetColor:" : "DM 8/6/2020 10:41",
-		"targetColorAsString" : "mjs 5/21/2021 11:48",
-		"targetColors" : "CL 5/13/2021 11:18",
-		"targetColors:" : "CL 5/13/2021 11:20" } }
+		"targetColorAsString" : "mjs 5/21/2021 11:48" } }

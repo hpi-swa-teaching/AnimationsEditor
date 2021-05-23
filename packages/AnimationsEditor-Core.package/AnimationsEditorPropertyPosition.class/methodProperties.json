@@ -13,7 +13,6 @@
 		"canCreateAnimation" : "DM 8/6/2020 10:26",
 		"canRenderUI" : "DM 8/5/2020 21:07",
 		"createAnimationFor:withKey:withLastKey:withValue:withTargetValue:" : "mjs 5/23/2021 13:54",
-		"createAnimationFor:withStartEnd:" : "mjs 5/23/2021 13:39",
 		"defaultTargetPosition" : "DM 8/6/2020 10:44",
 		"initialize" : "DM 8/6/2020 10:08",
 		"positionX" : "DM 8/6/2020 10:07",
@@ -22,6 +21,4 @@
 		"positionY:" : "DM 8/6/2020 10:09",
 		"setFrame:" : "CL 5/11/2021 10:48",
 		"targetPosition" : "DM 8/6/2020 10:44",
-		"targetPosition:" : "DM 8/6/2020 10:07",
-		"targetPositions" : "CL 5/13/2021 11:50",
-		"targetPositions:" : "CL 5/9/2021 14:46" } }
+		"targetPosition:" : "DM 8/6/2020 10:07" } }
