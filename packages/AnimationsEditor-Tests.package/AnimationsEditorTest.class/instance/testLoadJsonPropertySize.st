@@ -1,8 +1,7 @@
 initialize-release
 testLoadJsonPropertySize
-	| animationsEditorInstance morph data |
+	| morph data |
 	
-	animationsEditorInstance := AnimationsEditor open.
 	data := {{
 					'value' -> 50 .
 					'name' -> 'width'
@@ -12,7 +11,6 @@ testLoadJsonPropertySize
 					'name' -> 'height'
 				} as: Dictionary}.
 	morph := Morph new.
-	animationsEditorInstance loadStartProperties: data with: morph.
+	self animationsEditorInstance loadStartProperties: data with: morph.
 	self assert: morph width = 50.
 	self assert: morph height = 40.
-	animationsEditorInstance windowReference abandon.

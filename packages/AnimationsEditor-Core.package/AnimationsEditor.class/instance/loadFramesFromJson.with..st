@@ -1,4 +1,4 @@
-load-json
+loadJson
 loadFramesFromJson: anArray with: anAnimationEditorProperty
 	(anArray first at: 'properties')
 		do: [:each | (self framePropertiesDictionary at: (each at: 'name') asSymbol)

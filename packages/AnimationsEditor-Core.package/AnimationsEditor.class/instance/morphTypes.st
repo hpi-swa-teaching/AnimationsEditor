@@ -1,4 +1,4 @@
-load-json
+loadJson
 morphTypes
 	^ {#Morph -> [Morph new]. 
 	#CircleMorph -> [CircleMorph new]. 

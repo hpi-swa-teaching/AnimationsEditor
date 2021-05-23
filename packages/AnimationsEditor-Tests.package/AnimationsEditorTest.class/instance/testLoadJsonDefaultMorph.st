@@ -1,8 +1,6 @@
 initialize-release
 testLoadJsonDefaultMorph
-	| animationsEditorInstance morph |
+	| morph |
 	
-	animationsEditorInstance := AnimationsEditor open.
-	morph := animationsEditorInstance createMorphFromString: 'AnimationsEditorKlippschliefer'.
+	morph := self animationsEditorInstance createMorphFromString: 'AnimationsEditorKlippschliefer'.
 	self assert: morph class = Morph.
-	animationsEditorInstance windowReference abandon.

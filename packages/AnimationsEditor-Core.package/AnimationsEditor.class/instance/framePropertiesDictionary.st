@@ -1,4 +1,4 @@
-load-json
+loadJson
 framePropertiesDictionary
 	^ {#rotation -> [:anDictionary :aValue | (anDictionary at: 'rotation') targetRotation: aValue].
 	#positionX -> [:anDictionary :aValue | (anDictionary at: 'position') positionX: aValue].

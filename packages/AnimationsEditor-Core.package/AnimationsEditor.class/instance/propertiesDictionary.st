@@ -1,4 +1,4 @@
-load-json
+loadJson
 propertiesDictionary
 	^ {#rotation -> [:aMorph :aValue | aMorph rotationDegrees: aValue].
 	#positionX -> [:aMorph :aValue | aMorph left: aValue].

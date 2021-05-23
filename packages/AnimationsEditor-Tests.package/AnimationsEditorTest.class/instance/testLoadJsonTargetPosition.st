@@ -1,8 +1,7 @@
 initialize-release
 testLoadJsonTargetPosition
-	| animationsEditorInstance data morph morphProperty |
+	| data morph morphProperty |
 	
-	animationsEditorInstance := AnimationsEditor open.
 	data := {{'properties' ->{{
 					'value' -> 48.0.
 					'name' -> 'positionX'
@@ -12,8 +11,7 @@ testLoadJsonTargetPosition
 					'name' -> 'positionY'
 				} as: Dictionary}} as: Dictionary} as: Array.
 	morph := Morph new openInWorld.
-	morphProperty := animationsEditorInstance addTargetMorph: morph.
-	animationsEditorInstance loadFramesFromJson: data with: morphProperty.
+	morphProperty := self animationsEditorInstance addTargetMorph: morph.
+	self animationsEditorInstance loadFramesFromJson: data with: morphProperty.
 	self assert: (morphProperty subproperties at: 'position') targetPosition = (48@104).
-	animationsEditorInstance windowReference abandon.
 	morph abandon.

@@ -1,4 +1,4 @@
-load-json
+loadJson
 loadStartProperties: anArray with: aMorph 
 	
 	anArray

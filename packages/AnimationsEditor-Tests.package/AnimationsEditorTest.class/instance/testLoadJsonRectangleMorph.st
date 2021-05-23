@@ -1,8 +1,6 @@
 initialize-release
 testLoadJsonRectangleMorph
-	| animationsEditorInstance morph |
+	| morph |
 	
-	animationsEditorInstance := AnimationsEditor open.
-	morph := animationsEditorInstance createMorphFromString: 'RectangleMorph'.
+	morph := self animationsEditorInstance createMorphFromString: 'RectangleMorph'.
 	self assert: morph class = RectangleMorph.
-	animationsEditorInstance windowReference abandon.

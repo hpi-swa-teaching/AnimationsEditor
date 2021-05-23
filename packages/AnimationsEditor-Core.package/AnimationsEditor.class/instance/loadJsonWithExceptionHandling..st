@@ -1,4 +1,4 @@
-load-json
+loadJson
 loadJsonWithExceptionHandling: aText 
 	[self loadJson: aText.
 	self updateInformationText: 'Animation loaded']

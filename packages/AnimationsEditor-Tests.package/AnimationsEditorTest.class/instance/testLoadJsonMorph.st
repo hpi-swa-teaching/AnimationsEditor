@@ -1,8 +1,6 @@
 initialize-release
 testLoadJsonMorph
-	| animationsEditorInstance morph |
+	| morph |
 	
-	animationsEditorInstance := AnimationsEditor open.
-	morph := animationsEditorInstance createMorphFromString: 'Morph'.
+	morph := self animationsEditorInstance createMorphFromString: 'Morph'.
 	self assert: morph class = Morph.
-	animationsEditorInstance windowReference abandon.

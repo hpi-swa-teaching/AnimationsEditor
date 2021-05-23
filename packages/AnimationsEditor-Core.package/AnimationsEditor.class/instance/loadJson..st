@@ -1,4 +1,4 @@
-load-json
+loadJson
 loadJson: aText
 	| data |
 	data:= STON fromString: aText.

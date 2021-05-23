@@ -2,7 +2,7 @@ saveJson
 colorTreeNode
 	| aTreeNode animationsEditorProperty |
 	
-	animationsEditorProperty := self animationsEditorInstance propertyList at: 2.
+	animationsEditorProperty := self animationsEditorInstance propertyList second.
 	aTreeNode := AnimationsEditorPropertyColor new.
 	aTreeNode
 		copyOfTargetMorph: animationsEditorProperty targetMorph;

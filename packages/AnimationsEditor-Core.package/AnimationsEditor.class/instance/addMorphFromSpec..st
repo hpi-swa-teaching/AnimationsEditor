@@ -1,4 +1,4 @@
-load-json
+loadJson
 addMorphFromSpec: aDictionary 
 	| morph morphProperty |
 	morph := (self createMorphFromString: (aDictionary at: 'type')) openInWorld.

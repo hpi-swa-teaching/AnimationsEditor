@@ -1,8 +1,7 @@
 initialize-release
 testLoadJsonTargetSize
-	| animationsEditorInstance data morph morphProperty |
+	| data morph morphProperty |
 	
-	animationsEditorInstance := AnimationsEditor open.
 	data := {{'properties' ->{{
 					'value' -> 50 .
 					'name' -> 'width'
@@ -13,8 +12,7 @@ testLoadJsonTargetSize
 				} as: Dictionary
 				}} as: Dictionary} as: Array.
 	morph := Morph new openInWorld.
-	morphProperty := animationsEditorInstance addTargetMorph: morph.
-	animationsEditorInstance loadFramesFromJson: data with: morphProperty.
+	morphProperty := self animationsEditorInstance addTargetMorph: morph.
+	self animationsEditorInstance loadFramesFromJson: data with: morphProperty.
 	self assert: (morphProperty subproperties at: 'size') targetSize = (50@40).
-	animationsEditorInstance windowReference abandon.
 	morph abandon.
