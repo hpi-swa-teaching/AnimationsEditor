@@ -2,9 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"animationsEditorInstance" : "CL 5/27/2021 13:45",
+		"animationsEditorInstance:" : "CL 5/27/2021 13:45",
+		"setUp" : "CL 5/27/2021 10:56",
+		"tearDown" : "CL 5/27/2021 10:56",
 		"testCanCreateAnimation" : "DM 8/7/2020 17:22",
 		"testCanRenderUI" : "DM 8/7/2020 17:22",
-		"testCreateAnimationForWithKeyWithLastKeyWithValueWithTargetValue" : "CL 5/23/2021 15:53",
+		"testCreateAnimationForWithKeyWithLastKeyWithValueWithTargetValue" : "CL 5/27/2021 13:45",
 		"testHeightGetter" : "DM 8/7/2020 17:26",
 		"testHeightSetter" : "DM 8/7/2020 17:26",
 		"testInstanceCreation" : "DM 8/7/2020 17:22",

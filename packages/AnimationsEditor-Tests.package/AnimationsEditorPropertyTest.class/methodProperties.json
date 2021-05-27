@@ -2,12 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"animationsEditorInstance" : "CL 5/27/2021 09:28",
+		"animationsEditorInstance:" : "CL 5/27/2021 09:28",
+		"setUp" : "CL 5/27/2021 10:15",
+		"tearDown" : "CL 5/27/2021 10:16",
 		"testComparators" : "DM 8/4/2020 13:46",
-		"testCreateCompositeAnimationForWithStartEnd" : "CL 5/23/2021 15:45",
+		"testCreateCompositeAnimationForWithStartEnd" : "CL 5/27/2021 14:49",
 		"testEmptySubProperties" : "DM 8/4/2020 13:47",
 		"testHasSubProperties" : "DM 8/4/2020 13:47",
 		"testInstanceCreation" : "DM 8/4/2020 13:47",
-		"testOnlyPlaysAnimationInsideStartEndTime" : "CL 5/23/2021 15:55",
+		"testOnlyPlaysAnimationInsideStartEndTime" : "CL 5/27/2021 12:19",
 		"testPlayAnimationWithStartEnd" : "CL 5/23/2021 15:46",
 		"testSetTitle" : "DM 8/4/2020 13:46",
-		"testShowMessageKeyframeOutOfBounds" : "CL 5/23/2021 15:48" } }
+		"testShowMessageKeyframeOutOfBounds" : "CL 5/27/2021 12:17" } }
