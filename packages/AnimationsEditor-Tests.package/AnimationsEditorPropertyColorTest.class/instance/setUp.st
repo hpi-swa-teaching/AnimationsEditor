@@ -1,4 +1,4 @@
-saveJson
+as yet unclassified
 setUp
 	| morph |
 	
@@ -7,5 +7,4 @@ setUp
 	morph := Morph new.
 	morph openInWorld.
 	self animationsEditorInstance addTargetMorph: morph.
-	
 	
