@@ -1,6 +1,5 @@
 saveJson
 createStartInformation: aMorph
-	
 	^ Dictionary
 		with: #type -> aMorph class asString
             with: #properties -> {
@@ -9,10 +8,10 @@ createStartInformation: aMorph
 				with: #value -> aMorph rotationDegrees. 
 			Dictionary
 				with: #name -> 'positionX'
-				with: #value -> aMorph x. 
+				with: #value -> aMorph position x. 
 			Dictionary
 				with: #name -> 'positionY'
-				with: #value -> aMorph y. 
+				with: #value -> aMorph position y. 
 			Dictionary
 				with: #name -> 'width'
 				with: #value -> aMorph width. 
@@ -21,5 +20,5 @@ createStartInformation: aMorph
 				with: #value -> aMorph height. 
 			Dictionary
 				with: #name -> 'color'
-				with: #value -> aMorph color rgbTriplet.
+				with: #value -> aMorph color printHtmlString asSymbol.
 			}.

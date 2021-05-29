@@ -3,10 +3,10 @@
 		 },
 	"instance" : {
 		"animationString" : "DM 8/7/2020 21:25",
-		"buildColorPicker" : "FH 5/27/2021 11:34",
-		"buildColorPickerWith:" : "FH 5/27/2021 16:30",
-		"buildInputColorWith:" : "DM 8/7/2020 10:49",
-		"buildPanelWith:" : "FH 5/27/2021 16:26",
+		"buildColorPickerWith:" : "MH 5/29/2021 14:55",
+		"buildInputColorWith:" : "MH 5/29/2021 14:08",
+		"buildPanelWith:" : "MH 5/29/2021 14:25",
+		"buildSelectColorButtonWith:" : "MH 5/29/2021 14:45",
 		"buildUIWith:" : "JIZ 6/3/2020 17:10",
 		"canCreateAnimation" : "DM 8/6/2020 10:26",
 		"canRenderUI" : "DM 8/5/2020 21:07",
@@ -15,8 +15,8 @@
 		"createAnimationFor:" : "DM 8/6/2020 10:20",
 		"createAnimationFor:withDuration:" : "DM 8/6/2020 11:03",
 		"defaultTargetColor" : "DM 8/7/2020 17:34",
-		"initialize" : "DM 7/7/2020 10:44",
+		"initialize" : "MH 5/29/2021 14:56",
 		"targetColor" : "DM 8/7/2020 17:19",
-		"targetColor:" : "LW 5/15/2021 13:57",
+		"targetColor:" : "MH 5/29/2021 14:40",
 		"targetColorAsString" : "DM 8/7/2020 10:49",
-		"updateTargetColor" : "FH 5/26/2021 18:04" } }
+		"updateTargetColor" : "MH 5/29/2021 15:03" } }

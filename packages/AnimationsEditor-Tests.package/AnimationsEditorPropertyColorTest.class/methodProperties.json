@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "FH 5/26/2021 17:39",
+		"animationsEditorInstance" : "MH 5/29/2021 14:53",
+		"animationsEditorInstance:" : "MH 5/29/2021 14:53",
+		"setUp" : "MH 5/29/2021 14:53",
 		"tearDown" : "FH 5/26/2021 17:40",
 		"testCanCreateAnimation" : "DM 8/7/2020 17:19",
 		"testCanRenderUI" : "DM 8/7/2020 17:19",
@@ -10,5 +12,4 @@
 		"testTargetColorGetter" : "DM 8/7/2020 17:32",
 		"testTargetColorGetterAsString" : "DM 8/7/2020 17:31",
 		"testTargetColorSetter" : "DM 8/7/2020 17:21",
-		"testUpdateTargetColor" : "FH 5/26/2021 18:00",
-		"testUpdateTargetColorIsCalled" : "FH 5/26/2021 18:01" } }
+		"testUpdateTargetColor" : "MH 5/29/2021 15:01" } }

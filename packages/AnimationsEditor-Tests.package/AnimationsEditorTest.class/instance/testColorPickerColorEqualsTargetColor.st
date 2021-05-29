@@ -1,5 +1,0 @@
-colorpicker
-testColorPickerColorEqualsTargetColor
-	
-	
-	

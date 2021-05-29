@@ -5,11 +5,11 @@ buildPanelWith: aBuilder
 			model: self;
 			frame: (LayoutFrame new
 						topFraction: 0.1;
-						bottomFraction: 0.8;
+						bottomFraction: 0.9;
 						leftFraction: 0.1;
-						rightFraction: 0.8;
+						rightFraction: 0.9;
 						yourself);
-			children: { self buildInputColorWith: aBuilder. self buildColorPickerWith: aBuilder};
+			children: { self buildInputColorWith: aBuilder. self buildColorPickerWith: aBuilder . self buildSelectColorButtonWith: aBuilder};
 			yourself.	
 			
 	^ aBuilder build: aPluggablePanelSpec.

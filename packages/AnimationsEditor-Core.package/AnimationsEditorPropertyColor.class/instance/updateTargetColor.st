@@ -1,4 +1,3 @@
-as yet unclassified
+eventHandling
 updateTargetColor
-
-	self targetColor: self colorPicker selectedColor.
+	self targetColor: self colorPicker selectedColor printHtmlString asSymbol.
