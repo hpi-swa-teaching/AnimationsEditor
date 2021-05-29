@@ -3,9 +3,10 @@
 		 },
 	"instance" : {
 		"animationString" : "DM 8/7/2020 21:25",
-		"buildColorPicker" : "FH 5/26/2021 18:48",
+		"buildColorPicker" : "FH 5/27/2021 11:34",
+		"buildColorPickerWith:" : "FH 5/27/2021 16:30",
 		"buildInputColorWith:" : "DM 8/7/2020 10:49",
-		"buildPanelWith:" : "FH 5/26/2021 18:17",
+		"buildPanelWith:" : "FH 5/27/2021 16:26",
 		"buildUIWith:" : "JIZ 6/3/2020 17:10",
 		"canCreateAnimation" : "DM 8/6/2020 10:26",
 		"canRenderUI" : "DM 8/5/2020 21:07",

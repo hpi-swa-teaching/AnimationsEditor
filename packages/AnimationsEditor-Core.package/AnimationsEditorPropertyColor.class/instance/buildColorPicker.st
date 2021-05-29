@@ -3,7 +3,7 @@ buildColorPicker
 	| panelMorph |
 	
 
-	panelMorph:= PluggablePanelMorph new addMorph: (self colorPicker: ColorPickerMorph new).
+	panelMorph:= ScrollPane new addMorph: (self colorPicker: ColorPickerMorph new).
 	
 	^panelMorph.
 	
