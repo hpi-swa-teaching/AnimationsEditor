@@ -1,10 +1,9 @@
 as yet unclassified
 testOnlyPlaysAnimationInsideStartEndTime
 	
-	"test that createCompositeAnimationFor:withStartEnd: only inserts those animations that are inside our time bounds"
 	| positionProperty propertyStartEnd morph animations |
 	
-	positionProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 3).
+	positionProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 'position').
 	self animationsEditorInstance selectedTreeNode: positionProperty.
 	
 	morph := (self animationsEditorInstance propertyList at: 2) targetMorph.

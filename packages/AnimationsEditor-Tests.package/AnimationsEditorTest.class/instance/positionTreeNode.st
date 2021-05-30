@@ -9,7 +9,7 @@ positionTreeNode
 		targetMorph: aTreeNode copyOfTargetMorph copy.
 	aTreeNode targetMorph position: 100 @ 200.
 	aTreeNode	
-		targetDuration: animationsEditorProperty defaultTargetDuration;
+		targetFrame: animationsEditorProperty defaultFrame;
 		targetPosition: 100 @ 200.
 		
 	^ aTreeNode.

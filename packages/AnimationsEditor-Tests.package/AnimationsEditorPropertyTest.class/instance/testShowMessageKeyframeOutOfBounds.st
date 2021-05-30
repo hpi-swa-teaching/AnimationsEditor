@@ -1,10 +1,9 @@
 as yet unclassified
 testShowMessageKeyframeOutOfBounds
-	
-	"test that createCompositeAnimationFor:withStartEnd: outputs warning message if keyframes out of start/endtime"
+
 	| positionProperty propertyStartEnd morph |
 	
-	positionProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 3).
+	positionProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 'position').
 	self animationsEditorInstance selectedTreeNode: positionProperty.
 	
 	morph := (self animationsEditorInstance propertyList at: 2) targetMorph.

@@ -4,7 +4,7 @@ testCreateAnimationForWithKeyWithLastKeyWithValueWithTargetValue
 	"test that it returns a composite animation according to the input values"
 	| colorProperty morph compositeAnimation expectedDuration newKey lastKey newValue lastValue firstAnimation secondAnimation |
 	
-	colorProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 2).
+	colorProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 'color').
 	morph := (self animationsEditorInstance propertyList at: 2) targetMorph.
 	
 	lastValue := Color red.

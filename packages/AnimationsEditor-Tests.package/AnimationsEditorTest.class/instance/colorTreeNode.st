@@ -9,7 +9,7 @@ colorTreeNode
 		targetMorph: aTreeNode copyOfTargetMorph copy.
 	aTreeNode targetMorph color: Color red.
 	aTreeNode	
-		targetDuration: animationsEditorProperty defaultTargetDuration;
+		targetFrame: animationsEditorProperty defaultFrame;
 		targetColor: 'red'.
 		
 	^ aTreeNode. 

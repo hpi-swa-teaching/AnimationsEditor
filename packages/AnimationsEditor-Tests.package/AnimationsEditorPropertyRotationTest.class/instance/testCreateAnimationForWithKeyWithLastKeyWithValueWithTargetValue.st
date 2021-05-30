@@ -1,10 +1,9 @@
 as yet unclassified
 testCreateAnimationForWithKeyWithLastKeyWithValueWithTargetValue
 
-	"test that it returns an animation according to the input values"
 	| rotationProperty morph animation expectedDuration newKey lastKey newValue lastValue|
 	
-	rotationProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 1).
+	rotationProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 'rotation').
 	morph := (self animationsEditorInstance propertyList at: 2) targetMorph.
 	
 	lastValue := 20.

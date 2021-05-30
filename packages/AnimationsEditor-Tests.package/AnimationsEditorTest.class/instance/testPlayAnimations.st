@@ -2,7 +2,7 @@ initialize-release
 testPlayAnimations
 	| positionProperty |
 	
-	positionProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 3).
+	positionProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 'position').
 	self animationsEditorInstance selectedTreeNode: positionProperty.
 	
 	positionProperty 

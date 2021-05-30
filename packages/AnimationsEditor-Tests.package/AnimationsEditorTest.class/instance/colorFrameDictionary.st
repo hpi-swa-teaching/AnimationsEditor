@@ -2,7 +2,7 @@ saveJson
 colorFrameDictionary
 	
 	^ Dictionary  
-		with: #frame->500
+		with: #frame->0
 		with: #properties->{
 			Dictionary
 				with: #name->'color'

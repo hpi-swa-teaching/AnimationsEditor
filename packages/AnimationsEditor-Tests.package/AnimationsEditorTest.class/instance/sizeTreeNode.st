@@ -9,7 +9,7 @@ sizeTreeNode
 		targetMorph: aTreeNode copyOfTargetMorph copy.
 	aTreeNode targetMorph extent: 100 @ 200.
 	aTreeNode	
-		targetDuration: animationsEditorProperty defaultTargetDuration;
+		targetFrame: animationsEditorProperty defaultFrame;
 		targetSize: 100 @ 200.
 		
 	^ aTreeNode. 

@@ -3,7 +3,7 @@ testShowMessagePlayAnimation
 
 	| property |
 	
-	property := ((self animationsEditorInstance propertyList at: 2) subproperties at: 3).
+	property := ((self animationsEditorInstance propertyList at: 2) subproperties at: 'position').
 	self animationsEditorInstance selectedTreeNode: property.
 	
 	property 

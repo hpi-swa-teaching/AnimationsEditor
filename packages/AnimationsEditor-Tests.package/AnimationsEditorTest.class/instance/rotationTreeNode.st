@@ -9,7 +9,7 @@ rotationTreeNode
 		targetMorph: aTreeNode copyOfTargetMorph copy.
 	aTreeNode targetMorph rotationDegrees: 70.
 	aTreeNode	
-		targetDuration: animationsEditorProperty defaultTargetDuration;
+		targetFrame: animationsEditorProperty defaultFrame;
 		targetRotation: 70.
 		
 	^ aTreeNode. 

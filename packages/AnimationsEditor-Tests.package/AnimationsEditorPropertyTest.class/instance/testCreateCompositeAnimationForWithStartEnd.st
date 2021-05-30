@@ -1,10 +1,9 @@
 as yet unclassified
 testCreateCompositeAnimationForWithStartEnd
 	
-	"test that orderedColl containing all the animations is generated correctly based on a given key-value array"
 	| positionProperty propertyStartEnd morph animations |
 	
-	positionProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 3).
+	positionProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 'position').
 	self animationsEditorInstance selectedTreeNode: positionProperty.
 	
 	morph := (self animationsEditorInstance propertyList at: 2) targetMorph.

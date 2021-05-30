@@ -6,7 +6,7 @@ buildLoadJsonButtonWith: aBuilder
 		 frame: (LayoutFrame new
 						topFraction: 0;
 						bottomFraction: 1;
-						rightFraction: 1;
-						leftFraction: 0.8;
+						rightFraction: 5*(1/self numberButtons);
+						leftFraction: 4*(1/self numberButtons);
 						yourself);
 		 yourself.

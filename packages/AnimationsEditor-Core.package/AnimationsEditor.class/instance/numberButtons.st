@@ -1,3 +1,3 @@
 buildComponents
 numberButtons
-	^ 5.
+	^ 6.
