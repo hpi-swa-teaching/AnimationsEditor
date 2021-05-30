@@ -1,3 +1,3 @@
 defaults
 defaultSubproperties
-	^ (OrderedCollection new).
+	^ (Dictionary new).
