@@ -3,7 +3,6 @@ testUpdateTargetColor
 	| propertyColor |
 	
 	propertyColor := self animationsEditorInstance propertyList second subproperties at: #color.
-	propertyColor colorPicker updateColor: Color blue feedbackColor: propertyColor colorPicker selectedColor.
-	propertyColor updateTargetColor.
+	propertyColor update: Color blue. 
 	self assert: (propertyColor targetColor) equals: Color blue.
 	
