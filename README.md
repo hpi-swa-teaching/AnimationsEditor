@@ -82,7 +82,7 @@ Configure your animation with AnimationsEditor and get the bare code copied into
 
 ## Development
 ### CI Pipeline and coverage
-The CI pipeline is implemented using GitHub actions, and push is executed on each piece of code. The AnimationsEditor package is therefor executed under mac, ubuntu and windows on Squeak 5.3, Squeak 5.2, Squeak 5.1 and Squeak Trunk. In addition, the codecoverage is monitored and the badges above are updated.
+The CI pipeline is implemented using GitHub actions, and push is executed on each piece of code. The AnimationsEditor package is therefor executed under mac, ubuntu and windows on Squeak 5.3 and Squeak Trunk. In addition, the codecoverage is monitored and the badges above are updated.
 
 
 ### Documentation
