@@ -1,11 +1,11 @@
 buildComponents
-createAnimationFor: aMorph withKey: key withLastKey: lastKey withValue: value withLastValue: lastTargetValue
+createAnimationFor: aMorph withKey: aKey withLastKey: aLastKey withValue: aValue withLastValue: aLastTargetValue
 
 	^ (AnimPropertyAnimation new
-		   duration: key - lastKey;
+		   duration: aKey - aLastKey;
 		   property: #position;
-		   startValue: lastTargetValue;
-		   endValue: value;
+		   startValue: aLastTargetValue;
+		   endValue: aValue;
 		   target: aMorph;
 		   state: #paused;
 		   yourself).

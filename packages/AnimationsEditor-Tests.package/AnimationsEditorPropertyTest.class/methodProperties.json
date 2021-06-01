@@ -7,7 +7,7 @@
 		"setUp" : "CL 5/27/2021 10:15",
 		"tearDown" : "CL 5/27/2021 10:16",
 		"testComparators" : "DM 8/4/2020 13:46",
-		"testCreateCompositeAnimationForWithStartEnd" : "CL 5/30/2021 14:12",
+		"testCreateCompositeAnimationForWithStartEnd" : "MH 6/1/2021 17:51",
 		"testEmptySubProperties" : "DM 8/4/2020 13:47",
 		"testHasSubProperties" : "FH 5/13/2021 12:23",
 		"testInstanceCreation" : "DM 8/4/2020 13:47",

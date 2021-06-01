@@ -20,6 +20,6 @@ startInformationDictionary: aMorph
 				with: #value -> aMorph height. 
 			Dictionary
 				with: #name -> 'color'
-				with: #value -> aMorph color rgbTriplet.
+				with: #value -> aMorph color printHtmlString asSymbol.
 			}.
 	

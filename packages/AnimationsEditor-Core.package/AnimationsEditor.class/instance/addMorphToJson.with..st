@@ -4,7 +4,7 @@ addMorphToJson: aJsonStructure with: aTreeNode
 	
 	originMorph := aTreeNode copyOfTargetMorph. 
 	MorphJson := self createStartInformation: originMorph. 
-    	frame := ((self addFrame: aTreeNode) at: aTreeNode title asSymbol) value.
+	frame := ((self addFrame: aTreeNode) at: aTreeNode title asSymbol) value.	
     	MorphJson add: #frames -> {frame}.
 	aJsonStructure add: #morphs -> {MorphJson}.
 	

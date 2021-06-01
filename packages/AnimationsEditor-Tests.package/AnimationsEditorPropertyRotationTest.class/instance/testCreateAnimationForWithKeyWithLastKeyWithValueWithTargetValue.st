@@ -24,7 +24,7 @@ testCreateAnimationForWithKeyWithLastKeyWithValueWithTargetValue
 	animation := rotationProperty createAnimationFor: morph withKey: newKey withLastKey: lastKey withValue: newValue withLastValue: lastValue.
 	
 	expectedDuration := newKey-lastKey.
-	
+
 	self assert: (animation duration = expectedDuration).
 	self assert: (animation endValue = newValue).
 	self assert: (animation startValue = lastValue).
