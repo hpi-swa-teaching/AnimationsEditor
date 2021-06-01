@@ -4,5 +4,5 @@ testTargetColorSetter
 	p := AnimationsEditorPropertyColor new.
 	
 	testColor := 'red'.
-	p targetColor: testColor.
+	p targetColorFromString: testColor.
 	self assert: (p targetColor = Color red).

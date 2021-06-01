@@ -5,7 +5,7 @@ framePropertiesDictionary
 	#positionY -> [:anDictionary :aValue | (anDictionary at: 'position') positionY: aValue].
 	#width -> [:anDictionary :aValue | (anDictionary at: 'size') targetWidth: aValue].
 	#height -> [:anDictionary :aValue | (anDictionary at: 'size') targetHeight: aValue].
-	#color -> [:anDictionary :aValue | (anDictionary at: 'color') targetColor: aValue]} as: IdentityDictionary.
+	#color -> [:anDictionary :aValue | (anDictionary at: 'color') targetColorFromString: aValue]} as: IdentityDictionary.
 	
 	
 

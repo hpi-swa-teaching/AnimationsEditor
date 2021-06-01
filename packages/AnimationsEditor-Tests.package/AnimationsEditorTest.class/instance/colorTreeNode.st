@@ -10,6 +10,6 @@ colorTreeNode
 	aTreeNode targetMorph color: Color red.
 	aTreeNode	
 		targetDuration: animationsEditorProperty defaultTargetDuration;
-		targetColor: 'red'.
+		targetColorFromString: 'red'.
 		
 	^ aTreeNode. 

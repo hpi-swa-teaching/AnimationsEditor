@@ -5,7 +5,7 @@
 		"animationsEditorInstance" : "MH 5/13/2021 13:19",
 		"animationsEditorInstance:" : "MH 5/13/2021 13:19",
 		"colorFrameDictionary" : "LW 5/23/2021 12:24",
-		"colorTreeNode" : "LW 5/23/2021 12:29",
+		"colorTreeNode" : "MH 6/1/2021 09:02",
 		"positionFrameDictionary" : "MH 5/20/2021 11:15",
 		"positionTreeNode" : "LW 5/23/2021 12:30",
 		"rotationFrameDictionary" : "MH 5/20/2021 11:17",
@@ -15,7 +15,7 @@
 		"sizeTreeNode" : "LW 5/23/2021 12:30",
 		"startInformationDictionary:" : "MH 5/27/2021 12:28",
 		"tearDown" : "LW 5/23/2021 12:30",
-		"testAddColorFrame" : "MH 5/20/2021 11:15",
+		"testAddColorFrame" : "MH 6/1/2021 09:02",
 		"testAddMorphToJson" : "MH 5/20/2021 11:56",
 		"testAddPositionFrame" : "MH 5/27/2021 12:25",
 		"testAddRotationFrame" : "MH 5/20/2021 11:18",
@@ -37,7 +37,7 @@
 		"testLoadJsonPropertySize" : "LW 5/23/2021 12:05",
 		"testLoadJsonRectangleMorph" : "LW 5/23/2021 12:05",
 		"testLoadJsonStartEnd" : "LW 5/23/2021 12:05",
-		"testLoadJsonTargetColor" : "LW 5/23/2021 12:06",
+		"testLoadJsonTargetColor" : "MH 6/1/2021 09:06",
 		"testLoadJsonTargetPosition" : "LW 5/23/2021 12:07",
 		"testLoadJsonTargetRotation" : "LW 5/23/2021 12:07",
 		"testLoadJsonTargetSize" : "LW 5/23/2021 12:07",
@@ -50,4 +50,4 @@
 		"testTreeSpecWithNoMorph" : "DM 8/7/2020 18:59",
 		"testTreeSpecWithOneMorph" : "DM 8/7/2020 18:59",
 		"testTreeSpecWithOneMorphPosition" : "FH 5/13/2021 12:05",
-		"testWriteJsonToFile" : "NB 5/21/2021 09:08" } }
+		"testWriteJsonToFile" : "MH 6/1/2021 09:06" } }
