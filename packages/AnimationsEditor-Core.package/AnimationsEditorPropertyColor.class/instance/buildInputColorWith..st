@@ -2,7 +2,7 @@ buildComponents
 buildInputColorWith: aBuilder
 	^ aBuilder pluggableTextSpec new
 				model: self;
-				getText: #targetColorAsRgbString;
+				getText: #targetColorAsHexRGBString;
 				editText: #targetColorFromString:;
 			 	frame: (LayoutFrame new
 								topFraction: 0.6;

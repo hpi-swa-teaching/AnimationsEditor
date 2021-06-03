@@ -1,8 +1,8 @@
 as yet unclassified
-testUpdateTargetColor
+testTargetColorFromString
 	| propertyColor |
 	
 	propertyColor := self animationsEditorInstance propertyList second subproperties at: #color.
-	propertyColor update: Color red. 
-	self assert: (propertyColor targetColor) equals: Color red.
+	propertyColor targetColorFromString: 'FF0000'. 
+	self assert: propertyColor targetColor equals: Color red. 
 	

@@ -9,7 +9,9 @@
 		"testCanCreateAnimation" : "DM 8/7/2020 17:19",
 		"testCanRenderUI" : "DM 8/7/2020 17:19",
 		"testInstanceCreation" : "DM 8/7/2020 17:19",
+		"testTargetColorFromString" : "MH 6/3/2021 16:24",
 		"testTargetColorGetter" : "DM 8/7/2020 17:32",
 		"testTargetColorGetterAsString" : "DM 8/7/2020 17:31",
 		"testTargetColorSetter" : "MH 6/1/2021 09:07",
-		"testUpdateTargetColor" : "MH 5/31/2021 17:25" } }
+		"testUpdateTargetColor" : "MH 6/3/2021 16:19",
+		"testUpdateTargetColorTestMorphChanged" : "MH 6/3/2021 16:19" } }

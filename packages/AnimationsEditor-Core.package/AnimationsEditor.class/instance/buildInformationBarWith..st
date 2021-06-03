@@ -12,5 +12,4 @@ buildInformationBarWith: aBuilder
 							leftFraction: 0;
 							yourself);
 			 yourself).
-	
 	^ self informationBar.
