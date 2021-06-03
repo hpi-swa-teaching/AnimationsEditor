@@ -33,7 +33,7 @@
 		"createPositionPropertyFrom:" : "DM 8/6/2020 10:09",
 		"createRotationPropertyFrom:" : "FH 5/13/2021 10:16",
 		"createSizePropertyFrom:" : "DM 7/8/2020 14:29",
-		"createStartInformation:" : "MH 5/27/2021 12:28",
+		"createStartInformation:" : "NB 5/27/2021 12:37",
 		"createStructure:with:" : "NB 5/13/2021 10:25",
 		"defaultEmptyPanels" : "DM 8/7/2020 17:37",
 		"defaultPropertyPanelPosition" : "DM 8/6/2020 10:38",
@@ -62,7 +62,7 @@
 		"mainWindow" : "JIZ 6/3/2020 17:04",
 		"mainWindow:" : "JIZ 6/3/2020 17:04",
 		"morphTypes" : "LW 5/15/2021 14:00",
-		"outputFileDirectory" : "NB 5/21/2021 09:07",
+		"outputFileDirectory" : "NB 5/27/2021 12:38",
 		"playAnimations" : "MH 5/10/2021 11:48",
 		"propertiesDictionary" : "LW 5/15/2021 15:05",
 		"propertyEditorPanel" : "DM 6/22/2020 01:27",
@@ -89,4 +89,4 @@
 		"updateInformationText:" : "MH 6/2/2021 17:59",
 		"windowReference" : "DM 8/4/2020 13:19",
 		"windowReference:" : "DM 8/4/2020 13:19",
-		"writeJsonToFile:with:" : "NB 5/21/2021 08:39" } }
+		"writeJsonToFile:with:" : "NB 5/27/2021 12:38" } }
