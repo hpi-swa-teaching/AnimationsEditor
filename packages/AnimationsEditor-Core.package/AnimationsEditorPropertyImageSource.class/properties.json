@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "LW 6/5/2021 15:08",
 	"instvars" : [
-		"targetSource" ],
+		"targetSource",
+		"targetImage",
+		"loadedSource" ],
 	"name" : "AnimationsEditorPropertyImageSource",
 	"pools" : [
 		 ],

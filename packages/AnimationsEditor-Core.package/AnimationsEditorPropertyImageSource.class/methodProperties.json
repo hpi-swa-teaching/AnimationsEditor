@@ -9,9 +9,14 @@
 		"canCreateAnimation" : "LW 6/5/2021 15:10",
 		"canRenderUI" : "LW 6/5/2021 15:10",
 		"createAnimationFor:" : "LW 6/5/2021 15:10",
-		"createAnimationFor:withDuration:" : "LW 6/5/2021 15:10",
+		"createAnimationFor:withDuration:" : "LW 6/5/2021 15:59",
 		"defaultTargetSource" : "LW 6/5/2021 15:10",
 		"initialize" : "LW 6/5/2021 15:10",
+		"loadedSource" : "LW 6/5/2021 16:00",
+		"loadedSource:" : "LW 6/5/2021 15:54",
 		"resetTargetMorph" : "LW 6/5/2021 15:10",
-		"targetSource" : "LW 6/5/2021 15:11",
-		"targetSource:" : "LW 6/5/2021 15:11" } }
+		"targetImage" : "LW 6/5/2021 15:50",
+		"targetImage:" : "LW 6/5/2021 15:50",
+		"targetSource" : "LW 6/5/2021 15:47",
+		"targetSource:" : "LW 6/5/2021 15:51",
+		"updateTargetImage" : "LW 6/5/2021 15:55" } }

@@ -1,4 +1,4 @@
 accessing
-targetSource: anSource
+targetSource: aFilename
 
-	targetSource := anSource.
+	targetSource := aFilename.
