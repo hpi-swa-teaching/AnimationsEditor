@@ -1,11 +1,10 @@
 saveJson
 addMorphToJson: aJsonStructure with: aTreeNode
-	| frame MorphJson originMorph |
+	| MorphJson originMorph |
 	
 	originMorph := aTreeNode copyOfTargetMorph. 
-	MorphJson := self createStartInformation: originMorph. 
-	frame := ((self addFrame: aTreeNode) at: aTreeNode title asSymbol) value.	
-    	MorphJson add: #frames -> {frame}.
+	MorphJson := self createStartInformation: originMorph. 	
+    	MorphJson add: #frames -> (self createFrameCollection: aTreeNode).
 	aJsonStructure add: #morphs -> {MorphJson}.
 	
 	^ aJsonStructure.

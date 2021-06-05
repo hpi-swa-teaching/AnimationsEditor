@@ -1,9 +1,8 @@
 saveJson
 testAddColorFrame
-	| jsonFrame aTreeNode testFrame |
+	| jsonFrame testFrame |
 	
-	aTreeNode := self colorTreeNode. 
-	jsonFrame := self animationsEditorInstance addColorFrame: aTreeNode.
+	jsonFrame := self animationsEditorInstance addColorFrameAt: self defaultTime with: Color red. 
 	testFrame := self colorFrameDictionary. 
 	
 	self assert: jsonFrame equals: testFrame.

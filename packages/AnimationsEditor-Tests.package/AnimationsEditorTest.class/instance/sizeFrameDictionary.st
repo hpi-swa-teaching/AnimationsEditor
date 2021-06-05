@@ -1,7 +1,7 @@
 saveJson
 sizeFrameDictionary
 	^ Dictionary
-		with: #frame -> 0
+		with: #frame -> self defaultTime
 		with: #properties -> { 
 			Dictionary 
 				with: #name -> 'width' 

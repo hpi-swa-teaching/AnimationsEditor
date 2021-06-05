@@ -1,16 +1,16 @@
 saveJson
-addSizeFrame: aTreeNode 
+addSizeFrameAt: aTime with: anExtent
 	| jsonFrame |
 	
 	jsonFrame := Dictionary
-		with: #frame -> aTreeNode targetFrame
+		with: #frame -> aTime
 		with: #properties -> { 
 			Dictionary 
 				with: #name -> 'width' 
-				with: #value -> aTreeNode targetSize x.
+				with: #value -> anExtent x.
 			Dictionary 
 				with: #name -> 'height'
-				with: #value -> aTreeNode targetSize y.				
+				with: #value -> anExtent y.				
 		}.
 		
 	^ jsonFrame.

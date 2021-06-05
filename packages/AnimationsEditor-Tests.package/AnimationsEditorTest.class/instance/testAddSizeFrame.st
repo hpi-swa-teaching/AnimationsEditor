@@ -1,9 +1,9 @@
 saveJson
 testAddSizeFrame
-	| jsonFrame aTreeNode testFrame |
+	| jsonFrame testFrame anExtent |
 	
-	aTreeNode := self sizeTreeNode. 
-	jsonFrame := self animationsEditorInstance addSizeFrame: aTreeNode.
+	anExtent := 100 @ 200. 
+	jsonFrame := self animationsEditorInstance addSizeFrameAt: self defaultTime with: anExtent. 
 	testFrame := self sizeFrameDictionary. 
 		
 	self assert: jsonFrame equals: testFrame.

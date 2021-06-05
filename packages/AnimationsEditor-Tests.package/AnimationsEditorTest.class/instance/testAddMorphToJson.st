@@ -4,7 +4,7 @@ testAddMorphToJson
 	
 	aDictionary := Dictionary
 		with: #morphs -> {}. 
-	aJsonStructure := self animationsEditorInstance addMorphToJson: aDictionary with: self colorTreeNode.  
+	aJsonStructure := self animationsEditorInstance addMorphToJson: aDictionary with: self positionTreeNode.  
 	anEntry := (aJsonStructure at: #morphs) first. 
 	 
 	self assert: (aJsonStructure at: #morphs) size > 0. 

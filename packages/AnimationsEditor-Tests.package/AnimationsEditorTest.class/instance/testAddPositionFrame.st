@@ -1,9 +1,9 @@
 saveJson
 testAddPositionFrame
-	| jsonFrame aTreeNode testFrame |
+	| jsonFrame testFrame aPosition |
 	
-	aTreeNode := self positionTreeNode. 
-	jsonFrame := self animationsEditorInstance addPositionFrame: aTreeNode.
+	aPosition := 100 @ 200. 
+	jsonFrame := self animationsEditorInstance addPositionFrameAt: self defaultTime with: aPosition. 
 	testFrame := self positionFrameDictionary. 
 		
 	self assert: jsonFrame equals: testFrame.
