@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"animationString" : "LW 6/5/2021 15:08",
+		"buildInputSourceWith:" : "LW 6/5/2021 15:09",
+		"buildPanelWith:" : "LW 6/5/2021 15:09",
+		"buildUIWith:" : "LW 6/5/2021 15:09",
+		"canCreateAnimation" : "LW 6/5/2021 15:10",
+		"canRenderUI" : "LW 6/5/2021 15:10",
+		"createAnimationFor:" : "LW 6/5/2021 15:10",
+		"createAnimationFor:withDuration:" : "LW 6/5/2021 15:10",
+		"defaultTargetSource" : "LW 6/5/2021 15:10",
+		"initialize" : "LW 6/5/2021 15:10",
+		"resetTargetMorph" : "LW 6/5/2021 15:10",
+		"targetSource" : "LW 6/5/2021 15:11",
+		"targetSource:" : "LW 6/5/2021 15:11" } }

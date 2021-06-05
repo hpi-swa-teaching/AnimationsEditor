@@ -7,6 +7,8 @@ addTargetMorph: aMorph
 	newTarget targetMorph: aMorph.
 	newTarget title: '', (self propertyList size ), ' - ', aMorph className.
 	
+	aMorph isImageMorph
+		ifTrue: [newTarget subproperties at: 'imageSource' put: (self createImageSourcePropertyFrom: aMorph)].
 	newTarget subproperties at: 'rotation' put: (self createRotationPropertyFrom: aMorph).
 	newTarget subproperties at: 'color' put: (self createColorPropertyFrom: aMorph).
 	newTarget subproperties at: 'position' put: (self createPositionPropertyFrom: aMorph).
