@@ -3,9 +3,15 @@
 		 },
 	"instance" : {
 		"dummyImage" : "LW 6/5/2021 15:35",
+		"dummyImagePathJPEG" : "LW 6/7/2021 16:46",
+		"imageMorph" : "LW 6/7/2021 16:31",
+		"imageMorph:" : "LW 6/7/2021 16:31",
 		"propertyImageSource" : "LW 6/5/2021 15:37",
 		"propertyImageSource:" : "LW 6/5/2021 15:34",
-		"setUp" : "LW 6/5/2021 15:41",
-		"testCreateAnimationFor" : "LW 6/5/2021 15:57",
+		"setUp" : "LW 6/7/2021 16:34",
+		"tearDown" : "LW 6/7/2021 16:35",
+		"testCreateAnimationFor" : "LW 6/7/2021 16:36",
 		"testInstanceCreation" : "LW 6/5/2021 15:35",
-		"testPropertyAfterAnimation" : "LW 6/5/2021 16:35" } }
+		"testPropertyAfterAnimation" : "LW 6/7/2021 16:36",
+		"testResetTargetMorph" : "LW 6/7/2021 16:35",
+		"testUpdateTargetImage" : "LW 6/7/2021 16:51" } }

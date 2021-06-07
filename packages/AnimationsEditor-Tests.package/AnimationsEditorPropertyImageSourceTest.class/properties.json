@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"propertyImageSource" ],
+		"propertyImageSource",
+		"imageMorph" ],
 	"name" : "AnimationsEditorPropertyImageSourceTest",
 	"pools" : [
 		 ],

@@ -1,7 +1,5 @@
 as yet unclassified
 testCreateAnimationFor
-	| imageMorph animation |
-	imageMorph := ImageMorph new openInWorld.
-	animation := self propertyImageSource createAnimationFor: imageMorph.
+	| animation |
+	animation := self propertyImageSource createAnimationFor: self propertyImageSource targetMorph.
 	self assert: (animation isKindOf: AnimAnimation).
-	imageMorph abandon.

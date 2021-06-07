@@ -1,12 +1,8 @@
 as yet unclassified
 testPropertyAfterAnimation
-	| imageMorph animation |
-	imageMorph := ImageMorph new openInWorld.
+	| animation |
 	self propertyImageSource targetImage: self dummyImage.
-	animation := self propertyImageSource createAnimationFor: imageMorph.
-	animation register;
-		start.
-
-	(Delay forSeconds: 1) wait.
-	self assert: (imageMorph image asString = self dummyImage asString).
-	imageMorph abandon.
+	animation := self propertyImageSource createAnimationFor: self propertyImageSource targetMorph.
+	animation animations
+		do: [:each | each evaluateFinishBlock].
+	self assert: self propertyImageSource targetMorph image bits = self dummyImage bits.
