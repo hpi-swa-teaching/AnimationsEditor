@@ -1,9 +1,9 @@
 saveJson
 rotationFrameDictionary
 	^ Dictionary
-		with: #frame -> 0
+		with: #frame -> self defaultTime
 		with: #properties -> { 
 			Dictionary 
 				with: #name -> 'rotation'  
-				with: #value -> 70.			
+				with: #value -> 20.			
 		}.

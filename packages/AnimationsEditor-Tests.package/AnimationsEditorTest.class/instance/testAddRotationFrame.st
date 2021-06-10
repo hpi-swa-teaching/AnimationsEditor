@@ -1,9 +1,9 @@
 saveJson
 testAddRotationFrame
-	| jsonFrame aTreeNode testFrame |
+	| jsonFrame testFrame aRotationDegree|
 	
-	aTreeNode := self rotationTreeNode.
-	jsonFrame := self animationsEditorInstance addRotationFrame: aTreeNode.
+	aRotationDegree := 20. 
+	jsonFrame := self animationsEditorInstance addRotationFrameAt: self defaultTime with: aRotationDegree. 
 	testFrame := self rotationFrameDictionary. 
 		
 	self assert: jsonFrame equals: testFrame.
