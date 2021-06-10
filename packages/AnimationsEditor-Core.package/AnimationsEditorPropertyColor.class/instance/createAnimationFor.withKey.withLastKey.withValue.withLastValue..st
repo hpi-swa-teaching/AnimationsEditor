@@ -1,6 +1,5 @@
 accessing
 createAnimationFor: aMorph withKey: aKey withLastKey: aLastKey withValue: aValue withLastValue: aLastTargetValue
-
 	^ AnimCompositeAnimation new
 		 add:
 			(AnimAlphaBlendAnimation new
@@ -8,7 +7,7 @@ createAnimationFor: aMorph withKey: aKey withLastKey: aLastKey withValue: aValue
 				startValue: 1.0;
 				endValue: 0.0;
 				duration: ((aKey-aLastKey)//2);
-				finishBlock: [aMorph color: aValue]);
+				finishBlock: [aMorph color: (Color colorFrom:aValue)]);
 		add:  
 			(AnimAlphaBlendAnimation new
 				morph: aMorph;
@@ -16,3 +15,4 @@ createAnimationFor: aMorph withKey: aKey withLastKey: aLastKey withValue: aValue
 				endValue: 1.0;
 				duration: ((aKey-aLastKey)//2));
 		yourself.
+		
