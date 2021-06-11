@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"animationsEditorInstance" ],
+		"morph",
+		"propertyPosition" ],
 	"name" : "AnimationsEditorPropertyPositionTest",
 	"pools" : [
 		 ],

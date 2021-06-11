@@ -2,17 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"animationsEditorInstance" : "CL 5/27/2021 13:45",
-		"animationsEditorInstance:" : "CL 5/27/2021 13:45",
-		"setUp" : "CL 5/27/2021 10:56",
-		"tearDown" : "CL 5/27/2021 10:56",
+		"morph" : "mjs 6/11/2021 17:45",
+		"morph:" : "mjs 6/11/2021 17:44",
+		"propertySize" : "mjs 6/11/2021 17:45",
+		"propertySize:" : "mjs 6/11/2021 17:44",
+		"setUp" : "mjs 6/11/2021 17:47",
+		"tearDown" : "mjs 6/11/2021 17:45",
 		"testCanCreateAnimation" : "DM 8/7/2020 17:22",
 		"testCanRenderUI" : "DM 8/7/2020 17:22",
-		"testCreateAnimationForWithKeyWithLastKeyWithValueWithTargetValue" : "CL 5/30/2021 14:12",
-		"testHeightGetter" : "DM 8/7/2020 17:26",
-		"testHeightSetter" : "DM 8/7/2020 17:26",
-		"testInstanceCreation" : "DM 8/7/2020 17:22",
-		"testTargetSizeGetter" : "DM 8/7/2020 17:24",
-		"testTargetSizeSetter" : "DM 8/7/2020 17:23",
-		"testWidthGetter" : "DM 8/7/2020 17:26",
-		"testWidthSetter" : "DM 8/7/2020 17:26" } }
+		"testCreateAnimation" : "mjs 6/11/2021 17:46",
+		"testInstanceCreation" : "mjs 6/11/2021 17:46" } }

@@ -1,13 +1,13 @@
 saveJson
-addColorFrameAt: aTime with: aColor
+addImageSourceFrameAt: aTime with: aFilename
 	| jsonFrame |
 	
 	jsonFrame := Dictionary
 		with: #frame -> aTime
 		with: #properties -> { 
 			Dictionary 
-				with: #name -> 'color'
-				with: #value -> aColor printHtmlString asSymbol. 
+				with: #name -> 'imageSource'
+				with: #value -> aFilename. 
 		}.
 		
 	^ jsonFrame.

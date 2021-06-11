@@ -1,9 +1,9 @@
 as yet unclassified
 setUp
-	| morph |
-	
 	super setUp.
-	self animationsEditorInstance: AnimationsEditor open.
-	morph := Morph new.
-	morph openInWorld.
-	self animationsEditorInstance addTargetMorph: morph.
+	self morph: Morph new openInWorld.
+	self propertySize: AnimationsEditorPropertySize new.
+	self propertySize
+		targetFrame: 0;
+		targetMorph: self morph;
+		copyOfTargetMorph: self propertySize targetMorph copy.

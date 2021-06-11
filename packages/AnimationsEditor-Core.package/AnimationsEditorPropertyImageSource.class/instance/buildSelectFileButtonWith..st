@@ -7,7 +7,7 @@ buildSelectFileButtonWith: aBuilder
 		 frame: (LayoutFrame new topFraction: 0;
 			 topFraction: 0.8;
 			 bottomFraction: 1;
-			 rightFraction: 1;
+			 rightFraction: 0.4;
 			 leftFraction: 0;
 			 yourself);
 		 yourself.

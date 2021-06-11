@@ -1,4 +1,4 @@
 accessing
 imageMorph
 
-	^ imageMorph
+	^ imageMorph.
