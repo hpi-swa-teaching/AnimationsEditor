@@ -2,9 +2,7 @@ buildComponents
 createSizePropertyFrom: aMorph
 	| sizeTarget |
 	sizeTarget := (AnimationsEditorPropertySize new).
-	sizeTarget animationsEditor: self.
 	sizeTarget targetMorph: aMorph.
-	sizeTarget targetWidth.
 	sizeTarget targetWidth: (aMorph extent) x.
 	sizeTarget targetHeight: (aMorph extent) y.
 	

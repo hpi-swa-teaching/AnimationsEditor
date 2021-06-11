@@ -1,0 +1,4 @@
+accessing
+propertyImageSource
+
+	^ propertyImageSource.

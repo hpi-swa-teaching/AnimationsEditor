@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"animationString" : "LW 6/7/2021 16:11",
+		"buildInputSourceWith:" : "LW 6/5/2021 15:09",
+		"buildPanelWith:" : "LW 6/7/2021 17:05",
+		"buildSelectFileButtonWith:" : "LW 6/7/2021 17:06",
+		"buildUIWith:" : "LW 6/5/2021 15:09",
+		"canCreateAnimation" : "LW 6/5/2021 15:10",
+		"canRenderUI" : "LW 6/5/2021 15:10",
+		"createAnimationFor:" : "LW 6/5/2021 15:10",
+		"createAnimationFor:withDuration:" : "LW 6/5/2021 15:59",
+		"defaultTargetSource" : "LW 6/5/2021 15:10",
+		"initialize" : "LW 6/5/2021 15:10",
+		"loadedSource" : "LW 6/5/2021 16:00",
+		"loadedSource:" : "LW 6/5/2021 15:54",
+		"openFileSelection" : "LW 6/7/2021 17:12",
+		"resetTargetMorph" : "LW 6/5/2021 15:10",
+		"targetImage" : "LW 6/5/2021 15:50",
+		"targetImage:" : "LW 6/5/2021 15:50",
+		"targetSource" : "LW 6/5/2021 15:47",
+		"targetSource:" : "LW 6/7/2021 17:08",
+		"updateTargetImage" : "LW 6/7/2021 16:14" } }
