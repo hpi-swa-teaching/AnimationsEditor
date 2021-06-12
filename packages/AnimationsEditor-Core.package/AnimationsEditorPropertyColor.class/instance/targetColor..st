@@ -1,3 +1,3 @@
 accessing
 targetColor: aColor
-	targetColor := aColor. 
+	targetColor := aColor.
