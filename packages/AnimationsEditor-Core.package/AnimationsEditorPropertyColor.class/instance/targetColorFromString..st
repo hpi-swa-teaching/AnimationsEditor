@@ -1,5 +1,5 @@
 accessing
-targetColorFromString: aColor 
-	self targetColor: (Color colorFrom: aColor asString). 
+targetColorFromString: aString 
+	self targetColor: (Color colorFrom: aString). 
 
 	 
