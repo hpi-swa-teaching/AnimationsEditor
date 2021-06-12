@@ -1,4 +1,4 @@
 accessing
 colorPicker
 
-	^ colorPicker
+	^ colorPicker.
