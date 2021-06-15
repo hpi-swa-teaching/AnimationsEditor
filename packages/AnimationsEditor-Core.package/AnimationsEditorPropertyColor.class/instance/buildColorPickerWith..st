@@ -7,6 +7,6 @@ buildColorPickerWith: aBuilder
 								topFraction: 0;
 								bottomFraction: 0.35;
 								leftFraction: 0;
-								rightFraction: 1;
+								rightFraction: 0.9;
 								yourself);
 				 yourself.
