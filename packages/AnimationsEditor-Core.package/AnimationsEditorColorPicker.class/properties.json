@@ -1,0 +1,14 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AnimationsEditorColorPicker",
+	"pools" : [
+		 ],
+	"super" : "ColorPickerMorph",
+	"type" : "normal" }

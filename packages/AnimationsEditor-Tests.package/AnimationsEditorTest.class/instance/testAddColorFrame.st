@@ -4,5 +4,4 @@ testAddColorFrame
 	
 	jsonFrame := self animationsEditorInstance addColorFrameAt: self defaultTime with: Color red. 
 	testFrame := self colorFrameDictionary. 
-	
 	self assert: jsonFrame equals: testFrame.

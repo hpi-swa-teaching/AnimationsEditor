@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "tk 8/7/2020 17:53",
 	"instvars" : [
-		"targetColor" ],
+		"targetColor",
+		"colorPicker" ],
 	"name" : "AnimationsEditorPropertyColor",
 	"pools" : [
 		 ],
