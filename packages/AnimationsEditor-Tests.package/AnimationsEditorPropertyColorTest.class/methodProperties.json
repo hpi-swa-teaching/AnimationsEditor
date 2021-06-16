@@ -10,7 +10,7 @@
 		"tearDown" : "mjs 6/11/2021 17:35",
 		"testCanCreateAnimation" : "DM 8/7/2020 17:19",
 		"testCanRenderUI" : "DM 8/7/2020 17:19",
-		"testCreateAnimation" : "mjs 6/11/2021 17:35",
+		"testCreateAnimation" : "LW 6/16/2021 15:03",
 		"testInstanceCreation" : "DM 8/7/2020 17:19",
 		"testTargetColorFromString" : "LW 6/15/2021 15:15",
 		"testTargetColorGetterAsString" : "CL 5/23/2021 14:50",

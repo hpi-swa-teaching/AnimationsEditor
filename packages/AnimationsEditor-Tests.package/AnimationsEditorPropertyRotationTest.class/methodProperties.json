@@ -2,13 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"dummyRotationDegrees" : "LW 6/16/2021 15:12",
 		"morph" : "mjs 6/11/2021 17:42",
 		"morph:" : "mjs 6/11/2021 17:42",
 		"propertyRotation" : "mjs 6/11/2021 17:42",
 		"propertyRotation:" : "mjs 6/11/2021 17:42",
 		"setUp" : "mjs 6/11/2021 17:44",
-		"tearDown" : "mjs 6/11/2021 17:43",
+		"tearDown" : "LW 6/16/2021 15:26",
 		"testCanCreateAnimation" : "DM 8/7/2020 17:14",
 		"testCanRenderUI" : "DM 8/7/2020 17:14",
 		"testCreateAnimation" : "mjs 6/11/2021 17:43",
-		"testInstanceCreation" : "DM 8/7/2020 17:14" } }
+		"testInstanceCreation" : "DM 8/7/2020 17:14",
+		"testResetTargetMorph" : "LW 6/16/2021 15:13" } }

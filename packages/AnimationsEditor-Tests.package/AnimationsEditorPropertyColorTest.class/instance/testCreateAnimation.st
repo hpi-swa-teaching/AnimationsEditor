@@ -27,15 +27,14 @@ testCreateAnimation
 	
 	expectedDuration := (newKey-lastKey)//2.
 	
-	self assert: (firstAnimation duration = expectedDuration).
-	self assert: (firstAnimation endValue = 0.0).
-	self assert: (firstAnimation startValue = 1.0).
-	self assert: (firstAnimation morph = self morph).
-	
-	self assert: (secondAnimation duration = expectedDuration).
-	self assert: (secondAnimation endValue = 1.0).
-	self assert: (secondAnimation startValue = 0.0).
-	self assert: (secondAnimation morph = self morph).
+	self assert: firstAnimation duration = expectedDuration.
+	self assert: firstAnimation endValue = 0.0.
+	self assert: firstAnimation startValue = 1.0.
+	self assert: firstAnimation morph = self morph.
+	self assert: secondAnimation duration = expectedDuration.
+	self assert: secondAnimation endValue = 1.0.
+	self assert: secondAnimation startValue = 0.0.
+	self assert: secondAnimation morph = self morph.
 
 	firstAnimation evaluateFinishBlock.
-	self assert: (self morph color = newValue)
+	self assert: self morph color = newValue.
