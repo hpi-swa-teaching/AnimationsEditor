@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"newWith:" : "CL 6/25/2021 15:28" },
+	"instance" : {
+		"addTrackFor:withPosition:" : "CL 6/25/2021 16:18",
+		"animationsEditor" : "CL 6/25/2021 14:24",
+		"animationsEditor:" : "CL 6/25/2021 14:24",
+		"initialize" : "CL 6/25/2021 15:31",
+		"property" : "CL 6/25/2021 15:49",
+		"property:" : "CL 6/25/2021 15:49",
+		"switchTimelineTo:" : "CL 6/25/2021 16:35",
+		"trackHeight" : "CL 6/25/2021 15:50",
+		"tracks" : "CL 6/25/2021 15:17",
+		"tracks:" : "CL 6/25/2021 15:17" } }

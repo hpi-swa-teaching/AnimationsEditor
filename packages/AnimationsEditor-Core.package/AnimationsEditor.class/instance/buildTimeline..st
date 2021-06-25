@@ -1,7 +1,11 @@
 buildComponents
 buildTimeline: aBuilder
-		^ aBuilder pluggablePanelSpec new
+
+		self timeline: (AnimationsEditorTimeline newWith: self).
+
+		^ aBuilder pluggableScrollPaneSpec new
 			model: self;
+			morph: self timeline;
 			frame: (LayoutFrame new
 						topFraction: 0.67;
 						bottomFraction: 0.93;

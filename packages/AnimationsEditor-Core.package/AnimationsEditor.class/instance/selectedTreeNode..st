@@ -4,4 +4,6 @@ selectedTreeNode: aNode
 	
 	aNode canRenderUI
 		ifTrue: [self insertMorph: (aNode buildUIWith: self toolBuilder)
-						 Into: self propertyEditorPanel].
+						 Into: self propertyEditorPanel.
+				self switchTimelineToMorphWith: aNode.		
+						].
