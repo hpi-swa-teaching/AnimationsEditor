@@ -1,5 +1,5 @@
-initialize-release
-testLoadJsonPropertyRotation
+loadJson
+testLoadStartPropertyRotation
 	| morph data |
 	
 	data := {{

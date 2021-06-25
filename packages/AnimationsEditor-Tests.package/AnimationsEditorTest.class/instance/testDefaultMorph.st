@@ -1,5 +1,5 @@
-initialize-release
-testLoadJsonDefaultMorph
+loadJson
+testDefaultMorph
 	| morph |
 	
 	morph := self animationsEditorInstance createMorphFromString: 'AnimationsEditorKlippschliefer'.

@@ -1,5 +1,5 @@
-initialize-release
-testLoadJsonPropertyPosition
+loadJson
+testLoadStartPropertyPosition
 	| morph data |
 	
 	data := {{

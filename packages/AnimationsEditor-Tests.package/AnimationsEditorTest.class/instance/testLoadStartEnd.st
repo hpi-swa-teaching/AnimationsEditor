@@ -1,5 +1,5 @@
-initialize-release
-testLoadJsonStartEnd
+loadJson
+testLoadStartEnd
 	| data |
 	
 	data := {'end' -> 500 . 'start' -> 0} as: Dictionary.

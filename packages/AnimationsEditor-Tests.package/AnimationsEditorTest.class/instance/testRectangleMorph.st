@@ -1,5 +1,5 @@
-initialize-release
-testLoadJsonRectangleMorph
+loadJson
+testRectangleMorph
 	| morph |
 	
 	morph := self animationsEditorInstance createMorphFromString: 'RectangleMorph'.

@@ -1,5 +1,5 @@
-initialize-release
-testLoadJsonPropertyColor
+loadJson
+testLoadStartPropertyColor
 	| morph data |
 	
 	data := {{

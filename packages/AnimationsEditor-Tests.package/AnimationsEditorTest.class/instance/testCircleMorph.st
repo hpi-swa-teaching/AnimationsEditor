@@ -1,5 +1,5 @@
-initialize-release
-testLoadJsonCircleMorph
+loadJson
+testCircleMorph
 	| morph |
 	
 	morph := self animationsEditorInstance createMorphFromString: 'CircleMorph'.

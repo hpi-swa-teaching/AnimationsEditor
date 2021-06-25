@@ -1,5 +1,5 @@
-initialize-release
-testLoadJsonMorph
+loadJson
+testMorph
 	| morph |
 	
 	morph := self animationsEditorInstance createMorphFromString: 'Morph'.
