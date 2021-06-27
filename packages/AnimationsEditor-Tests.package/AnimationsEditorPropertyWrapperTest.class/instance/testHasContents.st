@@ -1,12 +1,7 @@
 as yet unclassified
 testHasContents
-	| propertyWrapper propertyItem subpropertyItem |
-	
-	propertyItem := AnimationsEditorProperty new.
+	| subpropertyItem |
 	subpropertyItem := AnimationsEditorProperty new.
-	propertyWrapper := AnimationsEditorPropertyWrapper new.
-	
-	propertyItem subproperties at: 'property' put: subpropertyItem.
-	propertyWrapper setItem: propertyItem.
-	
-	self assert: (propertyWrapper hasContents = true).
+	self property subproperties at: 'property' put: subpropertyItem.
+	self propertyWrapper setItem: self property.
+	self assert: self propertyWrapper hasContents = true.

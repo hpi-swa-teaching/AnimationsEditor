@@ -1,15 +1,11 @@
-initialize-release
+testing
 testSelectMorphByHand
-	| animationsEditorInstance morph |
-	
-	animationsEditorInstance := AnimationsEditor open.
+	| morph |
 	morph := Morph new.
 	morph openInHand.
 
-	animationsEditorInstance selectMorphByHand.
-	animationsEditorInstance handleListenEvent: nil.
-		
-	animationsEditorInstance windowReference abandon.
+	self animationsEditorInstance selectMorphByHand.
+	self animationsEditorInstance handleListenEvent: nil.
 	morph abandon.
 
 	self assert: true.

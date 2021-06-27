@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testEmptySubProperties
 	| propertyItem |
 	propertyItem := AnimationsEditorProperty new.

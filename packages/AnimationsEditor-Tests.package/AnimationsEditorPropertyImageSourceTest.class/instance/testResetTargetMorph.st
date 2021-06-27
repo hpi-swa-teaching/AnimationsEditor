@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testResetTargetMorph
 	| originalForm |
 	originalForm :=  self propertyImageSource targetMorph image.

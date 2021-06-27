@@ -1,8 +1,3 @@
-initialize-release
+testing
 testInstanceCreation
-	| animationsEditorInstance |
-	
-	animationsEditorInstance := AnimationsEditor open.
-	self assert: (animationsEditorInstance windowReference = nil) not.
-	
-	animationsEditorInstance windowReference abandon.
+	self assert: (self animationsEditorInstance windowReference = nil) not.

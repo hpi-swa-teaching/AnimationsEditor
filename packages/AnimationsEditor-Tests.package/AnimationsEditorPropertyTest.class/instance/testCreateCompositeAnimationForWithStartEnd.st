@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCreateCompositeAnimationForWithStartEnd
 	
 	| positionProperty propertyStartEnd morph animations |
@@ -32,6 +32,3 @@ testCreateCompositeAnimationForWithStartEnd
 	
 	self assert: (animations size = 2). "WIP"
 	"test position of morph after animation"
-
-	
-	

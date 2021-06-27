@@ -1,9 +1,4 @@
 as yet unclassified
 testHasEmptyContents
-	| propertyWrapper propertyItem |
-	propertyItem := AnimationsEditorProperty new.
-	propertyWrapper := AnimationsEditorPropertyWrapper new.
-	
-	propertyWrapper setItem: propertyItem.
-	
-	self assert: (propertyWrapper hasContents = false).
+	self propertyWrapper setItem: self property.
+	self assert: self propertyWrapper hasContents = false.

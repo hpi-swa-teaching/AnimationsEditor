@@ -1,12 +1,11 @@
-initialize-release
+testing
 testTreeSpecWithOneMorph
 	| animationsEditorInstance morph |
 	animationsEditorInstance := AnimationsEditor open.
-	morph := Morph new.
-	morph openInWorld.
-	animationsEditorInstance addTargetMorph: morph.
+	morph := Morph new openInWorld.
 	
-	self assert: (animationsEditorInstance propertyList size = 2). 
+	animationsEditorInstance addTargetMorph: morph.
+	self assert: animationsEditorInstance propertyList size = 2.
 	
 	animationsEditorInstance windowReference abandon.
 	morph abandon.

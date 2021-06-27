@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 testInstanceCreation
-	self assert: (AnimationsEditorPropertyColor new = nil) not.
+	self assert: (self propertyColor = nil) not.

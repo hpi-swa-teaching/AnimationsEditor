@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCreateAnimation
 
 	| animation expectedDuration newKey lastKey newValue lastValue|
