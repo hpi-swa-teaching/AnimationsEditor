@@ -6,13 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"animationsEditor",
-		"timebar",
-		"tracks",
-		"property",
-		"startTime",
-		"endTime" ],
-	"name" : "AnimationsEditorTimeline",
+		"track",
+		"frame",
+		"value" ],
+	"name" : "AnimationsEditorKeyframe",
 	"pools" : [
 		 ],
 	"super" : "RectangleMorph",

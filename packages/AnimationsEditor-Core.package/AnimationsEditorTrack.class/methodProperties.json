@@ -2,11 +2,19 @@
 	"class" : {
 		"on:withProperty:withPosition:withExtent:" : "CL 6/25/2021 16:21" },
 	"instance" : {
+		"addKeyframes" : "MH 7/1/2021 12:27",
+		"convertFrameToPosition:" : "MH 7/1/2021 12:18",
+		"endMargin" : "MH 7/1/2021 12:18",
 		"initialize" : "CL 6/25/2021 16:22",
-		"initializeTrack" : "CL 6/25/2021 16:34",
+		"initializeMorph" : "MH 7/1/2021 12:16",
+		"initializeText" : "MH 7/1/2021 11:34",
+		"initializeTrack" : "MH 7/1/2021 11:33",
 		"keyframeMorphs" : "CL 6/25/2021 15:36",
 		"keyframeMorphs:" : "CL 6/25/2021 15:36",
+		"lineSegmentWidth" : "MH 7/1/2021 12:18",
 		"property" : "CL 6/25/2021 15:36",
 		"property:" : "CL 6/25/2021 15:36",
+		"startMargin" : "MH 7/1/2021 12:16",
+		"textMargin" : "MH 7/1/2021 12:16",
 		"timeline" : "CL 6/25/2021 15:36",
 		"timeline:" : "CL 6/25/2021 15:36" } }

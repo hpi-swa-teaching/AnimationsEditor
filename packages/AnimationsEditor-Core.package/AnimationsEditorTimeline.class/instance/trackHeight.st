@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 trackHeight
 
-	^ self height / self property subproperties size.
+	^ 50. 

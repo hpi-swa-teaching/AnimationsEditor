@@ -1,6 +1,8 @@
-accessing
+initialization
 initialize
-	
+
 	super initialize.
-	self extent: 550@100.
+	
+	self extent: self initialExtent. 
 	self color: Color white.
+	self initializeStartEndTime. 

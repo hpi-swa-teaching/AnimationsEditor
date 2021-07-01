@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"on:withExtent:" : "MH 7/1/2021 10:57" },
+	"instance" : {
+		"addIntermediateLines" : "MH 7/1/2021 12:08",
+		"addLineFrom:to:" : "MH 7/1/2021 10:19",
+		"addStartEndLine" : "MH 7/1/2021 12:07",
+		"convertFrameToPosition:" : "MH 7/1/2021 12:05",
+		"endMargin" : "MH 7/1/2021 10:08",
+		"initialize" : "MH 7/1/2021 09:48",
+		"lineHeight" : "MH 7/1/2021 12:06",
+		"lineSegmentWidth" : "MH 7/1/2021 12:03",
+		"startEndLineHeight" : "MH 7/1/2021 12:06",
+		"startMargin" : "MH 7/1/2021 11:34",
+		"timeline" : "MH 7/1/2021 09:23",
+		"timeline:" : "MH 7/1/2021 09:23",
+		"updateScale" : "MH 7/1/2021 12:08" } }
