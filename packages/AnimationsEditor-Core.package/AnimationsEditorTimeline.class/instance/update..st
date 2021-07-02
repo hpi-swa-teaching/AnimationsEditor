@@ -3,7 +3,6 @@ update: anObject
 
 	self startTime: anObject startTime.
 	self endTime: anObject endTime.
-	
-	self timebar updateScale.  
-
+	self createTracks.
+	self addTimebar.
 	

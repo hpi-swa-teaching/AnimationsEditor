@@ -1,4 +1,4 @@
 constants
 trackHeight
 
-	^ 50. 
+	^ 25. 

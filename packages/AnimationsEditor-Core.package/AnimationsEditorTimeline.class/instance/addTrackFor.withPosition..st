@@ -7,7 +7,8 @@ addTrackFor: aProperty withPosition: aNumber
 				withProperty: aProperty
 				withPosition: 0 @ aNumber
 				withExtent: self width @ self trackHeight.
-	self addMorph: track
+	aProperty addDependent: track.
+	self addMorph: track.
 
 	
 	

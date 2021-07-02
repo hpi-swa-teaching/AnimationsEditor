@@ -2,11 +2,12 @@
 	"class" : {
 		"newWith:" : "CL 6/25/2021 15:28" },
 	"instance" : {
-		"addTimebar" : "MH 7/1/2021 11:26",
-		"addTrackFor:withPosition:" : "MH 7/1/2021 10:56",
+		"addTimebar" : "CL 7/2/2021 11:37",
+		"addTrackFor:withPosition:" : "CL 7/2/2021 11:20",
 		"animationsEditor" : "CL 6/25/2021 14:24",
 		"animationsEditor:" : "CL 6/25/2021 14:24",
-		"createTracks" : "MH 7/1/2021 10:54",
+		"createTracks" : "CL 7/2/2021 11:23",
+		"deleteTracks" : "CL 7/2/2021 11:42",
 		"endTime" : "MH 7/1/2021 09:50",
 		"endTime:" : "MH 7/1/2021 09:50",
 		"initialExtent" : "MH 7/1/2021 10:48",
@@ -16,10 +17,8 @@
 		"property:" : "CL 6/25/2021 15:49",
 		"startTime" : "MH 7/1/2021 09:50",
 		"startTime:" : "MH 7/1/2021 09:50",
-		"switchTimelineTo:" : "MH 7/1/2021 10:54",
+		"switchTimelineTo:" : "CL 7/2/2021 11:27",
 		"timebar" : "MH 7/1/2021 09:56",
 		"timebar:" : "MH 7/1/2021 09:56",
-		"trackHeight" : "MH 7/1/2021 09:28",
-		"tracks" : "CL 6/25/2021 15:17",
-		"tracks:" : "CL 6/25/2021 15:17",
-		"update:" : "MH 7/1/2021 10:00" } }
+		"trackHeight" : "CL 7/2/2021 11:56",
+		"update:" : "CL 7/2/2021 11:45" } }

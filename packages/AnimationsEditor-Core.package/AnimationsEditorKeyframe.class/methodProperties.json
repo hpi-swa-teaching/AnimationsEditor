@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"on:withPosition:withFrame:withValue:" : "MH 7/1/2021 12:22" },
+		"on:withPosition:withFrame:withValue:" : "CL 7/2/2021 11:55" },
 	"instance" : {
 		"frame" : "MH 7/1/2021 12:22",
 		"frame:" : "MH 7/1/2021 12:22",
-		"initialize" : "MH 7/1/2021 12:23",
+		"initialize" : "CL 7/2/2021 12:01",
+		"setCenteredPosition:" : "CL 7/2/2021 12:01",
 		"track" : "MH 7/1/2021 12:11",
 		"track:" : "MH 7/1/2021 12:11",
 		"value:" : "MH 7/1/2021 12:22" } }

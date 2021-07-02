@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"timeline",
-		"keyframeMorphs",
 		"property" ],
 	"name" : "AnimationsEditorTrack",
 	"pools" : [

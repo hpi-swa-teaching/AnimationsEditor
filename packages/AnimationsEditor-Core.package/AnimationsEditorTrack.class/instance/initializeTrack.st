@@ -3,7 +3,8 @@ initializeTrack
 	
 	self
 		initializeText;
-		initializeMorph. 
+		initializeMorph;
+		addKeyframes.
 		
 	
 	

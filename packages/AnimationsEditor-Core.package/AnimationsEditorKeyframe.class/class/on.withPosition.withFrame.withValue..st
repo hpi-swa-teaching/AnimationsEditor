@@ -1,10 +1,10 @@
-as yet unclassified
+initialize
 on: anAnimationsEditorTrack withPosition: aPoint withFrame: aFrame withValue: aValue 
 
 	^ self basicNew
-	      timeline: anAnimationsEditorTrack;
+	      track: anAnimationsEditorTrack;
 		frame: aFrame;
 		value: aValue; 
 	      initialize;
-		position: aPoint;
+		setCenteredPosition: aPoint;
 	      yourself.
