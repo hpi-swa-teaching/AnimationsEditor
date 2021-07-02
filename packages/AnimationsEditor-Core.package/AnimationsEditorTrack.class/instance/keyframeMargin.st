@@ -1,4 +1,4 @@
 initialization
 keyframeMargin
 
-	^ (self height - 10)/2.
+	^ (self height - 20)/2.

@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"timeline",
 		"property" ],
 	"name" : "AnimationsEditorTrack",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "AnimationsEditorTimelineObject",
 	"type" : "normal" }

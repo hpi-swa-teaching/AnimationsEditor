@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "AnimationsEditorTimebar",
+		"timeline" ],
+	"name" : "AnimationsEditorTimelineObject",
 	"pools" : [
 		 ],
-	"super" : "AnimationsEditorTimelineObject",
+	"super" : "RectangleMorph",
 	"type" : "normal" }

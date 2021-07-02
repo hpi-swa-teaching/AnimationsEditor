@@ -1,4 +1,0 @@
-constants
-startMargin
-
-	^ 85. 
