@@ -2,4 +2,4 @@ initialization
 initialize
 	
 	super initialize. 
-	self color: Color white.  
+	self color: Color lightGray.  

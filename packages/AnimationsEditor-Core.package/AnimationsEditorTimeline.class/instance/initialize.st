@@ -4,5 +4,5 @@ initialize
 	super initialize.
 	
 	self extent: self initialExtent. 
-	self color: Color white.
+	self color: Color lightGray.
 	self initializeStartEndTime. 

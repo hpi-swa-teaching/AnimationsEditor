@@ -2,4 +2,6 @@ initialization
 update: aProperty
 	
 	self property: aProperty.
-	self addKeyframes.
+	(self property isKindOf: AnimationsEditorProperty)
+		ifTrue: [self addKeyframes].
+	
