@@ -1,8 +1,9 @@
 saveJson
 saveToJson: aTreeNode
-	| jsonStructure jsonString |
+	| jsonStructure jsonString propertyStartEnd |
 	
-	jsonStructure := self createStructure: self propertyStartEnd startTime with: self propertyStartEnd endTime.
+	propertyStartEnd := self animationsEditor propertyStartEnd.
+	jsonStructure := self createStructure: propertyStartEnd startTime with: propertyStartEnd endTime.
 	jsonStructure := self addMorphToJson: jsonStructure with: aTreeNode.
 	jsonString := self dictionaryToJson: jsonStructure.
 	self writeJsonToFile: jsonString with: self outputFileDirectory. 

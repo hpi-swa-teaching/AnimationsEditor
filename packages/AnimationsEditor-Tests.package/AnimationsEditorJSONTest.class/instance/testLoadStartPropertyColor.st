@@ -7,5 +7,5 @@ testLoadStartPropertyColor
 					'name' -> 'color'
 				} as: Dictionary}.
 	morph := Morph new.
-	self animationsEditorInstance loadStartProperties: data with: morph.
+	self jsonHandler loadStartProperties: data with: morph.
 	self assert: morph color = Color blue.

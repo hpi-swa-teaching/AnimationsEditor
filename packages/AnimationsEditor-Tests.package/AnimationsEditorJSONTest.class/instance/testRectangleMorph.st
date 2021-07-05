@@ -2,5 +2,5 @@ loadJson
 testRectangleMorph
 	| morph |
 	
-	morph := self animationsEditorInstance createMorphFromString: 'RectangleMorph'.
+	morph := self jsonHandler createMorphFromString: 'RectangleMorph'.
 	self assert: morph class = RectangleMorph.

@@ -6,7 +6,7 @@ testLoadJsonTargetColor
 	
 	morph := Morph new openInWorld.
 	morphProperty := self animationsEditorInstance addTargetMorph: morph.
-	self animationsEditorInstance loadFrames: data with: morphProperty.
+	self jsonHandler loadFrames: data with: morphProperty.
 	self assert: ((morphProperty subproperties at: 'color') targetValues at: 500) = 'blue'.
 	self assert: ((morphProperty subproperties at: 'color') targetValues at: 1000) = 'lightGray'.
 	morph abandon.

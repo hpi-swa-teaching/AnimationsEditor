@@ -2,6 +2,6 @@ saveJson
 testAddColorFrame
 	| jsonFrame testFrame |
 	
-	jsonFrame := self animationsEditorInstance addColorFrameAt: self defaultTime with: Color red. 
+	jsonFrame := self jsonHandler addColorFrameAt: self defaultTime with: Color red. 
 	testFrame := self colorFrameDictionary. 
 	self assert: jsonFrame equals: testFrame.

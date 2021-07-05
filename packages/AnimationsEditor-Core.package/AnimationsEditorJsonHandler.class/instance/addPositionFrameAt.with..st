@@ -14,5 +14,3 @@ addPositionFrameAt: aTime with: aPoint
 		}.
 		
 	^ jsonFrame.
-
-	

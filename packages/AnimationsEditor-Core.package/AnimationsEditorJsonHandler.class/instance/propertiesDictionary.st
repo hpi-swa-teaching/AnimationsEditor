@@ -7,7 +7,3 @@ propertiesDictionary
 	#height -> [:aMorph :aValue | aMorph height: aValue].
 	#color -> [:aMorph :aValue | aMorph color: (Color colorFrom: aValue)].
 	#text -> [:aMorph :aValue | aMorph contents: aValue]} as: IdentityDictionary.
-	
-	
-
-	

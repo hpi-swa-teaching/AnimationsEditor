@@ -6,7 +6,7 @@ testLoadJsonTargetPosition
 	
 	morph := Morph new openInWorld.
 	morphProperty := self animationsEditorInstance addTargetMorph: morph.
-	self animationsEditorInstance loadFrames: data with: morphProperty.
+	self jsonHandler loadFrames: data with: morphProperty.
 	self assert: ((morphProperty subproperties at: 'position') targetValues at: 500) = (48 @ 104).
 	self assert: ((morphProperty subproperties at: 'position') targetValues at: 1000) = (3 @ 42).
 	morph abandon.

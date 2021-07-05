@@ -7,5 +7,5 @@ testLoadStartPropertyRotation
 					'name' -> 'rotation'
 				} as: Dictionary}.
 	morph := Morph new.
-	self animationsEditorInstance loadStartProperties: data with: morph.
+	self jsonHandler loadStartProperties: data with: morph.
 	self assert: morph rotationDegrees = 40.

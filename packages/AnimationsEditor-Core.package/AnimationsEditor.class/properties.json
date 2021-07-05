@@ -20,7 +20,8 @@
 		"editorTitle",
 		"windowReference",
 		"timelines",
-		"propertyStartEnd" ],
+		"propertyStartEnd",
+		"jsonHandler" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],

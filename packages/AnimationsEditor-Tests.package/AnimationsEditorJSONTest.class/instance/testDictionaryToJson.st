@@ -8,6 +8,6 @@ testDictionaryToJson
 	jsonString :=  '{
 	"Test" : 100
 }'. 
-	self assert: (self animationsEditorInstance dictionaryToJson: json) equals: jsonString. 
+	self assert: (self jsonHandler dictionaryToJson: json) equals: jsonString. 
 	
 	

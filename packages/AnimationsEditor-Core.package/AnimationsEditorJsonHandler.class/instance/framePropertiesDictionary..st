@@ -8,7 +8,3 @@ framePropertiesDictionary: aFrameId
 	#color -> [:anDictionary :aValue | (anDictionary at: 'color') targetValues at: aFrameId put:aValue].
 	#imageSource -> [:anDictionary :aValue |(anDictionary at: 'imageSource') targetValues at: aFrameId put:aValue].
 	#text -> [:anDictionary :aValue |(anDictionary at: 'text') targetValues at: aFrameId put:aValue].} as: IdentityDictionary.
-	
-	
-
-	

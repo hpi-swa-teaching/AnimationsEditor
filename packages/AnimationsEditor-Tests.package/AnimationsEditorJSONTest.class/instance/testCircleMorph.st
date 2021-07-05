@@ -2,5 +2,5 @@ loadJson
 testCircleMorph
 	| morph |
 	
-	morph := self animationsEditorInstance createMorphFromString: 'CircleMorph'.
+	morph := self jsonHandler createMorphFromString: 'CircleMorph'.
 	self assert: morph class = CircleMorph.
