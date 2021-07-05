@@ -1,0 +1,28 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedTreeNode",
+		"toolBuilder",
+		"treeSpec",
+		"propertyEditorPanelChildren",
+		"mainWindow",
+		"informationBarText",
+		"emptyPanels",
+		"propertyEditorPanel",
+		"propertyTreeMorph",
+		"informationBar",
+		"editorTitle",
+		"windowReference",
+		"timelines",
+		"propertyStartEnd",
+		"animationsEditor" ],
+	"name" : "AnimationsEditorUI",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

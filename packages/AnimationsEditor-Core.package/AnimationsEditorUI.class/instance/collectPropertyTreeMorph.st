@@ -1,4 +1,4 @@
-buildComponents
+collect
 collectPropertyTreeMorph
 	self mainWindow submorphs do: [:each | 
 		each class == PluggableTreeMorph

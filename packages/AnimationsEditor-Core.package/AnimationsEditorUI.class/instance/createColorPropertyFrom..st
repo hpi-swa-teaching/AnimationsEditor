@@ -1,4 +1,4 @@
-buildComponents
+createProperty
 createColorPropertyFrom: aMorph
 	| colorTarget |
 	colorTarget := AnimationsEditorPropertyColor new.

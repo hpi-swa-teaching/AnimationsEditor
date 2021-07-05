@@ -1,4 +1,4 @@
-buildComponents
+createProperty
 createImageSourcePropertyFrom: aMorph
 	| imageSourceTarget |
 	imageSourceTarget := AnimationsEditorPropertyImageSource new.

@@ -1,4 +1,4 @@
-buildComponents
+createProperty
 createRotationPropertyFrom: aMorph
 	| rotationTarget |
 	rotationTarget := AnimationsEditorPropertyRotation new.

@@ -1,5 +1,6 @@
 buildComponents
 buildAddMorphButtonWith: aBuilder
+
 	^ aBuilder pluggableButtonSpec new model: self;
 		 label: 'Add morph';
 		 action: #selectMorphByHand;

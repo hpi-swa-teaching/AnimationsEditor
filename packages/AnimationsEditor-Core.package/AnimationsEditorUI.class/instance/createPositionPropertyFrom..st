@@ -1,4 +1,4 @@
-buildComponents
+createProperty
 createPositionPropertyFrom: aMorph
 	| positionTarget |
 	positionTarget := AnimationsEditorPropertyPosition new.

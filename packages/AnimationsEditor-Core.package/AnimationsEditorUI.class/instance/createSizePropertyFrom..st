@@ -1,4 +1,4 @@
-buildComponents
+createProperty
 createSizePropertyFrom: aMorph 
 	| sizeTarget |
 	sizeTarget := AnimationsEditorPropertySize new.

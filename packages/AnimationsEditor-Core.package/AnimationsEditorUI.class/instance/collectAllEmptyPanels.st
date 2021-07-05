@@ -1,4 +1,4 @@
-buildComponents
+collect
 collectAllEmptyPanels
 	self mainWindow submorphs do: [:each | 
 		each class == PluggablePanelMorph

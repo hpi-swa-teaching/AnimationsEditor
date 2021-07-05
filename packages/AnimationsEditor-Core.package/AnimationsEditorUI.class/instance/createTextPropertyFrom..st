@@ -1,4 +1,4 @@
-buildComponents
+createProperty
 createTextPropertyFrom: aMorph
 	| textTarget |
 	textTarget := AnimationsEditorPropertyText new.
