@@ -1,4 +1,4 @@
-as yet unclassified
+dummy
 dummyImage
 	^ Form
 		extent: 4 @ 4

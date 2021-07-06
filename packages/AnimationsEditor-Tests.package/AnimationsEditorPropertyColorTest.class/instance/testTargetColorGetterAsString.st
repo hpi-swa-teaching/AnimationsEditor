@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testTargetColorGetterAsString
 	| p |
 	p := AnimationsEditorPropertyColor new.

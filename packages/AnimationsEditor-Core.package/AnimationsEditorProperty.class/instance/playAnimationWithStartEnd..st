@@ -2,7 +2,7 @@ animation
 playAnimationWithStartEnd: aStartEndProperty
 	| animations comp |
 	
-	(self isKeyframeExistent)
+	self isKeyframeExistent
 		ifTrue: [
 			self copyOfTargetMorph: self targetMorph copy.
 			animations := (self createCompositeAnimationFor: self targetMorph withStartEnd: aStartEndProperty).
@@ -12,5 +12,3 @@ playAnimationWithStartEnd: aStartEndProperty
 			comp start.]
 	
 		ifFalse: [self animationsEditor updateInformationText: 'Please specify at least one keyframe to play an animation.'].
-
-												

@@ -1,8 +1,10 @@
 initialize-release
 open
-	| instance window |
+	| instance window ui |
+	
 	instance := self new.
-	window := ToolBuilder open: instance.
-	instance windowReference: window.
+	"ui := AnimationsEditorUI on: instance.
+	window := ToolBuilder open: ui.
+	instance windowReference: window."
 	
 	^ instance.

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCreateAnimation
 
 	"test that it returns a composite animation according to the input values"

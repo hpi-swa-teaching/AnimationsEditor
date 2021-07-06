@@ -1,4 +1,0 @@
-constants
-textMargin 
-
-	^ 95.

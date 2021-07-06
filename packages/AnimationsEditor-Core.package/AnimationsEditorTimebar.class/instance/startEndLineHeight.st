@@ -1,4 +1,0 @@
-constants
-startEndLineHeight
-
-	^ 20. 

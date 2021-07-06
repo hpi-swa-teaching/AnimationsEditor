@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testOnlyPlaysAnimationInsideStartEndTime
 	
 	| positionProperty propertyStartEnd morph animations |

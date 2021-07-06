@@ -1,11 +1,7 @@
 as yet unclassified
 testAsString
-	| propertyWrapper propertyItem assignedTitle|
-	propertyItem := AnimationsEditorProperty new.
-	propertyWrapper := AnimationsEditorPropertyWrapper new.
+	| assignedTitle |
 	assignedTitle := 'Ich bin ein title'.
-	
-	propertyItem title: assignedTitle.
-	propertyWrapper setItem: propertyItem.
-	
-	self assert: (propertyWrapper asString = assignedTitle).
+	self property title: assignedTitle.
+	self propertyWrapper setItem: self property.
+	self assert: self propertyWrapper asString = assignedTitle.

@@ -1,7 +1,9 @@
-as yet unclassified
+testing
 testResetTargetMorph
-	| originalRotation |
+	| originalRotation newRotation |
+	
 	originalRotation :=  self propertyRotation targetMorph rotationDegrees.
-	self propertyRotation targetMorph rotationDegrees: self dummyRotationDegrees.
+	newRotation := originalRotation + 60.
+	self propertyRotation targetMorph rotationDegrees: newRotation.
 	self propertyRotation resetTargetMorph.
 	self assert: self propertyRotation targetMorph rotationDegrees = originalRotation.

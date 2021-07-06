@@ -1,3 +1,3 @@
-as yet unclassified
+dummy
 dummyImagePathJPEG
 	^ 'testDummyImage.jpg'.

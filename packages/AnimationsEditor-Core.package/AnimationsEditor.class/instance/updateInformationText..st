@@ -1,4 +1,4 @@
 accessing
 updateInformationText: aString
-	self informationBarText: aString.
-	self informationBar update: self informationBar getTextSelector.
+	self ui informationBarText: aString.
+	self ui informationBar update: self ui informationBar getTextSelector.

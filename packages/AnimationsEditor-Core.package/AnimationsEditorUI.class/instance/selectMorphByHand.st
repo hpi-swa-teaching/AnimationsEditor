@@ -1,0 +1,4 @@
+eventHandling
+selectMorphByHand
+
+	self animationsEditor selectMorphByHand.

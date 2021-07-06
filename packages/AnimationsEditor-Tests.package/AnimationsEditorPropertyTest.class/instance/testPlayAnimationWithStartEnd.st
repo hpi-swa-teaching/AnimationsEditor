@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testPlayAnimationWithStartEnd
 
 	"test that building of compAnim works"

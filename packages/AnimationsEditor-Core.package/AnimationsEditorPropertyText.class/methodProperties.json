@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addKeyframe" : "LW 7/1/2021 17:43",
+		"animationPropertyFor:" : "LW 7/1/2021 17:44",
+		"animationString" : "LW 7/1/2021 18:49",
+		"buildInputFrameWith:" : "LW 7/1/2021 17:44",
+		"buildInputTextWith:" : "LW 7/1/2021 17:45",
+		"buildPanelWith:" : "LW 7/1/2021 17:45",
+		"buildUIWith:" : "LW 7/1/2021 17:45",
+		"canCreateAnimation" : "LW 7/1/2021 17:46",
+		"canRenderUI" : "LW 7/1/2021 17:46",
+		"createAnimationFor:withKey:withLastKey:withValue:withLastValue:" : "LW 7/1/2021 17:59",
+		"initialize" : "LW 7/1/2021 17:47",
+		"resetTargetMorph" : "LW 7/1/2021 17:51",
+		"targetText" : "LW 7/1/2021 18:01",
+		"targetText:" : "LW 7/1/2021 18:03" } }

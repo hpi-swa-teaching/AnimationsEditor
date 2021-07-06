@@ -1,8 +1,8 @@
-initialize-release
+testing
 testPlayAnimations
 	| positionProperty |
 	
-	positionProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 'position').
+	positionProperty := (self animationsEditorInstance propertyList at: 2) subproperties at: 'position'.
 	self animationsEditorInstance selectedTreeNode: positionProperty.
 	
 	positionProperty 
@@ -11,6 +11,5 @@ testPlayAnimations
 		frame: 500;
 		addKeyframe.
 	
-	self animationsEditorInstance playAnimations.	
-	
+	self animationsEditorInstance playAnimations.
 	self assert: true. "no errors = good"

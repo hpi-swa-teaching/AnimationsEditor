@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"propertyText" : "LW 7/1/2021 17:14",
+		"propertyText:" : "LW 7/1/2021 17:12",
+		"setUp" : "LW 7/1/2021 17:15",
+		"tearDown" : "LW 7/1/2021 17:13",
+		"testCreateAnimation" : "LW 7/1/2021 18:06",
+		"testInstanceCreation" : "LW 7/1/2021 17:14",
+		"testResetTargetMorph" : "LW 7/1/2021 18:08",
+		"textMorph" : "LW 7/1/2021 17:14",
+		"textMorph:" : "LW 7/1/2021 17:12" } }

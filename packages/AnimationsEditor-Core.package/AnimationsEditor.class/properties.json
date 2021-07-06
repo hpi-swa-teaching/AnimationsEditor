@@ -19,8 +19,10 @@
 		"informationBar",
 		"editorTitle",
 		"windowReference",
-		"timeline",
-		"propertyStartEnd" ],
+		"timelines",
+		"propertyStartEnd",
+		"jsonHandler",
+		"ui" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],

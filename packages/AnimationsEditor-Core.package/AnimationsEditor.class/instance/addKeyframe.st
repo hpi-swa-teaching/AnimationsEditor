@@ -1,4 +1,4 @@
 eventHandling
 addKeyframe
 	self updateInformationText: 'Added keyframe.'.
-	(self selectedTreeNode) updateKeyframe.
+	(self selectedTreeNode) addKeyframe.
