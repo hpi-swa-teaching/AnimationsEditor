@@ -1,8 +1,6 @@
 buildComponents
 createRotationPropertyFrom: aMorph
 	| rotationTarget |
-	rotationTarget := AnimationsEditorPropertyRotation new.
+	rotationTarget := AnimationsEditorPropertyRotation on: aMorph.
 	rotationTarget animationsEditor: self.
-	rotationTarget targetMorph: aMorph.
-	rotationTarget targetRotation: aMorph rotationDegrees.
 	^ rotationTarget.

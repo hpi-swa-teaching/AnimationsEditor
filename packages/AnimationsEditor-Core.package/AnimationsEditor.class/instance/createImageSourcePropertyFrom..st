@@ -1,7 +1,6 @@
 buildComponents
 createImageSourcePropertyFrom: aMorph
 	| imageSourceTarget |
-	imageSourceTarget := AnimationsEditorPropertyImageSource new.
+	imageSourceTarget := AnimationsEditorPropertyImageSource on: aMorph.
 	imageSourceTarget animationsEditor: self.
-	imageSourceTarget targetMorph: aMorph.
 	^ imageSourceTarget.

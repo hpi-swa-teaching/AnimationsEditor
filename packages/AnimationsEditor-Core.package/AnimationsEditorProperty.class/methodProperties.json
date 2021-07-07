@@ -1,10 +1,11 @@
 {
 	"class" : {
-		 },
+		"on:" : "LW 7/7/2021 12:08" },
 	"instance" : {
 		"<" : "DM 8/6/2020 10:57",
 		"<=" : "DM 8/6/2020 10:57",
 		"addKeyframe" : "CL 5/11/2021 09:41",
+		"addStartFrame" : "LW 7/7/2021 12:09",
 		"animationPropertyFor:" : "mjs 6/11/2021 15:35",
 		"animationString" : "CL 5/31/2021 14:40",
 		"animationsEditor" : "DM 8/5/2020 21:01",
@@ -23,6 +24,7 @@
 		"frame" : "CL 5/13/2021 10:24",
 		"frame:" : "CL 5/13/2021 10:25",
 		"hasSubproperties" : "DM 8/6/2020 11:02",
+		"initialize" : "LW 7/7/2021 12:10",
 		"isKey:outOfBound:" : "CL 6/10/2021 10:16",
 		"isKeyframeExistent" : "CL 5/31/2021 15:42",
 		"messageKeyframeOutOfBounds" : "CL 5/27/2021 09:49",

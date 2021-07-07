@@ -1,7 +1,6 @@
 buildComponents
 createTextPropertyFrom: aMorph
 	| textTarget |
-	textTarget := AnimationsEditorPropertyText new.
+	textTarget := AnimationsEditorPropertyText on: aMorph.
 	textTarget animationsEditor: self.
-	textTarget targetMorph: aMorph.
 	^ textTarget.

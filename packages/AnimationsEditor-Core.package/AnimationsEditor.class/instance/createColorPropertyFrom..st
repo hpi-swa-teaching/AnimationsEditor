@@ -1,8 +1,6 @@
 buildComponents
 createColorPropertyFrom: aMorph
 	| colorTarget |
-	colorTarget := AnimationsEditorPropertyColor new.
+	colorTarget := AnimationsEditorPropertyColor on: aMorph.
 	colorTarget animationsEditor: self.
-	colorTarget targetMorph: aMorph.
-	colorTarget targetColor: aMorph color.
 	^ colorTarget.
