@@ -6,7 +6,7 @@ animationString
 				startValue: 1.0;
 				endValue: 0.0;
 				duration: ',(self targetFrame//2),';
-				finishBlock: [aMorph contents: ', (self targetText), ']);
+				finishBlock: [aMorph contents: ', self currentValue,']);
 			add: (AnimAlphaBlendAnimation new
 				morph: aMorph;
 				startValue: 0.0;

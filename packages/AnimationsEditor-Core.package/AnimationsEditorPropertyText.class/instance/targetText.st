@@ -1,4 +1,0 @@
-accessing
-targetText
-
-	^ targetText.

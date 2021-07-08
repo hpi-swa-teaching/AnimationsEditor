@@ -1,3 +1,0 @@
-defaults
-defaultTargetColor
-	^ Color white.

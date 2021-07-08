@@ -10,12 +10,12 @@ testCreateAnimation
 	newKey := 1000.
 	
 	self propertyColor
-		targetColor: lastValue;
+		currentValue: lastValue;
 		frame: lastKey;
 		addKeyframe.
 	
 	self propertyColor
-		targetColor: newValue;
+		currentValue: newValue;
 		frame: newKey;
 		addKeyframe.
 	

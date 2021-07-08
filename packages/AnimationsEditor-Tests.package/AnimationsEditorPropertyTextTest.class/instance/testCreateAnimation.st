@@ -12,7 +12,7 @@ testCreateAnimation
 	newKey := 1000.
 	
 	self propertyText
-		targetText: newValue;
+		currentValue: newValue;
 		frame: newKey;
 		addKeyframe.
 	

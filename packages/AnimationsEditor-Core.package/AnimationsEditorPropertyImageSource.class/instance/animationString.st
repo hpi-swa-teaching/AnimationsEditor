@@ -6,7 +6,7 @@ animationString
 				startValue: 1.0;
 				endValue: 0.0;
 				duration: ',(self targetFrame//2),';
-				finishBlock: [aMorph image: (Form fromFileNamed: ', (self targetSource), ')]);
+				finishBlock: [aMorph image: (Form fromFileNamed: ', (self currentValue), ')]);
 			add: (AnimAlphaBlendAnimation new
 				morph: aMorph;
 				startValue: 0.0;

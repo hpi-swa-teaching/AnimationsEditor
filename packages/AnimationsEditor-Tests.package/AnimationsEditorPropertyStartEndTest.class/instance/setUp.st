@@ -1,4 +1,4 @@
 running
 setUp
 	super setUp.
-	self propertyStartEnd: AnimationsEditorPropertySize new.
+	self propertyStartEnd: AnimationsEditorPropertyStartEnd new.

@@ -1,4 +1,4 @@
 eventHandling
 openFileSelection
-	self targetSource: (UIManager default chooseFileMatching: '*').
-	self changed: #targetSource.
+	self currentValue: (UIManager default chooseFileMatching: '*').
+	self changed: #currentValue.

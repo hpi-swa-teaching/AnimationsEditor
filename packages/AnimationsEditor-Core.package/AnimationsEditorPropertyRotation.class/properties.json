@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "tk 8/7/2020 17:53",
 	"instvars" : [
-		"targetRotation" ],
+		 ],
 	"name" : "AnimationsEditorPropertyRotation",
 	"pools" : [
 		 ],
-	"super" : "AnimationsEditorProperty",
+	"super" : "AnimationsEditorPropertyAnimated",
 	"type" : "normal" }

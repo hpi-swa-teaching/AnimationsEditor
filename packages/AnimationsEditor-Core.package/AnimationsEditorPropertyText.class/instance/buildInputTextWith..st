@@ -1,10 +1,9 @@
 buildComponents
 buildInputTextWith: aBuilder
-
 	^ aBuilder pluggableTextSpec new
 				model: self;
-				getText: #targetText;
-				editText: #targetText:;
+				getText: #currentValue;
+				editText: #currentValue:;
 			 	frame: (LayoutFrame new
 								topFraction: 0.1;
 								bottomFraction: 0.8;

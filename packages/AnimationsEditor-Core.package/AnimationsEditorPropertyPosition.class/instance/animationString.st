@@ -4,6 +4,6 @@ animationString
 									   duration: ', self targetFrame,';
 									   property: #position;
 									   startValue: ', (self targetMorph position), ';
-									   endValue:', self targetPosition asString, ';
+									   endValue:', self currentValue asString, ';
 									   target: aMorph;
 									   state: #paused'.

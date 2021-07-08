@@ -30,5 +30,5 @@ testCreateCompositeAnimationForWithStartEnd
 	
 	animations := positionProperty createCompositeAnimationFor: morph withStartEnd: propertyStartEnd.
 	
-	self assert: (animations size = 2). "WIP"
+	self assert: (animations size = 3). "WIP"
 	"test position of morph after animation"

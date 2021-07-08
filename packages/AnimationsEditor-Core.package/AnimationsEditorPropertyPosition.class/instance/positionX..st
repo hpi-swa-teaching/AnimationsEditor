@@ -4,4 +4,4 @@ positionX: aNumber
 	
 	value := aNumber asString asInteger.
 	value
-		ifNotNil: [self targetPosition setX: value setY: (self targetPosition y)].
+		ifNotNil: [self currentValue setX: value setY: (self currentValue y)].

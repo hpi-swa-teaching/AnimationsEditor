@@ -1,0 +1,18 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"copyOfTargetMorph",
+		"targetDuration",
+		"targetFrame",
+		"targetValues",
+		"currentValue" ],
+	"name" : "AnimationsEditorPropertyAnimated",
+	"pools" : [
+		 ],
+	"super" : "AnimationsEditorProperty",
+	"type" : "normal" }

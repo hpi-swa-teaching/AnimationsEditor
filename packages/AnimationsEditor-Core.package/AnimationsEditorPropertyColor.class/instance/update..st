@@ -1,5 +1,5 @@
 eventHandling
 update: aColor
-	self targetColor: aColor.
-	self changed: #targetColorAsHexRGBString.
+	self currentValue: aColor.
+	self changed: #currentValueAsHexRGBString.
 	

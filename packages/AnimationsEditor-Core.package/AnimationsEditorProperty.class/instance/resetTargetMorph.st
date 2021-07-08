@@ -1,3 +1,0 @@
-animation
-resetTargetMorph
-	self subclassResponsibility.

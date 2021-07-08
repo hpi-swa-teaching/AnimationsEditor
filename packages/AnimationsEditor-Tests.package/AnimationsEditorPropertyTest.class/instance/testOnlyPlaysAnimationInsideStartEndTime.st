@@ -29,4 +29,4 @@ testOnlyPlaysAnimationInsideStartEndTime
 	
 	animations := positionProperty createCompositeAnimationFor: morph withStartEnd: propertyStartEnd.
 	
-	self assert: (animations size = 1).
+	self assert: (animations size = 2).

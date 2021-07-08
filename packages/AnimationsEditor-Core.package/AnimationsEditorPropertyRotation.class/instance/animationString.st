@@ -4,6 +4,6 @@ animationString
 									   duration: ', self targetFrame,';
 									   property: #rotationDegrees;
 									   startValue: ', self targetMorph rotationDegrees, ';
-									   endValue: ', self targetRotation, ';
+									   endValue: ', self currentValue, ';
 									   target: aMorph;
 									   state: #paused'.

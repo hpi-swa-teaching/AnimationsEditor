@@ -5,7 +5,7 @@ testCreateAnimation
 	| compositeAnimation expectedDuration newKey lastKey newValue lastValue firstAnimation secondAnimation |
 	
 	JPEGReadWriter2 putForm: self dummyImage onFileNamed: self dummyImagePathJPEG.
-	self propertyImageSource targetSource: self dummyImagePathJPEG.
+	self propertyImageSource currentValue: self dummyImagePathJPEG.
 	
 	lastValue := ''.
 	newValue := self dummyImagePathJPEG.
@@ -13,7 +13,7 @@ testCreateAnimation
 	newKey := 1000.
 	
 	self propertyImageSource
-		targetSource: newValue;
+		currentValue: newValue;
 		frame: newKey;
 		addKeyframe.
 	

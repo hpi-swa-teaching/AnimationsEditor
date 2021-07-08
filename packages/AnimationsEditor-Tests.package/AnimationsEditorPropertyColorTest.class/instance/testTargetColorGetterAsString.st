@@ -1,6 +1,3 @@
 testing
-testTargetColorGetterAsString
-	| p |
-	p := AnimationsEditorPropertyColor new.
-	
-	self assert: (p targetColorAsString =  (p defaultTargetColor asString copyReplaceAll: 'Color ' with: '')).
+testTargetColorGetterAsString	
+	self assert: (self propertyColor currentValueAsString =  (self morph color asString copyReplaceAll: 'Color ' with: '')).

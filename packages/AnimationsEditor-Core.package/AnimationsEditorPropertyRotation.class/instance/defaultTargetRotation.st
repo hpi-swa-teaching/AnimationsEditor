@@ -1,3 +1,0 @@
-defaults
-defaultTargetRotation
-	^ 0.

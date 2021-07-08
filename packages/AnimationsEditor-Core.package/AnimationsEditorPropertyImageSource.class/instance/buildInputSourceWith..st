@@ -3,8 +3,8 @@ buildInputSourceWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new
 				model: self;
-				getText: #targetSource;
-				editText: #targetSource:;
+				getText: #currentValue;
+				editText: #currentValue;
 			 	frame: (LayoutFrame new
 								topFraction: 0.1;
 								bottomFraction: 0.8;

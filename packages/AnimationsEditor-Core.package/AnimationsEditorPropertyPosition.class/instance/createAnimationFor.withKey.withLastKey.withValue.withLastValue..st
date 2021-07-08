@@ -1,6 +1,5 @@
 buildComponents
 createAnimationFor: aMorph withKey: aKey withLastKey: aLastKey withValue: aValue withLastValue: aLastTargetValue
-
 	^ (AnimPropertyAnimation new
 		   duration: aKey - aLastKey;
 		   property: #position;

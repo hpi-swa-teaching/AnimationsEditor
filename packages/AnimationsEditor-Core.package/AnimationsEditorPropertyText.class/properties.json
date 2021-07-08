@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"targetText" ],
+		 ],
 	"name" : "AnimationsEditorPropertyText",
 	"pools" : [
 		 ],
-	"super" : "AnimationsEditorProperty",
+	"super" : "AnimationsEditorPropertyAnimated",
 	"type" : "normal" }

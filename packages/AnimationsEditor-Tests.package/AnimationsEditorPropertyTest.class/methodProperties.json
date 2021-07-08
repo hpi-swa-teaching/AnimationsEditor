@@ -7,10 +7,10 @@
 		"setUp" : "CL 5/27/2021 10:15",
 		"tearDown" : "CL 5/27/2021 10:16",
 		"testComparators" : "DM 8/4/2020 13:46",
-		"testCreateCompositeAnimationForWithStartEnd" : "LW 6/27/2021 13:06",
+		"testCreateCompositeAnimationForWithStartEnd" : "MH 7/8/2021 12:12",
 		"testEmptySubProperties" : "DM 8/4/2020 13:47",
 		"testHasSubProperties" : "FH 5/13/2021 12:23",
 		"testInstanceCreation" : "DM 8/4/2020 13:47",
-		"testOnlyPlaysAnimationInsideStartEndTime" : "CL 5/30/2021 14:13",
+		"testOnlyPlaysAnimationInsideStartEndTime" : "MH 7/8/2021 12:12",
 		"testPlayAnimationWithStartEnd" : "CL 5/23/2021 15:46",
 		"testShowMessageKeyframeOutOfBounds" : "CL 5/30/2021 14:13" } }

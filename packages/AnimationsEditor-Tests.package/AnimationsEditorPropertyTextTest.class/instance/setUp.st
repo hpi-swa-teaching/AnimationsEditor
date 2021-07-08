@@ -2,8 +2,5 @@ running
 setUp
 	super setUp.
 	self textMorph: TextMorph new openInWorld.
-	self propertyText: AnimationsEditorPropertyText new.
-	self propertyText
-		targetFrame: 0;
-		targetMorph: self textMorph;
-		copyOfTargetMorph: self propertyText targetMorph copy.
+	self propertyText: (AnimationsEditorPropertyText on: self textMorph).
+	self propertyText copyOfTargetMorph: self propertyText targetMorph copy.

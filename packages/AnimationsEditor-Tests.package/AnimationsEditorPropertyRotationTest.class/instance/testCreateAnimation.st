@@ -9,12 +9,12 @@ testCreateAnimation
 	newKey := 1000.
 	
 	self propertyRotation
-		targetRotation: lastValue;
+		currentValue: lastValue;
 		frame: lastKey;
 		addKeyframe.
 	
 	self propertyRotation
-		targetRotation: newValue;
+		currentValue: newValue;
 		frame: newKey;
 		addKeyframe.
 	

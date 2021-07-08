@@ -1,6 +1,5 @@
 buildComponents
 buildInputYWith: aBuilder
-
 	^ aBuilder pluggableTextSpec new
 				model: self;
 				getText: #positionY;

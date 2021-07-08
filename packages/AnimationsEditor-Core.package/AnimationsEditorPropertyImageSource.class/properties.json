@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "LW 6/5/2021 15:08",
 	"instvars" : [
-		"targetSource" ],
+		 ],
 	"name" : "AnimationsEditorPropertyImageSource",
 	"pools" : [
 		 ],
-	"super" : "AnimationsEditorProperty",
+	"super" : "AnimationsEditorPropertyAnimated",
 	"type" : "normal" }

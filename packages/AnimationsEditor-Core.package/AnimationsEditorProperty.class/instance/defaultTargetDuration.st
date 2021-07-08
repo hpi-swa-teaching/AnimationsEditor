@@ -1,3 +1,0 @@
-defaults
-defaultTargetDuration
-	^ 500.

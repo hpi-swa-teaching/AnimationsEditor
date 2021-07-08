@@ -1,7 +1,17 @@
 saveJson
 positionFramesCollection
-	| frame1 frame2 |
+	| frame0 frame1 frame2 |
 	
+	frame0 := Dictionary
+				with: #frame -> 0
+				with: #properties -> { 
+					Dictionary 
+						with: #name -> 'positionX'  
+						with: #value -> self animationsEditorInstance propertyList second targetMorph position x. 
+					Dictionary 
+						with: #name -> 'positionY'
+						with: #value -> self animationsEditorInstance propertyList second targetMorph position y. 				
+				}.
 	frame1 := Dictionary
 				with: #frame -> self defaultTime
 				with: #properties -> { 
@@ -23,4 +33,4 @@ positionFramesCollection
 						with: #value -> 250.				
 				}. 
 			
-	^ { frame1 . frame2 }
+	^ { frame0 .  frame1 . frame2 }
