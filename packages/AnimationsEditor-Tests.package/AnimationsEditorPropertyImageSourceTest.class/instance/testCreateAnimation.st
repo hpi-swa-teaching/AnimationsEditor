@@ -3,8 +3,7 @@ testCreateAnimation
 
 	"test that it returns a composite animation according to the input values"
 	| compositeAnimation expectedDuration newKey lastKey newValue lastValue firstAnimation secondAnimation |
-	
-	JPEGReadWriter2 putForm: self dummyImage onFileNamed: self dummyImagePathJPEG.
+
 	self propertyImageSource currentValue: self dummyImagePathJPEG.
 	
 	lastValue := ''.
@@ -37,4 +36,3 @@ testCreateAnimation
 
 	firstAnimation evaluateFinishBlock.
 	self assert: (self imageMorph image bits = self dummyImage bits).
-	FileDirectory default deleteFileNamed: self dummyImagePathJPEG.

@@ -9,7 +9,8 @@
 		"title",
 		"subproperties",
 		"animationsEditor",
-		"targetMorph" ],
+		"targetMorph",
+		"parentProperty" ],
 	"name" : "AnimationsEditorProperty",
 	"pools" : [
 		 ],

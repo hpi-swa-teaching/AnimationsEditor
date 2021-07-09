@@ -3,13 +3,14 @@
 		 },
 	"instance" : {
 		"dummyImage" : "LW 6/5/2021 15:35",
+		"dummyImage2" : "LW 7/9/2021 15:40",
 		"dummyImagePathJPEG" : "LW 6/7/2021 16:46",
 		"imageMorph" : "mjs 6/11/2021 17:02",
 		"imageMorph:" : "LW 6/7/2021 16:31",
 		"propertyImageSource" : "LW 6/5/2021 15:37",
 		"propertyImageSource:" : "LW 6/5/2021 15:34",
-		"setUp" : "MH 7/8/2021 11:57",
-		"tearDown" : "LW 6/7/2021 16:35",
-		"testCreateAnimation" : "MH 7/8/2021 12:00",
+		"setUp" : "LW 7/9/2021 15:44",
+		"tearDown" : "LW 7/9/2021 15:44",
+		"testCreateAnimation" : "LW 7/9/2021 15:44",
 		"testInstanceCreation" : "LW 6/5/2021 15:35",
-		"testResetTargetMorph" : "LW 6/7/2021 16:35" } }
+		"testResetTargetMorph" : "LW 7/9/2021 15:43" } }

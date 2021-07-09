@@ -1,3 +1,3 @@
 as yet unclassified
 resetTargetMorph
-	self setAnimationProperty: (self animationPropertyFor: self copyOfTargetMorph). 
+	self setAnimationProperty: (self targetValues at: 0). 

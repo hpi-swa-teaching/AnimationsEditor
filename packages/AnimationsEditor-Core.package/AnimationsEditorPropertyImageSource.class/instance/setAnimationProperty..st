@@ -1,3 +1,3 @@
 accessing
-setAnimationProperty: aForm
-	self targetMorph image: aForm. 
+setAnimationProperty: aText
+	self targetMorph image: (Form fromFileNamed: aText asString). 

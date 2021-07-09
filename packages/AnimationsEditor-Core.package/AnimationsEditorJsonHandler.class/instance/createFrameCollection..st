@@ -1,11 +1,12 @@
 saveJson
-createFrameCollection: aTreeNode
+createFrameCollection: aTreeNode 
 	| frameCollection frame |
 	
-	frameCollection := #(). 
-	aTreeNode targetValues keysAndValuesDo: [:aKey :aValue | 
-		frame := ((self addFrameAt: aKey with: aValue ) at: aTreeNode title asSymbol) value.
-		frameCollection := frameCollection, {frame}. 
-	]. 	
-	
-	^ frameCollection. 
+	frameCollection := #().
+	aTreeNode subproperties
+		do: [:each | each targetValues
+				keysAndValuesDo: [:aKey :aValue | 
+					frame := ((self addFrameAt: aKey with: aValue) at: each title asSymbol) value.
+					frameCollection := frameCollection , {frame}]].
+
+	^ frameCollection

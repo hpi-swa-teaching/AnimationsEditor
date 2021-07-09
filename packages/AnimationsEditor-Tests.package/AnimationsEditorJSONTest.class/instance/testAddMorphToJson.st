@@ -6,7 +6,6 @@ testAddMorphToJson
 		with: #morphs -> {}. 
 	aJsonStructure := self jsonHandler addMorphToJson: aDictionary with: self positionTreeNode.  
 	anEntry := (aJsonStructure at: #morphs) first. 
-	 
-	self assert: (aJsonStructure at: #morphs) size > 0. 
-	self assert: (anEntry at: #properties) size > 0. 
+
+	self assert: (aJsonStructure at: #morphs) size > 0.
 	
