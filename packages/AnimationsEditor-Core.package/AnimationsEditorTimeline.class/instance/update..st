@@ -5,4 +5,5 @@ update: anObject
 	self endTime: anObject endTime.
 	self createTracks.
 	self addTimebar.
-	
+	self owner owner addDependent: self.
+	self updateExtent.

@@ -1,0 +1,14 @@
+{
+	"category" : "AnimationsEditor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph" ],
+	"name" : "AnimationsEditorTimelineTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

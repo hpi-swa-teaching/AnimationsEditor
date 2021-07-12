@@ -4,4 +4,5 @@ initialize
 	super initialize. 
 	self color: Color orange. 
 	self extent: 15@15. 
-	"self rotationDegrees: 45."
+	"self addFlexShell.
+	self owner transform setAngle: 0.8."
