@@ -9,11 +9,4 @@ loadFrames: anArray with: anAnimationEditorProperty
 			subproperty targetFrame: frameId.
 			((self framePropertiesFor: subproperty with: (each at: 'value')) at: (each at: 'name') asSymbol) value.
 			subproperty addKeyframe.
-			
-			
-			
-			
-			"((self framePropertiesWith: anAnimationEditorProperty subproperties on: frameId with: aValue) at: (each at: 'name') asSymbol)
-				value: anAnimationEditorProperty subproperties
-				value: (each at: 'value')"
 			]].
