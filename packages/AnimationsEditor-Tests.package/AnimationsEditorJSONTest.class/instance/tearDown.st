@@ -1,7 +1,5 @@
 running
-tearDown 
-	(self animationsEditorInstance propertyList second) targetMorph abandon. 
-	self animationsEditorInstance windowReference abandon.
+tearDown
 	super tearDown.
-	
-	
+	self morph abandon.
+	self animationsEditorInstance windowReference abandon.

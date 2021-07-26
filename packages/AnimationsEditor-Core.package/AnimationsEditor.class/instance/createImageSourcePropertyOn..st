@@ -1,0 +1,3 @@
+buildComponents
+createImageSourcePropertyOn: aProperty
+	^ AnimationsEditorPropertyImageSource onParent: aProperty.
