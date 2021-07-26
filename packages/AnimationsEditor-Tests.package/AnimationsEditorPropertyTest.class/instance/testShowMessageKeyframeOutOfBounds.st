@@ -21,6 +21,6 @@ testShowMessageKeyframeOutOfBounds
 		frame: (propertyStartEnd endTime)*2; "out of bounds"
 		addKeyframe.
 	
-	positionProperty createCompositeAnimationFor: morph withStartEnd: propertyStartEnd.
+	positionProperty createAnimationSequenceFor: morph withStartEnd: propertyStartEnd.
 	
 	self assert: ((self animationsEditorInstance informationBarText) = (positionProperty messageKeyframeOutOfBounds)).

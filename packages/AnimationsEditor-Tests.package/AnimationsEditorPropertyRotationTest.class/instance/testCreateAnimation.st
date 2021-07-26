@@ -18,7 +18,7 @@ testCreateAnimation
 		frame: newKey;
 		addKeyframe.
 	
-	animation := self propertyRotation createAnimationFor: self morph withKey: newKey withLastKey: lastKey withValue: newValue withLastValue: lastValue.
+	animation := self propertyRotation createAnimationWith: newKey withPreviousKey: lastKey.
 	
 	expectedDuration := newKey-lastKey.
 

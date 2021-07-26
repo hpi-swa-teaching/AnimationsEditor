@@ -27,6 +27,6 @@ testOnlyPlaysAnimationInsideStartEndTime
 		frame: (propertyStartEnd endTime)*2; "out of bounds"
 		addKeyframe.
 	
-	animations := positionProperty createCompositeAnimationFor: morph withStartEnd: propertyStartEnd.
+	animations := positionProperty createAnimationSequenceFor: morph withStartEnd: propertyStartEnd.
 	
 	self assert: (animations size = 2).

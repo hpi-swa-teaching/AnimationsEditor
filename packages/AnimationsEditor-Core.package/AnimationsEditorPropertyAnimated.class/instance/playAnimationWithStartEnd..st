@@ -5,7 +5,7 @@ playAnimationWithStartEnd: aStartEndProperty
 	self isKeyframeExistent
 		ifTrue: [
 			self copyOfTargetMorph: self targetMorph copy.
-			animations := (self createCompositeAnimationFor: self targetMorph withStartEnd: aStartEndProperty).
+			animations := (self createAnimationSequenceFor: self targetMorph withStartEnd: aStartEndProperty).
 	
 			comp := AnimCompositeAnimation new.
 			animations do: [:each | comp add: each.].

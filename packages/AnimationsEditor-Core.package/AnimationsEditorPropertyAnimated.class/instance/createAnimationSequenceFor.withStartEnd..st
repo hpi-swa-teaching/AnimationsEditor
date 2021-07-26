@@ -1,5 +1,5 @@
 animation
-createCompositeAnimationFor: aMorph withStartEnd: aStartEndProperty
+createAnimationSequenceFor: aMorph withStartEnd: aStartEndProperty
 
 	| animations lastKey lastTargetValue |
 	

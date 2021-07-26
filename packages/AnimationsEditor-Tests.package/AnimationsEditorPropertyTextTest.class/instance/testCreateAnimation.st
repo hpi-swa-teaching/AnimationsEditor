@@ -16,7 +16,7 @@ testCreateAnimation
 		frame: newKey;
 		addKeyframe.
 	
-	compositeAnimation := self propertyText createAnimationFor: self textMorph withKey: newKey withLastKey: lastKey withValue: newValue withLastValue: lastValue.
+	compositeAnimation := self propertyText createAnimationWith: newKey withPreviousKey: lastKey.
 	
 	self assert: (compositeAnimation animations size = 2).
 	firstAnimation := compositeAnimation animations at: 1.

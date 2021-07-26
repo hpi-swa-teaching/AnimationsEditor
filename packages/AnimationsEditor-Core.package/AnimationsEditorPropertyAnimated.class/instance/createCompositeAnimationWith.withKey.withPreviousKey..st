@@ -1,8 +1,8 @@
-accessing
-createAnimationFor: aKey withLastKey: aLastKey 
+animation
+createCompositeAnimationWith: aBlock withKey: aKey withPreviousKey: aPreviousKey
 	| halfDuration |
 	
-	halfDuration := (aKey-aLastKey)//2.
+	halfDuration := (aKey-aPreviousKey)//2.
 	^ AnimCompositeAnimation new
 		 add:
 			(AnimAlphaBlendAnimation new
@@ -10,7 +10,7 @@ createAnimationFor: aKey withLastKey: aLastKey
 				startValue: 1.0;
 				endValue: 0.0;
 				duration: halfDuration;
-				finishBlock: [self targetMorph color: (Color colorFrom: (self targetValues at: aKey))]);
+				finishBlock: aBlock);
 		add:  
 			(AnimAlphaBlendAnimation new
 				morph: self targetMorph;
@@ -18,4 +18,3 @@ createAnimationFor: aKey withLastKey: aLastKey
 				endValue: 1.0;
 				duration: halfDuration);
 		yourself.
-		

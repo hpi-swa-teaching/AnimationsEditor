@@ -19,7 +19,7 @@ testCreateAnimation
 		frame: newKey;
 		addKeyframe.
 	
-	compositeAnimation := self propertyColor createAnimationFor: self morph withKey: newKey withLastKey: lastKey withValue: newValue withLastValue: lastValue.
+	compositeAnimation := self propertyColor createAnimationWith: newKey withPreviousKey: lastKey.
 	
 	self assert: (compositeAnimation animations size = 2).
 	firstAnimation := compositeAnimation animations at: 1.

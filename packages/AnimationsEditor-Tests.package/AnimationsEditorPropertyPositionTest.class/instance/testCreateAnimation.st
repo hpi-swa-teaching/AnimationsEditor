@@ -20,12 +20,12 @@ testCreateAnimation
 		frame: newKey;
 		addKeyframe.
 	
-	animation := self propertyPosition createAnimationFor: self morph withKey: newKey withLastKey: lastKey withValue: newValue withLastValue: lastValue.
+	animation := self propertyPosition createAnimationWith: newKey withPreviousKey: lastKey.
 	
 	expectedDuration := newKey-lastKey.
 	
 	self assert: (animation duration = expectedDuration).
-	self assert: (animation endValue = newValue).
-	self assert: (animation startValue = lastValue).
+	self assert: (animation endValue = (newValue @ newValue)).
+	self assert: (animation startValue = (lastValue @ lastValue)).
 	self assert: (animation property = #position).
 	self assert: (animation target = self morph).
