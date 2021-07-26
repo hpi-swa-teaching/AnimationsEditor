@@ -11,6 +11,7 @@
 		"buildSelectFileButtonWith:" : "mjs 6/11/2021 15:47",
 		"buildUIWith:" : "LW 6/5/2021 15:09",
 		"createAnimationFor:withKey:withLastKey:withValue:withLastValue:" : "mjs 6/11/2021 15:52",
+		"createAnimationFor:withLastKey:" : "FH 7/26/2021 13:47",
 		"currentValue:" : "LW 7/9/2021 15:31",
 		"defaultValue" : "MH 7/8/2021 09:54",
 		"initialize" : "LW 6/5/2021 15:10",
