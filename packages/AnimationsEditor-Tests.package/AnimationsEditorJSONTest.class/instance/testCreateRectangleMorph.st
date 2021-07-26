@@ -1,5 +1,5 @@
 loadJson
-testRectangleMorph
+testCreateRectangleMorph
 	| morph |
 	
 	morph := self jsonHandler createMorphFromString: 'RectangleMorph'.

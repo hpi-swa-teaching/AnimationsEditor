@@ -1,5 +1,5 @@
 loadJson
-testCircleMorph
+testCreateCircleMorph
 	| morph |
 	
 	morph := self jsonHandler createMorphFromString: 'CircleMorph'.

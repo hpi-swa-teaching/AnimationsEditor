@@ -1,5 +1,5 @@
 loadJson
-testDefaultMorph
+testCreateDefaultMorph
 	| morph |
 	
 	morph := self jsonHandler createMorphFromString: 'AnimationsEditorKlippschliefer'.

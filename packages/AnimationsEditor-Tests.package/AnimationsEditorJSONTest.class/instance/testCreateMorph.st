@@ -1,5 +1,5 @@
 loadJson
-testMorph
+testCreateMorph
 	| morph |
 	
 	morph := self jsonHandler createMorphFromString: 'Morph'.
