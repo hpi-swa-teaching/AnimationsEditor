@@ -4,6 +4,5 @@ setUp
 	
 	super setUp.
 	self animationsEditorInstance: AnimationsEditor open.
-	morph := Morph new.
-	morph openInWorld.
+	morph := Morph new openInWorld.
 	self animationsEditorInstance addTargetMorph: morph.

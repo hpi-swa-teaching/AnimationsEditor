@@ -1,20 +1,19 @@
 animation
 createAnimationSequenceFor: aMorph withStartEnd: aStartEndProperty
 
-	| animations lastKey lastTargetValue |
+	| animations lastKey |
 	
 	animations := OrderedCollection new.
 	lastKey := 0.
-	lastTargetValue := self animationPropertyFor: aMorph.
-	self targetValues keysAndValuesDo: [:key :value | 
+
+	self targetValues keysDo: [:key | 
 		(self isKey: key outOfBound: aStartEndProperty)
 			ifTrue: [
 				animations add:   
 					(self createAnimationWith: key withPreviousKey: lastKey).
-				lastKey := key.
-				lastTargetValue := value]
+				lastKey := key.]
 			ifFalse: [
-				aStartEndProperty animationsEditor updateInformationText: self messageKeyframeOutOfBounds].
+				self animationsEditor updateInformationText: self messageKeyframeOutOfBounds].
 	].
 
 	^ animations.

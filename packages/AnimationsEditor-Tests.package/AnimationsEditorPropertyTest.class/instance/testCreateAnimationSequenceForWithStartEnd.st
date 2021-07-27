@@ -1,5 +1,5 @@
 testing
-testOnlyPlaysAnimationInsideStartEndTime
+testCreateAnimationSequenceForWithStartEnd
 	
 	| positionProperty propertyStartEnd morph animations |
 	
@@ -7,7 +7,7 @@ testOnlyPlaysAnimationInsideStartEndTime
 	self animationsEditorInstance selectedTreeNode: positionProperty.
 	
 	morph := (self animationsEditorInstance propertyList at: 2) targetMorph.
-	
+
 	propertyStartEnd := AnimationsEditorPropertyStartEnd new
 		animationsEditor: self animationsEditorInstance;
 		startTime: 0;
@@ -18,15 +18,16 @@ testOnlyPlaysAnimationInsideStartEndTime
 	positionProperty 
 		positionX: 333;
 		positionY: 333;
-		frame: (propertyStartEnd endTime); "within bounds"
+		frame: (propertyStartEnd endTime)/4; 
 		addKeyframe.
 	
 	positionProperty 
 		positionX: 555;
 		positionY: 555;
-		frame: (propertyStartEnd endTime)*2; "out of bounds"
+		frame: (propertyStartEnd endTime)/2; 
 		addKeyframe.
-	
+		
 	animations := positionProperty createAnimationSequenceFor: morph withStartEnd: propertyStartEnd.
 	
-	self assert: (animations size = 2).
+	self assert: (animations size = 3). "WIP"
+	"test position of morph after animation"

@@ -3,7 +3,7 @@ testCreateCompositeAnimationForWithStartEnd
 	
 	| positionProperty propertyStartEnd morph animations |
 	
-	positionProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 'position').
+	positionProperty := (self animationsEditorInstance propertyList at: 2) subproperties at: 'position'.
 	self animationsEditorInstance selectedTreeNode: positionProperty.
 	
 	morph := (self animationsEditorInstance propertyList at: 2) targetMorph.
@@ -27,8 +27,9 @@ testCreateCompositeAnimationForWithStartEnd
 		frame: (propertyStartEnd endTime)/2; 
 		addKeyframe.
 		
-	
 	animations := positionProperty createAnimationSequenceFor: morph withStartEnd: propertyStartEnd.
 	
 	self assert: (animations size = 3). "WIP"
+	self animationsEditorInstance.
+	morph
 	"test position of morph after animation"
