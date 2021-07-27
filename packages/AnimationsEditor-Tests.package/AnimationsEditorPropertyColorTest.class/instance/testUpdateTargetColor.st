@@ -1,4 +1,4 @@
 testing
 testUpdateTargetColor
-	self propertyColor update: Color red.
-	self assert: self propertyColor currentValue equals: Color red.
+	self property update: Color red.
+	self assert: self property currentValue equals: Color red.

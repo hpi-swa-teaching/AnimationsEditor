@@ -2,7 +2,7 @@ testing
 testResetTargetMorph
 	| originalText dummyText |
 	dummyText := 'Lorem Ipsum'.
-	originalText :=  self propertyText targetMorph contents asString.
-	self propertyText targetMorph contents: originalText.dummyText.
-	self propertyText resetTargetMorph.
-	self assert: self propertyText targetMorph contents asString = originalText.
+	originalText :=  self morph contents asString.
+	self morph contents: dummyText.
+	self property resetTargetMorph.
+	self assert: self morph contents asString = originalText.

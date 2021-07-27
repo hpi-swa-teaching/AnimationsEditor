@@ -2,12 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"propertyText" : "LW 7/1/2021 17:14",
-		"propertyText:" : "LW 7/1/2021 17:12",
-		"setUp" : "CL 7/27/2021 09:38",
-		"tearDown" : "LW 7/1/2021 17:13",
-		"testCreateAnimation" : "FH 7/26/2021 14:37",
-		"testInstanceCreation" : "LW 7/1/2021 17:14",
-		"testResetTargetMorph" : "LW 7/1/2021 18:08",
-		"textMorph" : "LW 7/1/2021 17:14",
-		"textMorph:" : "LW 7/1/2021 17:12" } }
+		"morphClass" : "LW 7/27/2021 11:58",
+		"propertyClass" : "LW 7/27/2021 11:58",
+		"testAddStartFrame" : "LW 7/27/2021 12:00",
+		"testCreateAnimation" : "LW 7/27/2021 11:57",
+		"testInstanceCreation" : "LW 7/27/2021 11:55",
+		"testResetTargetMorph" : "LW 7/27/2021 11:57",
+		"testSetStartValue" : "LW 7/27/2021 11:56" } }

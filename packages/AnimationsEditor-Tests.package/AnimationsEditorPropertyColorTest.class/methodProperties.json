@@ -2,16 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"morph" : "mjs 6/11/2021 17:32",
-		"morph:" : "mjs 6/11/2021 17:32",
-		"propertyColor" : "mjs 6/11/2021 17:31",
-		"propertyColor:" : "mjs 6/11/2021 17:31",
-		"setUp" : "CL 7/27/2021 09:37",
-		"tearDown" : "mjs 6/11/2021 17:35",
-		"testCreateAnimation" : "FH 7/26/2021 14:56",
-		"testInstanceCreation" : "LW 6/27/2021 13:10",
-		"testResetTargetMorph" : "LW 6/27/2021 13:50",
-		"testTargetColorFromString" : "MH 7/8/2021 10:01",
-		"testTargetColorGetterAsString" : "MH 7/8/2021 11:54",
-		"testUpdateTargetColor" : "MH 7/8/2021 11:54",
-		"testUpdateTargetColorTestMorphChanged" : "LW 6/15/2021 15:17" } }
+		"propertyClass" : "LW 7/27/2021 11:49",
+		"testAddStartFrame" : "LW 7/27/2021 11:47",
+		"testCreateAnimation" : "LW 7/27/2021 11:47",
+		"testInstanceCreation" : "LW 7/27/2021 11:47",
+		"testResetTargetMorph" : "LW 7/27/2021 11:47",
+		"testSetStartValue" : "LW 7/27/2021 11:47",
+		"testTargetColorFromString" : "LW 7/27/2021 11:47",
+		"testTargetColorGetterAsString" : "LW 7/27/2021 11:47",
+		"testUpdateTargetColor" : "LW 7/27/2021 11:47",
+		"testUpdateTargetColorTestMorphChanged" : "LW 7/27/2021 11:47" } }

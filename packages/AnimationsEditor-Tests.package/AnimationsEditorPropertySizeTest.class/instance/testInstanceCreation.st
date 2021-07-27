@@ -1,3 +1,3 @@
 testing
 testInstanceCreation
-	self assert: (self propertySize = nil) not.
+	self assert: (self property = nil) not.

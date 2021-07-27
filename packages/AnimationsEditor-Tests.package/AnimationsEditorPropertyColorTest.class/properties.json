@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"morph",
-		"propertyColor" ],
+		 ],
 	"name" : "AnimationsEditorPropertyColorTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "AnimationsEditorPropertyAnimatedTest",
 	"type" : "normal" }

@@ -2,16 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addKeyframe" : "CL 7/27/2021 09:24",
+		"addKeyframe" : "LW 7/27/2021 11:29",
 		"addStartFrame" : "MH 7/8/2021 11:01",
 		"animationPropertyFor:" : "MH 7/8/2021 11:25",
 		"buildInputFrameWith:" : "MH 7/8/2021 11:30",
 		"canCreateAnimation" : "MH 7/8/2021 11:37",
 		"canRenderUI" : "MH 7/8/2021 11:39",
-		"createAnimationSequenceFor:withStartEnd:" : "CL 7/27/2021 09:31",
+		"createAnimationSequenceFor:withStartEnd:" : "LW 7/27/2021 10:54",
 		"createAnimationWith:withPreviousKey:" : "FH 7/26/2021 14:29",
 		"createAtomarAnimationFor:withKey:withPreviousKey:" : "FH 7/26/2021 14:43",
-		"createCompositeAnimationFor:withStartEnd:" : "FH 7/26/2021 14:34",
 		"createCompositeAnimationWith:withKey:withPreviousKey:" : "FH 7/26/2021 14:47",
 		"currentValue" : "MH 7/8/2021 11:08",
 		"currentValue:" : "MH 7/8/2021 11:08",

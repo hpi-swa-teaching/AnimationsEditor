@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"morph",
-		"propertySize" ],
+		 ],
 	"name" : "AnimationsEditorPropertySizeTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "AnimationsEditorPropertyAnimatedTest",
 	"type" : "normal" }

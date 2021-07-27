@@ -1,32 +1,24 @@
 testing
 testCreateAnimation
 
-	| animation expectedDuration newKey lastKey newValue lastValue|
+	| animation newKey lastKey newValue lastValue|
 	
-	lastValue := 333.
-	newValue := 555.
+	lastValue := 333 @ 333.
+	newValue := 555 @ 555.
 	lastKey := 100.
 	newKey := 1000.
 	
-	self propertySize 
-		targetHeight: lastValue;
-		targetWidth: lastValue;
+	self property 
+		currentValue: lastValue;
 		frame: lastKey;
 		addKeyframe.
-	
-	self propertySize 
-		targetHeight: newValue;
-		targetWidth: newValue;
+	self property 
+		currentValue: newValue;
 		frame: newKey;
 		addKeyframe.
 	
-	animation := self propertySize createAnimationWith: newKey withPreviousKey: lastKey.
-	
-	expectedDuration := newKey-lastKey.
-	
-	self assert: (animation duration = expectedDuration).
-	self assert: (animation endValue = (newValue @ newValue)).
-	self assert: (animation startValue = (lastValue @ lastValue)).
-	self assert: (animation property = #extent).
-	self assert: (animation target = self morph).
-	
+	animation := self property createAnimationWith: newKey withPreviousKey: lastKey.
+	self assert: animation endValue = newValue.
+	self assert: animation startValue = lastValue.
+	self assert: animation property = #extent.
+	self assert: animation target = self morph.

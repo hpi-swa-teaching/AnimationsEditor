@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"propertyText",
-		"textMorph" ],
+		 ],
 	"name" : "AnimationsEditorPropertyTextTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "AnimationsEditorPropertyAnimatedTest",
 	"type" : "normal" }

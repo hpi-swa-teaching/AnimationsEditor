@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"propertyImageSource",
-		"imageMorph" ],
+		 ],
 	"name" : "AnimationsEditorPropertyImageSourceTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "AnimationsEditorPropertyAnimatedTest",
 	"type" : "normal" }

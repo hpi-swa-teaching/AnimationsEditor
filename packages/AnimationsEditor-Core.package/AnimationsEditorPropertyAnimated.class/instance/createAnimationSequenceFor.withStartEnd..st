@@ -9,9 +9,8 @@ createAnimationSequenceFor: aMorph withStartEnd: aStartEndProperty
 	self targetValues keysDo: [:key | 
 		(self isKey: key outOfBound: aStartEndProperty)
 			ifTrue: [
-				animations add:   
-					(self createAnimationWith: key withPreviousKey: lastKey).
-				lastKey := key.]
+				animations add: (self createAnimationWith: key withPreviousKey: lastKey).
+				lastKey := key]
 			ifFalse: [
 				self animationsEditor updateInformationText: self messageKeyframeOutOfBounds].
 	].

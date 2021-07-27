@@ -2,8 +2,8 @@ testing
 testResetTargetMorph
 	| originalColor newColor |
 	
-	originalColor :=  self propertyColor targetMorph color.
+	originalColor :=  self property targetMorph color.
 	newColor := Color green.
-	self propertyColor targetMorph color: newColor.
-	self propertyColor resetTargetMorph.
-	self assert: self propertyColor targetMorph color = originalColor.
+	self property targetMorph color: newColor.
+	self property resetTargetMorph.
+	self assert: self property targetMorph color = originalColor.

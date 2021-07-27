@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"morph",
-		"propertyPosition" ],
+		 ],
 	"name" : "AnimationsEditorPropertyPositionTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "AnimationsEditorPropertyAnimatedTest",
 	"type" : "normal" }

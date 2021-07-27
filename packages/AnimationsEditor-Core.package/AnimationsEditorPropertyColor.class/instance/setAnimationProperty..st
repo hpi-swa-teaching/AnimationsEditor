@@ -1,3 +1,3 @@
 accessing
 setAnimationProperty: aColor
-	^ self targetMorph color: aColor. 
+	^ self targetMorph color: aColor.

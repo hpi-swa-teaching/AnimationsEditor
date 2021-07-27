@@ -1,38 +1,19 @@
 testing
 testCreateAnimation
+	| compositeAnimation newKey lastKey newValue firstAnimation |
 
-	"test that it returns a composite animation according to the input values"
-	| compositeAnimation expectedDuration newKey lastKey newValue lastValue firstAnimation secondAnimation |
-
-	self propertyImageSource currentValue: self dummyImagePathJPEG.
-	
-	lastValue := ''.
 	newValue := self dummyImagePathJPEG.
-	lastKey := 100.
+	lastKey := 0.
 	newKey := 1000.
 	
-	self propertyImageSource
+	self property
 		currentValue: newValue;
 		frame: newKey;
 		addKeyframe.
 	
-	compositeAnimation := self propertyImageSource createAnimationWith: newKey withPreviousKey: lastKey.
-	
-	self assert: (compositeAnimation animations size = 2).
+	compositeAnimation := self property createAnimationWith: newKey withPreviousKey: lastKey.
 	firstAnimation := compositeAnimation animations at: 1.
-	secondAnimation := compositeAnimation animations at: 2.
-	
-	expectedDuration := (newKey-lastKey)//2.
-	
-	self assert: (firstAnimation duration = expectedDuration).
-	self assert: (firstAnimation endValue = 0.0).
-	self assert: (firstAnimation startValue = 1.0).
-	self assert: (firstAnimation morph = self imageMorph).
-	
-	self assert: (secondAnimation duration = expectedDuration).
-	self assert: (secondAnimation endValue = 1.0).
-	self assert: (secondAnimation startValue = 0.0).
-	self assert: (secondAnimation morph = self imageMorph).
-
 	firstAnimation evaluateFinishBlock.
-	self assert: (self imageMorph image bits = self dummyImage bits).
+	
+	self assert: compositeAnimation animations size = 2.
+	self assert: self morph image bits = self dummyImage bits.

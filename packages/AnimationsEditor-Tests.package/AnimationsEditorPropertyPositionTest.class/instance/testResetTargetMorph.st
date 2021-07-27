@@ -2,8 +2,8 @@ testing
 testResetTargetMorph
 	| originalPosition newPosition |
 
-	originalPosition := self propertyPosition targetMorph position.
+	originalPosition := self property targetMorph position.
 	newPosition := originalPosition + (50 @ 50).
-	self propertyPosition targetMorph position: newPosition.
-	self propertyPosition resetTargetMorph.
-	self assert: self propertyPosition targetMorph position = originalPosition.
+	self property targetMorph position: newPosition.
+	self property resetTargetMorph.
+	self assert: self property targetMorph position = originalPosition.
