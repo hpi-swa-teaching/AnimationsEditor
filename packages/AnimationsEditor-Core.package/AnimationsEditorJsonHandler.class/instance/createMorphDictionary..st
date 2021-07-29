@@ -1,5 +1,5 @@
 saveJson
-createStartInformation: aMorph
+createMorphDictionary: aMorph
 	
 	^ Dictionary
 		with: #type -> aMorph class asString.
