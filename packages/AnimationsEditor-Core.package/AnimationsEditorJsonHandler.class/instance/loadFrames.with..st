@@ -10,3 +10,4 @@ loadFrames: anArray with: anAnimationEditorProperty
 			((self framePropertiesFor: subproperty with: (each at: 'value')) at: (each at: 'name') asSymbol) value.
 			subproperty addKeyframe.
 			]].
+	
