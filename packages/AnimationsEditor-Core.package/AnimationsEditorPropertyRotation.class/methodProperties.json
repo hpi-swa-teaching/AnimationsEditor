@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"animationPropertyFor:" : "MH 7/8/2021 10:10",
+		"animationProperty" : "CL 7/29/2021 11:57",
 		"animationString" : "MH 7/8/2021 10:10",
 		"buildInputFrameWith:" : "MH 7/8/2021 10:12",
 		"buildInputRotationWith:" : "MH 7/8/2021 10:12",
 		"buildPanelWith:" : "MH 7/8/2021 10:12",
 		"buildUIWith:" : "JIZ 6/3/2020 17:10",
-		"createAnimationWith:withPreviousKey:" : "FH 7/26/2021 14:55",
+		"createAnimationWith:withPreviousKey:" : "CL 7/29/2021 12:01",
 		"currentValue:" : "MH 7/8/2021 11:23",
 		"currentValueAsString" : "MH 7/8/2021 10:10",
 		"defaultValue" : "MH 7/8/2021 09:55",

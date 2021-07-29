@@ -1,6 +1,6 @@
 as yet unclassified
 addStartFrame 
 	self
-		currentValue: (self animationPropertyFor: self targetMorph);
+		currentValue: self animationProperty;
 		targetFrame: 0; 
 		addKeyframe. 

@@ -1,6 +1,5 @@
 animation
-createAnimationSequenceFor: aMorph withStartEnd: aStartEndProperty
-
+createAnimationSequenceWithStartEnd: aStartEndProperty
 	| animations lastKey |
 	
 	animations := OrderedCollection new.

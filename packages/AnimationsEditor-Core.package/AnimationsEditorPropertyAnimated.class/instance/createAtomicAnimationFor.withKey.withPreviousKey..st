@@ -1,5 +1,5 @@
 animation
-createAtomarAnimationFor: aProperty withKey: aKey withPreviousKey: aPreviousKey 
+createAtomicAnimationFor: aProperty withKey: aKey withPreviousKey: aPreviousKey 
 	^ (AnimPropertyAnimation new
 		   duration: aKey - aPreviousKey;
 		   property: aProperty;

@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"animationPropertyFor:" : "MH 7/8/2021 10:51",
+		"animationProperty" : "CL 7/29/2021 11:57",
 		"animationString" : "MH 7/8/2021 10:08",
 		"buildInputFrameWith:" : "MH 7/8/2021 10:09",
 		"buildInputXWith:" : "MH 7/8/2021 10:09",
 		"buildInputYWith:" : "MH 7/8/2021 10:09",
 		"buildPanelWith:" : "MH 7/8/2021 10:09",
 		"buildUIWith:" : "JIZ 6/3/2020 17:10",
-		"createAnimationWith:withPreviousKey:" : "FH 7/26/2021 14:55",
+		"createAnimationWith:withPreviousKey:" : "CL 7/29/2021 12:01",
 		"defaultValue" : "MH 7/8/2021 09:55",
 		"initialize" : "DM 8/6/2020 10:08",
 		"positionX" : "MH 7/8/2021 10:08",

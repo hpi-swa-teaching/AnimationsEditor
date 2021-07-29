@@ -1,26 +1,15 @@
 testing
 testShowMessageKeyframeOutOfBounds
-
-	| positionProperty propertyStartEnd morph |
+	| positionProperty propertyStartEnd |
 	
-	positionProperty := ((self animationsEditorInstance propertyList at: 2) subproperties at: 'position').
+	positionProperty := self property subproperties at: 'position'.
 	self animationsEditorInstance selectedTreeNode: positionProperty.
+	propertyStartEnd := self animationsEditorInstance propertyStartEnd.
 	
-	morph := (self animationsEditorInstance propertyList at: 2) targetMorph.
-	
-	propertyStartEnd := AnimationsEditorPropertyStartEnd new
-		animationsEditor: self animationsEditorInstance;
-		startTime: 0;
-		endTime: 1000.
+	positionProperty positionX: 555;
+		 positionY: 555;
+		 frame: propertyStartEnd endTime + 1000; "out of bounds"
+		 addKeyframe.
 		
-	self animationsEditorInstance propertyStartEnd: propertyStartEnd.
-	
-	positionProperty 
-		positionX: 555;
-		positionY: 555;
-		frame: (propertyStartEnd endTime)*2; "out of bounds"
-		addKeyframe.
-	
-	positionProperty createAnimationSequenceFor: morph withStartEnd: propertyStartEnd.
-	
-	self assert: ((self animationsEditorInstance informationBarText) = (positionProperty messageKeyframeOutOfBounds)).
+	positionProperty createAnimationSequenceWithStartEnd: propertyStartEnd.
+	self assert: self animationsEditorInstance informationBarText = positionProperty messageKeyframeOutOfBounds.

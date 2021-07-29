@@ -1,4 +1,9 @@
 testing
 testPlayAnimationWithStartEnd
-
-	"test that building of compAnim works"
+	| positionProperty |
+	
+	positionProperty := self property subproperties at: 'position'.
+	self animationsEditorInstance selectedTreeNode: positionProperty.
+	
+	positionProperty playAnimationWithStartEnd: self animationsEditorInstance propertyStartEnd.
+	self assert: self animationsEditorInstance informationBarText = positionProperty messageNotEnoughKeyframes.

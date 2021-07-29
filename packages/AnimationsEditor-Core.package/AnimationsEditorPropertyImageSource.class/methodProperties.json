@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"addStartFrame" : "LW 7/9/2021 15:24",
-		"animationPropertyFor:" : "MH 7/8/2021 10:06",
+		"animationProperty" : "CL 7/29/2021 11:56",
 		"animationString" : "MH 7/8/2021 10:05",
 		"buildInputFrameWith:" : "mjs 6/11/2021 15:45",
 		"buildInputSourceWith:" : "LW 7/9/2021 15:28",
@@ -15,4 +15,5 @@
 		"defaultValue" : "MH 7/8/2021 09:54",
 		"initialize" : "LW 6/5/2021 15:10",
 		"openFileSelection" : "MH 7/8/2021 10:06",
+		"resetTargetMorph" : "CL 7/29/2021 18:07",
 		"setAnimationProperty:" : "LW 7/9/2021 15:27" } }

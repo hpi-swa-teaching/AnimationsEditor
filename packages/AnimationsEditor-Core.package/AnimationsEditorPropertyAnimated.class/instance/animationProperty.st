@@ -1,4 +1,3 @@
 animation
-animationPropertyFor: aMorph
-
+animationProperty
 	self subclassResponsibility.

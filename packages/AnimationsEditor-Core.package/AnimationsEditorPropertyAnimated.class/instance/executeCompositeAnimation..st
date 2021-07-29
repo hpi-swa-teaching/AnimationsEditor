@@ -2,7 +2,7 @@ animation
 executeCompositeAnimation: aStartEndProperty
 	| comp animations |
 	
-	animations := self createAnimationSequenceFor: self targetMorph withStartEnd: aStartEndProperty.
+	animations := self createAnimationSequenceWithStartEnd: aStartEndProperty.
 	comp := AnimCompositeAnimation new.
 	animations
 		do: [:each | comp add: each].

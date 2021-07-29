@@ -1,3 +1,3 @@
 accessing
 createAnimationWith: aKey withPreviousKey: aPreviousKey
-	^ self createAtomarAnimationFor: #extent withKey: aKey withPreviousKey: aPreviousKey.
+	^ self createAtomicAnimationFor: #extent withKey: aKey withPreviousKey: aPreviousKey.

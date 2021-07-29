@@ -1,5 +1,7 @@
 running
 tearDown 
-
-	(self animationsEditorInstance propertyList at: 2) targetMorph abandon. 
+	
+	self morph isFlexed
+		ifTrue: [self morph owner abandon].
+	self morph abandon. 
 	self animationsEditorInstance windowReference abandon.

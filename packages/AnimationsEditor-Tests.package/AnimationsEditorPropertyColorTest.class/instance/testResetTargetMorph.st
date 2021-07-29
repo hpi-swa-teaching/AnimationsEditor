@@ -7,3 +7,4 @@ testResetTargetMorph
 	self property targetMorph color: newColor.
 	self property resetTargetMorph.
 	self assert: self property targetMorph color = originalColor.
+	self assert: (originalColor = newColor) not.

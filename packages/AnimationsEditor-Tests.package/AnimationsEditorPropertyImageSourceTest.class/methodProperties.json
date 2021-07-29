@@ -9,7 +9,10 @@
 		"propertyClass" : "LW 7/27/2021 11:49",
 		"setUp" : "LW 7/27/2021 11:50",
 		"tearDown" : "LW 7/27/2021 11:50",
+		"testAnimationProperty" : "CL 7/29/2021 11:59",
 		"testCreateAnimation" : "LW 7/27/2021 11:47",
 		"testInstanceCreation" : "LW 7/27/2021 11:47",
+		"testKeyframeExceptStartFrameIsExistent" : "CL 7/29/2021 17:33",
+		"testKeyframeExceptStartFrameIsNotExistent" : "CL 7/29/2021 17:36",
 		"testResetTargetMorph" : "LW 7/27/2021 11:47",
 		"testSetStartValue" : "LW 7/27/2021 11:47" } }

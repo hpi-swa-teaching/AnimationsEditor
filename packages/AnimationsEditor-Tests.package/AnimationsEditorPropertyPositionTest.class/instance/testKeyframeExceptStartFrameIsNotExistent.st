@@ -1,0 +1,3 @@
+testing
+testKeyframeExceptStartFrameIsNotExistent
+	self assert: self property isKeyframeExceptStartFrameExistent = false.

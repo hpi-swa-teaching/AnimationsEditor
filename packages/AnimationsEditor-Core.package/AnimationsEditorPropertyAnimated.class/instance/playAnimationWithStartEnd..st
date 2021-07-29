@@ -1,6 +1,6 @@
 animation
 playAnimationWithStartEnd: aStartEndProperty
 	
-	self isKeyframeExistent
+	self isKeyframeExceptStartFrameExistent
 		ifTrue: [self executeCompositeAnimation: aStartEndProperty]
-		ifFalse: [self animationsEditor updateInformationText: 'Please specify at least one keyframe to play an animation.'].
+		ifFalse: [self animationsEditor updateInformationText: self messageNotEnoughKeyframes].
