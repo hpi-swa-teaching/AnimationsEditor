@@ -21,4 +21,4 @@ testCreateAnimation
 	self assert: animation endValue = newValue.
 	self assert: animation startValue = lastValue.
 	self assert: animation property = #rotationDegrees.
-	self assert: animation target = self morph
+	self assert: animation target = self morph owner. 

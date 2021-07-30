@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"on:" : "LW 7/7/2021 12:08",
-		"onParent:" : "LW 7/26/2021 16:41" },
+		"onParent:" : "MH 7/30/2021 17:49" },
 	"instance" : {
 		"<" : "DM 8/6/2020 10:57",
 		"<=" : "DM 8/6/2020 10:57",
@@ -21,4 +21,5 @@
 		"targetMorph" : "MH 7/8/2021 11:17",
 		"targetMorph:" : "MH 7/8/2021 11:17",
 		"title" : "JIZ 6/3/2020 17:12",
-		"title:" : "DM 5/14/2020 14:45" } }
+		"title:" : "DM 5/14/2020 14:45",
+		"updateTargetMorphForAllProperties:" : "MH 7/30/2021 14:35" } }
