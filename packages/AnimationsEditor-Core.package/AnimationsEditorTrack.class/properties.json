@@ -1,0 +1,14 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"property" ],
+	"name" : "AnimationsEditorTrack",
+	"pools" : [
+		 ],
+	"super" : "AnimationsEditorTimelineObject",
+	"type" : "normal" }

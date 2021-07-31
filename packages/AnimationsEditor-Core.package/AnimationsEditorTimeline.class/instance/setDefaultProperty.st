@@ -1,0 +1,3 @@
+initialization
+setDefaultProperty
+	self property: AnimationsEditorProperty new.

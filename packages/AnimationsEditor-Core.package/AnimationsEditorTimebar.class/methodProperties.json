@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"on:withExtent:" : "mjs 7/31/2021 16:07" },
+	"instance" : {
+		"addIntermediateLines" : "mjs 7/31/2021 16:08",
+		"addLineFrom:to:" : "mjs 7/31/2021 16:08",
+		"addStartEndLine" : "mjs 7/31/2021 16:09",
+		"initialize" : "mjs 7/31/2021 16:09",
+		"lineHeight" : "mjs 7/31/2021 16:10",
+		"startEndLineHeight" : "mjs 7/31/2021 16:10",
+		"updateScale" : "mjs 7/31/2021 16:10" } }

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"on:withProperty:withPosition:withExtent:" : "mjs 7/31/2021 16:12" },
+	"instance" : {
+		"addKeyframes" : "mjs 7/31/2021 16:12",
+		"initialize" : "mjs 7/31/2021 16:12",
+		"initializeMorph" : "mjs 7/31/2021 16:13",
+		"initializeText" : "mjs 7/31/2021 16:13",
+		"initializeTrack" : "mjs 7/31/2021 16:13",
+		"keyframeMargin" : "mjs 7/31/2021 16:14",
+		"property" : "mjs 7/31/2021 16:11",
+		"property:" : "mjs 7/31/2021 16:11",
+		"textMargin" : "mjs 7/31/2021 16:14",
+		"update:" : "mjs 7/31/2021 16:14" } }

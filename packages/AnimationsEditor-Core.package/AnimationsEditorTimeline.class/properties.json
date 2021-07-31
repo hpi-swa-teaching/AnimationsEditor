@@ -1,0 +1,18 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"animationsEditor",
+		"timebar",
+		"property",
+		"startTime",
+		"endTime" ],
+	"name" : "AnimationsEditorTimeline",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

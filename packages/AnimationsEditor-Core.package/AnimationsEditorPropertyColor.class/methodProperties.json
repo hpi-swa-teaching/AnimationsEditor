@@ -4,11 +4,11 @@
 	"instance" : {
 		"animationProperty" : "CL 7/29/2021 11:55",
 		"animationString" : "MH 7/8/2021 10:00",
-		"buildColorPickerWith:" : "LW 6/15/2021 15:20",
+		"buildColorPickerWith:" : "mjs 7/31/2021 17:56",
 		"buildInputColorWith:" : "MH 7/8/2021 09:59",
 		"buildInputFrameWith:" : "CL 7/29/2021 11:54",
 		"buildPanelWith:" : "CL 5/9/2021 14:20",
-		"buildUIWith:" : "JIZ 6/3/2020 17:10",
+		"buildUIWith:" : "mjs 7/31/2021 18:00",
 		"colorPicker" : "MH 7/8/2021 10:03",
 		"colorPicker:" : "MH 7/8/2021 10:03",
 		"createAnimationWith:withPreviousKey:" : "FH 7/26/2021 14:55",
@@ -16,6 +16,6 @@
 		"currentValueAsString" : "MH 7/8/2021 09:58",
 		"currentValueFromText:" : "MH 7/8/2021 11:50",
 		"defaultValue" : "MH 7/8/2021 09:53",
-		"initialize" : "MH 5/31/2021 17:15",
+		"initialize" : "mjs 7/31/2021 17:49",
 		"setAnimationProperty:" : "LW 7/27/2021 11:26",
 		"update:" : "MH 7/8/2021 10:02" } }
