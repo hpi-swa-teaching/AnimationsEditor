@@ -3,7 +3,7 @@ buildInputFrameWith: aBuilder
 	^ aBuilder pluggableTextSpec new
 				model: self;
 				getText: #frame;
-				editText: #setFrame:;
+				editText: #frame:;
 			 	frame: (LayoutFrame new
 								topFraction: 0.3;
 								bottomFraction: 0.6;

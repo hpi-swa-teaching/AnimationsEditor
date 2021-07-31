@@ -7,4 +7,4 @@ testSetStartValue
 		currentValue: newValue;
 		frame: 0;
 		addKeyframe.
-	self assert: self morph position = newValue.
+	self assert: self morph owner position = newValue.
