@@ -1,6 +1,5 @@
 messaging
 informationBarText
 	informationBarText
-		ifNil: [self informationBarText:  '<no messages>'].
-		
-	 ^ informationBarText.
+		ifNil: [self informationBarText: '<no messages>'].
+	^ informationBarText.

@@ -1,13 +1,11 @@
 buildComponents
-buildTextRotationWith: aBuilder
-	^ aBuilder pluggableButtonSpec new
-				model: self;
-				label: 'Rotation (in Degrees)';
-				enabled: false;
-			 	frame: (LayoutFrame new
-								topFraction: 0.1;
-								bottomFraction: 0.3;
-								leftFraction: 0.5;
-								rightFraction: 1;
-								yourself);
-				 yourself.
+buildTextRotationWith: aBuilder 
+	^ aBuilder pluggableButtonSpec new model: self;
+		 label: 'Rotation (in Degrees)';
+		 enabled: false;
+		 frame: (LayoutFrame new topFraction: 0.1;
+			 bottomFraction: 0.3;
+			 leftFraction: 0.5;
+			 rightFraction: 1;
+			 yourself);
+		 yourself.

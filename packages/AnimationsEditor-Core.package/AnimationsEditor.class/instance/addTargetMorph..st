@@ -1,10 +1,9 @@
 eventHandling
-addTargetMorph: aMorph
+addTargetMorph: aMorph 
 	| newTarget |
-
-	newTarget := self createPropertyWith: aMorph.
 	
+	newTarget := self createPropertyWith: aMorph.
 	self addSubPropertiesOn: newTarget.
 	self propertyList add: newTarget.
 	self propertyTreeMorph update: self propertyTreeMorph getChildrenSelector.
-	^ newTarget. 
+	^ newTarget.

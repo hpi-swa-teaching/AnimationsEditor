@@ -1,9 +1,9 @@
 accessing
 animationString
 	^ 'AnimPropertyAnimation new
-									   duration: ', self targetFrame,';
+									   duration: ' , self targetFrame , ';
 									   property: #extent;
-									   startValue: ', self targetMorph extent, ';
-									   endValue: ', self currentValue, ';
+									   startValue: ' , self targetMorph extent , ';
+									   endValue: ' , self currentValue , ';
 									   target: aMorph;
 									   state: #paused'.

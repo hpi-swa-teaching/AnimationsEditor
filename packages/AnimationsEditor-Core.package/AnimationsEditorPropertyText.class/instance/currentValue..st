@@ -1,3 +1,3 @@
 accessing
-currentValue: anObject
-    currentValue := anObject asString.
+currentValue: anObject 
+	currentValue := anObject asString.

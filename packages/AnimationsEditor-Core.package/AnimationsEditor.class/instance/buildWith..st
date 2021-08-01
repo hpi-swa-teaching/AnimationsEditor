@@ -1,10 +1,9 @@
 buildComponents
-buildWith: aBuilder
+buildWith: aBuilder 
 	self toolBuilder: aBuilder;
-	 buildMainWindowWith: aBuilder;
-	 collectAllEmptyPanels;
-	 collectPropertyTreeMorph;
-	 collectInformationBar;
-	 initializePropertyEditorPanel.
-
+		 buildMainWindowWith: aBuilder;
+		 collectAllEmptyPanels;
+		 collectPropertyTreeMorph;
+		 collectInformationBar;
+		 initializePropertyEditorPanel.
 	^ self mainWindow.
