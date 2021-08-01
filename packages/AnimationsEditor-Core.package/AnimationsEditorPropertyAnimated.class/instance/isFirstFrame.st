@@ -1,3 +1,3 @@
-as yet unclassified
+animation
 isFirstFrame
 	^ self targetFrame = 0. 

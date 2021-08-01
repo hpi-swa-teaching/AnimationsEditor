@@ -1,0 +1,1 @@
+This class contains keyframes for its property.

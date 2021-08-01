@@ -1,4 +1,4 @@
-initialize
+initialization
 open
 	| instance window |
 	

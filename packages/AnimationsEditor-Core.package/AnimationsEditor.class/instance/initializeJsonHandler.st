@@ -1,4 +1,4 @@
-initialize-release
+initialization
 initializeJsonHandler
 	self
 		jsonHandler: (AnimationsEditorJsonHandler on: self).

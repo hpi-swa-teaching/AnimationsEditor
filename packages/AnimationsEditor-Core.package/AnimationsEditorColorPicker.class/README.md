@@ -1,0 +1,1 @@
+This class overwrites the ColorPickerMorph to add update functionality. 

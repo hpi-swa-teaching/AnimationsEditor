@@ -1,0 +1,1 @@
+This class displays the time scale.

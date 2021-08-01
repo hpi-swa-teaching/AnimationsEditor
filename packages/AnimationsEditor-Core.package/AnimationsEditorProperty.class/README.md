@@ -1,1 +1,1 @@
-This is the superclass for all possible types of animations a morph can have. 
+This is the superclass for StartEnd and Animated Property. 

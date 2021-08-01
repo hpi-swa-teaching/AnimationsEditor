@@ -1,4 +1,4 @@
-initialize-release
+initialization
 timelines: aCollection
 	timelines := aCollection.
 

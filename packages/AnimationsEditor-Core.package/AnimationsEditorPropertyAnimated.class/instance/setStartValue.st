@@ -1,3 +1,3 @@
-as yet unclassified
+animation
 setStartValue
 	self setAnimationProperty: self currentValue. 

@@ -1,4 +1,4 @@
-as yet unclassified
+animation
 addStartFrame
 	self currentValue: self animationProperty;
 		 targetFrame: 0;

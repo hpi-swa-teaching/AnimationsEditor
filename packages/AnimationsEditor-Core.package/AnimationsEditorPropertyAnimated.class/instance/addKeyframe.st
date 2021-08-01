@@ -1,4 +1,4 @@
-as yet unclassified
+animation
 addKeyframe
 	self isFirstFrame
 		ifTrue: [self setStartValue].

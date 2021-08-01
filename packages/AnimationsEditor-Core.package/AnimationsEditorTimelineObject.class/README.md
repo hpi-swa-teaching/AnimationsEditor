@@ -1,0 +1,1 @@
+This is the superclass for all lanes in the timeline. 

@@ -1,0 +1,1 @@
+This is the class that displays tracks and keyframes.
