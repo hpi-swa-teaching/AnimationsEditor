@@ -1,4 +1,6 @@
 accessing
-setCenteredPosition: aPoint
-
-    self position: aPoint + (-7.5 @ 7.5).
+setCenteredPosition: aPoint 
+	| offset |
+	
+	offset:= (-7.5 @ 7.5).
+	self position: aPoint + offset.

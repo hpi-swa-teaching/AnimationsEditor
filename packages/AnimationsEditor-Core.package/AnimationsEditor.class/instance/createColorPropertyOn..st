@@ -1,3 +1,3 @@
 buildComponents
-createColorPropertyOn: aProperty
+createColorPropertyOn: aProperty 
 	^ AnimationsEditorPropertyColor onParent: aProperty.

@@ -1,4 +1,4 @@
 messaging
-updateInformationText: aString
+updateInformationText: aString 
 	self informationBarText: aString.
 	self informationBar update: self informationBar getTextSelector.

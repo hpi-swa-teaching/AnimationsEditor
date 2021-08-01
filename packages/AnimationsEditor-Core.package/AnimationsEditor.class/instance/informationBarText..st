@@ -1,3 +1,3 @@
 messaging
-informationBarText: aString
+informationBarText: aString 
 	informationBarText := aString.

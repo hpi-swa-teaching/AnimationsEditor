@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"on:" : "LW 7/7/2021 12:08",
-		"onParent:" : "MH 7/30/2021 17:49" },
+		"on:" : "FH 8/1/2021 18:56",
+		"onParent:" : "FH 8/1/2021 18:56" },
 	"instance" : {
 		"<" : "DM 8/6/2020 10:57",
 		"<=" : "DM 8/6/2020 10:57",
 		"animationString" : "CL 5/31/2021 14:40",
 		"animationsEditor" : "DM 8/5/2020 21:01",
-		"animationsEditor:" : "DM 8/5/2020 19:45",
+		"animationsEditor:" : "FH 8/1/2021 19:06",
 		"buildUIWith:" : "JIZ 6/3/2020 16:35",
 		"canCreateAnimation" : "DM 8/6/2020 10:26",
 		"canRenderUI" : "DM 8/5/2020 21:06",
@@ -17,7 +17,7 @@
 		"parentProperty" : "LW 7/9/2021 14:01",
 		"parentProperty:" : "LW 7/9/2021 14:01",
 		"resetTargetMorphForAllProperties" : "CL 7/29/2021 18:03",
-		"subproperties" : "DM 8/6/2020 10:58",
+		"subproperties" : "FH 8/1/2021 19:08",
 		"subproperties:" : "DM 5/20/2020 14:04",
 		"targetMorph" : "MH 7/8/2021 11:17",
 		"targetMorph:" : "MH 7/8/2021 11:17",

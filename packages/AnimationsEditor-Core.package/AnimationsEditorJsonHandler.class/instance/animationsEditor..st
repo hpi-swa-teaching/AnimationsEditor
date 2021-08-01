@@ -1,4 +1,3 @@
 accessing
-animationsEditor: anObject
-
+animationsEditor: anObject 
 	animationsEditor := anObject.

@@ -1,4 +1,4 @@
-initialize-release
+initialize
 changeTargetMorphToFlexShell
 	self targetMorph isFlexed
 		ifTrue: [self targetMorph: self targetMorph owner]

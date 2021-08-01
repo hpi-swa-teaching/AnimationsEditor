@@ -1,5 +1,6 @@
 eventHandling
-addSubPropertiesOn: aProperty.
+addSubPropertiesOn: aProperty 
+	self.
 	aProperty targetMorph isImageMorph
 		ifTrue: [^ self addPropertiesToImageMorphOn: aProperty].
 	aProperty targetMorph isTextMorph

@@ -1,3 +1,3 @@
 accessing
-setAnimationProperty: aText
-	self targetMorph contents: aText. 
+setAnimationProperty: aText 
+	self targetMorph contents: aText.

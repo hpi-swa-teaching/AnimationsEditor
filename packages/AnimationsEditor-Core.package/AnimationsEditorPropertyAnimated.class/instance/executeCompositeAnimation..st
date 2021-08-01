@@ -1,5 +1,5 @@
 animation
-executeCompositeAnimation: aStartEndProperty
+executeCompositeAnimation: aStartEndProperty 
 	| comp animations |
 	
 	animations := self createAnimationSequenceWithStartEnd: aStartEndProperty.

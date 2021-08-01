@@ -1,6 +1,7 @@
 buildComponents
 buildPanelWith: aBuilder
 	| aPluggablePanelSpec |
+	
 	aPluggablePanelSpec := aBuilder pluggablePanelSpec new
 			model: self;
 			frame: (LayoutFrame new

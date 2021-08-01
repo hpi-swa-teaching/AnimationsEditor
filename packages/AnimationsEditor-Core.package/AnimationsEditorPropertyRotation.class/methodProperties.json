@@ -3,14 +3,14 @@
 		 },
 	"instance" : {
 		"animationProperty" : "CL 7/29/2021 11:57",
-		"animationString" : "MH 7/8/2021 10:10",
-		"buildInputRotationWith:" : "mjs 8/1/2021 13:05",
+		"animationString" : "FH 8/1/2021 19:25",
+		"buildInputRotationWith:" : "FH 8/1/2021 19:25",
 		"buildPanelWith:" : "mjs 8/1/2021 13:06",
-		"buildTextRotationWith:" : "mjs 8/1/2021 13:05",
+		"buildTextRotationWith:" : "FH 8/1/2021 19:26",
 		"buildUIWith:" : "JIZ 6/3/2020 17:10",
 		"createAnimationWith:withPreviousKey:" : "CL 7/29/2021 12:01",
 		"currentValue:" : "MH 7/8/2021 11:23",
 		"currentValueAsString" : "MH 7/8/2021 10:10",
 		"defaultValue" : "MH 7/8/2021 09:55",
 		"initialize" : "DM 7/7/2020 11:07",
-		"setAnimationProperty:" : "mjs 7/31/2021 16:37" } }
+		"setAnimationProperty:" : "FH 8/1/2021 19:26" } }
