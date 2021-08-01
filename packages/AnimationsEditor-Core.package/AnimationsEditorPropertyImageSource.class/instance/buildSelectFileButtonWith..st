@@ -4,10 +4,10 @@ buildSelectFileButtonWith: aBuilder
 		 model: self;
 		 label: 'Select file';
 		 action: #openFileSelection;
-		 frame: (LayoutFrame new topFraction: 0;
-			 topFraction: 0.8;
-			 bottomFraction: 1;
-			 rightFraction: 0.4;
-			 leftFraction: 0;
-			 yourself);
+		 frame: (LayoutFrame new
+			 	topFraction: 0.4;
+			 	bottomFraction: 0.5;
+				leftFraction: 0;
+			 	rightFraction: 1;
+			 	yourself);
 		 yourself.

@@ -6,8 +6,8 @@ buildInputRotationWith: aBuilder
 				editText: #currentValue:;
 			 	frame: (LayoutFrame new
 								topFraction: 0.1;
-								bottomFraction: 0.4;
+								bottomFraction: 0.3;
 								leftFraction: 0;
-								rightFraction: 0.4;
+								rightFraction: 0.5;
 								yourself);
 				 yourself.

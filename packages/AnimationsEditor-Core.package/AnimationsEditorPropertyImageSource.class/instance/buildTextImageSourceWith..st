@@ -1,12 +1,13 @@
 buildComponents
-buildColorPickerWith: aBuilder
-	^aBuilder pluggableScrollPaneSpec new
+buildTextImageSourceWith: aBuilder
+	^ aBuilder pluggableButtonSpec new
 				model: self;
-				morph: self colorPicker;
+				label: 'Path to image file';
+				enabled: false;
 			 	frame: (LayoutFrame new
 								topFraction: 0.1;
 								bottomFraction: 0.4;
-								leftFraction: 0;
+								leftFraction: 0.5;
 								rightFraction: 1;
 								yourself);
 				 yourself.

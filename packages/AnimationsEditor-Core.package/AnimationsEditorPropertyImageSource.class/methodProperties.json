@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addStartFrame" : "LW 7/9/2021 15:24",
+		"addStartFrame" : "mjs 8/1/2021 13:48",
 		"animationProperty" : "CL 7/29/2021 11:56",
 		"animationString" : "MH 7/8/2021 10:05",
-		"buildInputFrameWith:" : "mjs 6/11/2021 15:45",
-		"buildInputSourceWith:" : "LW 7/9/2021 15:28",
-		"buildPanelWith:" : "mjs 6/11/2021 15:47",
-		"buildSelectFileButtonWith:" : "mjs 6/11/2021 15:47",
+		"buildInputSourceWith:" : "mjs 8/1/2021 13:25",
+		"buildPanelWith:" : "mjs 8/1/2021 13:27",
+		"buildSelectFileButtonWith:" : "mjs 8/1/2021 13:26",
+		"buildTextImageSourceWith:" : "mjs 8/1/2021 13:27",
 		"buildUIWith:" : "LW 6/5/2021 15:09",
 		"createAnimationWith:withPreviousKey:" : "FH 7/26/2021 14:55",
 		"currentValue:" : "LW 7/9/2021 15:31",

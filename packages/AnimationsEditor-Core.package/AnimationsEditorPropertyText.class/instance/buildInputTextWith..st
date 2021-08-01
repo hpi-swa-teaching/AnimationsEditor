@@ -6,8 +6,8 @@ buildInputTextWith: aBuilder
 				editText: #currentValue:;
 			 	frame: (LayoutFrame new
 								topFraction: 0.1;
-								bottomFraction: 0.8;
+								bottomFraction: 0.5;
 								leftFraction: 0;
-								rightFraction: 0.4;
+								rightFraction: 0.5;
 								yourself);
 				 yourself.

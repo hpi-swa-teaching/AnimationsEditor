@@ -5,9 +5,9 @@ buildInputColorWith: aBuilder
 				getText: #currentValueAsHexRGBString;
 				editText: #currentValueFromText:;
 			 	frame: (LayoutFrame new
-								topFraction: 0.6;
-								bottomFraction: 0.9;
+								topFraction: 0.4;
+								bottomFraction: 0.5;
 								leftFraction: 0;
-								rightFraction: 0.4;
+								rightFraction: 0.5;
 								yourself);
 				 yourself.

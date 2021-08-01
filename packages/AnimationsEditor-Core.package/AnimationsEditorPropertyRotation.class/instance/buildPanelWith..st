@@ -6,12 +6,15 @@ buildPanelWith: aBuilder
 			model: self;
 			frame: (LayoutFrame new
 						topFraction: 0.1;
-						bottomFraction: 0.5;
+						bottomFraction: 0.9;
 						leftFraction: 0.1;
-						rightFraction: 1;
+						rightFraction: 0.8;
 						yourself);
 			children: { self buildInputRotationWith: aBuilder. 
-						self buildInputFrameWith: aBuilder.};
+						self buildTextRotationWith: aBuilder.
+						self buildInputFrameWith: aBuilder.
+						self buildTextFrameWith: aBuilder
+						};
 			yourself.	
 			
 	^ aBuilder build: aPluggablePanelSpec.

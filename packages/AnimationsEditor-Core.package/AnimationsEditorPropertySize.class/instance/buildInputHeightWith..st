@@ -6,9 +6,9 @@ buildInputHeightWith: aBuilder
 				getText: #targetHeight;
 				editText: #targetHeight:;
 			 	frame: (LayoutFrame new
-								topFraction: 0.5;
-								bottomFraction: 0.8;
+								topFraction: 0.3;
+								bottomFraction: 0.5;
 								leftFraction: 0;
-								rightFraction: 0.4;
+								rightFraction: 0.5;
 								yourself);
 				 yourself.
