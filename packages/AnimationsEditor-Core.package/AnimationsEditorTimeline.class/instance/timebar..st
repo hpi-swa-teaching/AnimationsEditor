@@ -1,4 +1,3 @@
 accessing
-timebar: anObject
-
+timebar: anObject 
 	timebar := anObject.

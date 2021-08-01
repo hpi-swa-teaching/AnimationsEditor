@@ -1,4 +1,3 @@
 constants
-startMargin 
-
-    ^ 105.
+startMargin
+	^ 105.

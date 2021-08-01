@@ -1,7 +1,3 @@
 initialization
 initializeTrack
-    
-    self
-        initializeText;
-        initializeMorph;
-        addKeyframes.
+	self initializeText; initializeMorph; addKeyframes.

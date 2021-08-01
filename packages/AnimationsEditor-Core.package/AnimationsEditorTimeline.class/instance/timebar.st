@@ -1,4 +1,3 @@
 accessing
 timebar
-
-	^ timebar
+	^ timebar.

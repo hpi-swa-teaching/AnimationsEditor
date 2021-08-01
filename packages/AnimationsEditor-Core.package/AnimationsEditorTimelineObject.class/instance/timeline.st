@@ -1,4 +1,3 @@
 accessing
 timeline
-
-	^ timeline
+	^ timeline.

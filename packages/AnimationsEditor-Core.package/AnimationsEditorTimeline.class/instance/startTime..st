@@ -1,4 +1,3 @@
 accessing
-startTime: anObject
-
+startTime: anObject 
 	startTime := anObject.

@@ -1,5 +1,4 @@
 initialization
 initialize
-
-    super initialize.
-    self color: Color lightGray.
+	super initialize.
+	self color: Color lightGray.

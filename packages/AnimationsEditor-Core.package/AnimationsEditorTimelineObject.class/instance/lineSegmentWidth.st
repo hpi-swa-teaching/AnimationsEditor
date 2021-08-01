@@ -1,4 +1,3 @@
 constants
-lineSegmentWidth 
-    
-    ^ self width - self startMargin - self endMargin. 
+lineSegmentWidth
+	^ self width - self startMargin - self endMargin.

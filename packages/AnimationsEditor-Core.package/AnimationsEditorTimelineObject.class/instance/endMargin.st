@@ -1,4 +1,3 @@
 constants
-endMargin 
-
-    ^10. 
+endMargin
+	^ 10.

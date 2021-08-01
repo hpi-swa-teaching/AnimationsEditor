@@ -1,4 +1,3 @@
 accessing
 startTime
-
-	^ startTime
+	^ startTime.

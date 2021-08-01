@@ -1,6 +1,9 @@
 creation
 convertFrameToPosition: aFrame 
-    | position |
-    
-    position := aFrame / ((self timeline endTime - self timeline startTime) / self lineSegmentWidth) + self startMargin.
-    ^ position. 
+	| position totalDuration framesPerPixel frameOffset |
+	
+	totalDuration := self timeline endTime - self timeline startTime.
+	framesPerPixel := totalDuration / self lineSegmentWidth. 
+	frameOffset := aFrame / framesPerPixel. 
+	position := self startMargin + frameOffset.
+	^ position.

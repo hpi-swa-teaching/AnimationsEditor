@@ -1,7 +1,6 @@
 creation
-switchTimelineTo: aProperty
-    
+switchTimelineTo: aProperty 
 	self updateExtent.
 	self property: aProperty.
-	self createTracks. 
-	self addTimebar. 
+	self createTracks.
+	self addTimebar.

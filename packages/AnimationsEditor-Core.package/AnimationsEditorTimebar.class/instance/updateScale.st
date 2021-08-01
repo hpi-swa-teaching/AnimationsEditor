@@ -1,5 +1,4 @@
 updating
 updateScale
-
-    self addStartEndLine. 
-    self addIntermediateLines. 
+	self addStartEndLine.
+	self addIntermediateLines.

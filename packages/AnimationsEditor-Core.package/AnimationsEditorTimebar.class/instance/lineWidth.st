@@ -1,3 +1,3 @@
 constants
-keyframeMargin
+lineWidth
 	^ 3.

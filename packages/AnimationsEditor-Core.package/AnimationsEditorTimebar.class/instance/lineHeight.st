@@ -1,4 +1,3 @@
 constants
 lineHeight
-
-    ^ 10. 
+	^ 10.

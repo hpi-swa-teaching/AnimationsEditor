@@ -1,4 +1,3 @@
 accessing
-property: anObject
-
+property: anObject 
 	property := anObject.

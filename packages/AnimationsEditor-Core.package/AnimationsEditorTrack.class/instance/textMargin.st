@@ -1,4 +1,3 @@
 constants
-textMargin 
-
-    ^ 95.
+textMargin
+	^ 95.
