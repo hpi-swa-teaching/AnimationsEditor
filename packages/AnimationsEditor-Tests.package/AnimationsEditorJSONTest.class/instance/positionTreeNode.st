@@ -12,7 +12,6 @@ positionTreeNode
 	aTreeNode	
 		targetFrame: self defaultNextTime; 
 		currentValue: 200 @ 250;
-		addKeyframe. 
-		
+		addKeyframe. 	
 	^ aTreeNode.
 	

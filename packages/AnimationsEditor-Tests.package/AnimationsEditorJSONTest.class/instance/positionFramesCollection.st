@@ -31,6 +31,5 @@ positionFramesCollection
 					Dictionary 
 						with: #name -> 'positionY'
 						with: #value -> 250.				
-				}. 
-			
+				}. 		
 	^ { frame0 .  frame1 . frame2 }

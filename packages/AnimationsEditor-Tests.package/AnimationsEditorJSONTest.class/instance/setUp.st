@@ -1,6 +1,5 @@
 running
 setUp
-
 	super setUp.
 	self animationsEditorInstance: AnimationsEditor open.
 	self morph: Morph new openInWorld.

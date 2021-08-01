@@ -1,4 +1,3 @@
 accessing
 propertyStartEnd
-
 	^ propertyStartEnd.

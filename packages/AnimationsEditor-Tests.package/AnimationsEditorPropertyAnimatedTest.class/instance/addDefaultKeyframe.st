@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 addDefaultKeyframe
 	self property
 		frame: 200;

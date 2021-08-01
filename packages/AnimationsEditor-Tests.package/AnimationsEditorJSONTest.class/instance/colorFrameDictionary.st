@@ -1,6 +1,5 @@
 saveJson
 colorFrameDictionary
-	
 	^ Dictionary  
 		with: #frame-> self defaultTime
 		with: #properties->{

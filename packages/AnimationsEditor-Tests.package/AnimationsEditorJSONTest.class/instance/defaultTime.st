@@ -1,4 +1,3 @@
 saveJson
 defaultTime
-
 	^ 100. 

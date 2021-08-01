@@ -4,9 +4,8 @@ tearDown
 
 	super tearDown.
 	targetMorph := (self animationsEditorInstance propertyList second) targetMorph.
-	"removes FlexShell"
 	targetMorph isFlexed
-		ifTrue: [targetMorph owner abandon].
+		ifTrue: [targetMorph owner abandon]. "removes FlexShell"
 	targetMorph abandon. 
 	self animationsEditorInstance windowReference abandon.
 	

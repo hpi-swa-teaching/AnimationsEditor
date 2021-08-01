@@ -1,6 +1,5 @@
 testing
 testCreateAnimation
-
 	| animation newKey lastKey newValue lastValue|
 	
 	lastValue := 20.0.
@@ -16,8 +15,8 @@ testCreateAnimation
 		currentValue: newValue;
 		frame: newKey;
 		addKeyframe.
-	
 	animation := self property createAnimationWith: newKey withPreviousKey: lastKey.
+	
 	self assert: animation endValue = newValue.
 	self assert: animation startValue = lastValue.
 	self assert: animation property = #rotationDegrees.

@@ -1,4 +1,3 @@
 saveJson
 defaultNextTime
-
 	^ 200. 

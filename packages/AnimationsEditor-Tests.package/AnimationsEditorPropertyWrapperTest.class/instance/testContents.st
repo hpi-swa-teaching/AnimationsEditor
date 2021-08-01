@@ -1,6 +1,7 @@
-as yet unclassified
+testing
 testContents
 	| subpropertyItem |
+	
 	subpropertyItem := AnimationsEditorProperty new.
 	self property subproperties at: 'property' put: subpropertyItem.
 	self propertyWrapper setItem: self property.

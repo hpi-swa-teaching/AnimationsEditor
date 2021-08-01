@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"animationsEditorInstance" : "LW 6/27/2021 13:25",
-		"animationsEditorInstance:" : "CL 5/23/2021 15:02",
+		"animationsEditorInstance" : "MH 8/1/2021 18:39",
+		"animationsEditorInstance:" : "MH 8/1/2021 18:39",
 		"setUp" : "LW 6/27/2021 13:26",
-		"tearDown" : "LW 7/1/2021 18:33",
-		"testGetDeepestMorph" : "LW 6/27/2021 13:30",
+		"tearDown" : "MH 8/1/2021 18:40",
+		"testGetDeepestMorph" : "MH 8/1/2021 18:40",
 		"testInstanceCreation" : "LW 6/27/2021 13:30",
-		"testPlayAnimations" : "LW 6/27/2021 13:58",
-		"testSelectMorphByHand" : "LW 6/27/2021 13:32",
-		"testShowMessagePlayAnimation" : "LW 6/27/2021 13:58",
-		"testTreeSpecPropertyStartEnd" : "LW 6/27/2021 13:37",
-		"testTreeSpecWithNoMorph" : "LW 6/27/2021 13:37",
-		"testTreeSpecWithOneMorph" : "NB 8/1/2021 16:28",
-		"testTreeSpecWithOneMorphPosition" : "NB 8/1/2021 16:27" } }
+		"testPlayAnimations" : "MH 8/1/2021 18:40",
+		"testSelectMorphByHand" : "MH 8/1/2021 18:40",
+		"testShowMessagePlayAnimation" : "MH 8/1/2021 18:41",
+		"testTreeSpecPropertyStartEnd" : "MH 8/1/2021 18:41",
+		"testTreeSpecWithNoMorph" : "MH 8/1/2021 18:41",
+		"testTreeSpecWithOneMorph" : "MH 8/1/2021 18:41",
+		"testTreeSpecWithOneMorphPosition" : "MH 8/1/2021 18:41" } }
