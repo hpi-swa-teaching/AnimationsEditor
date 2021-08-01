@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"morphClass" : "LW 7/27/2021 11:58",
+		"propertyClass" : "LW 7/27/2021 11:58",
+		"testAddStartFrame" : "LW 7/27/2021 12:00",
+		"testAnimationProperty" : "CL 7/29/2021 12:00",
+		"testCreateAnimation" : "LW 7/27/2021 11:57",
+		"testInstanceCreation" : "LW 7/27/2021 11:55",
+		"testKeyframeExceptStartFrameIsExistent" : "CL 7/29/2021 17:36",
+		"testKeyframeExceptStartFrameIsNotExistent" : "CL 7/29/2021 12:26",
+		"testResetTargetMorph" : "MH 8/1/2021 18:34",
+		"testSetStartValue" : "LW 7/27/2021 11:56" } }

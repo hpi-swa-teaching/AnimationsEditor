@@ -1,3 +1,3 @@
 accessing
 animationsEditor: aAnimationsEditor
-	animationsEditor := aAnimationsEditor
+	animationsEditor := aAnimationsEditor.

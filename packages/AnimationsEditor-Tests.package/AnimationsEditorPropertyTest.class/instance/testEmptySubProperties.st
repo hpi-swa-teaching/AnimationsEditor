@@ -1,6 +1,6 @@
-as yet unclassified
+testing
 testEmptySubProperties
 	| propertyItem |
-	propertyItem := AnimationsEditorProperty new.
 	
+	propertyItem := AnimationsEditorProperty new.
 	self assert: (propertyItem hasSubproperties = false).

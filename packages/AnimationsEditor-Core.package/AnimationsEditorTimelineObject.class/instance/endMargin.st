@@ -1,0 +1,3 @@
+constants
+endMargin
+	^ 10.

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"on:withPosition:withFrame:withValue:" : "FH 8/1/2021 19:05" },
+	"instance" : {
+		"frame" : "mjs 7/31/2021 15:46",
+		"frame:" : "mjs 7/31/2021 15:46",
+		"initialize" : "mjs 7/31/2021 15:45",
+		"setCenteredPosition:" : "FH 8/1/2021 19:04",
+		"track" : "mjs 7/31/2021 15:46",
+		"track:" : "mjs 7/31/2021 15:46",
+		"value:" : "mjs 7/31/2021 15:46" } }

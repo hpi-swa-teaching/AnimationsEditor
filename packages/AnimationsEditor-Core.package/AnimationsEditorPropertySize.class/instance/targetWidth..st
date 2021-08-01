@@ -1,8 +1,7 @@
 accessing
-targetWidth: anInt
+targetWidth: anInt 
 	| value |
+	
 	value := anInt asString asInteger.
 	value
-		ifNotNil: [(self targetSize) 
-												setX: value
-												setY: (self targetSize) y].
+		ifNotNil: [self currentValue setX: value setY: self currentValue y].

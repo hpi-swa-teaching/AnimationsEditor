@@ -1,12 +1,7 @@
-initialize-release
+testing
 testGetDeepestMorph
-	| animationsEditorInstance point deepestMorph |
-	animationsEditorInstance := AnimationsEditor open.
+	| point deepestMorph |
 	
-	point := animationsEditorInstance windowReference topLeft.
-	deepestMorph := (animationsEditorInstance
-								getDeepestMorph: animationsEditorInstance windowReference
-								at: point).
+	point := self animationsEditorInstance windowReference topLeft.
+	deepestMorph := self animationsEditorInstance getDeepestMorph: self animationsEditorInstance windowReference at: point.
 	self assert: (deepestMorph = nil) not.
-	
-	animationsEditorInstance windowReference abandon.

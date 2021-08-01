@@ -1,21 +1,13 @@
-initialize-release
+testing
 testPlayAnimations
-	| animationsEditorInstance morph positionProperty |
+	| positionProperty |
 	
-	animationsEditorInstance := AnimationsEditor open.
-	morph := Morph new.
-	morph openInWorld.
-	animationsEditorInstance addTargetMorph: morph.
-	
-	self flag: #todo.
-	positionProperty := ((animationsEditorInstance propertyList at: 2) subproperties at: 'position').
-	positionProperty positionX: 555.
-	positionProperty positionY: 555.
-	
-	animationsEditorInstance selectedTreeNode: positionProperty.
-	animationsEditorInstance playAnimations.	
-	
-	animationsEditorInstance windowReference abandon.
-	morph abandon.
-	
+	positionProperty := (self animationsEditorInstance propertyList at: 2) subproperties at: 'position'.
+	self animationsEditorInstance selectedTreeNode: positionProperty.
+	positionProperty 
+		positionX: 555;
+		positionY: 555;
+		frame: 500;
+		addKeyframe.
+	self animationsEditorInstance playAnimations.
 	self assert: true. "no errors = good"

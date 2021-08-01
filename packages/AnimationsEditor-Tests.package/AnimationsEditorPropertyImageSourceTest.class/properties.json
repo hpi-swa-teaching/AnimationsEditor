@@ -1,0 +1,14 @@
+{
+	"category" : "AnimationsEditor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AnimationsEditorPropertyImageSourceTest",
+	"pools" : [
+		 ],
+	"super" : "AnimationsEditorPropertyAnimatedTest",
+	"type" : "normal" }

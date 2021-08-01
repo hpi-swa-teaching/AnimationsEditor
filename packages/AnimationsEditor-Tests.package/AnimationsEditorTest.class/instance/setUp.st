@@ -1,11 +1,8 @@
-saveJson
+running
 setUp
 	| morph |
 	
 	super setUp.
 	self animationsEditorInstance: AnimationsEditor open.
-	morph := Morph new.
-	morph openInWorld.
-	animationsEditorInstance addTargetMorph: morph.
-	
-	
+	morph := Morph new openInWorld.
+	self animationsEditorInstance addTargetMorph: morph.

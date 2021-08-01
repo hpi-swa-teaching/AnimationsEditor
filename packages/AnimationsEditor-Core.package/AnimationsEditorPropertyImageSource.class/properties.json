@@ -1,0 +1,14 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LW 6/5/2021 15:08",
+	"instvars" : [
+		 ],
+	"name" : "AnimationsEditorPropertyImageSource",
+	"pools" : [
+		 ],
+	"super" : "AnimationsEditorPropertyAnimated",
+	"type" : "normal" }

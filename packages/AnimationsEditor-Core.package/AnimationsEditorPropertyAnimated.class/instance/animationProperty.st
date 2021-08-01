@@ -1,0 +1,3 @@
+animation
+animationProperty
+	self subclassResponsibility.

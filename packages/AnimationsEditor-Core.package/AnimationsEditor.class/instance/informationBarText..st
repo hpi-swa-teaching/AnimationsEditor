@@ -1,3 +1,3 @@
-accessing
-informationBarText: aString
+messaging
+informationBarText: aString 
 	informationBarText := aString.

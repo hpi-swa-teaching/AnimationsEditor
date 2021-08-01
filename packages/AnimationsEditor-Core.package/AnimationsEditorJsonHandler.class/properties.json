@@ -1,0 +1,14 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MH 8/1/2021 19:56",
+	"instvars" : [
+		"animationsEditor" ],
+	"name" : "AnimationsEditorJsonHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

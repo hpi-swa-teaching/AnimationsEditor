@@ -1,0 +1,3 @@
+constants
+lineWidth
+	^ 3.

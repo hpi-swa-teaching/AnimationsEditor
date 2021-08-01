@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"newWith:" : "FH 8/1/2021 19:32" },
+	"instance" : {
+		"addTimebar" : "MH 8/1/2021 18:58",
+		"addTrackFor:withPosition:" : "MH 8/1/2021 18:58",
+		"animationsEditor" : "MH 8/1/2021 18:56",
+		"animationsEditor:" : "MH 8/1/2021 18:56",
+		"createTracks" : "MH 8/1/2021 18:58",
+		"deleteTracks" : "MH 8/1/2021 18:48",
+		"endTime" : "MH 8/1/2021 18:57",
+		"endTime:" : "MH 8/1/2021 18:57",
+		"initialExtent" : "MH 8/1/2021 18:57",
+		"initialize" : "MH 8/1/2021 18:48",
+		"initializeStartEndTime" : "mjs 7/31/2021 17:38",
+		"property" : "MH 8/1/2021 18:57",
+		"property:" : "MH 8/1/2021 18:57",
+		"scrollPane" : "MH 8/1/2021 18:57",
+		"setDefaultProperty" : "MH 8/1/2021 18:58",
+		"startTime" : "MH 8/1/2021 18:57",
+		"startTime:" : "MH 8/1/2021 18:57",
+		"switchTimelineTo:" : "MH 8/1/2021 18:58",
+		"timebar" : "MH 8/1/2021 18:57",
+		"timebar:" : "MH 8/1/2021 18:57",
+		"trackHeight" : "MH 8/1/2021 18:57",
+		"update:" : "MH 8/1/2021 18:58",
+		"updateExtent" : "MH 8/1/2021 18:58" } }

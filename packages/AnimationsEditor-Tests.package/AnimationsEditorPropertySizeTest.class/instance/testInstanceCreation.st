@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 testInstanceCreation
-	self assert: (AnimationsEditorPropertySize new = nil) not.
+	self assert: (self property = nil) not.

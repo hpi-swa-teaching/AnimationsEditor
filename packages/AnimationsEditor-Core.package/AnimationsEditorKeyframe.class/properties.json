@@ -1,0 +1,16 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MH 8/1/2021 19:57",
+	"instvars" : [
+		"track",
+		"frame",
+		"value" ],
+	"name" : "AnimationsEditorKeyframe",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

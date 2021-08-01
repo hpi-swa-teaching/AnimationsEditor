@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCanCreateAnimation" : "DM 8/7/2020 17:14",
-		"testCanRenderUI" : "DM 8/7/2020 17:14",
-		"testInstanceCreation" : "DM 8/7/2020 17:14",
-		"testTargetRotationGetter" : "DM 8/7/2020 17:17",
-		"testTargetRotationGetterAsString" : "DM 8/7/2020 17:17",
-		"testTargetRotationSetter" : "DM 8/7/2020 17:16" } }
+		"propertyClass" : "LW 7/27/2021 11:53",
+		"testAddStartFrame" : "LW 7/27/2021 12:00",
+		"testAnimationProperty" : "CL 7/29/2021 12:00",
+		"testCreateAnimation" : "MH 8/1/2021 18:33",
+		"testInstanceCreation" : "LW 7/27/2021 11:52",
+		"testKeyframeExceptStartFrameIsExistent" : "CL 7/29/2021 17:36",
+		"testKeyframeExceptStartFrameIsNotExistent" : "CL 7/29/2021 12:26",
+		"testResetTargetMorph" : "LW 7/27/2021 11:52",
+		"testSetStartValue" : "MH 7/30/2021 18:00" } }

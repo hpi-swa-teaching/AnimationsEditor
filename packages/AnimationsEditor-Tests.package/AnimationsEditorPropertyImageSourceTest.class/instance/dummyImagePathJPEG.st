@@ -1,0 +1,3 @@
+dummy
+dummyImagePathJPEG
+	^ 'testDummyImage.jpg'.

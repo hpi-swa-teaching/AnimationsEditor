@@ -1,3 +1,3 @@
 defaults
 defaultPropertyPanelPosition
-	^ 2.
+	^ 1.

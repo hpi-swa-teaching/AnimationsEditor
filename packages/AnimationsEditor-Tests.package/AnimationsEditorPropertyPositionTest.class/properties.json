@@ -10,5 +10,5 @@
 	"name" : "AnimationsEditorPropertyPositionTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "AnimationsEditorPropertyAnimatedTest",
 	"type" : "normal" }

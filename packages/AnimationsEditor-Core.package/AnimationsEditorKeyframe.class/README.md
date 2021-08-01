@@ -1,0 +1,1 @@
+This class is part of the timeline and displays keyframes. 

@@ -1,0 +1,3 @@
+constants
+textMargin
+	^ 95.

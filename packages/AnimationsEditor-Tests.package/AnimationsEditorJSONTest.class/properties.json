@@ -1,0 +1,16 @@
+{
+	"category" : "AnimationsEditor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"animationsEditorInstance",
+		"jsonHandler",
+		"morph" ],
+	"name" : "AnimationsEditorJSONTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

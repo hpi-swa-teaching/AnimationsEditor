@@ -1,0 +1,14 @@
+{
+	"category" : "AnimationsEditor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MH 8/1/2021 20:04",
+	"instvars" : [
+		 ],
+	"name" : "AnimationsEditorTimebar",
+	"pools" : [
+		 ],
+	"super" : "AnimationsEditorTimelineObject",
+	"type" : "normal" }

@@ -1,3 +1,3 @@
 accessing
 targetHeight
-	^ self targetSize y asString.
+	^ self currentValue y asString.

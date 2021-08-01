@@ -1,5 +1,5 @@
-initialize-release
+initialization
 initializePropertyEditorPanel
 	self propertyEditorPanel: (self emptyPanels at: self defaultPropertyPanelPosition).
 	self propertyEditorPanel getChildrenSelector: #propertyEditorPanelChildren.
-	self propertyTreeMorph getChildrenSelector: #propertyList. 
+	self propertyTreeMorph getChildrenSelector: #propertyList.

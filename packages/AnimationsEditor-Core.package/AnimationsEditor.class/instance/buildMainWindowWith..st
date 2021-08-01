@@ -3,7 +3,7 @@ buildMainWindowWith: aBuilder
 	self mainWindow: (aBuilder build: (aBuilder pluggableWindowSpec new
 														model: self;
 														label: #editorTitle;
-														extent: 500@350;
+														extent: 800@550;
 														children: { self buildButtonBarWith: aBuilder.
 																		  self buildPropertiesTreeWith: aBuilder.
 																		  self buildPositionUIPanelWith: aBuilder.

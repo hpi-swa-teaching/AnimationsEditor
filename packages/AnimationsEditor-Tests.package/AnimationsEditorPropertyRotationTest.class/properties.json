@@ -10,5 +10,5 @@
 	"name" : "AnimationsEditorPropertyRotationTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "AnimationsEditorPropertyAnimatedTest",
 	"type" : "normal" }

@@ -1,0 +1,3 @@
+accessing
+colorPicker
+	^ colorPicker.

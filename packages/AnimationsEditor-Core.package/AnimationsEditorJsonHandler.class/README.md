@@ -1,0 +1,1 @@
+This class handles the import and export of animations as JSON. 

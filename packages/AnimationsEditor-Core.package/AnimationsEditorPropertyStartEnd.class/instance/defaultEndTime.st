@@ -1,3 +1,3 @@
 defaults
 defaultEndTime
-	^ 500.
+	^ 1000.

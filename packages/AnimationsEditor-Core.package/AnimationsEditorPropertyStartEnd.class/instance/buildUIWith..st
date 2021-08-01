@@ -1,3 +1,3 @@
 buildComponents
-buildUIWith: aBuilder
+buildUIWith: aBuilder 
 	^ self buildPanelWith: aBuilder.

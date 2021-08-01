@@ -1,7 +1,5 @@
-initialize-release
+initialization
 timelines
-	timelines 
+	timelines
 		ifNil: [self timelines: OrderedCollection new].
-	
 	^ timelines.
-	

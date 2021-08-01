@@ -1,6 +1,3 @@
-as yet unclassified
+testing
 testInstanceCreation
-	| animationsEditorPropertyWrapper |
-	animationsEditorPropertyWrapper := AnimationsEditorPropertyWrapper new.
-	
-	self assert: (animationsEditorPropertyWrapper = nil) not.
+	self assert: (self propertyWrapper = nil) not.

@@ -1,0 +1,3 @@
+buildComponents
+numberButtons
+	^ 6.

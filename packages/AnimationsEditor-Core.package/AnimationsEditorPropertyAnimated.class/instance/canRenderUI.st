@@ -1,0 +1,3 @@
+buildComponents
+canRenderUI
+	^ true. 

@@ -1,3 +1,3 @@
 accessing
 positionX	
-	^ self targetPosition x asString.
+	^ self currentValue x asString.

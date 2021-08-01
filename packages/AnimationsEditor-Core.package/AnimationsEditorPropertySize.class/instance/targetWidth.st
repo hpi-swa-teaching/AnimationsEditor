@@ -1,3 +1,3 @@
 accessing
 targetWidth
-	^ self targetSize x asString.
+	^ self currentValue x asString.

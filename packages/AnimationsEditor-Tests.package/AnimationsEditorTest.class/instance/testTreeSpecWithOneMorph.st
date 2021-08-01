@@ -1,12 +1,12 @@
-initialize-release
+testing
 testTreeSpecWithOneMorph
 	| animationsEditorInstance morph |
+	
 	animationsEditorInstance := AnimationsEditor open.
-	morph := Morph new.
-	morph openInWorld.
+	morph := Morph new openInWorld.
 	animationsEditorInstance addTargetMorph: morph.
-	
-	self assert: (animationsEditorInstance propertyList size = 2). 
-	
+	self assert: animationsEditorInstance propertyList size = 2.
 	animationsEditorInstance windowReference abandon.
+	morph isFlexed
+		ifTrue: [morph owner abandon].
 	morph abandon.

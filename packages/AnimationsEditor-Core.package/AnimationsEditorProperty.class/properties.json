@@ -4,14 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "tk 8/7/2020 17:52",
+	"commentStamp" : "MH 8/1/2021 20:00",
 	"instvars" : [
 		"title",
 		"subproperties",
-		"targetMorph",
-		"copyOfTargetMorph",
 		"animationsEditor",
-		"targetDuration" ],
+		"targetMorph",
+		"parentProperty" ],
 	"name" : "AnimationsEditorProperty",
 	"pools" : [
 		 ],
