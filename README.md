@@ -9,7 +9,7 @@
 
 AnimationsEditor is a graphical tool for designing animations based on [Animations-Core](https://github.com/hpi-swa/animations). Bring your morphs to life using six handpicked animations. Effortlessly create animations in Squeak. Code less and achieve more - with AnimationsEditor.
 
-![start](https://user-images.githubusercontent.com/44775014/89678706-f48ebd00-d8ef-11ea-9fc5-85e578b52a51.gif)
+![start](https://i.vgy.me/H0hUs9.gif)
 
 ## Features
 *AnimationsEditor* provides you with a broad toolset to bring your morphs to life.
@@ -42,7 +42,7 @@ Follow our step by step guide for using AnimationsEditor.
 
 *Pro Tip: Use 'Button for it' on this code snippet in order to have quick access to AnimationsEditor.*
 
-![AnimationsEditor open.](https://user-images.githubusercontent.com/44775014/89674752-f5702080-d8e8-11ea-84b9-fefdee98dd1c.gif)
+![AnimationsEditor open.](https://i.vgy.me/emJzQ9.gif)
 
 ### Select morph
 3. Create a morph in your Squeak image - this is the morph we want to bring to life. In case you are just playing around, create a dummy Morph with `Morph new openInHand`
@@ -51,61 +51,58 @@ Follow our step by step guide for using AnimationsEditor.
 
 Your morph should have been added to the property inspector. The property inspector provides you up to five properties to animate, depending on the type of morph you added.
 
-![add-morph](https://user-images.githubusercontent.com/44775014/89675633-898eb780-d8ea-11ea-94bb-516f56e32fd8.gif)
+![add-morph](https://i.vgy.me/6wXBL7.gif)
 
 ### Supported animations
-
-#### Start- & Endtime
-Adjust the duration of your playing field with start- and endtime; Keyframes outside of these boundaries will not be used (but still saved if you want to adjust later!)
-
-![duration](https://user-images.githubusercontent.com/44775014/89679426-5a2f7900-d8f1-11ea-8956-82c0c713c254.gif)
 
 #### Morph color 
 Enter a hex coded color into the text field or simply use the integrated color picker, add a keyframe and press *Play animations*.
 
-![color](https://user-images.githubusercontent.com/44775014/89675836-e7bb9a80-d8ea-11ea-9e6a-58975dbdc97a.gif)
+![color](https://i.vgy.me/0F0GsL.gif)
 
 #### Morph rotation
 
 Enter an integer value in the text field, add a keyframe and press *Play animations*.
 
-![rotation](https://user-images.githubusercontent.com/44775014/89676840-9f04e100-d8ec-11ea-8d69-3dfc3cfdb655.gif)
+![rotation](https://i.vgy.me/Hr4GuV.gif)
 
 #### Morph position
 Enter the desired x- and y position the morph should move to, add a keyframe and press *Play animations*.
 
-![position](https://user-images.githubusercontent.com/44775014/89677492-d4f69500-d8ed-11ea-9b57-56cee7050f4c.gif)
+![position](https://i.vgy.me/pBoaEQ.gif)
 
 #### Morph size
 Enter the desired height and width of the morph, add a keyframe and press *Play animations*.
 
-![size](https://user-images.githubusercontent.com/44775014/89677873-767de680-d8ee-11ea-8102-f89cbbc27891.gif)
+![size](https://i.vgy.me/MsY9wK.gif)
 
 #### ImageMorph image source
 Tell it where your image is saved, add a keyframe and press *Play animations*.
 
-![image source](https://user-images.githubusercontent.com/44775014/89675836-e7bb9a80-d8ea-11ea-9e6a-58975dbdc97a.gif)
+![image source](https://i.vgy.me/SsbYno.gif)
 
 #### TextMorph text
 Enter the text you want to show, add a keyframe and press *Play animations*.
 
-![text](https://user-images.githubusercontent.com/44775014/89675836-e7bb9a80-d8ea-11ea-9e6a-58975dbdc97a.gif)
+![text](https://i.vgy.me/YJ1ccz.gif)
 
-### Save animation
+#### Start- & Endtime
+Adjust the duration of your playing field with start- and endtime; Keyframes outside of these boundaries will not be used (but still saved if you want to adjust later!)
+
+![duration](https://i.vgy.me/CVo01i.gif)
+
+#### Save animation
 Configure your animation with AnimationsEditor and save everything in a JSON by pressing *Save animation*.
 
-![saving](https://user-images.githubusercontent.com/44775014/89681241-d5def500-d8f4-11ea-8f92-2d9bdabecb0a.gif)
+![saving](https://i.vgy.me/ioddhw.gif)
 
-### Load animation
+#### Load animation
 Load in a previously saved animation by pressing *Load JSON*.
 
-![loading](https://user-images.githubusercontent.com/44775014/89681241-d5def500-d8f4-11ea-8f92-2d9bdabecb0a.gif)
+![loading](https://i.vgy.me/0lvlyv.gif)
 
-### The Timeline
+#### The Timeline
 The timeline shows you your created keyframes of the properties of your selected object. Its bounds are the start- and endtime. You will never lose sight of your created animations!
-
-![timeline](https://user-images.githubusercontent.com/44775014/89681241-d5def500-d8f4-11ea-8f92-2d9bdabecb0a.gif)
-
 
 ## Development
 ### CI Pipeline and coverage
@@ -114,12 +111,14 @@ The CI pipeline is implemented using GitHub actions, and push is executed on eac
 
 ### Documentation
 For our complete documentation, visit our [wiki](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki), which contains the following parts: 
-- [Architecture of AnimationsEditor](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Architecture-of-AnimationsEditor)
-- [Coding conventions](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Coding-conventions)
-- [Features](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Features)
-- [Meaning of technical terms](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Meaning-of-technical-terms)
-- [Presentation Slides](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Presentation-Slides)
-- [Setup Guide](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/Setup-Guide)
+
+- Small overview to get into using the AnimationsEditor.
+
+1. [Introduction to the AnimationsEditor](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/1-Introduction)
+
+- See beyond the UI and learn how the AnimationsEditor is built and the code behind it.
+
+2. [In-depth look](https://github.com/hpi-swa-teaching/AnimationsEditor/wiki/2-In-Depth)
 
 
 ## Contributors
