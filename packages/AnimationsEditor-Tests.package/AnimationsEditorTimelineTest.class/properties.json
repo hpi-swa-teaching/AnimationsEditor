@@ -1,0 +1,17 @@
+{
+	"category" : "AnimationsEditor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"animationsEditorInstance",
+		"timeline",
+		"positionTrack",
+		"addedKeyframeMorph" ],
+	"name" : "AnimationsEditorTimelineTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

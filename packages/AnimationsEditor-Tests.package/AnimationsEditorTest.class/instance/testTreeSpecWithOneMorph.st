@@ -8,4 +8,6 @@ testTreeSpecWithOneMorph
 	self assert: animationsEditorInstance propertyList size = 2.
 	
 	animationsEditorInstance windowReference abandon.
+	morph isFlexed
+		ifTrue: [morph owner abandon].
 	morph abandon.

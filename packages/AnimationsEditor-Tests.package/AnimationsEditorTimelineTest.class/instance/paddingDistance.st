@@ -1,0 +1,4 @@
+constants
+paddingDistance
+
+	^ 20.

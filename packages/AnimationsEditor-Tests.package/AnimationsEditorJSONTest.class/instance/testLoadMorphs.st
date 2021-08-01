@@ -1,8 +1,15 @@
 loadJson
 testLoadMorphs
-	| morph |
+	| thirdMorph fourthMorph |
 	
-	morph := self jsonHandler loadMorphs: self loadMorphsData.
+	self jsonHandler loadMorphs: self loadMorphsData.
+	thirdMorph := self animationsEditorInstance propertyList third targetMorph.
+	fourthMorph := self animationsEditorInstance propertyList fourth targetMorph.
 	self assert: self animationsEditorInstance propertyList size = 4.
-	self animationsEditorInstance propertyList third targetMorph abandon.
-	self animationsEditorInstance propertyList fourth targetMorph abandon.
+	
+	thirdMorph isFlexed
+		ifTrue: [thirdMorph owner abandon].
+	thirdMorph abandon.
+	fourthMorph isFlexed
+		ifTrue: [fourthMorph owner abandon].
+	fourthMorph abandon.
