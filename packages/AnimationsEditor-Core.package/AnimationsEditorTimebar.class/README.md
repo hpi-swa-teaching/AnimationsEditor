@@ -1,1 +1,1 @@
-This class displays the time scale.
+This class displays the time scale quantified by the start-end-property.

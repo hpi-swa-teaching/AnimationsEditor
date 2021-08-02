@@ -1,1 +1,1 @@
-This class contains keyframes for its property.
+This class contains keyframes for its property. It furthermore observes the property for changes.

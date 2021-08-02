@@ -5,6 +5,7 @@
 	"instance" : {
 		"<" : "DM 8/6/2020 10:57",
 		"<=" : "DM 8/6/2020 10:57",
+		"addKeyframe" : "CL 8/2/2021 08:56",
 		"animationString" : "CL 5/31/2021 14:40",
 		"animationsEditor" : "DM 8/5/2020 21:01",
 		"animationsEditor:" : "FH 8/1/2021 19:06",
@@ -14,6 +15,7 @@
 		"defaultSubproperties" : "FH 5/13/2021 11:24",
 		"hasSubproperties" : "DM 8/6/2020 11:02",
 		"isStartEnd" : "mjs 7/31/2021 17:19",
+		"messageSelectAnimatedProperty" : "CL 8/2/2021 08:57",
 		"parentProperty" : "LW 7/9/2021 14:01",
 		"parentProperty:" : "LW 7/9/2021 14:01",
 		"resetTargetMorphForAllProperties" : "CL 7/29/2021 18:03",

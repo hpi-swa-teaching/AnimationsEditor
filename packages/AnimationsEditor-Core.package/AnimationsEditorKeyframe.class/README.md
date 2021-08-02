@@ -1,1 +1,1 @@
-This class is part of the timeline and displays keyframes. 
+This class is part of the timeline and displays keyframes as a rectangle inside of its according property track. 

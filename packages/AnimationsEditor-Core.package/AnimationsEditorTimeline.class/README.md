@@ -1,1 +1,1 @@
-This is the class that displays tracks and keyframes.
+This is the class that displays tracks and keyframes. It observes the start-end-property in order to adjust its extent and the Timebar scale.
