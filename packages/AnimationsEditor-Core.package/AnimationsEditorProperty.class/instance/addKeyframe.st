@@ -1,0 +1,3 @@
+defaults
+addKeyframe
+	self animationsEditor updateInformationText: self messageSelectAnimatedProperty.

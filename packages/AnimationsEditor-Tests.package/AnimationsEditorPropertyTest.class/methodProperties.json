@@ -20,4 +20,5 @@
 		"testOnlyPlaysAnimationInsideStartEndTime" : "MH 8/1/2021 18:38",
 		"testPlayAnimationWithStartEnd" : "MH 8/1/2021 18:38",
 		"testShowMessageKeyframeOutOfBounds" : "MH 8/1/2021 18:38",
+		"testShowMessageSelectAnimatedProperty" : "CL 8/2/2021 09:05",
 		"testTargetValuesIsSorted" : "MH 8/1/2021 18:38" } }

@@ -1,7 +1,7 @@
 updating
-update: anObject 
+update: aStartEndProperty 
 	self updateExtent.
-	self startTime: anObject startTime.
-	self endTime: anObject endTime.
+	self startTime: aStartEndProperty startTime.
+	self endTime: aStartEndProperty endTime.
 	self createTracks.
 	self addTimebar.
