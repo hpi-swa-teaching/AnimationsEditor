@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"movingLine",
 		"animationsEditorInstance",
 		"timeline",
 		"positionTrack",
-		"addedKeyframeMorph",
-		"movingLine" ],
-	"name" : "AnimationsEditorTimelineTest",
+		"addedKeyframeMorph" ],
+	"name" : "AnimationsEditorMovingLineTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
