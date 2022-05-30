@@ -4,3 +4,4 @@ switchTimelineTo: aProperty
 	self property: aProperty.
 	self createTracks.
 	self addTimebar.
+	self updateStartEndProperty.
