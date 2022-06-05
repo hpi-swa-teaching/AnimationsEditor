@@ -5,10 +5,15 @@
 		"addEndLine" : "MH 8/1/2021 19:30",
 		"addIntermediateLines" : "MH 8/1/2021 19:21",
 		"addLineFrom:to:" : "MH 8/1/2021 19:22",
+		"addMovingLine" : "SG 5/23/2022 17:59",
 		"addStartEndLine" : "MH 8/1/2021 19:24",
 		"addStartLine" : "MH 8/1/2021 19:28",
 		"initialize" : "MH 8/1/2021 19:00",
 		"lineHeight" : "MH 8/1/2021 19:00",
 		"lineWidth" : "MH 8/1/2021 19:22",
+		"movingLine" : "SG 5/23/2022 17:22",
+		"movingLine:" : "SG 5/23/2022 17:22",
 		"startEndLineHeight" : "MH 8/1/2021 19:00",
-		"updateScale" : "MH 8/1/2021 19:01" } }
+		"step" : "SG 5/23/2022 18:41",
+		"stepTime" : "SG 5/23/2022 18:02",
+		"updateScale" : "SG 5/23/2022 18:41" } }

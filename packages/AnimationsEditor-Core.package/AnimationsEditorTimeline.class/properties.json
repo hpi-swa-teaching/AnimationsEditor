@@ -10,7 +10,9 @@
 		"timebar",
 		"property",
 		"startTime",
-		"endTime" ],
+		"endTime",
+		"movingLine",
+		"duration" ],
 	"name" : "AnimationsEditorTimeline",
 	"pools" : [
 		 ],
