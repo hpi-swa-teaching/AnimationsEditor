@@ -9,4 +9,6 @@ addIntermediateLines
 		do: [:frame | frame \\ lineRepetition = 0
 				ifTrue: [
 					positionX := self convertFrameToPosition: frame.
-					self addLineFrom: positionX @ self height to: positionX @ (self height - self lineHeight)]].
+					self
+						addLineFrom: positionX @ self height to: positionX @ (self height - self lineHeight);
+						addLineLabelFor: (frame asString) to: (positionX - self labelXOffset) @ (self height - self lineHeight - self labelYOffset)]].
