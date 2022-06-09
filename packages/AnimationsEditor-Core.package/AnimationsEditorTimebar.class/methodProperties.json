@@ -3,11 +3,12 @@
 		"on:withExtent:" : "FH 8/1/2021 19:32" },
 	"instance" : {
 		"addEndLine" : "MH 8/1/2021 19:30",
-		"addIntermediateLines" : "MH 8/1/2021 19:21",
+		"addIntermediateLines" : "Noel Bastubbe 6/9/2022 17:32",
 		"addLineFrom:to:" : "MH 8/1/2021 19:22",
 		"addStartEndLine" : "MH 8/1/2021 19:24",
 		"addStartLine" : "MH 8/1/2021 19:28",
 		"initialize" : "MH 8/1/2021 19:00",
+		"intermediateLineDistance" : "Noel Bastubbe 6/9/2022 17:21",
 		"lineHeight" : "MH 8/1/2021 19:00",
 		"lineWidth" : "MH 8/1/2021 19:22",
 		"startEndLineHeight" : "MH 8/1/2021 19:00",
