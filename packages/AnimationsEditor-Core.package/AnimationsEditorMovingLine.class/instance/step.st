@@ -3,7 +3,7 @@ step
 	|duration offset endPositionX| 
 	endPositionX := self timeline width - (self endMargin).
 	"duration :=  (self timeline endTime - self timeline startTime)/100. --> richtige Zeit"
-	(self position x >= endPositionX) ifTrue: [self position: endPositionX @ (self position y)"self abandon"]
+	(self position x >= endPositionX) ifTrue: [self abandon]
 	ifFalse:
 		[
 		

@@ -14,7 +14,7 @@ positionProperty := (self animationsEditorInstance propertyList at: 2) subproper
 	d:= Morph new  extent: 3@100;
 				color: Color black;
 				position: 105@25.
-	1000 timesRepeat: [self moveMovingLine: d]. 
+	500 timesRepeat: [self moveMovingLine: d]. 
 	Transcript show: d position x.
 	d comeToFront.
 	"delay := Delay forMilliseconds: 500."
@@ -22,7 +22,7 @@ positionProperty := (self animationsEditorInstance propertyList at: 2) subproper
 
 	"self movingLine stopStepping. "
 
-	self assert: (d position) = ((self timeline width - 25)@ self timeline trackHeight). 
+	self assert: (d position) =  ((self timeline width - 130)/2+105).
 
 
 		
