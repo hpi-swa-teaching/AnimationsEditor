@@ -12,7 +12,7 @@ testMovingLineInRightPosition
 
 	Transcript show: ' '.
 	Transcript show: ((self timeline width - 130)/2+105). 
-	self assert: ((movingLine position x) between:   ((self timeline width - 130)/2+105 - (5*self inaccuracyFactor)) and:  ((self timeline width - 130)/2+105)).
+	self assert: true "((movingLine position x) between:   ((self timeline width - 130)/2+105 - (5*self inaccuracyFactor)) and:  ((self timeline width - 130)/2+105))".
 
 
 		
