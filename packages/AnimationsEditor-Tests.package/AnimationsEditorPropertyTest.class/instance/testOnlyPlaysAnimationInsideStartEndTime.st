@@ -13,7 +13,7 @@ testOnlyPlaysAnimationInsideStartEndTime
 	positionProperty 
 		positionX: 555;
 		positionY: 555;
-		frame: (propertyStartEnd endTime)*2; "out of bounds"
+		frame: (propertyStartEnd startTime) - 1; "out of bounds"
 		addKeyframe.
 	animations := positionProperty createAnimationSequenceWithStartEnd: propertyStartEnd.
 	self assert: animations size = 2.

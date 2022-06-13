@@ -17,8 +17,8 @@
 		"testHasSubProperties" : "MH 8/1/2021 18:37",
 		"testInstanceCreation" : "DM 8/4/2020 13:47",
 		"testMessageNotEnoughKeyframes" : "MH 8/1/2021 18:38",
-		"testOnlyPlaysAnimationInsideStartEndTime" : "MH 8/1/2021 18:38",
+		"testOnlyPlaysAnimationInsideStartEndTime" : "Noel Bastubbe 6/13/2022 18:01",
 		"testPlayAnimationWithStartEnd" : "MH 8/1/2021 18:38",
-		"testShowMessageKeyframeOutOfBounds" : "MH 8/1/2021 18:38",
+		"testShowMessageKeyframeOutOfBounds" : "Noel Bastubbe 6/13/2022 18:05",
 		"testShowMessageSelectAnimatedProperty" : "CL 8/2/2021 09:05",
 		"testTargetValuesIsSorted" : "MH 8/1/2021 18:38" } }
