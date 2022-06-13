@@ -5,5 +5,4 @@ update: aStartEndProperty
 	self endTime: aStartEndProperty endTime.
 	self createTracks.
 	self addTimebar.
-	self duration acceptValue: self endTime.
-	self duration comeToFront.
+	self createDuration.
