@@ -22,5 +22,7 @@
 		"tearDown" : "NB 8/1/2021 12:38",
 		"testAddKeyframeToRightPosition" : "Noel Bastubbe 6/13/2022 19:27",
 		"testDistanceBetweenKeyframes" : "mjs 8/1/2021 16:45",
+		"testHeightOfTimeline" : "Noel Bastubbe 6/13/2022 19:51",
+		"testWidthOfTimeline" : "Noel Bastubbe 6/13/2022 19:41",
 		"timeline" : "MH 8/1/2021 18:43",
 		"timeline:" : "MH 8/1/2021 18:43" } }
