@@ -2,7 +2,8 @@
 	"class" : {
 		"newWith:" : "FH 8/1/2021 19:32" },
 	"instance" : {
-		"addTimebar" : "MH 8/1/2021 18:58",
+		"addTimebar" : "NR 6/13/2022 15:14",
+		"addTimebarWithEndTime:" : "NR 6/13/2022 15:15",
 		"addTrackFor:withPosition:" : "MH 8/1/2021 18:58",
 		"animationsEditor" : "MH 8/1/2021 18:56",
 		"animationsEditor:" : "MH 8/1/2021 18:56",

@@ -1,5 +1,5 @@
 initialization
-addTimebar
+addTimebarWithEndTime: aNumber
 	| timebar |
 	
 	self timebar
@@ -8,5 +8,5 @@ addTimebar
 	self addMorph: timebar.
 	self timebar: timebar.
 	self timebar updateScale.
-	self timebar endTime: self endTime.
+	self timebar endTime: aNumber.
 	self timebar createDuration.

@@ -1,12 +1,9 @@
 updating
 addIntermediateLines
-	| positionX intermediateStart intermediateEnd lineRepetition |
-	
-	intermediateStart := self timeline startTime + 1.
-	intermediateEnd := self timeline endTime - 1.
-	lineRepetition := 100.
-	intermediateStart to: intermediateEnd
-		do: [:frame | frame \\ lineRepetition = 0
-				ifTrue: [
-					positionX := self convertFrameToPosition: frame.
-					self addLineFrom: positionX @ self height to: positionX @ (self height - self lineHeight)]].
+	| positionX frame |
+	frame := self timeline startTime + self intermediateLineDistance.
+	[self timeline endTime > frame] 
+		whileTrue: [positionX := self convertFrameToPosition: frame.
+						self addLineFrom: positionX @ self height to: positionX @ (self height - self lineHeight).
+						self addLineLabelFor: (frame asString) to: (positionX - self labelXOffset) @ (self height - self lineHeight - self labelYOffset).
+						frame := frame + self intermediateLineDistance.].

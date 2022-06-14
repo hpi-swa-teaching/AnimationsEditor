@@ -4,5 +4,5 @@ initialize
     self 
 	extent: self initialExtent;
 	color: Color lightGray;
-	initializeStartEndTime;
-	setDefaultProperty.
+	setDefaultProperty;
+	initializeStartEndTime.

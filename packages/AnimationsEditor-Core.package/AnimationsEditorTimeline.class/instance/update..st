@@ -1,7 +1,8 @@
 updating
 update: aStartEndProperty 
-	self updateExtent.
 	self startTime: aStartEndProperty startTime.
-	self endTime: aStartEndProperty endTime.
+	self endTime: aStartEndProperty endTime.	
+	self updateExtent.
 	self createTracks.
+	Transcript show: 'update'.
 	self addTimebar.

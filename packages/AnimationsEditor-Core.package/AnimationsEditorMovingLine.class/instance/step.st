@@ -1,6 +1,5 @@
 as yet unclassified
 step
-
 	| endPositionX| 
 	
 	endPositionX := self timeline width - (self endMargin).

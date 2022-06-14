@@ -1,8 +1,7 @@
 as yet unclassified
 initialize
-
 	super initialize.
 	self
-				"extent: 3@100;"
+				extent: 3@100;
 				color: Color black;
-				position: (self startMargin@25). "get rid of magic number" "Cascade expected ->"
+				position: self startMargin@25.
