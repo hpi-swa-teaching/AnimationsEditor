@@ -4,12 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "CL 8/2/2021 08:50",
+	"commentStamp" : "",
 	"instvars" : [
-		"movingLine",
-		"duration",
-		"endTime" ],
-	"name" : "AnimationsEditorTimebar",
+		"movingLine" ],
+	"name" : "AnimationsEditorMovingLine",
 	"pools" : [
 		 ],
 	"super" : "AnimationsEditorTimelineObject",
