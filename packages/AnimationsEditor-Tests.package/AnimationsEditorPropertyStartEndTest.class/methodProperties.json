@@ -2,7 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"animationsEditorInstance" : "lka 5/30/2022 10:38",
+		"animationsEditorInstance:" : "lka 5/30/2022 10:38",
+		"morph" : "lka 5/30/2022 10:38",
+		"morph:" : "lka 5/30/2022 10:38",
+		"property" : "lka 5/30/2022 10:38",
+		"property:" : "lka 5/30/2022 10:38",
 		"propertyStartEnd" : "MH 8/1/2021 18:35",
 		"propertyStartEnd:" : "MH 8/1/2021 18:35",
-		"setUp" : "MH 7/8/2021 12:08",
+		"setUp" : "lka 5/30/2022 11:43",
+		"tearDown" : "lka 5/30/2022 10:39",
+		"testAddKeyframeAfterEndtime" : "Noel Bastubbe 6/9/2022 17:48",
 		"testInstanceCreation" : "LW 6/27/2021 13:09" } }

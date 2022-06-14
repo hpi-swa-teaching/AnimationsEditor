@@ -5,3 +5,4 @@ Transcript show: self endTime.
 	self property: aProperty.
 	self createTracks.
 	self addTimebar.
+	self updateStartEndProperty.
