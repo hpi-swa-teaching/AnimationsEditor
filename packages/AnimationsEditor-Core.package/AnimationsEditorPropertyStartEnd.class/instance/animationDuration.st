@@ -1,3 +1,3 @@
 accessing
-duration
+animationDuration
 	^ (self endTime - self startTime).

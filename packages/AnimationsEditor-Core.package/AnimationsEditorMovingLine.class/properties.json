@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"movingLine" ],
+		"movingLine",
+		"speed",
+		"positionY" ],
 	"name" : "AnimationsEditorMovingLine",
 	"pools" : [
 		 ],

@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"addStartFrame" : "MH 7/8/2021 10:20",
+		"animationDuration" : "ob 6/9/2022 21:31",
 		"animationString" : "DM 7/8/2020 15:19",
 		"buildEndFrameWith:" : "FH 8/1/2021 19:30",
 		"buildEndInputWith:" : "FH 8/1/2021 19:30",
@@ -13,7 +14,6 @@
 		"canRenderUI" : "DM 8/6/2020 10:11",
 		"defaultEndTime" : "mjs 8/1/2021 13:45",
 		"defaultStartTime" : "DM 8/6/2020 10:37",
-		"duration" : "DM 8/4/2020 16:44",
 		"endTime" : "FH 8/1/2021 19:29",
 		"endTime:" : "FH 8/1/2021 19:29",
 		"endTimeAsString" : "FH 8/1/2021 19:29",
