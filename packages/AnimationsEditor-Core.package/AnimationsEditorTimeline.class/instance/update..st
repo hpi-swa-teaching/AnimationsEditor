@@ -4,5 +4,5 @@ update: aStartEndProperty
 	self startTime: aStartEndProperty startTime.
 	self endTime: aStartEndProperty endTime.
 	self createTracks.
+	Transcript show: 'update'.
 	self addTimebar.
-	self createDuration.

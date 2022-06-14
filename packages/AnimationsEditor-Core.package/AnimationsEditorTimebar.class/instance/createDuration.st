@@ -1,4 +1,4 @@
-creation
+initialization
 createDuration
 
 	self deleteDuration.

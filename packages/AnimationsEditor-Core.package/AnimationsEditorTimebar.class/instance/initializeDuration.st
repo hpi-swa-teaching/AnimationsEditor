@@ -6,5 +6,4 @@ initializeDuration
 	self duration position: 5@7;
 	fontName: ('Bitmap DejaVu Sans') pointSize: 9;
 	color: Color black.
-	self duration acceptValue: (self getDurationString: self endTime).
 	

@@ -11,8 +11,7 @@
 		"property",
 		"startTime",
 		"endTime",
-		"movingLine",
-		"duration" ],
+		"movingLine" ],
 	"name" : "AnimationsEditorTimeline",
 	"pools" : [
 		 ],
