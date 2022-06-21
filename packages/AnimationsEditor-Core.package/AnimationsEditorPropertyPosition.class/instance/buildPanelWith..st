@@ -10,7 +10,8 @@ buildPanelWith: aBuilder
 						leftFraction: 0.1;
 						rightFraction: 0.8;
 						yourself);
-			children: { self buildInputXWith: aBuilder.
+			children: {self buildDeselectFrameWith: aBuilder.
+						self buildInputXWith: aBuilder.
 						self buildTextXWith: aBuilder.
 						self buildInputYWith: aBuilder.
 						self buildTextYWith: aBuilder.

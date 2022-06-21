@@ -1,5 +1,5 @@
 buildComponents
-buildPanelWith: aBuilder 
+buildStartPanelWith: aBuilder 
 	| aPluggablePanelSpec |
 	
 	aPluggablePanelSpec := aBuilder pluggablePanelSpec new 
@@ -10,12 +10,7 @@ buildPanelWith: aBuilder
 						leftFraction: 0.1;
 					 	rightFraction: 0.8;
 					 	yourself);
-			children: {self buildDeselectFrameWith: aBuilder. 
-						self buildColorPickerWith: aBuilder. 
-						self buildInputColorWith: aBuilder. 
-						self buildTextColorWith: aBuilder. 
-						self buildInputFrameWith: aBuilder. 
-						self buildTextFrameWith: aBuilder
+			children: {self buildSelectFrameWith: aBuilder. 
 						};
 			yourself.
 			

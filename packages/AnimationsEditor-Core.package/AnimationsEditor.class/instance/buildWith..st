@@ -6,5 +6,4 @@ buildWith: aBuilder
 		 collectPropertyTreeMorph;
 		 collectInformationBar;
 		 initializePropertyEditorPanel.
-		Transcript show: 'zaebalo'.
 	^ self mainWindow.

@@ -1,6 +1,5 @@
 accessing
 selectedTreeNode: aNode 
-Transcript show: aNode.
 	selectedTreeNode := aNode.
 	aNode canRenderUI
 		ifTrue: [
@@ -9,7 +8,7 @@ Transcript show: aNode.
 				insertMorph: (aNode buildUIWith: self toolBuilder)
 				Into: self propertyEditorPanel]
 				ifFalse: [ self
-				insertMorph: (aNode buildSelectTrackUIWith: self toolBuilder) Into: self propertyEditorPanel
+				insertMorph: (aNode buildSelectPanelWith:  self toolBuilder) Into: self propertyEditorPanel
 					].	
 					].
 				

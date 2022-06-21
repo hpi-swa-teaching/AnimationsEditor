@@ -2,10 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"activateProperty" : "ob 6/21/2022 20:42",
 		"addKeyframe" : "CL 8/2/2021 08:43",
 		"addStartFrame" : "FH 8/1/2021 19:13",
 		"animationProperty" : "CL 7/29/2021 11:55",
+		"buildDeselectFrameWith:" : "ob 6/21/2022 19:41",
 		"buildInputFrameWith:" : "FH 8/1/2021 19:13",
+		"buildSelectFrameWith:" : "ob 6/21/2022 19:55",
+		"buildSelectPanelWith:" : "ob 6/21/2022 20:46",
+		"buildStartPanelWith:" : "ob 6/21/2022 19:53",
 		"buildTextFrameWith:" : "FH 8/1/2021 19:13",
 		"canCreateAnimation" : "MH 7/8/2021 11:37",
 		"canRenderUI" : "ob 6/20/2022 18:54",
@@ -15,6 +20,7 @@
 		"createCompositeAnimationWith:withKey:withPreviousKey:" : "FH 8/1/2021 19:10",
 		"currentValue" : "MH 7/8/2021 11:08",
 		"currentValue:" : "MH 7/8/2021 11:08",
+		"deactivateProperty" : "ob 6/21/2022 19:41",
 		"defaultFrame" : "MH 7/8/2021 11:33",
 		"defaultValue" : "MH 7/8/2021 11:33",
 		"executeCompositeAnimation:" : "FH 8/1/2021 19:11",
