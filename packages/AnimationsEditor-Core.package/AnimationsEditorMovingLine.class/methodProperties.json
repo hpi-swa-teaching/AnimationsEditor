@@ -4,9 +4,12 @@
 		"on:withPosition:withExtent:" : "ob 6/9/2022 21:39",
 		"on:withPositionY:withExtent:" : "ob 6/9/2022 21:40" },
 	"instance" : {
+		"addMovingLine" : " 6/17/2022 14:09:28",
 		"animationDuration" : "ob 6/9/2022 21:31",
 		"initialize" : "ob 6/9/2022 21:29",
 		"lineWidth" : "ob 6/9/2022 20:18",
+		"movingLine" : " 6/17/2022 14:09:28",
+		"movingLine:" : " 6/17/2022 14:09:28",
 		"positionY" : "ob 6/9/2022 21:26",
 		"positionY:" : "ob 6/9/2022 21:26",
 		"setMovingSpeedPerHundredMilliseconds" : "ob 6/9/2022 21:31",
