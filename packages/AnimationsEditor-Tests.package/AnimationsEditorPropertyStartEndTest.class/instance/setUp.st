@@ -5,4 +5,4 @@ setUp
 	self propertyStartEnd: self animationsEditorInstance propertyStartEnd.
 	self morph: Morph new openInWorld.
 	self animationsEditorInstance addTargetMorph: self morph.
-	self property: self animationsEditorInstance propertyList second.
+	self property: self animationsEditorInstance propertyList first.
