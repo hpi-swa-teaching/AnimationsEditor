@@ -1,4 +1,4 @@
-as yet unclassified
+stepping and presenter
 step
 	"duration :=  (self timeline endTime - self timeline startTime)/1000. --> richtige Zeit
 	duration :=  (self timeline endTime - self timeline startTime).

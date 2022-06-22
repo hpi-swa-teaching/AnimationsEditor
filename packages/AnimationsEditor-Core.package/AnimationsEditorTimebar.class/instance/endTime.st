@@ -1,3 +1,3 @@
 accessing
 endTime
-	^ endTime
+	^ endTime.

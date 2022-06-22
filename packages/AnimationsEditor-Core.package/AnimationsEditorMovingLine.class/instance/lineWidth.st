@@ -1,3 +1,3 @@
-as yet unclassified
+constants
 lineWidth
-	^3.
+	^ 3.
