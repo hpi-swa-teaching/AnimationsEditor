@@ -8,7 +8,7 @@ selectedTreeNode: aNode
 				insertMorph: (aNode buildUIWith: self toolBuilder)
 				Into: self propertyEditorPanel]
 				ifFalse: [ self
-				insertMorph: (aNode buildSelectPanelWith:  self toolBuilder) Into: self propertyEditorPanel
+				insertMorph: (aNode buildActivatePanelWith:  self toolBuilder) Into: self propertyEditorPanel
 					].	
 					].
 				

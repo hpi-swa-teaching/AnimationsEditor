@@ -1,9 +1,9 @@
 buildComponents
-buildDeselectFrameWith: aBuilder 
+buildActivateFrameWith: aBuilder 
 	^ aBuilder pluggableButtonSpec new model: self;
-		 label: 'Deactivate property';
+		 label: 'Activate property';
 		 enabled: true;
-		 action: #deactivateProperty;
+		 action: #activateProperty;
 		 frame: (LayoutFrame new topFraction: 0;
 			 bottomFraction: 0.1;
 			 leftFraction: 0;
