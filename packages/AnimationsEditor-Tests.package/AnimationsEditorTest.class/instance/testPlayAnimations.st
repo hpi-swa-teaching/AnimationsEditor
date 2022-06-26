@@ -2,7 +2,7 @@ testing
 testPlayAnimations
 	| positionProperty |
 	
-	positionProperty := (self animationsEditorInstance propertyList at: 2) subproperties at: 'position'.
+	positionProperty := (self animationsEditorInstance propertyList at: 1) subproperties at: 'position'.
 	self animationsEditorInstance selectedTreeNode: positionProperty.
 	positionProperty 
 		positionX: 555;

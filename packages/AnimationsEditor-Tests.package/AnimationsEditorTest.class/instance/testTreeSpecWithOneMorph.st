@@ -5,7 +5,7 @@ testTreeSpecWithOneMorph
 	animationsEditorInstance := AnimationsEditor open.
 	morph := Morph new openInWorld.
 	animationsEditorInstance addTargetMorph: morph.
-	self assert: animationsEditorInstance propertyList size = 2.
+	self assert: animationsEditorInstance propertyList size = 1.
 	animationsEditorInstance windowReference abandon.
 	morph isFlexed
 		ifTrue: [morph owner abandon].
