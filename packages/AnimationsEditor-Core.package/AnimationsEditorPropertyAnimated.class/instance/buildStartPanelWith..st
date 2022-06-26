@@ -10,8 +10,7 @@ buildStartPanelWith: aBuilder
 						leftFraction: 0.1;
 					 	rightFraction: 0.8;
 					 	yourself);
-			children: {self buildActivateFrameWith: aBuilder. 
-						};
+			children: {self buildActivateFrameWith: aBuilder.};
 			yourself.
 			
 	^ aBuilder build: aPluggablePanelSpec.
