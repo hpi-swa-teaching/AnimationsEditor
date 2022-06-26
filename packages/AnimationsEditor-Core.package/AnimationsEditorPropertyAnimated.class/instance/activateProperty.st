@@ -1,4 +1,4 @@
 buildComponents
 activateProperty
-	self animationsEditor selectedPropertiesList add: self. 
+	self animationsEditor selectedTreeNode isActivated: true.
 	self animationsEditor selectedTreeNode: self.

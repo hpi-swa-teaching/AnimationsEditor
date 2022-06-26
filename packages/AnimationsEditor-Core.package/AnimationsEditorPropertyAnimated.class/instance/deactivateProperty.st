@@ -1,4 +1,4 @@
 buildComponents
 deactivateProperty
-	self animationsEditor selectedPropertiesList remove: self. 
+	self animationsEditor selectedTreeNode isActivated: false.
 	self animationsEditor selectedTreeNode: self.

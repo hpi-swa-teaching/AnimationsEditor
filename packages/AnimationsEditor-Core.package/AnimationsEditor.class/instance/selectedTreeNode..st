@@ -3,7 +3,7 @@ selectedTreeNode: aNode
 	selectedTreeNode := aNode.
 	aNode canRenderUI
 		ifTrue: [
-				(self isSelected: aNode) ifTrue: [
+				(aNode isActivated) ifTrue: [
 					self
 				insertMorph: (aNode buildUIWith: self toolBuilder)
 				Into: self propertyEditorPanel]

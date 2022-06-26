@@ -22,8 +22,7 @@
 		"timelines",
 		"propertyStartEnd",
 		"jsonHandler",
-		"timeline",
-		"selectedPropertiesList" ],
+		"timeline" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],
