@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "CL 8/2/2021 08:48",
 	"instvars" : [
+		"animationsEditor",
 		"property" ],
 	"name" : "AnimationsEditorTrack",
 	"pools" : [
