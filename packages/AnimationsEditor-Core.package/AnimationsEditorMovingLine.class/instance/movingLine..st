@@ -1,3 +1,3 @@
 accessing
 movingLine: anObject
-	movingLine := anObject
+	movingLine := anObject.
