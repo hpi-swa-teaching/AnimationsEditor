@@ -1,3 +1,3 @@
 accessing
 positionY
-	^ positionY
+	^ positionY.
