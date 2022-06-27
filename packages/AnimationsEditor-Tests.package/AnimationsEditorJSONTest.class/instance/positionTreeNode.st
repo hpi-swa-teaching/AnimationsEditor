@@ -2,7 +2,7 @@ saveJson
 positionTreeNode
 	| aTreeNode animationsEditorProperty |
 	
-	animationsEditorProperty := self animationsEditorInstance propertyList second.
+	animationsEditorProperty := self animationsEditorInstance propertyList first.
 	aTreeNode := animationsEditorProperty subproperties at: 'position'. 
 	
 	aTreeNode	

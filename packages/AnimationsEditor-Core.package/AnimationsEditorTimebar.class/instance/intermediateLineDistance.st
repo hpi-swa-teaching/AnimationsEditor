@@ -1,3 +1,3 @@
 constants
 intermediateLineDistance
-	^100.
+	^500.
