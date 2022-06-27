@@ -10,8 +10,7 @@ buildPanelWith: aBuilder
 						leftFraction: 0.1;
 						rightFraction: 0.8;
 						yourself);
-			children: {self buildDeactivateFrameWith: aBuilder.
-						self buildInputRotationWith: aBuilder. 
+			children: { self buildInputRotationWith: aBuilder. 
 						self buildTextRotationWith: aBuilder.
 						self buildInputFrameWith: aBuilder.
 						self buildTextFrameWith: aBuilder

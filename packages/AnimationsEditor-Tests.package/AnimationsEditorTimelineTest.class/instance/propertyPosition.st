@@ -1,3 +1,3 @@
 accessing
 propertyPosition
-	^ self animationsEditorInstance propertyList first subproperties at: 'position'.
+	^ self animationsEditorInstance propertyList second subproperties at: 'position'.
