@@ -6,7 +6,6 @@ addTrackFor: aProperty withPosition: aNumber
 				on: self
 				withProperty: aProperty
 				withPosition: 0 @ aNumber
-				withExtent: self width @ self trackHeight
-				withAnimationsEditor: self animationsEditor.
+				withExtent: self width @ self trackHeight.
 	aProperty addDependent: track.
 	self addMorph: track.

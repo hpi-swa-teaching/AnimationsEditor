@@ -8,6 +8,5 @@ addKeyframes
 						on: self
 						withPosition: (self convertFrameToPosition: key) @ (self position y - self keyframeMargin)
 						withFrame: key
-						withValue: value
-						withAnimationsEditor: self animationsEditor.
+						withValue: value.
 			self addMorph: keyframeMorph].
