@@ -4,7 +4,7 @@
 	"instance" : {
 		"addTimebar" : "NR 6/13/2022 15:14",
 		"addTimebarWithEndTime:" : "NR 6/13/2022 15:15",
-		"addTrackFor:withPosition:" : "MH 8/1/2021 18:58",
+		"addTrackFor:withPosition:" : "SG 6/17/2022 15:42",
 		"animationsEditor" : "MH 8/1/2021 18:56",
 		"animationsEditor:" : "MH 8/1/2021 18:56",
 		"createMovingLine" : "NR 6/26/2022 14:58",
@@ -23,10 +23,10 @@
 		"setDefaultProperty" : "MH 8/1/2021 18:58",
 		"startTime" : "MH 8/1/2021 18:57",
 		"startTime:" : "MH 8/1/2021 18:57",
-		"switchTimelineTo:" : "ob 6/20/2022 13:15",
+		"switchTimelineTo:" : "SG 6/17/2022 16:00",
 		"timebar" : "MH 8/1/2021 18:57",
 		"timebar:" : "MH 8/1/2021 18:57",
 		"trackHeight" : "MH 8/1/2021 18:57",
 		"update:" : "SG 5/23/2022 18:40",
-		"updateExtent" : "Noel Bastubbe 6/14/2022 17:18",
-		"updateStartEndProperty" : " 6/14/2022 17:04:37" } }
+		"updateExtent" : "MH 8/1/2021 18:58",
+		"updateStartEndProperty" : " 6/17/2022 14:09:28" } }
