@@ -3,7 +3,7 @@ loadTextTearDown
 	| aPropertyList |
 	
 	aPropertyList := self animationsEditorInstance propertyList.
-	aPropertyList second targetMorph isFlexed
-		ifTrue: [aPropertyList second targetMorph owner abandon].
-	aPropertyList second targetMorph abandon. 
-	self animationsEditorInstance propertyList removeAt: 2. 
+	aPropertyList third targetMorph isFlexed
+		ifTrue: [aPropertyList third targetMorph owner abandon].
+	aPropertyList third targetMorph abandon. 
+	self animationsEditorInstance propertyList removeAt: 3. 

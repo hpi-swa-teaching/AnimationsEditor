@@ -1,3 +1,3 @@
 accessing
 positionY: anObject
-	positionY := anObject.
+	positionY := anObject

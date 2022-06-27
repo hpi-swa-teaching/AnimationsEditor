@@ -7,8 +7,8 @@
 		"addTrackFor:withPosition:" : "MH 8/1/2021 18:58",
 		"animationsEditor" : "MH 8/1/2021 18:56",
 		"animationsEditor:" : "MH 8/1/2021 18:56",
-		"createMovingLine" : "NR 6/26/2022 14:58",
-		"createTracks" : "NR 6/26/2022 14:55",
+		"createMovingLine" : "ob 6/9/2022 21:38",
+		"createTracks" : "MH 8/1/2021 18:58",
 		"deleteTracks" : "MH 8/1/2021 18:48",
 		"endTime" : "MH 8/1/2021 18:57",
 		"endTime:" : "MH 8/1/2021 18:57",
@@ -18,15 +18,20 @@
 		"movingLine" : "SG 5/21/2022 15:38",
 		"movingLine:" : "SG 5/21/2022 15:38",
 		"property" : "MH 8/1/2021 18:57",
-		"property:" : "ob 6/21/2022 18:15",
+		"property:" : "MH 8/1/2021 18:57",
 		"scrollPane" : "MH 8/1/2021 18:57",
 		"setDefaultProperty" : "MH 8/1/2021 18:58",
 		"startTime" : "MH 8/1/2021 18:57",
 		"startTime:" : "MH 8/1/2021 18:57",
-		"switchTimelineTo:" : "ob 6/20/2022 13:15",
+		"switchTimelineTo:" : "SG 6/17/2022 16:00",
 		"timebar" : "MH 8/1/2021 18:57",
 		"timebar:" : "MH 8/1/2021 18:57",
 		"trackHeight" : "MH 8/1/2021 18:57",
 		"update:" : "SG 5/23/2022 18:40",
+<<<<<<< HEAD
 		"updateExtent" : "Noel Bastubbe 6/14/2022 17:18",
 		"updateStartEndProperty" : " 6/14/2022 17:04:37" } }
+=======
+		"updateExtent" : "MH 8/1/2021 18:58",
+		"updateStartEndProperty" : " 6/17/2022 14:09:28" } }
+>>>>>>> parent of db0f5e4 (Merge branch 'dev' into feature/clickableKeyframes)

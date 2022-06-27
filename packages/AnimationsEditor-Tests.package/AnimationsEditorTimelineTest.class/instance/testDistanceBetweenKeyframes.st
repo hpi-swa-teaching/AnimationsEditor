@@ -8,5 +8,4 @@ testDistanceBetweenKeyframes
 	addedKeyframeMorph := self positionTrack submorphs first.
 	startKeyframeMorph := self positionTrack submorphs second.
 	distanceBetweenKeyframes := addedKeyframeMorph bounds origin - startKeyframeMorph bounds origin.
-	
 	self assert: (keyframeBar width - self paddingDistance) // (self endFrame / frameDistance) = distanceBetweenKeyframes x.

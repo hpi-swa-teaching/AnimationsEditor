@@ -1,3 +1,3 @@
 saveJson
 dummyProperty
-	^ self animationsEditorInstance propertyList first.
+	^ self animationsEditorInstance propertyList second.
