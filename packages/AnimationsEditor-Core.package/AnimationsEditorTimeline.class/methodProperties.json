@@ -28,13 +28,5 @@
 		"timebar:" : "MH 8/1/2021 18:57",
 		"trackHeight" : "MH 8/1/2021 18:57",
 		"update:" : "SG 5/23/2022 18:40",
-<<<<<<< HEAD
 		"updateExtent" : "Noel Bastubbe 6/14/2022 17:18",
-		"updateStartEndProperty" : " 6/14/2022 17:04:37" } }
-=======
-		"updateExtent" : "MH 8/1/2021 18:58",
-		"updateStartEndProperty" : " 6/17/2022 14:09:28" } }
-<<<<<<< HEAD
->>>>>>> parent of db0f5e4 (Merge branch 'dev' into feature/clickableKeyframes)
-=======
->>>>>>> parent of db0f5e4 (Merge branch 'dev' into feature/clickableKeyframes)
+		"updateStartEndProperty" : "6/14/2022 17:04:37" } }

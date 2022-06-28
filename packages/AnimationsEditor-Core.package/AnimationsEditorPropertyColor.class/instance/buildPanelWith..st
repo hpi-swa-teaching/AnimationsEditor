@@ -8,6 +8,12 @@ buildPanelWith: aBuilder
 					 leftFraction: 0.1;
 					 rightFraction: 0.8;
 					 yourself);
-				 children: {self buildColorPickerWith: aBuilder. self buildInputColorWith: aBuilder. self buildTextColorWith: aBuilder. self buildInputFrameWith: aBuilder. self buildTextFrameWith: aBuilder};
+				 children: {
+					self buildColorPickerWith: aBuilder.
+					self buildInputColorWith: aBuilder.
+					self buildTextColorWith: aBuilder.
+					self buildInputFrameWith: aBuilder.
+					self buildTextFrameWith: aBuilder
+				};
 				 yourself.
 	^ aBuilder build: aPluggablePanelSpec.
