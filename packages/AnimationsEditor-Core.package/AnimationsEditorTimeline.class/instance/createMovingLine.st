@@ -9,5 +9,5 @@ numberOfProperties := 0.
 		
 	self 
 		movingLine: (AnimationsEditorMovingLine on: self withPositionY: self trackHeight withExtent: 3@(numberOfProperties *  self trackHeight));
-		addMorphFront: movingLine.
+		addMorphFront: self movingLine.
 	self movingLine setMovingSpeedPerHundredMilliseconds.
