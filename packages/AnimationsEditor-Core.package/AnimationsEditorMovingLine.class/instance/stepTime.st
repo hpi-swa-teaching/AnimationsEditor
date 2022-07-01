@@ -1,3 +1,3 @@
-as yet unclassified
+stepping and presenter
 stepTime
-	^100.
+	^ 100.

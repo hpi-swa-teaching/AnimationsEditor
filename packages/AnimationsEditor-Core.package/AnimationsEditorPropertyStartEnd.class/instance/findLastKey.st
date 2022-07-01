@@ -2,8 +2,9 @@ updating
 findLastKey
 	| last |
 	
-	last:= self endTime.
+	last:= self defaultEndTime.
 	self property subproperties do:[:subproperty | subproperty targetValues keysDo: [:key | key > last ifTrue:[last:= key]]].
+	
 	^last
 	
 	

@@ -1,3 +1,3 @@
 accessing
 duration: anObject
-	duration := anObject
+	duration := anObject.
