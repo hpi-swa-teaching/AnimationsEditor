@@ -1,19 +1,7 @@
 {
 	"class" : {
-		"on:" : "SG 5/21/2022 16:01",
-		"on:withPosition:withExtent:" : "ob 6/9/2022 21:39",
-		"on:withPositionY:withExtent:" : "ob 6/9/2022 21:40" },
+		"on:withExtent:" : "Noel Bastubbe 7/4/2022 15:27" },
 	"instance" : {
-		"addMovingLine" : " 6/17/2022 14:09:28",
 		"animationDuration" : "ob 6/9/2022 21:31",
-		"initialize" : "ob 6/9/2022 21:29",
-		"lineWidth" : "ob 6/9/2022 20:18",
-		"movingLine" : " 6/17/2022 14:09:28",
-		"movingLine:" : " 6/17/2022 14:09:28",
-		"positionY" : "ob 6/9/2022 21:26",
-		"positionY:" : "ob 6/9/2022 21:26",
-		"setMovingSpeedPerHundredMilliseconds" : "ob 6/9/2022 21:31",
-		"speed" : "ob 6/9/2022 20:26",
-		"speed:" : "ob 6/9/2022 20:26",
-		"step" : "ob 6/9/2022 20:45",
-		"stepTime" : "Noel Bastubbe 6/22/2022 12:27" } }
+		"initialize" : "Noel Bastubbe 7/4/2022 16:31",
+		"playMovingAnimation" : "Noel Bastubbe 7/4/2022 16:29" } }
