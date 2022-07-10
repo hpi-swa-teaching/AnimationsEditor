@@ -2,9 +2,13 @@
 	"class" : {
 		"on:withPosition:withFrame:withValue:" : "FH 8/1/2021 19:05" },
 	"instance" : {
+		"defaultColor" : "ps 7/11/2022 00:40",
 		"frame" : "mjs 7/31/2021 15:46",
 		"frame:" : "mjs 7/31/2021 15:46",
-		"initialize" : "mjs 7/31/2021 15:45",
+		"handleMouseEnter:" : "ps 7/11/2022 00:40",
+		"handleMouseLeave:" : "ps 7/11/2022 00:40",
+		"initialize" : "ps 7/11/2022 00:40",
+		"mouseOverColor" : "ps 7/11/2022 00:40",
 		"setCenteredPosition:" : "FH 8/1/2021 19:04",
 		"track" : "mjs 7/31/2021 15:46",
 		"track:" : "mjs 7/31/2021 15:46",
