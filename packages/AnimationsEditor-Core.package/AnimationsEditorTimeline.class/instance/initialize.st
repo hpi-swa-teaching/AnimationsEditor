@@ -1,8 +1,8 @@
 initialization
 initialize
-    super initialize.
-    self 
-	extent: self initialExtent;
-	color: Color lightGray;
-	setDefaultProperty;
-	initializeStartEndTime.
+	super initialize.
+	self 
+		extent: self initialExtent;
+		color: Color lightGray;
+		setDefaultProperty;
+		initializeStartEndTime.

@@ -1,7 +1,7 @@
 initialization
 initialize
 	super initialize.
-	self
-				extent: 3@100;
-				color: Color black;
-				position: self startMargin@25.
+	self 
+		color: Color black;
+		position: self startMargin @ self trackHeight;
+		playMovingAnimation.
