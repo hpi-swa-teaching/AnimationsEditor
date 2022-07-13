@@ -8,11 +8,12 @@ testCreateAnimationSequenceWithStartEnd
 	
 	positionProperty positionX: 333;
 		 positionY: 333;
-		 frame: propertyStartEnd endTime / 4;
+		 frame: 100;
 		 addKeyframe.	
 	positionProperty positionX: 555;
 		 positionY: 555;
-		 frame: propertyStartEnd endTime / 2;
+		 frame: 200;
 		 addKeyframe.	
+	
 	animations := positionProperty createAnimationSequenceWithStartEnd: propertyStartEnd.
 	self assert: animations size = 3.
