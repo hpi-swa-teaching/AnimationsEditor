@@ -1,12 +1,12 @@
 initialization
 initialize
-"|planProcess|"
+
 
 	super initialize.
 	self isActivated: false.
 	self addStartFrame.
-	"planProcess := [
+	self process: [
                  [ 1 seconds asDelay wait.
-                   self targetMorph isInWorld ifFalse: [self animationsEditor deleteMorph. planProcess terminate.]. the question is if the process actually terminates
+                   self targetMorph isInWorld ifFalse: [self animationsEditor deleteMorph: self process.]. 
                  ] repeat.
-               ] fork."
+               ] fork.
