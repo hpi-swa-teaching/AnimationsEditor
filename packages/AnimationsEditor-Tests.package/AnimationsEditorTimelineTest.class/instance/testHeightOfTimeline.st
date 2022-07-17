@@ -3,11 +3,11 @@ testHeightOfTimeline
 | oldHeight offScreenFrame scrollBarThickness |
 	
 	self animationsEditorInstance mainWindow width: 2000.
+	self timeline updateExtent.
 	offScreenFrame := self animationsEditorInstance mainWindow width.
 	oldHeight := self timeline height.
 	self createKeyframeWith: self animationPosition on: offScreenFrame.
 	scrollBarThickness := self timeline scrollPane scrollBarThickness.
-	self timeline updateExtent.
 	self assert: oldHeight - scrollBarThickness  = self timeline height.
 	
 	
