@@ -7,6 +7,7 @@ testHeightOfTimeline
 	oldHeight := self timeline height.
 	self createKeyframeWith: self animationPosition on: offScreenFrame.
 	scrollBarThickness := self timeline scrollPane scrollBarThickness.
+	self timeline updateExtent.
 	self assert: oldHeight - scrollBarThickness  = self timeline height.
 	
 	
