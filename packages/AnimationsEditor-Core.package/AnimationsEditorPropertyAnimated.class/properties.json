@@ -9,7 +9,9 @@
 		"targetDuration",
 		"targetFrame",
 		"targetValues",
-		"currentValue" ],
+		"currentValue",
+		"isActivated",
+		"process" ],
 	"name" : "AnimationsEditorPropertyAnimated",
 	"pools" : [
 		 ],

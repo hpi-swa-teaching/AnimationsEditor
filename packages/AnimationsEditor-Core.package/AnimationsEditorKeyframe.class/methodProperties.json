@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"on:withPosition:withFrame:withValue:" : "FH 8/1/2021 19:05" },
+		"on:withPosition:withFrame:withValue:" : "FH 8/1/2021 19:05",
+		"on:withPosition:withFrame:withValue:withAnimationsEditor:" : "SG 6/17/2022 15:45" },
 	"instance" : {
 		"defaultColor" : "ps 7/11/2022 00:40",
 		"frame" : "mjs 7/31/2021 15:46",
@@ -10,6 +11,7 @@
 		"initialize" : "ps 7/11/2022 00:40",
 		"mouseOverColor" : "ps 7/11/2022 00:40",
 		"setCenteredPosition:" : "FH 8/1/2021 19:04",
+		"setValueAndFrame" : "SG 6/25/2022 16:10",
 		"track" : "mjs 7/31/2021 15:46",
 		"track:" : "mjs 7/31/2021 15:46",
 		"value:" : "mjs 7/31/2021 15:46" } }
