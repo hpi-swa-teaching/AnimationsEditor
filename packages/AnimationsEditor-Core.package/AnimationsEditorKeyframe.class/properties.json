@@ -8,8 +8,7 @@
 	"instvars" : [
 		"track",
 		"frame",
-		"value",
-		"animationsEditor" ],
+		"value" ],
 	"name" : "AnimationsEditorKeyframe",
 	"pools" : [
 		 ],

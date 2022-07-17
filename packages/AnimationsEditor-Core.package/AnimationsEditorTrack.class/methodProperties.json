@@ -1,11 +1,8 @@
 {
 	"class" : {
-		"on:withProperty:withPosition:withExtent:" : "NR 6/13/2022 12:28",
-		"on:withProperty:withPosition:withExtent:withAnimationsEditor:" : "SG 6/17/2022 15:45" },
+		"on:withProperty:withPosition:withExtent:" : "NR 6/13/2022 12:28" },
 	"instance" : {
-		"addKeyframes" : "SG 6/17/2022 15:46",
-		"animationsEditor" : "SG 6/17/2022 15:40",
-		"animationsEditor:" : "SG 6/17/2022 15:40",
+		"addKeyframes" : "ob 6/21/2022 18:41",
 		"initialize" : "ob 6/13/2022 13:20",
 		"initializeMorph" : "MH 8/1/2021 19:01",
 		"initializeText" : "MH 8/1/2021 19:51",
