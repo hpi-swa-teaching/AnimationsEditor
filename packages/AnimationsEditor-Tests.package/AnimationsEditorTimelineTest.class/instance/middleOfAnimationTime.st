@@ -1,4 +1,4 @@
 constants
 middleOfAnimationTime
 
-	^  self endFrame / 2.
+	^  (self endFrame max: 1000) / 2.
