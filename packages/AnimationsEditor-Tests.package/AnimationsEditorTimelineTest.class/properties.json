@@ -10,7 +10,8 @@
 		"timeline",
 		"positionTrack",
 		"addedKeyframeMorph",
-		"movingLine" ],
+		"movingLine",
+		"referenceTime" ],
 	"name" : "AnimationsEditorTimelineTest",
 	"pools" : [
 		 ],

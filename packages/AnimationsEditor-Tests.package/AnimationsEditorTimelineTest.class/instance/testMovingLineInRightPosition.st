@@ -1,19 +1,15 @@
 testing
 testMovingLineInRightPosition
-| movingLine |
-
-	movingLine:= Morph new  extent: 3@100;
-				color: Color black;
-				position: 105@25.
-	5 timesRepeat: [self moveMovingLine: movingLine]. 
-	Transcript show: movingLine position x.
-	movingLine comeToFront.
-	
-
-	Transcript show: ' '.
-	Transcript show: ((self timeline width - 130)/2+105). 
-	self assert: true "((movingLine position x) between:   ((self timeline width - 130)/2+105 - (5*self inaccuracyFactor)) and:  ((self timeline width - 130)/2+105))".
-
+	self timeline createMovingLine.
+	self movingLine: self timeline movingLine.
+	self
+		should: self movingLine position rounded = (self movingLine startMargin @ self timeline trackHeight);
+		wait: 250;
+		assert: (self movingLine position x rounded between: (self movingLine startMargin + 249) and:  (self movingLine startMargin + 251));
+		wait: 250;
+		assert: (self movingLine position x rounded between: (self movingLine startMargin + 499) and:  (self movingLine startMargin + 501));
+		wait: 250;
+		assert: (self movingLine position x rounded between: (self movingLine startMargin + 749) and:  (self movingLine startMargin + 751)).
 
 		
 	
