@@ -1,0 +1,16 @@
+{
+	"category" : "AnimationsEditor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"animationsEditorInstance",
+		"morph",
+		"property" ],
+	"name" : "AnimationsEditorRightclickSelection",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
