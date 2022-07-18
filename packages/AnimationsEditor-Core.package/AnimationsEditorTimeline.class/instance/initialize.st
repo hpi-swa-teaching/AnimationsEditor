@@ -1,7 +1,7 @@
 initialization
 initialize
-	super initialize.
-	self 
+    super initialize.
+    self 
 		extent: self initialExtent;
 		color: Color lightGray;
 		setDefaultProperty;

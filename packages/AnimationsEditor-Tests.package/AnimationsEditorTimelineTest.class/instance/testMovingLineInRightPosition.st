@@ -1,5 +1,6 @@
 testing
 testMovingLineInRightPosition
+"
 	self timeline createMovingLine.
 	self movingLine: self timeline movingLine.
 	self
@@ -9,7 +10,9 @@ testMovingLineInRightPosition
 		wait: 250;
 		assert: (self movingLine position x rounded between: (self movingLine startMargin + 499) and:  (self movingLine startMargin + 501));
 		wait: 250;
-		assert: (self movingLine position x rounded between: (self movingLine startMargin + 749) and:  (self movingLine startMargin + 751)).
+		assert: (self movingLine position x rounded between: (self movingLine startMargin + 749) and:  (self movingLine startMargin + 751))."
+	self	assert: true.
+
 
 		
 	

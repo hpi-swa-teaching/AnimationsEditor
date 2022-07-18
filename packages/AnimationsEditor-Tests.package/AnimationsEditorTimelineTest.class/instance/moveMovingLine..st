@@ -8,5 +8,5 @@ moveMovingLine: aLine
 		[
 		
 		duration :=  (self timeline endTime - self timeline startTime)/100.
-		offset := (self timeline width - 105- 25) / duration.
+		offset := (self timeline width - 105- 25) / (duration max: 1).
 		aLine position: aLine position + (offset@0).]

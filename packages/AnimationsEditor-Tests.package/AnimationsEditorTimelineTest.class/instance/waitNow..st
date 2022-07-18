@@ -1,5 +1,5 @@
 support
 waitNow: milliseconds
 
-	referenceTime := referenceTime + milliseconds.
+	self referenceTime: self referenceTime + milliseconds.
 	AnimAnimationRegistry value updateAnimations: referenceTime.

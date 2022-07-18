@@ -2,9 +2,9 @@ testing
 testDistanceBetweenKeyframes
 	| frameDistance distanceBetweenKeyframes startKeyframeMorph addedKeyframeMorph keyframeBar |
 	
-	self createKeyframeWith: self animationPosition on: self frameNumber100.
+	self createKeyframeWith: self animationPosition on: self frameNumber1000.
 	keyframeBar := (self positionTrack submorphs at: (self secondLastOn: self positionTrack)).
-	frameDistance := self frameNumber100 - self startFrame.
+	frameDistance := self frameNumber1000 - self startFrame.
 	addedKeyframeMorph := self positionTrack submorphs first.
 	startKeyframeMorph := self positionTrack submorphs second.
 	distanceBetweenKeyframes := addedKeyframeMorph bounds origin - startKeyframeMorph bounds origin.
