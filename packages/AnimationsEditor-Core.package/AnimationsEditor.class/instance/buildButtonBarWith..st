@@ -13,5 +13,6 @@ buildButtonBarWith: aBuilder
 							  	self buildPlayButtonWith: aBuilder.
 								self buildResetButtonWith: aBuilder.
 								self buildLoadJsonButtonWith: aBuilder.
-								self buildAddKeyframeButtonWith: aBuilder. };
+								self buildAddKeyframeButtonWith: aBuilder.
+								self buildDeleteMorphButtonWith: aBuilder.  };
 				yourself.	 		
