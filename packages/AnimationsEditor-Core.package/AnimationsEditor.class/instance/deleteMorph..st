@@ -1,6 +1,6 @@
 eventHandling
 deleteMorph: aProcess
-"
+
 
 	self selectedTreeNode ifNil: [^ 'break']. 
 	
@@ -15,10 +15,9 @@ deleteMorph: aProcess
 	
 	self propertyEditorPanel submorphs do: [:each| each abandon]. 
 	self timeline submorphs do: [:each| each abandon]. 
-	Transcript show: 'process'; cr.
-	Transcript show: aProcess isBlocked; cr.
+	
 	aProcess terminate.
-	Transcript show: 'process2'; cr.
-"
+
+
 	
 	

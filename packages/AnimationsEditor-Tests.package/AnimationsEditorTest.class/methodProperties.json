@@ -4,11 +4,11 @@
 	"instance" : {
 		"animationsEditorInstance" : "MH 8/1/2021 18:39",
 		"animationsEditorInstance:" : "MH 8/1/2021 18:39",
-		"setUp" : "ob 7/4/2022 17:46",
+		"setUp" : "LW 6/27/2021 13:26",
 		"tearDown" : "Noel Bastubbe 6/22/2022 11:55",
 		"testGetDeepestMorph" : "MH 8/1/2021 18:40",
 		"testInstanceCreation" : "LW 6/27/2021 13:30",
-		"testPlayAnimations" : "ob 7/4/2022 17:17",
+		"testPlayAnimations" : "Noel Bastubbe 6/22/2022 11:52",
 		"testSelectMorphByHand" : "MH 8/1/2021 18:40",
 		"testShowMessagePlayAnimation" : "Noel Bastubbe 6/22/2022 11:56",
 		"testTreeSpecWithNoMorph" : "Noel Bastubbe 6/22/2022 11:56",
