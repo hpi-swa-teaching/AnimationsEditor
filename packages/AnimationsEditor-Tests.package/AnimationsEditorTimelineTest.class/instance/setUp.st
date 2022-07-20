@@ -1,10 +1,10 @@
 testing
 setUp
-	| morph |
+	| morph referenceTime |
     
 	super setUp.
-	referenceTime := WorldState lastCycleTime.
-	AnimAnimationRegistry value updateAnimations: referenceTime.
+	self referenceTime: WorldState lastCycleTime.
+	AnimAnimationRegistry value updateAnimations: self referenceTime.
 	self animationsEditorInstance: AnimationsEditor open.
 	morph := Morph new openInWorld.
 	self animationsEditorInstance addTargetMorph: morph.
