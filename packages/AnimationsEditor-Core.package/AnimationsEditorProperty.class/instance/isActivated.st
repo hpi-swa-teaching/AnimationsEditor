@@ -1,3 +1,3 @@
 accessing
 isActivated
-	^ isActivated.
+	^ isActivated

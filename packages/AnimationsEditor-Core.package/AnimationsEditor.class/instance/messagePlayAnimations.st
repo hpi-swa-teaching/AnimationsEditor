@@ -1,4 +1,4 @@
-eventHandling
+messaging
 messagePlayAnimations
 
-	^ 'Playing selected Animation.'.
+	^ 'playing selected animation.'.
