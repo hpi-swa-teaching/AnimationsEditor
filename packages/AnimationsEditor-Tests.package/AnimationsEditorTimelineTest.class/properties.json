@@ -11,7 +11,8 @@
 		"positionTrack",
 		"addedKeyframeMorph",
 		"movingLine",
-		"referenceTime" ],
+		"referenceTime",
+		"timebar" ],
 	"name" : "AnimationsEditorTimelineTest",
 	"pools" : [
 		 ],
