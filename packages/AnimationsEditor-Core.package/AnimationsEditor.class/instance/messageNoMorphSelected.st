@@ -1,4 +1,4 @@
 messaging
 messageNoMorphSelected
 
-	^ 'no morph selected'.
+	^ 'No morph selected'.

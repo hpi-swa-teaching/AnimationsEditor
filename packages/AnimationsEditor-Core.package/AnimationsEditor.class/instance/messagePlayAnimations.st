@@ -1,4 +1,4 @@
 messaging
 messagePlayAnimations
 
-	^ 'playing selected animation.'.
+	^ 'Playing selected animation.'.

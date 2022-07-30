@@ -1,4 +1,4 @@
 messaging
 messageNoPropertySelected
 	 
-	^'no property selected'.
+	^'No property selected'.

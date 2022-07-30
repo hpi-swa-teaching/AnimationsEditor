@@ -1,4 +1,4 @@
 messaging
 messageActivateProperty
 	
-	^ 'activate property first'. 
+	^ 'Activate property first'. 

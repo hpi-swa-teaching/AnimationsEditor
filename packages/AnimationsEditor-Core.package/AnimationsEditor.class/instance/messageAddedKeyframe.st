@@ -1,4 +1,4 @@
 messaging
 messageAddedKeyframe
  	
-	^'added keyframe'. 
+	^'Added keyframe'. 

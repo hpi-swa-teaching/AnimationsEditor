@@ -1,4 +1,4 @@
 messaging
 messageMorphDeleted
 
-	^ 'selected Morph deleted'.
+	^ 'Selected Morph deleted'.

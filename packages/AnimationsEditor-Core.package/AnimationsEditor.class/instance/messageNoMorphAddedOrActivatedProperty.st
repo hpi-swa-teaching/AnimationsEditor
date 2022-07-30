@@ -1,4 +1,4 @@
 messaging
 messageNoMorphAddedOrActivatedProperty
 
-	^ 'no morph added or property activated'.
+	^ 'No morph added or property activated'.
