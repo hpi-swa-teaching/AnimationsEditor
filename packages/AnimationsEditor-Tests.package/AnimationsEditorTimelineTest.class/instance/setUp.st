@@ -1,6 +1,6 @@
 testing
 setUp
-	| morph referenceTime |
+	| morph |
     
 	super setUp.
 	self referenceTime: WorldState lastCycleTime.
@@ -12,3 +12,4 @@ setUp
 	self propertyPosition isActivated: true.
 	self animationsEditorInstance selectedTreeNode: self propertyPosition.
 	self positionTrack: (self timeline submorphs at: 2).
+	self timebar: self animationsEditorInstance timeline timebar.

@@ -1,6 +1,7 @@
 accessing
 selectedTreeNode: aNode 
 	selectedTreeNode := aNode.
+	aNode ifNil:[^ 'break'. ].
 	
 	aNode canRenderUI
 		ifTrue: [
