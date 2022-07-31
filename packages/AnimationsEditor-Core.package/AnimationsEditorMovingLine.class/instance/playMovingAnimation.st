@@ -1,4 +1,4 @@
-accessing
+stepping and presenter
 playMovingAnimation
 	| animation |
 

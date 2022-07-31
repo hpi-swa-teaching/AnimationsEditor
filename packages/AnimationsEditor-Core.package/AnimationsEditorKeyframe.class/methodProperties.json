@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"on:withPosition:withFrame:withValue:" : "FH 8/1/2021 19:05",
 		"on:withPosition:withFrame:withValue:withAnimationsEditor:" : "SG 6/17/2022 15:45" },
 	"instance" : {
 		"animationsEditor" : "SG 6/17/2022 15:43",
@@ -12,11 +11,11 @@
 		"handleMouseLeave:" : "NR 7/18/2022 10:51",
 		"handlesMouseDown:" : "SG 6/17/2022 14:57",
 		"initialize" : "NR 7/18/2022 10:50",
-		"mouseDown:" : "SG 6/25/2022 16:11",
+		"mouseDown:" : "SG 7/31/2022 18:41",
 		"mouseOverColor" : "NR 7/18/2022 10:49",
-		"selectProperty" : "SG 6/27/2022 19:17",
+		"property" : "SG 7/31/2022 18:41",
 		"setCenteredPosition:" : "FH 8/1/2021 19:04",
-		"setValueAndFrame" : "SG 6/25/2022 16:10",
+		"setValueAndFrame" : "SG 7/31/2022 18:44",
 		"track" : "mjs 7/31/2021 15:46",
 		"track:" : "mjs 7/31/2021 15:46",
 		"value:" : "mjs 7/31/2021 15:46" } }
