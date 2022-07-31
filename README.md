@@ -86,8 +86,8 @@ Enter the text you want to show, add a keyframe and press *Play animations*.
 
 ![text](https://i.vgy.me/YJ1ccz.gif)
 
-#### Start- & Endtime
-Adjust the duration of your playing field with start- and endtime; Keyframes outside of these boundaries will not be used (but still saved if you want to adjust later!)
+#### Activate Property
+You can add keyframes to a selected property by activating it. On deactivation all keyframes you have added to it get deleted. 
 
 ![duration](https://i.vgy.me/CVo01i.gif)
 
@@ -102,7 +102,7 @@ Load in a previously saved animation by pressing *Load JSON*.
 ![loading](https://i.vgy.me/0lvlyv.gif)
 
 #### The Timeline
-The timeline shows you your created keyframes of the properties of your selected object. Its bounds are the start- and endtime. You will never lose sight of your created animations!
+The timeline shows you your created keyframes of the properties of your selected object. Its bounds are the starttime and the last keyframe exisiting for all propertys. You will never lose sight of your created animations! By clicking on a certain keyframe you can edit it. 
 
 ## Development
 ### CI Pipeline and coverage
@@ -128,6 +128,13 @@ For our complete documentation, visit our [wiki](https://github.com/hpi-swa-teac
 - [Cedric Lorenz](https://github.com/cedric-lorenz)
 - [Jerome Stephan](https://github.com/HerzogVonWiesel)
 - [Lukas Wenner](https://github.com/lwenner)
+- [Olesya Bauer](https://github.com/Ol-Ba)
+- [Sara Grau-I-Blade](https://github.com/SaraGrau)
+- [Nina Mohnke](https://github.com/NinaMohnke)
+- [Nina Reznikova](https://github.com/ninaanre)
+- [Paul Strobach](https://github.com/luap42)
+- [Noel Bastubbe](https://github.com/Noel-Bastubbe)
+- [Lorenz Kautzsch](https://github.com/lorenzkautzsch)
 
 Legacy:
 - [Joana Bergsiek](https://github.com/JoeAtHPI)
