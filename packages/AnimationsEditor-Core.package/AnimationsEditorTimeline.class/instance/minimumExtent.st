@@ -1,4 +1,4 @@
 constants
 minimumExtent
 
-	^ 1000.
+	^ self animationsEditor informationBar width - self startMargin - self endMargin - (self animationsEditor informationBar borderWidth * 2).
