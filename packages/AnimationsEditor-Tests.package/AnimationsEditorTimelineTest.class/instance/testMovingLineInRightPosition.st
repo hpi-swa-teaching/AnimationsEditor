@@ -1,6 +1,7 @@
 testing
 testMovingLineInRightPosition
 
+	self createKeyframeWith: self animationPosition on: self frameNumber1000.
 	self timeline createMovingLine.
 	self movingLine: self timeline movingLine.
 	self
