@@ -1,3 +1,3 @@
 accessing
 animationDuration
-	^ self timeline endTime - self timeline startTime.
+	^ self timeline endTime max: self timeline minimumExtent
