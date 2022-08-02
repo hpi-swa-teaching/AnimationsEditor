@@ -1,8 +1,8 @@
-as yet unclassified
+events
 setValueAndFrame
-	|property selectedFrame selectedValue|
-	property := self selectProperty.
+	|selectedFrame selectedValue|
+	
+	selectedValue := self property targetValues at: self frame.
 	selectedFrame:= self frame.
-	selectedValue := property targetValues at: self frame.
-	self track property currentValue: selectedValue.
-	self track property targetFrame: selectedFrame.
+	self property currentValue: selectedValue.
+	self property targetFrame: selectedFrame.

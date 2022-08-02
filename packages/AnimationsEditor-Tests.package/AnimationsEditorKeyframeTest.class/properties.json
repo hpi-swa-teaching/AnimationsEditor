@@ -8,8 +8,11 @@
 	"instvars" : [
 		"animationsEditorInstance",
 		"morph",
-		"property" ],
-	"name" : "AnimationsEditorRightclickSelection",
+		"timeline",
+		"rotationTrack",
+		"keyframe100",
+		"keyframe200" ],
+	"name" : "AnimationsEditorKeyframeTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

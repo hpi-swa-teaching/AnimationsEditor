@@ -1,7 +1,7 @@
-as yet unclassified
+events
 mouseDown: anEvent
 	anEvent redButtonPressed 
 		ifTrue: [
 			self setValueAndFrame.
-			self animationsEditor selectedTreeNode: self selectProperty.
+			self animationsEditor selectedTreeNode: self property.
 		].
