@@ -2,5 +2,5 @@ buildComponents
 createPropertyWith: aMorph 
 	^ AnimationsEditorProperty new animationsEditor: self;
 		 targetMorph: aMorph;
-		 title: '' , (self propertyList size + 1), ' - ' , aMorph className;
+		 title: '' , (self incrementMorphNumber), ' - ' , aMorph className;
 		 yourself.

@@ -7,9 +7,15 @@ deleteMorph
 	self selectedTreeNode ifNil: [self updateInformationText: self messageNoMorphSelected. ^ 'break']. 
 	self removeMorphProperties. 
 	self clearPropertyEditorPanel. 
-	self timeline clearTimeline. 
 	self propertyTreeMorph update: self propertyTreeMorph getChildrenSelector.
-	self selectedTreeNode: nil. 
+
+	self propertyList isEmpty
+		ifFalse: [self selectedTreeNode: (self propertyList first).
+			self propertyStartEnd update: #deleteMorph]
+		ifTrue: [self selectedTreeNode: nil.
+			self propertyStartEnd update: #deleteLastMorph].
+
+	self timeline clearTimeline.
 	self updateInformationText: self messageMorphDeleted.
 	
 	

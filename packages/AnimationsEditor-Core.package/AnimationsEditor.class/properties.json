@@ -21,7 +21,8 @@
 		"timelines",
 		"propertyStartEnd",
 		"jsonHandler",
-		"timeline" ],
+		"timeline",
+		"morphNumber" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],

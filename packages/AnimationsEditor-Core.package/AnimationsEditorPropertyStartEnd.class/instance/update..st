@@ -5,3 +5,9 @@ update: aSymbol
 
 	aSymbol = #deleteKeyframes
 		ifTrue:[self endTime > self findLastKey ifTrue:[self endTime: self findLastKey]]. 
+		
+	aSymbol = #deleteMorph
+		ifTrue:[self endTime: self findLastKey]. 
+		
+	aSymbol = #deleteLastMorph
+		ifTrue:[self endTime: self defaultEndTime]. 
