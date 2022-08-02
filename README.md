@@ -11,6 +11,7 @@ AnimationsEditor is a graphical tool for designing animations based on [Animatio
 
 
 ![start](https://i.vgy.me/H0hUs9.gif)
+![start](https://i.vgy.me/rXPChm.gif)
 
 ## Features
 *AnimationsEditor* provides you with a broad toolset to bring your morphs to life.
