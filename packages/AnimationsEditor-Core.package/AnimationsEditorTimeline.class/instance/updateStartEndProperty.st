@@ -3,7 +3,7 @@ updateStartEndProperty
 	| startEndProperty | 
 
      startEndProperty := self animationsEditor propertyStartEnd. 
-	startEndProperty property: self property. "<--- Ich vermute, dass diese Zeile nicht ausgeführt wird und dadurch den Defekt erzeugt."
+	startEndProperty property: self property.
 		self property subproperties
 		do:[:subproperty | subproperty addDependent: startEndProperty].
 		
