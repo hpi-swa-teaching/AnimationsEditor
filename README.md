@@ -9,8 +9,8 @@
 
 AnimationsEditor is a graphical tool for designing animations based on [Animations-Core](https://github.com/hpi-swa/animations). Bring your morphs to life using six handpicked animations. Effortlessly create animations in Squeak. Code less and achieve more - with AnimationsEditor.
 
-![start](https://i.vgy.me/H0hUs9.gif)
-![start2](https://i.vgy.me/iEQ4E3.gif)
+
+![start](https://i.vgy.me/iEQ4E3.gif)
 
 ## Features
 *AnimationsEditor* provides you with a broad toolset to bring your morphs to life.
