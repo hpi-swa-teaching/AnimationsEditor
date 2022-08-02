@@ -12,7 +12,7 @@
 		"rotationTrack",
 		"keyframe100",
 		"keyframe200" ],
-	"name" : "AnimationsEditorRightclickSelection",
+	"name" : "AnimationsEditorKeyframeTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

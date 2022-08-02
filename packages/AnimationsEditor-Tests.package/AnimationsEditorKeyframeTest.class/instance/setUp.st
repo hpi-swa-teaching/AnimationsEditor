@@ -6,7 +6,6 @@ setUp
 	self morph: Morph new openInWorld.
 	self animationsEditorInstance addTargetMorph: self morph.
 	self timeline: self animationsEditorInstance timeline.
-	"self property: self animationsEditor propertyList first. "
 	self propertyRotation isActivated: true.
 	self animationsEditorInstance selectedTreeNode: self propertyRotation.
 	self rotationTrack: (self timeline submorphs at: 2).

@@ -18,8 +18,10 @@
 		"propertyRotation" : "lka 7/1/2022 15:34",
 		"rotationTrack" : "SG 7/31/2022 23:14",
 		"rotationTrack:" : "SG 7/31/2022 23:14",
-		"setUp" : "SG 7/31/2022 23:21",
+		"selectKeyframe100" : "SG 8/2/2022 08:28",
+		"setUp" : "SG 8/1/2022 09:41",
 		"tearDown" : "SG 7/31/2022 23:22",
-		"testLeftClickShowsSelectedProperty" : "SG 7/31/2022 23:18",
+		"testChangeSelectedKeyframeValue" : "SG 8/2/2022 09:22",
+		"testLeftClickShowsSelectedProperty" : "SG 8/2/2022 08:29",
 		"timeline" : "SG 7/31/2022 22:46",
 		"timeline:" : "SG 7/31/2022 22:46" } }

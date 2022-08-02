@@ -11,3 +11,5 @@ addKeyframes
 						withValue: value
 						withAnimationsEditor: self animationsEditor.
 			self addMorph: keyframeMorph].
+	
+	
