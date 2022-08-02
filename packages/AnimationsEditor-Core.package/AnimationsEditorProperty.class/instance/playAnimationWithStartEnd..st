@@ -1,0 +1,3 @@
+defaults
+playAnimationWithStartEnd: aStartEndProperty 
+	self animationsEditor updateInformationText: self messageNoMorphAddedOrActivatedProperty.

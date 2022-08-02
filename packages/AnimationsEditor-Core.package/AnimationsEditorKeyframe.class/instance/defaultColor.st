@@ -1,4 +1,3 @@
 constants
 defaultColor
-	
 	^ Color orange.
