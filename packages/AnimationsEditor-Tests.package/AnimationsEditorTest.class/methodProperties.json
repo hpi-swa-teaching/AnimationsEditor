@@ -12,7 +12,6 @@
 		"tearDown" : "ob 7/30/2022 17:10",
 		"testDeleteMorphButtonMorphStayedInWorld" : "ob 7/30/2022 17:10",
 		"testDeleteMorphButtonTreeSpecUpdated" : "ob 7/30/2022 17:18",
-		"testDeleteMorphIsTimeConsistent" : "ps 8/2/2022 13:31",
 		"testGetDeepestMorph" : "MH 8/1/2021 18:40",
 		"testInstanceCreation" : "LW 6/27/2021 13:30",
 		"testMorphClosedInWorldTreeSpecUpdated" : "NR 7/30/2022 16:24",
