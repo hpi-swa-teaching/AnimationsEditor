@@ -118,6 +118,11 @@ Load in a previously saved animation by pressing *Load JSON*.
 ![loading](https://i.vgy.me/0lvlyv.gif)
 Animation 11_load
 
+### Delete Morph
+By selecting a morph and pressing *Delete Morph* you can remove the morph from the Editor. When removing a morph from the world it's getting deleted in the Editor as well. 
+
+Animation 13_delete
+
 #### The Timeline
 The timeline shows you your created keyframes of the properties of your selected object. Its bounds are the starttime and the last keyframe exisiting for all propertys. You will never lose sight of your created animations! By clicking on a certain keyframe you can edit it. 
 
