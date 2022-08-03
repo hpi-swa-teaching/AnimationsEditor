@@ -102,7 +102,7 @@ Configure your animation with AnimationsEditor and save everything in a JSON by 
 ![saving](https://i.vgy.me/4z61Rj.gif)
 
 #### Load animation
-Load in a previously saved animation by pressing *Load JSON*.
+Load in a previously saved animation by pressing *Load JSON*. You first have to activate all properties that where used in the JSON in order to edit the keyframes of the saved animation.
 
 ![loading](https://i.vgy.me/afa54q.gif)
 
