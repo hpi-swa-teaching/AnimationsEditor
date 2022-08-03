@@ -66,8 +66,8 @@ In order to add keyframes to a certain property you click on the property and pr
 #### Morph color 
 Enter a hex coded color into the text field or simply use the integrated color picker, add a keyframe and press *Play animations*.
 
-![color](https://i.vgy.me/0F0GsL.gif)
-Animation5_color
+![color](https://i.vgy.me/GR2Smy.gif)
+
 
 #### Morph rotation
 
