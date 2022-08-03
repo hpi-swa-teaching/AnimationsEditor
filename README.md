@@ -11,7 +11,7 @@ AnimationsEditor is a graphical tool for designing animations based on [Animatio
 
 
 ![start](https://i.vgy.me/H0hUs9.gif)
-![start](https://i.vgy.me/rXPChm.gif)
+![start](https://i.vgy.me/sAZaOf.gif)
 Animation1_init
 
 ## Features
