@@ -10,9 +10,7 @@
 AnimationsEditor is a graphical tool for designing animations based on [Animations-Core](https://github.com/hpi-swa/animations). Bring your morphs to life using six handpicked animations. Effortlessly create animations in Squeak. Code less and achieve more - with AnimationsEditor.
 
 
-![start](https://i.vgy.me/H0hUs9.gif)
-![start](https://i.vgy.me/r96klK.gif))
-Animation1_init
+![start](https://i.vgy.me/r96klK.gif)
 
 ## Features
 *AnimationsEditor* provides you with a broad toolset to bring your morphs to life.
@@ -45,8 +43,8 @@ Follow our step by step guide for using AnimationsEditor.
 
 *Pro Tip: Use 'Button for it' on this code snippet in order to have quick access to AnimationsEditor.*
 
-![AnimationsEditor open.](https://i.vgy.me/emJzQ9.gif)
-Animation2_open
+![AnimationsEditor open.](https://i.vgy.me/OiCah7.gif)
+
 
 ### Select morph
 3. Create a morph in your Squeak image - this is the morph we want to bring to life. In case you are just playing around, create a dummy Morph with `Morph new openInHand`
