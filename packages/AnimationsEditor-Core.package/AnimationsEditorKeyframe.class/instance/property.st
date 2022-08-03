@@ -1,6 +1,6 @@
 accessing
 property
-	|targetMorph property parentProperty propertyList|
+	| targetMorph property parentProperty propertyList |
 	
 	parentProperty := self track property parentProperty title. 
 	propertyList := self animationsEditor propertyList.

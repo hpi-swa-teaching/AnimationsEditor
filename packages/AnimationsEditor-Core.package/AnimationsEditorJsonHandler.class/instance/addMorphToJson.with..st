@@ -1,9 +1,9 @@
 saveJson
 addMorphToJson: aJsonStructure with: aTreeNode 
-	| MorphJson |
+	| morphJson |
 	
-	MorphJson := self createMorphDictionary: aTreeNode targetMorph.
-	MorphJson add: #frames
+	morphJson := self createMorphDictionary: aTreeNode targetMorph.
+	morphJson add: #frames
 			-> (self createFrameCollection: aTreeNode).
-	aJsonStructure add: #morphs -> {MorphJson}.
+	aJsonStructure add: #morphs -> {morphJson}.
 	^ aJsonStructure.
