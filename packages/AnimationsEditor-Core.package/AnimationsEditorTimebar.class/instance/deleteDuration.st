@@ -1,4 +1,4 @@
 initialization
 deleteDuration
-
-	self duration ifNotNil: [self duration abandon].
+	self duration 
+		ifNotNil: [self duration abandon].

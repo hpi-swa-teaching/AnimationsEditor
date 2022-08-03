@@ -6,7 +6,7 @@ testAddKeyframeAfterEndtime
 	propertyStartEnd := self animationsEditorInstance propertyStartEnd.
 	self animationsEditorInstance selectedTreeNode: positionProperty.
 	oldEndtime := propertyStartEnd endTime. 
-		positionProperty 
+	positionProperty 
 		positionX: 555;
 		positionY: 555;
 		frame: oldEndtime + 1;

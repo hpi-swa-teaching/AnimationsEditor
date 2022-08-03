@@ -1,4 +1,3 @@
 accessing
 inaccuracyFactor
-
-	^1.
+	^ 1.

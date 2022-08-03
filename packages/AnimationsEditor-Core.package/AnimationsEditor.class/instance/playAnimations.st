@@ -1,6 +1,5 @@
 eventHandling
 playAnimations
-
 	self selectedTreeNode ifNil: [self updateInformationText:self messageNoMorphAddedOrActivatedProperty. ^ 'break'].
 	self resetTargetMorph.
 	self updateInformationText: self messagePlayAnimations.

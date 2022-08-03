@@ -1,4 +1,3 @@
 constants
 paddingDistance
-
 	^ 20.

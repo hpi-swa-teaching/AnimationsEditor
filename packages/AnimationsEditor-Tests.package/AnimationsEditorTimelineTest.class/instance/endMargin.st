@@ -1,4 +1,3 @@
 accessing
 endMargin
-
-	^25.
+	^ 25.

@@ -1,6 +1,6 @@
 testing
 testHeightOfTimeline
-| oldHeight scrollBarThickness offScreenFrame |
+	| oldHeight scrollBarThickness offScreenFrame |
 	
 	offScreenFrame := self animationsEditorInstance mainWindow width.
 	oldHeight := self timeline height.

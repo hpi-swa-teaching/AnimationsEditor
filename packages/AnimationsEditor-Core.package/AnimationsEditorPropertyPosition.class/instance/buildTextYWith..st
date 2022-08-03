@@ -10,4 +10,4 @@ buildTextYWith: aBuilder
 								leftFraction: 0.5;
 								rightFraction: 1;
 								yourself);
-				 yourself.
+				yourself.

@@ -1,4 +1,3 @@
 constants
 animationRotation100
-
-	^100.
+	^ 100.

@@ -1,6 +1,5 @@
 testing
 testMovingLineStoppedAtEndMargin
-
 	self timeline createMovingLine.
 	self movingLine: self timeline movingLine.
 	self

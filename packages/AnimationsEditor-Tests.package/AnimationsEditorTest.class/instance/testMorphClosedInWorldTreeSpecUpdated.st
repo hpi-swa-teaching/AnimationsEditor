@@ -1,6 +1,7 @@
 testing
 testMorphClosedInWorldTreeSpecUpdated
 	|morph goalReached monitor producer finished|
+	
 	morph:= Morph new.
 	morph openInWorld.
 	

@@ -8,6 +8,6 @@ playMovingAnimation
     start: self position 
     end: self position + (self animationDuration@0)
     duration: self animationDuration)
-    start;
-    register;
-    finishBlock: [self abandon].
+    	start;
+    	register;
+    	finishBlock: [self abandon].

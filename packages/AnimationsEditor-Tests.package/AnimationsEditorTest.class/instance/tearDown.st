@@ -1,6 +1,5 @@
 running
 tearDown
-
 	super tearDown.
 	self animationsEditorInstance propertyList first ifNotNil: [
 		self morph isFlexed

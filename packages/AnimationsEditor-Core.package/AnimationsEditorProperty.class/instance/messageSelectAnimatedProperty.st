@@ -1,3 +1,3 @@
 defaults
 messageSelectAnimatedProperty
-	^ 'Please select a animatable property in order to add a keyframe'
+	^ 'Please select a animatable property in order to add a keyframe'.

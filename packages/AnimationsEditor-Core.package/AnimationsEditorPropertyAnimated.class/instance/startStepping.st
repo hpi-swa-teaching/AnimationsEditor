@@ -1,6 +1,5 @@
 stepping
 startStepping
-
 	self currentWorld
 		startStepping: self
 		at: Time millisecondClockValue

@@ -5,5 +5,4 @@ rotationFrameDictionary
 		with: #properties -> { 
 			Dictionary 
 				with: #name -> 'rotation'  
-				with: #value -> 20.			
-		}.
+				with: #value -> 20.}.

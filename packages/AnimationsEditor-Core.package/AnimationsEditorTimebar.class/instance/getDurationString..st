@@ -1,5 +1,5 @@
 updating
 getDurationString: aNumber
-	|temp|
+	| temp |
 	temp:= (aNumber asInteger)/1000 asFloat.
 	^ 'Duration: ', temp, ' s'.

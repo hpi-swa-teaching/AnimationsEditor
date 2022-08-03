@@ -1,4 +1,4 @@
 clearComponents
 clearPropertyEditorPanel
-
-	self propertyEditorPanel submorphs do: [:each| each abandon]. 
+	self propertyEditorPanel submorphs do: [ :each | 
+		each abandon]. 

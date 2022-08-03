@@ -15,8 +15,6 @@ buildPanelWith: aBuilder
 						self buildSelectFileButtonWith: aBuilder. 
 						self buildTextImageSourceWith: aBuilder. 
 						self buildInputFrameWith: aBuilder. 
-						self buildTextFrameWith: aBuilder
-						};
-				 yourself.
-				
+						self buildTextFrameWith: aBuilder};
+			yourself.	
 	^ aBuilder build: aPluggablePanelSpec.

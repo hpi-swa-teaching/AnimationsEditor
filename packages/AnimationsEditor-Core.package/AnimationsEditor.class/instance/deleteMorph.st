@@ -1,14 +1,6 @@
 eventHandling
 deleteMorph
-
-
-"not tested on other morphs apart from normal morph"
-
-	self selectedTreeNode ifNil: [self updateInformationText: self messageNoMorphSelected. ^ 'break']. 
-	self removeMorphProperties. 
-	self clearPropertyEditorPanel. 
-	self propertyTreeMorph update: self propertyTreeMorph getChildrenSelector.
-
+	self initializeDeleteMorph.
 	self propertyList isEmpty
 		ifFalse: [self selectedTreeNode: (self propertyList first).
 			self propertyStartEnd update: #deleteMorph]
@@ -17,9 +9,6 @@ deleteMorph
 
 	self timeline clearTimeline.
 	self updateInformationText: self messageMorphDeleted.
-	
-	
-	"to do: delete the JSON! for that look in animations editor property animated >> deleteAllKeyframes"
 	
 	
 

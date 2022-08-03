@@ -5,5 +5,4 @@ textFrameDictionary
 		with: #properties->{
 			Dictionary
 				with: #name->'text'
-				with: #value-> 'abc'.
-		}. 
+				with: #value-> 'abc'.}. 

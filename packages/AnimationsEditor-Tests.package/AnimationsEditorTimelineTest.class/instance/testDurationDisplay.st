@@ -1,6 +1,6 @@
 testing
 testDurationDisplay
-| increasedDuration increasedDurationString decreasedDuration decreasedDurationString |
+	| increasedDuration increasedDurationString decreasedDuration decreasedDurationString |
 	
 	increasedDuration := 3000.
 	increasedDurationString := 'Duration: 3.0 s'.

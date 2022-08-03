@@ -1,4 +1,3 @@
-as yet unclassified
+eventHandling
 resetSelectedTreeNode
-
 	self selectedTreeNode delete. 

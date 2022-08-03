@@ -5,5 +5,4 @@ colorFrameDictionary
 		with: #properties->{
 			Dictionary
 				with: #name->'color'
-				with: #value-> #FF0000.
-		}. 
+				with: #value-> #FF0000.}. 

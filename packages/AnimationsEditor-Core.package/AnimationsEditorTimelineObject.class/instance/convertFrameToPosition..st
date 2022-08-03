@@ -1,3 +1,3 @@
 creation
 convertFrameToPosition: aFrame 
-	^self startMargin + aFrame.
+	^ self startMargin + aFrame.
