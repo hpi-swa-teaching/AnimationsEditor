@@ -53,8 +53,7 @@ Follow our step by step guide for using AnimationsEditor.
 
 Your morph should have been added to the property inspector. The property inspector provides you up to five properties to animate, depending on the type of morph you added.
 
-![add-morph](https://i.vgy.me/6wXBL7.gif)
-Animation3_add
+![add-morph](https://i.vgy.me/roAGc8.gif)
 
 ### Activate Property
 
