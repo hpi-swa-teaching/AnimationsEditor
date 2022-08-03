@@ -73,52 +73,43 @@ Enter a hex coded color into the text field or simply use the integrated color p
 
 Enter an integer value in the text field, add a keyframe and press *Play animations*.
 
-![rotation](https://i.vgy.me/Hr4GuV.gif)
-Animation7_rotation
+![rotation](https://i.vgy.me/ToZz9b.gif)
 
 #### Morph position
 Enter the desired x- and y position the morph should move to, add a keyframe and press *Play animations*.
 
 
-![position](https://i.vgy.me/pBoaEQ.gif)
-Animation6_position
+![position](https://i.vgy.me/ir2qo9.gif)
 
 #### Morph size
 Enter the desired height and width of the morph, add a keyframe and press *Play animations*.
 
-![size](https://i.vgy.me/MsY9wK.gif)
-Animation8_size
+![size](https://i.vgy.me/Sat4eD.gif)
 
 #### ImageMorph image source
 Tell it where your image is saved, add a keyframe and press *Play animations*.
 
-![image source](https://i.vgy.me/SsbYno.gif)
-Animation12_image
+![image source](https://i.vgy.me/yvc9y8.gif)
 
 #### TextMorph text
 Enter the text you want to show, add a keyframe and press *Play animations*.
 
-![text](https://i.vgy.me/YJ1ccz.gif)
-Animation9_text
-
-
+![text](https://i.vgy.me/6KD2ws.gif)
 
 #### Save animation
 Configure your animation with AnimationsEditor and save everything in a JSON by pressing *Save animation*.
 
-![saving](https://i.vgy.me/ioddhw.gif)
-Animation 10_save
+![saving](https://i.vgy.me/4z61Rj.gif)
 
 #### Load animation
 Load in a previously saved animation by pressing *Load JSON*.
 
-![loading](https://i.vgy.me/0lvlyv.gif)
-Animation 11_load
+![loading](https://i.vgy.me/afa54q.gif)
 
 ### Delete Morph
 By selecting a morph and pressing *Delete Morph* you can remove the morph from the Editor. When removing a morph from the world it's getting deleted in the Editor as well. 
 
-Animation 13_delete
+![delete](https://i.vgy.me/b6Exah.gif)
 
 #### The Timeline
 The timeline shows you your created keyframes of the properties of your selected object. Its bounds are the starttime and the last keyframe exisiting for all propertys. You will never lose sight of your created animations! By clicking on a certain keyframe you can edit it. 
