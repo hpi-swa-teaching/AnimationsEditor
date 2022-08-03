@@ -59,7 +59,7 @@ Your morph should have been added to the property inspector. The property inspec
 
 In order to add keyframes to a certain property you click on the property and press *Activate Property*. When you wan’t to deactivate it you can do so afterwards and all your keyframes for this property are deleted.
 
-Animation4_activate
+![Animation_activate](https://i.vgy.me/HIpQpu.gif)
 
 ### Supported animations
 
