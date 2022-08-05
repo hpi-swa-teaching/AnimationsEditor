@@ -1,3 +1,3 @@
 constants
 animationDuration
-	^ self timeline endTime.
+	^ self timeline endTime max: self timeline minimumExtent.
