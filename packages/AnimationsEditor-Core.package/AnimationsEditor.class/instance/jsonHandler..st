@@ -1,3 +1,3 @@
 accessing
 jsonHandler: anObject 
-	jsonHandler := anObject
+	jsonHandler := anObject.

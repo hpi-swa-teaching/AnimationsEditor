@@ -9,6 +9,6 @@ property
 	targetMorph hasSubproperties 
 			ifTrue: [property := targetMorph subproperties detect: [ :each | 
 					self track property asString match: each asString]].
-	^ property
+	^ property.
 	
 	

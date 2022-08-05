@@ -7,5 +7,6 @@ addMovingLine
 				to: 105@125
 				color: Color black
 				width: self lineWidth.
-	self movingLine: line.
-	self addMorph: line.
+	self 
+		movingLine: line;
+		addMorph: line.

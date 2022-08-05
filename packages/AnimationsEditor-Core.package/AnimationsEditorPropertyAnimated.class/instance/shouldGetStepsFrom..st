@@ -1,3 +1,3 @@
 stepping
 shouldGetStepsFrom: aPasteUpMorph
-	^ true
+	^ true.

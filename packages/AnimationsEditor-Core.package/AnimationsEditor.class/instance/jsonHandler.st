@@ -1,3 +1,3 @@
 accessing
 jsonHandler
-	^ jsonHandler
+	^ jsonHandler.

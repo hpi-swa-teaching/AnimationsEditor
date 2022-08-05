@@ -1,6 +1,6 @@
 testing
 testChangeSelectedKeyframeValue
-	| oldValue oldTargetValues notChangedOldTargetValues newValue notChangedNewTargetValues|
+	| oldValue oldTargetValues notChangedOldTargetValues newValue notChangedNewTargetValues |
 	
 	self selectKeyframe100.
 	oldValue := self propertyRotation targetValues at: (self frameNumber100).

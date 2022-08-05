@@ -5,5 +5,5 @@ addKeyframe
 	self selectedTreeNode isActivated
 		ifTrue: [self updateInformationText: self messageAddedKeyframe.
 			self selectedTreeNode addKeyframe]
-		ifFalse: [self updateInformationText: self messageNoPropertySelected]
+		ifFalse: [self updateInformationText: self messageNoPropertySelected].
 				

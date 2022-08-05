@@ -1,3 +1,3 @@
 accessing
 morph: anObject
-	morph := anObject
+	morph := anObject.

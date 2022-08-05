@@ -4,8 +4,8 @@
 	"instance" : {
 		"animationRotation100" : "NM 8/3/2022 21:04",
 		"animationRotation200" : "NM 8/3/2022 21:04",
-		"animationsEditorInstance" : "lka 7/1/2022 15:28",
-		"animationsEditorInstance:" : "lka 7/1/2022 15:28",
+		"animationsEditorInstance" : "ob 8/5/2022 18:19",
+		"animationsEditorInstance:" : "ob 8/5/2022 18:19",
 		"createKeyframeWith:on:" : "NM 8/3/2022 21:04",
 		"frameNumber100" : "NM 8/3/2022 21:04",
 		"frameNumber200" : "NM 8/3/2022 21:04",
@@ -21,7 +21,7 @@
 		"selectKeyframe100" : "NM 8/3/2022 21:05",
 		"setUp" : "NM 8/3/2022 21:05",
 		"tearDown" : "SG 7/31/2022 23:22",
-		"testChangeSelectedKeyframeValue" : "NM 8/3/2022 21:05",
-		"testLeftClickShowsSelectedProperty" : "NM 8/3/2022 21:05",
+		"testChangeSelectedKeyframeValue" : "ob 8/5/2022 18:19",
+		"testLeftClickShowsSelectedProperty" : "ob 8/5/2022 18:19",
 		"timeline" : "SG 7/31/2022 22:46",
 		"timeline:" : "SG 7/31/2022 22:46" } }

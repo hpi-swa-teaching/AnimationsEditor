@@ -2,10 +2,10 @@
 	"class" : {
 		"on:withPosition:withFrame:withValue:withAnimationsEditor:" : "SG 6/17/2022 15:45" },
 	"instance" : {
-		"animationsEditor" : "SG 6/17/2022 15:43",
-		"animationsEditor:" : "SG 6/17/2022 15:43",
+		"animationsEditor" : "ob 8/5/2022 15:07",
+		"animationsEditor:" : "ob 8/5/2022 15:07",
 		"defaultColor" : "Noel Bastubbe 8/2/2022 14:40",
-		"frame" : "NM 8/3/2022 19:32",
+		"frame" : "ob 8/5/2022 15:07",
 		"frame:" : "NM 8/3/2022 19:32",
 		"handleMouseEnter:" : "NM 8/3/2022 19:33",
 		"handleMouseLeave:" : "NM 8/3/2022 19:33",
@@ -13,10 +13,10 @@
 		"initialize" : "NM 8/3/2022 20:38",
 		"mouseDown:" : "NM 8/3/2022 19:33",
 		"mouseOverColor" : "NM 8/3/2022 19:34",
-		"property" : "NM 8/3/2022 21:38",
+		"property" : "ob 8/5/2022 15:08",
 		"setCenteredPosition:" : "FH 8/1/2021 19:04",
 		"setValueAndFrame" : "SG 7/31/2022 18:44",
-		"track" : "NM 8/3/2022 19:32",
+		"track" : "ob 8/5/2022 15:08",
 		"track:" : "NM 8/3/2022 19:33",
-		"value" : "SG 8/1/2022 09:29",
+		"value" : "ob 8/5/2022 15:08",
 		"value:" : "NM 8/3/2022 19:33" } }

@@ -1,4 +1,5 @@
 updating
 addStartEndLine
-	self addStartLine. 
-	self addEndLine. 
+	self 
+		addStartLine;
+		addEndLine. 
