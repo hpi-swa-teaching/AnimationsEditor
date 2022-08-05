@@ -2,7 +2,6 @@
 	"class" : {
 		"on:withExtent:" : "NR 7/18/2022 11:25" },
 	"instance" : {
-		"animationDuration" : "Noel Bastubbe 8/1/2022 10:36",
-		"initialize" : "NR 7/18/2022 11:26",
-		"lineWidth" : "ob 6/9/2022 20:18",
-		"playMovingAnimation" : "NR 7/18/2022 11:34" } }
+		"animationDuration" : "NM 8/3/2022 19:42",
+		"initialize" : "NM 8/3/2022 19:43",
+		"playMovingAnimation" : "ob 8/5/2022 20:50" } }

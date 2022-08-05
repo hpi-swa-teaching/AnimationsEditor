@@ -1,4 +1,3 @@
 constants
 labelXOffset
-
-	^ 10
+	^ 10.

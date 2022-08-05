@@ -1,3 +1,3 @@
 accessing
 propertyWrapper
-	^ propertyWrapper
+	^ propertyWrapper.

@@ -10,8 +10,7 @@ positionFramesCollection
 						with: #value -> self animationsEditorInstance propertyList first targetMorph position x. 
 					Dictionary 
 						with: #name -> 'positionY'
-						with: #value -> self animationsEditorInstance propertyList first targetMorph position y. 				
-				}.
+						with: #value -> self animationsEditorInstance propertyList first targetMorph position y.}.
 	frame1 := Dictionary
 				with: #frame -> self defaultTime
 				with: #properties -> { 
@@ -20,8 +19,7 @@ positionFramesCollection
 						with: #value -> 100. 
 					Dictionary 
 						with: #name -> 'positionY'
-						with: #value -> 200.				
-				}. 
+						with: #value -> 200.}. 
 	frame2 := Dictionary
 				with: #frame -> self defaultNextTime
 				with: #properties -> { 
@@ -30,6 +28,5 @@ positionFramesCollection
 						with: #value -> 200. 
 					Dictionary 
 						with: #name -> 'positionY'
-						with: #value -> 250.				
-				}. 		
+						with: #value -> 250.}. 		
 	^ { frame0 .  frame1 . frame2 }

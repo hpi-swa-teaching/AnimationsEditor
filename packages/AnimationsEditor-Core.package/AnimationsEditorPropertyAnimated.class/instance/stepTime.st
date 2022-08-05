@@ -1,4 +1,3 @@
 stepping
 stepTime
-
 	^ 200.

@@ -1,3 +1,0 @@
-constants
-trackHeight
-	^ 25.

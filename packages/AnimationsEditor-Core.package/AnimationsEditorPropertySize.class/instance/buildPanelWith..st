@@ -16,8 +16,6 @@ buildPanelWith: aBuilder
 						self buildTextWidthWith: aBuilder.
 						self buildTextHeightWith: aBuilder.
 						self buildInputFrameWith: aBuilder.
-						self buildTextFrameWith: aBuilder
-						};
+						self buildTextFrameWith: aBuilder};
 			yourself.	
-			
 	^ aBuilder build: aPluggablePanelSpec.

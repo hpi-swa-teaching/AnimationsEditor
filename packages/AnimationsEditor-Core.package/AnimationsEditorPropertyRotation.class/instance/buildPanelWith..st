@@ -14,8 +14,6 @@ buildPanelWith: aBuilder
 						self buildInputRotationWith: aBuilder. 
 						self buildTextRotationWith: aBuilder.
 						self buildInputFrameWith: aBuilder.
-						self buildTextFrameWith: aBuilder
-						};
+						self buildTextFrameWith: aBuilder};
 			yourself.	
-			
 	^ aBuilder build: aPluggablePanelSpec.

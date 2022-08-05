@@ -1,3 +1,4 @@
 updating
 clearTimeline
-	self submorphs do: [:each | each abandon].
+	self submorphs do: [ :each | 
+		each abandon].

@@ -1,4 +1,3 @@
 constants
 labelYOffset
-
-	^ 10
+	^ 10.

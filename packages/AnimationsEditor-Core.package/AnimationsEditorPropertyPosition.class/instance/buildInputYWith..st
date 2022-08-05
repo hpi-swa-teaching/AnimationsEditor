@@ -10,4 +10,4 @@ buildInputYWith: aBuilder
 								leftFraction: 0;
 								rightFraction: 0.5;
 								yourself);
-				 yourself.
+				yourself.

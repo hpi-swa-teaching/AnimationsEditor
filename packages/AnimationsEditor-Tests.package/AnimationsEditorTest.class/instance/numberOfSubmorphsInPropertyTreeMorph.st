@@ -1,4 +1,3 @@
 support
 numberOfSubmorphsInPropertyTreeMorph
-
 	^self animationsEditorInstance propertyTreeMorph submorphs first submorphs size.

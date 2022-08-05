@@ -1,3 +1,3 @@
 accessing
 currentValueAsString
-	 ^ (self currentValue asString) copyReplaceAll: 'Color ' with: ''.
+	^ (self currentValue asString) copyReplaceAll: 'Color ' with: ''.

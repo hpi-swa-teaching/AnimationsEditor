@@ -1,3 +1,3 @@
 accessing
 animationsEditorInstance: anObject
-	animationsEditorInstance := anObject
+	animationsEditorInstance := anObject.

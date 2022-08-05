@@ -5,9 +5,7 @@ testMorphClosedInWorldTreeSpecUpdated
 	morph openInWorld.
 	
 	self animationsEditorInstance selectedTreeNode: (self animationsEditorInstance addTargetMorph: morph).
-	morph isFlexed
-		ifTrue: [morph owner abandon]. "removes FlexShell"
-
+	self deleteMorph: morph.
 	goalReached := false.
 	finished := Semaphore new.
 	monitor := Monitor new.
@@ -17,4 +15,4 @@ testMorphClosedInWorldTreeSpecUpdated
 			monitor signal]]
 			whileFalse.
 			finished signal.
-		self assert: self animationsEditorInstance propertyTreeMorph submorphs first submorphs size = 1.].
+		self assert: self animationsEditorInstance propertyTreeMorph submorphs first submorphs size = 1].

@@ -1,5 +1,5 @@
 accessing
 propertyRotation
 
-	^self animationsEditorInstance propertyList first subproperties at: 'rotation'.
+	^ self animationsEditorInstance propertyList first subproperties at: 'rotation'.
 	

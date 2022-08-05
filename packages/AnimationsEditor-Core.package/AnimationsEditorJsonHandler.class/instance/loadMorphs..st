@@ -1,3 +1,4 @@
 loadJson
 loadMorphs: anArray
-	anArray do: [:each | self addMorphFromSpec: each].
+	anArray do: [ :each | 
+		self addMorphFromSpec: each].

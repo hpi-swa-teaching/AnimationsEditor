@@ -1,4 +1,3 @@
 constants
 frameNumber200
-
-	^200.
+	^ 200.

@@ -1,6 +1,6 @@
 updating
 addLineLabelFor: aFrame to: aPosition
-| label |
+	| label |
 	
 	label := StringMorph new.
 	label contents: aFrame.

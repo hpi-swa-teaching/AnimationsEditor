@@ -1,3 +1,3 @@
 accessing
 animationsEditorInstance
-	^ animationsEditorInstance
+	^ animationsEditorInstance.

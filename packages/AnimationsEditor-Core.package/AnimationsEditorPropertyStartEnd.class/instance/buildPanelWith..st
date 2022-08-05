@@ -15,5 +15,4 @@ buildPanelWith: aBuilder
 						self buildStartFrameWith: aBuilder.
 						self buildEndFrameWith: aBuilder};
 			yourself.	
-			
 	^ aBuilder build: aPluggablePanelSpec.

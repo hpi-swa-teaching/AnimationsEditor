@@ -1,6 +1,6 @@
 testing
 testWidthOfTimeline
-| oldWidth |
+	| oldWidth |
 	
 	self createKeyframeWith: self animationPosition on: self endFrame + 1000.
 	oldWidth := self timeline width.
