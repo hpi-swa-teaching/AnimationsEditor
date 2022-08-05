@@ -9,3 +9,4 @@ testDeleteMorphButtonTreeSpecUpdated
 	self animationsEditorInstance deleteMorph.
 	self assert: self numberOfSubmorphsInPropertyTreeMorph = (numberOfSubmorphs - 1).
 	self deleteMorph: morph.
+
