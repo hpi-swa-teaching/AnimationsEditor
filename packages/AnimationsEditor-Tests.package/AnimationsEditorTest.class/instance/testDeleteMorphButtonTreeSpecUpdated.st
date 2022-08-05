@@ -8,6 +8,4 @@ testDeleteMorphButtonTreeSpecUpdated
 	numberOfSubmorphs := self numberOfSubmorphsInPropertyTreeMorph.
 	self animationsEditorInstance deleteMorph.
 	self assert: self numberOfSubmorphsInPropertyTreeMorph = (numberOfSubmorphs - 1).
-	morph isFlexed
-		ifTrue: [morph owner abandon]. "removes FlexShell"
-	morph abandon.
+	self deleteMorph: morph.

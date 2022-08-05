@@ -10,6 +10,4 @@ testTreeSpecWithOneMorphPosition
 	self assert: animationsEditorInstance selectedTreeNode = positionProperty.
 	
 	animationsEditorInstance windowReference abandon.
-	morph isFlexed
-		ifTrue: [morph owner abandon].
-	morph abandon.
+	self deleteMorph: morph.

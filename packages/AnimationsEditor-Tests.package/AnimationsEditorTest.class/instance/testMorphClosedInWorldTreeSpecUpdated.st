@@ -5,9 +5,7 @@ testMorphClosedInWorldTreeSpecUpdated
 	morph openInWorld.
 	
 	self animationsEditorInstance selectedTreeNode: (self animationsEditorInstance addTargetMorph: morph).
-	morph isFlexed
-		ifTrue: [morph owner abandon]. "removes FlexShell"
-	morph abandon.
+	self deleteMorph: morph.
 	goalReached := false.
 	finished := Semaphore new.
 	monitor := Monitor new.

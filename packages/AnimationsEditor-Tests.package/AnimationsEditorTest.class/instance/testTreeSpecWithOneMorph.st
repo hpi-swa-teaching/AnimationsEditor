@@ -7,6 +7,4 @@ testTreeSpecWithOneMorph
 	animationsEditorInstance addTargetMorph: morph.
 	self assert: animationsEditorInstance propertyList size = 1.
 	animationsEditorInstance windowReference abandon.
-	morph isFlexed
-		ifTrue: [morph owner abandon].
-	morph abandon.
+	self deleteMorph: morph.
