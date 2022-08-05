@@ -6,7 +6,7 @@ playMovingAnimation
 					on: self 
 					property: #position
 					start: self position 
-					end: self position + (self animationDuration@0)
+					end: self position + (self animationDuration @ 0)
 					duration: self animationDuration)
 					start;
 					register;
