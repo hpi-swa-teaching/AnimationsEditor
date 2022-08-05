@@ -10,9 +10,10 @@
 		"timebar",
 		"property",
 		"startTime",
-		"endTime" ],
+		"endTime",
+		"movingLine" ],
 	"name" : "AnimationsEditorTimeline",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "AnimationsEditorTimelineObject",
 	"type" : "normal" }

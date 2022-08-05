@@ -8,5 +8,4 @@ positionFrameDictionary
 				with: #value -> 100. 
 			Dictionary 
 				with: #name -> 'positionY'
-				with: #value -> 200.				
-		}.
+				with: #value -> 200.}.

@@ -1,0 +1,19 @@
+{
+	"category" : "AnimationsEditor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"animationsEditorInstance",
+		"morph",
+		"timeline",
+		"rotationTrack",
+		"keyframe100",
+		"keyframe200" ],
+	"name" : "AnimationsEditorKeyframeTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

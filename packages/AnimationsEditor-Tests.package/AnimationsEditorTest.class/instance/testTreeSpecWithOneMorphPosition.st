@@ -5,11 +5,9 @@ testTreeSpecWithOneMorphPosition
 	animationsEditorInstance := AnimationsEditor open.
 	morph := Morph new openInWorld.
 	animationsEditorInstance addTargetMorph: morph.
-	positionProperty := (animationsEditorInstance propertyList at: 2) subproperties at: 'position'.
+	positionProperty := (animationsEditorInstance propertyList at: 1) subproperties at: 'position'.
 	animationsEditorInstance selectedTreeNode: positionProperty.
 	self assert: animationsEditorInstance selectedTreeNode = positionProperty.
 	
 	animationsEditorInstance windowReference abandon.
-	morph isFlexed
-		ifTrue: [morph owner abandon].
-	morph abandon.
+	self deleteMorph: morph.

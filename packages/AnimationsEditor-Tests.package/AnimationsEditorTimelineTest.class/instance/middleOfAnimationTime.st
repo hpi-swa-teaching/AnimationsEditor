@@ -1,4 +1,3 @@
 constants
 middleOfAnimationTime
-
-	^  self endFrame / 2.
+	^  (self timeline minimumExtent / 2) truncated.

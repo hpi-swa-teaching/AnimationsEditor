@@ -1,6 +1,8 @@
 creation
 switchTimelineTo: aProperty 
-	self updateExtent.
-	self property: aProperty.
-	self createTracks.
-	self addTimebar.
+	self 
+		updateExtent;
+		property: aProperty;
+		createTracks;
+		addTimebar;
+		updateStartEndProperty.

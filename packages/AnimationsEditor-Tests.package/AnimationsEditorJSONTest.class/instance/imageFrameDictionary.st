@@ -5,5 +5,4 @@ imageFrameDictionary
 		with: #properties->{
 			Dictionary
 				with: #name->'imageSource'
-				with: #value-> 'dummy.png'.
-		}. 
+				with: #value-> 'dummy.png'.}. 

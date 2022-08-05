@@ -9,7 +9,10 @@
 		"animationsEditorInstance",
 		"timeline",
 		"positionTrack",
-		"addedKeyframeMorph" ],
+		"addedKeyframeMorph",
+		"movingLine",
+		"referenceTime",
+		"timebar" ],
 	"name" : "AnimationsEditorTimelineTest",
 	"pools" : [
 		 ],

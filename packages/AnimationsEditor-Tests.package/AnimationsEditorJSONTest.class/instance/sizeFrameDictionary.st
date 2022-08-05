@@ -8,5 +8,4 @@ sizeFrameDictionary
 				with: #value -> 100.
 			Dictionary 
 				with: #name -> 'height'
-				with: #value -> 200.		
-		}.
+				with: #value -> 200.}.

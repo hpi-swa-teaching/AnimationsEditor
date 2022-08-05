@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"animationsEditorInstance" : "ob 7/30/2022 17:55",
+		"animationsEditorInstance:" : "ob 7/30/2022 17:55",
+		"dummyProperty" : "NM 8/3/2022 21:14",
+		"setUp" : "NM 8/3/2022 21:14",
+		"tearDown" : "NM 8/3/2022 21:14",
+		"testKeyframeAddedToActivatedProperty" : "ob 7/30/2022 18:27",
+		"testKeyframesDeteledFromTrackWhenPropertyDeactivated" : "ob 7/30/2022 18:21",
+		"testNoActivatedPropertiesOnStart" : "NM 8/3/2022 21:14",
+		"testNoKeyframeAddedToDeactivatedProperty" : "ob 7/30/2022 18:21" } }

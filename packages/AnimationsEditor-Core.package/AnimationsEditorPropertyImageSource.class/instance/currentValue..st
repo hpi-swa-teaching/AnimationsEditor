@@ -1,3 +1,3 @@
 accessing
 currentValue: aText
-	currentValue := aText asString
+	currentValue := aText asString.

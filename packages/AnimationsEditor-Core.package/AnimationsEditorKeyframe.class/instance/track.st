@@ -1,4 +1,3 @@
 accessing
 track
-
-	^ track
+	^ track.

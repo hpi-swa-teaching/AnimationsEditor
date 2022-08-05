@@ -1,0 +1,3 @@
+events
+handlesMouseDown: anEvent 
+	^ true

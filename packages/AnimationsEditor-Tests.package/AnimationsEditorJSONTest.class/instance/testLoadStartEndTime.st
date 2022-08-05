@@ -1,5 +1,5 @@
 loadJson
 testLoadStartEndTime
 	self jsonHandler loadStartEnd: self loadStartEndTimeData.
-	self assert: self animationsEditorInstance propertyList first startTime = 0.
-	self assert: self animationsEditorInstance propertyList first endTime = 1000.
+	self assert: self animationsEditorInstance propertyStartEnd startTime = 0.
+	self assert: self animationsEditorInstance propertyStartEnd endTime = 500.

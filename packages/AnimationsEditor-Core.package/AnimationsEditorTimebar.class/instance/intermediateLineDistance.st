@@ -1,0 +1,3 @@
+constants
+intermediateLineDistance
+	^ 500.

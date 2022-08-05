@@ -1,0 +1,3 @@
+stepping
+shouldGetStepsFrom: aPasteUpMorph
+	^ true.

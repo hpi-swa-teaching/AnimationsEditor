@@ -1,0 +1,3 @@
+constants
+mouseOverColor
+	^ Color red.

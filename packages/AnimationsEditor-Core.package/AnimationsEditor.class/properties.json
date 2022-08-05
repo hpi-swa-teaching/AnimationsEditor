@@ -9,7 +9,6 @@
 		"propertyList",
 		"selectedTreeNode",
 		"toolBuilder",
-		"treeSpec",
 		"propertyEditorPanelChildren",
 		"mainWindow",
 		"informationBarText",
@@ -22,7 +21,8 @@
 		"timelines",
 		"propertyStartEnd",
 		"jsonHandler",
-		"timeline" ],
+		"timeline",
+		"morphNumber" ],
 	"name" : "AnimationsEditor",
 	"pools" : [
 		 ],

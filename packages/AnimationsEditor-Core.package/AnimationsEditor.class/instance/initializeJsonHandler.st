@@ -1,4 +1,3 @@
 initialization
 initializeJsonHandler
-	self
-		jsonHandler: (AnimationsEditorJsonHandler on: self).
+	self jsonHandler: (AnimationsEditorJsonHandler on: self).
